@@ -1,0 +1,82 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Thesis.aux
+The style file: abbrvunsrtnat.bst
+Database file #1: Thesis_bib_DB.bib
+Unbalanced braces---line 743 of file Thesis_bib_DB.bib
+ :       title          = "MadGraph 5 : Going Beyond
+ :                                                  }",
+I'm skipping whatever remains of this entry
+Warning--entry type for "rute" isn't style-file defined
+--line 1617 of file Thesis_bib_DB.bib
+"{" immediately follows a field part---line 1702 of file Thesis_bib_DB.bib
+ : url= \url
+ :          {https://indico.cern.ch/event/438866/contributions/1085149/attachments/1256884/1855819/FCCweek_2016_Rome_April.pdf},
+I'm skipping whatever remains of this entry
+"{" immediately follows a field part---line 1710 of file Thesis_bib_DB.bib
+ : url= \url
+ :          {https://indico.cern.ch/event/579660/contributions/2575089/attachments/1495811/2327298/BOOST2017_hcal.pdf},
+I'm skipping whatever remains of this entry
+"{" immediately follows a field part---line 1718 of file Thesis_bib_DB.bib
+ : url= \url
+ :          {https://indico.cern.ch/event/340703/contributions/802259/attachments/668834/919361/PhysicsRequirementsFCC_2015DC.pdf},
+I'm skipping whatever remains of this entry
+Warning--empty journal in DM
+Warning--empty journal in BSM_motivation
+Warning--empty journal in h2bb
+Warning--empty author in CMSh2bb
+Warning--empty journal in ATLAStth
+Warning--empty author in ATLAShMass
+Warning--empty author in CMStopMass
+Warning--empty author in ATLAS_LAr_TDR
+Warning--empty journal in ATLAS_LAr_TDR
+Warning--empty author in btagATLAS
+Warning--empty journal in hh2bbbbCMS
+Warning--empty journal in hhbbtautau_CMS
+Warning--empty journal in hhbbll_CMS
+Warning--empty title in MG5
+Warning--empty journal in MG5
+Warning--empty year in MG5
+Warning--empty year in MG5
+You've used 78 entries,
+            2481 wiz_defined-function locations,
+            1074 strings with 18649 characters,
+and the built_in function-call counts, 28339 in all, are:
+= -- 2465
+> -- 1363
+< -- 53
++ -- 557
+- -- 392
+* -- 2166
+:= -- 4621
+add.period$ -- 303
+call.type$ -- 78
+change.case$ -- 154
+chr.to.int$ -- 69
+cite$ -- 100
+duplicate$ -- 1429
+empty$ -- 2588
+format.name$ -- 503
+if$ -- 6039
+int.to.chr$ -- 10
+int.to.str$ -- 79
+missing$ -- 66
+newline$ -- 466
+num.names$ -- 219
+pop$ -- 535
+preamble$ -- 1
+purify$ -- 78
+quote$ -- 0
+skip$ -- 833
+stack$ -- 0
+substring$ -- 1075
+swap$ -- 187
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 543
+warning$ -- 17
+while$ -- 205
+width$ -- 0
+write$ -- 1138
+(There were 4 error messages)

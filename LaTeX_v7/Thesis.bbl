@@ -1,0 +1,547 @@
+\begin{thebibliography}{78}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Goldstone(1961)]{Goldstone}
+J.~Goldstone.
+\newblock {Field Theories with Superconductor Solutions}.
+\newblock \emph{Nuovo Cim.}, 19:\penalty0 154--164, 1961.
+\newblock \doi{10.1007/BF02812722}.
+
+\bibitem[Nambu and Jona-Lasinio(1961)]{Nambu-Jona-Lasinio}
+Y.~Nambu and G.~Jona-Lasinio.
+\newblock {Dynamical Model of Elementary Particles Based on an Analogy with
+  Superconductivity. 1.}
+\newblock \emph{Phys. Rev.}, 122:\penalty0 345--358, 1961.
+\newblock \doi{10.1103/PhysRev.122.345}.
+\newblock [,127(1961)].
+
+\bibitem[Arnison et~al.(1983{\natexlab{a}})]{Zdiscovery}
+G.~Arnison et~al.
+\newblock {Experimental Observation of Lepton Pairs of Invariant Mass Around
+  95-GeV/c**2 at the CERN SPS Collider}.
+\newblock \emph{Phys. Lett.}, B126:\penalty0 398--410, 1983{\natexlab{a}}.
+\newblock \doi{10.1016/0370-2693(83)90188-0}.
+\newblock [,7.55(1983)].
+
+\bibitem[Arnison et~al.(1983{\natexlab{b}})]{Wdiscovery}
+G.~Arnison et~al.
+\newblock {Experimental Observation of Isolated Large Transverse Energy
+  Electrons with Associated Missing Energy at s**(1/2) = 540-GeV}.
+\newblock \emph{Phys. Lett.}, B122:\penalty0 103--116, 1983{\natexlab{b}}.
+\newblock \doi{10.1016/0370-2693(83)91177-2}.
+\newblock [,611(1983)].
+
+\bibitem[Wilczek(2013)]{SSB}
+F.~Wilczek.
+\newblock Spontaneous symmetry breaking: General.
+\newblock \url{http://web.mit.edu/8.701/www/Lecture
+  Notes/8.701spontaneousSymmetryBreaking-GeneralFA13.pdf}, 2013.
+\newblock Accessed 2018-01-11.
+
+\bibitem[Higgs(1964)]{Higgs}
+P.~W. Higgs.
+\newblock {Broken Symmetries and the Masses of Gauge Bosons}.
+\newblock \emph{Phys. Rev. Lett.}, 13:\penalty0 508--509, 1964.
+\newblock \doi{10.1103/PhysRevLett.13.508}.
+\newblock [,160(1964)].
+
+\bibitem[Englert and Brout(1964)]{EnglertBrout}
+F.~Englert and R.~Brout.
+\newblock {Broken Symmetry and the Mass of Gauge Vector Mesons}.
+\newblock \emph{Phys. Rev. Lett.}, 13:\penalty0 321--323, 1964.
+\newblock \doi{10.1103/PhysRevLett.13.321}.
+\newblock [,157(1964)].
+
+\bibitem[Guralnik et~al.(1964)Guralnik, Hagen, and Kibble]{Guralnik}
+G.~S. Guralnik, C.~R. Hagen, and T.~W.~B. Kibble.
+\newblock {Global Conservation Laws and Massless Particles}.
+\newblock \emph{Phys. Rev. Lett.}, 13:\penalty0 585--587, 1964.
+\newblock \doi{10.1103/PhysRevLett.13.585}.
+\newblock [,162(1964)].
+
+\bibitem[Costa Batalha~Pedro et~al.(2017)Costa Batalha~Pedro, Maneira, and
+  Conde~Muiño]{rute}
+R.~Costa Batalha~Pedro, J.~Maneira, and P.~Conde~Muiño.
+\newblock {Search for the Higgs boson at ATLAS/LHC in WH associated production
+  and decay to b quark pairs}, Apr 2017.
+\newblock URL \url{https://cds.cern.ch/record/2304102}.
+\newblock Presented 09 Nov 2017.
+
+\bibitem[Wu et~al.(1957)Wu, Ambler, Hayward, Hoppes, and Hudson]{wu}
+C.~S. Wu, E.~Ambler, R.~W. Hayward, D.~D. Hoppes, and R.~P. Hudson.
+\newblock Experimental test of parity conservation in beta decay.
+\newblock \emph{Phys. Rev.}, 105:\penalty0 1413--1415, Feb 1957.
+\newblock \doi{10.1103/PhysRev.105.1413}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRev.105.1413}.
+
+\bibitem[Goldhaber et~al.(1958)Goldhaber, Grodzins, and Sunyar]{goldhaber}
+M.~Goldhaber, L.~Grodzins, and A.~W. Sunyar.
+\newblock Helicity of neutrinos.
+\newblock \emph{Phys. Rev.}, 109:\penalty0 1015--1017, Feb 1958.
+\newblock \doi{10.1103/PhysRev.109.1015}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRev.109.1015}.
+
+\bibitem[Bilenky and Hosek(1982)]{Glashow-Weinberg-Salam}
+S.~M. Bilenky and J.~Hosek.
+\newblock {GLASHOW-WEINBERG-SALAM THEORY OF ELECTROWEAK INTERACTIONS AND THE
+  NEUTRAL CURRENTS}.
+\newblock \emph{Phys. Rept.}, 90:\penalty0 73--157, 1982.
+\newblock \doi{10.1016/0370-1573(82)90016-3}.
+
+\bibitem[Mangano(2017)]{FCCyellow}
+M.~Mangano.
+\newblock \emph{{Physics at the FCC-hh, a 100 TeV pp collider}}.
+\newblock CERN Yellow Reports: Monographs. CERN, Geneva, 2017.
+\newblock URL \url{https://cds.cern.ch/record/2270978}.
+
+\bibitem[Plehn et~al.(1996)Plehn, Spira, and Zerwas]{HHxs_LO}
+T.~Plehn, M.~Spira, and P.~M. Zerwas.
+\newblock {Pair production of neutral Higgs particles in gluon-gluon
+  collisions}.
+\newblock \emph{Nucl. Phys.}, B479:\penalty0 46--64, 1996.
+\newblock \doi{10.1016/0550-3213(96)00418-X, 10.1016/S0550-3213(98)00406-4}.
+\newblock [Erratum: Nucl. Phys.B531,655(1998)].
+
+\bibitem[Borowka et~al.(2016{\natexlab{a}})Borowka, Greiner, Heinrich, Jones,
+  Kerner, Schlenk, Schubert, and Zirke]{HHcalc_top}
+S.~Borowka, N.~Greiner, G.~Heinrich, S.~Jones, M.~Kerner, J.~Schlenk,
+  U.~Schubert, and T.~Zirke.
+\newblock {Higgs Boson Pair Production in Gluon Fusion at Next-to-Leading Order
+  with Full Top-Quark Mass Dependence}.
+\newblock \emph{Phys. Rev. Lett.}, 117\penalty0 (1):\penalty0 012001,
+  2016{\natexlab{a}}.
+\newblock \doi{10.1103/PhysRevLett.117.079901, 10.1103/PhysRevLett.117.012001}.
+\newblock [Erratum: Phys. Rev. Lett.117,no.7,079901(2016)].
+
+\bibitem[Borowka et~al.(2016{\natexlab{b}})Borowka, Greiner, Heinrich, Jones,
+  Kerner, Schlenk, and Zirke]{HHxs_LO1}
+S.~Borowka, N.~Greiner, G.~Heinrich, S.~P. Jones, M.~Kerner, J.~Schlenk, and
+  T.~Zirke.
+\newblock {Full top quark mass dependence in Higgs boson pair production at
+  NLO}.
+\newblock \emph{JHEP}, 10:\penalty0 107, 2016{\natexlab{b}}.
+\newblock \doi{10.1007/JHEP10(2016)107}.
+
+\bibitem[{van de Hulst} et~al.(1957){van de Hulst}, {Raimond}, and {van
+  Woerden}]{DM}
+H.~C. {van de Hulst}, E.~{Raimond}, and H.~{van Woerden}.
+\newblock {Rotation and density distribution of the Andromeda nebula derived
+  from observations of the 21-cm line}.
+\newblock 14:\penalty0 1, Nov. 1957.
+
+\bibitem[Fukuda et~al.(1998)]{neutrinosSuperK}
+Y.~Fukuda et~al.
+\newblock {Evidence for oscillation of atmospheric neutrinos}.
+\newblock \emph{Phys. Rev. Lett.}, 81:\penalty0 1562--1567, 1998.
+\newblock \doi{10.1103/PhysRevLett.81.1562}.
+
+\bibitem[Ahmad et~al.(2001)]{neutrinosSNO1}
+Q.~R. Ahmad et~al.
+\newblock {Measurement of the rate of $\nu_e+d \to p+p+e^-$ interactions
+  produced by $^8B$ solar neutrinos at the Sudbury Neutrino Observatory}.
+\newblock \emph{Phys. Rev. Lett.}, 87:\penalty0 071301, 2001.
+\newblock \doi{10.1103/PhysRevLett.87.071301}.
+
+\bibitem[Ahmad et~al.(2002)]{neutrinosSNO2}
+Q.~R. Ahmad et~al.
+\newblock {Direct evidence for neutrino flavor transformation from neutral
+  current interactions in the Sudbury Neutrino Observatory}.
+\newblock \emph{Phys. Rev. Lett.}, 89:\penalty0 011301, 2002.
+\newblock \doi{10.1103/PhysRevLett.89.011301}.
+
+\bibitem[Gripaios(2015)]{BSM_motivation}
+B.~Gripaios.
+\newblock {Lectures on Physics Beyond the Standard Model}.
+\newblock 2015.
+
+\bibitem[Sun et~al.(2012)Sun, Zhou, and Chen]{hhBSMgrav}
+H.~Sun, Y.-J. Zhou, and H.~Chen.
+\newblock {Constraints on large-extra-dimensions model through 125-GeV Higgs
+  pair production at the LHC}.
+\newblock \emph{Eur. Phys. J.}, C72:\penalty0 2011, 2012.
+\newblock \doi{10.1140/epjc/s10052-012-2011-4}.
+
+\bibitem[Huang et~al.(2018)Huang, Joglekar, Li, and Wagner]{hhBSMsusy}
+P.~Huang, A.~Joglekar, M.~Li, and C.~E.~M. Wagner.
+\newblock {Corrections to di-Higgs boson production with light stops and
+  modified Higgs couplings}.
+\newblock \emph{Phys. Rev.}, D97\penalty0 (7):\penalty0 075001, 2018.
+\newblock \doi{10.1103/PhysRevD.97.075001}.
+
+\bibitem[Aad et~al.(2012)]{higgsDiscoveryATLAS}
+G.~Aad et~al.
+\newblock {Observation of a new particle in the search for the Standard Model
+  Higgs boson with the ATLAS detector at the LHC}.
+\newblock \emph{Phys. Lett.}, B716:\penalty0 1--29, 2012.
+\newblock \doi{10.1016/j.physletb.2012.08.020}.
+
+\bibitem[Chatrchyan et~al.(2012)]{higgsDiscoveryCMS}
+S.~Chatrchyan et~al.
+\newblock {Observation of a new boson at a mass of 125 GeV with the CMS
+  experiment at the LHC}.
+\newblock \emph{Phys. Lett.}, B716:\penalty0 30--61, 2012.
+\newblock \doi{10.1016/j.physletb.2012.08.021}.
+
+\bibitem[Aaboud et~al.(2017)]{h2bb}
+M.~Aaboud et~al.
+\newblock {Evidence for the $H \to b\bar{b}$ decay with the ATLAS detector}.
+\newblock 2017.
+
+\bibitem[CMS(2018)]{CMSh2bb}
+Evidence for the higgs boson decay to a bottom quark–antiquark pair.
+\newblock \emph{Physics Letters B}, 780:\penalty0 501 -- 532, 2018.
+\newblock ISSN 0370-2693.
+\newblock \doi{https://doi.org/10.1016/j.physletb.2018.02.050}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0370269318301618}.
+
+\bibitem[Sirunyan et~al.(2018{\natexlab{a}})]{CMSh2tautau}
+A.~M. Sirunyan et~al.
+\newblock {Observation of the Higgs boson decay to a pair of $\tau$ leptons
+  with the CMS detector}.
+\newblock \emph{Phys. Lett.}, B779:\penalty0 283--316, 2018{\natexlab{a}}.
+\newblock \doi{10.1016/j.physletb.2018.02.004}.
+
+\bibitem[Sirunyan et~al.(2018{\natexlab{b}})]{CMStth}
+A.~M. Sirunyan et~al.
+\newblock {Observation of $\mathrm{t\overline{t}}$H production}.
+\newblock \emph{Phys. Rev. Lett.}, 120:\penalty0 231801, 2018{\natexlab{b}}.
+\newblock \doi{10.1103/PhysRevLett.120.231801}.
+
+\bibitem[Aaboud et~al.(2018{\natexlab{a}})]{ATLAStth}
+M.~Aaboud et~al.
+\newblock {Observation of Higgs boson production in association with a top
+  quark pair at the LHC with the ATLAS detector}.
+\newblock 2018{\natexlab{a}}.
+
+\bibitem[ATL(2017)]{ATLAShMass}
+{Measurement of the Higgs boson mass in the $H\rightarrow ZZ^*\rightarrow
+  4\ell$ and $H\rightarrow\gamma\gamma$ channels with $\sqrt{s}$=13TeV $pp$
+  collisions using the ATLAS detector}.
+\newblock Technical Report ATLAS-CONF-2017-046, CERN, Geneva, Jul 2017.
+\newblock URL \url{http://cds.cern.ch/record/2273853}.
+
+\bibitem[Aad et~al.(2015{\natexlab{a}})]{hMass}
+G.~Aad et~al.
+\newblock {Combined Measurement of the Higgs Boson Mass in $pp$ Collisions at
+  $\sqrt{s}=7$ and 8 TeV with the ATLAS and CMS Experiments}.
+\newblock \emph{Phys. Rev. Lett.}, 114:\penalty0 191803, 2015{\natexlab{a}}.
+\newblock \doi{10.1103/PhysRevLett.114.191803}.
+
+\bibitem[Aaboud et~al.(2018{\natexlab{b}})]{ATLASwMass}
+M.~Aaboud et~al.
+\newblock {Measurement of the $W$-boson mass in pp collisions at $\sqrt{s}=7$
+  TeV with the ATLAS detector}.
+\newblock \emph{Eur. Phys. J.}, C78\penalty0 (2):\penalty0 110,
+  2018{\natexlab{b}}.
+\newblock \doi{10.1140/epjc/s10052-017-5475-4}.
+
+\bibitem[Nisius(2017)]{ATLAStopMass}
+R.~Nisius.
+\newblock {Measurements of the top quark mass with the ATLAS detector}.
+\newblock \emph{PoS}, EPS-HEP2017:\penalty0 453, 2017.
+\newblock \doi{10.22323/1.314.0453}.
+
+\bibitem[CMS(2017)]{CMStopMass}
+{Measurement of the top quark mass with muon+jets final states in pp collisions
+  at $\sqrt{s}=13~\mathrm{TeV}$}.
+\newblock Technical Report CMS-PAS-TOP-16-022, CERN, Geneva, 2017.
+\newblock URL \url{http://cds.cern.ch/record/2255834}.
+
+\bibitem[CERN(2015)]{High-Luminosity}
+CERN.
+\newblock The high-luminosity lhc.
+\newblock \url{http://cds.cern.ch/record/2114693}, 2015.
+\newblock Accessed 2018/01/11.
+
+\bibitem[Koffas(2017)]{HL_LHC}
+T.~Koffas.
+\newblock {ATLAS Higgs physics prospects at the high luminosity LHC}.
+\newblock \emph{PoS}, ICHEP2016:\penalty0 426, 2017.
+
+\bibitem[Henriques~Correia(2015)]{TileCalTech}
+A.~M. Henriques~Correia.
+\newblock {The ATLAS Tile Calorimeter}.
+\newblock Technical Report ATL-TILECAL-PROC-2015-002, CERN, Geneva, Mar 2015.
+\newblock URL \url{https://cds.cern.ch/record/2004868}.
+
+\bibitem[ATL(1996)]{ATLAS_LAr_TDR}
+{ATLAS liquid argon calorimeter: Technical design report}.
+\newblock 1996.
+
+\bibitem[Cacciari et~al.(2008{\natexlab{a}})Cacciari, Salam, and
+  Soyez]{GhostAssociation}
+M.~Cacciari, G.~P. Salam, and G.~Soyez.
+\newblock {The Catchment Area of Jets}.
+\newblock \emph{JHEP}, 04:\penalty0 005, 2008{\natexlab{a}}.
+\newblock \doi{10.1088/1126-6708/2008/04/005}.
+
+\bibitem[bta(2016)]{btagATLAS}
+{Optimisation of the ATLAS $b$-tagging performance for the 2016 LHC Run}.
+\newblock Technical Report ATL-PHYS-PUB-2016-012, CERN, Geneva, Jun 2016.
+\newblock URL \url{https://cds.cern.ch/record/2160731}.
+
+\bibitem[Ruiz-Martinez and Collaboration(2016)]{run2trigger}
+A.~Ruiz-Martinez and A.~Collaboration.
+\newblock {The Run-2 ATLAS Trigger System}.
+\newblock Technical Report ATL-DAQ-PROC-2016-003, CERN, Geneva, Feb 2016.
+\newblock URL \url{https://cds.cern.ch/record/2133909}.
+
+\bibitem[Ellis and Soper(1993)]{kt}
+S.~D. Ellis and D.~E. Soper.
+\newblock {Successive combination jet algorithm for hadron collisions}.
+\newblock \emph{Phys. Rev.}, D48:\penalty0 3160--3166, 1993.
+\newblock \doi{10.1103/PhysRevD.48.3160}.
+
+\bibitem[Wobisch and Wengler(1998)]{CA}
+M.~Wobisch and T.~Wengler.
+\newblock {Hadronization corrections to jet cross-sections in deep inelastic
+  scattering}.
+\newblock In \emph{{Monte Carlo generators for HERA physics. Proceedings,
+  Workshop, Hamburg, Germany, 1998-1999}}, pages 270--279, 1998.
+\newblock URL
+  \url{https://inspirehep.net/record/484872/files/arXiv:hep-ph_9907280.pdf}.
+
+\bibitem[Cacciari et~al.(2008{\natexlab{b}})Cacciari, Salam, and
+  Soyez]{anti-kt}
+M.~Cacciari, G.~P. Salam, and G.~Soyez.
+\newblock {The Anti-k(t) jet clustering algorithm}.
+\newblock \emph{JHEP}, 04:\penalty0 063, 2008{\natexlab{b}}.
+\newblock \doi{10.1088/1126-6708/2008/04/063}.
+
+\bibitem[Altheimer et~al.(2014)]{jetsubLHC}
+A.~Altheimer et~al.
+\newblock {Boosted objects and jet substructure at the LHC. Report of
+  BOOST2012, held at IFIC Valencia, 23rd-27th of July 2012}.
+\newblock \emph{Eur. Phys. J.}, C74\penalty0 (3):\penalty0 2792, 2014.
+\newblock \doi{10.1140/epjc/s10052-014-2792-8}.
+
+\bibitem[et~al(2013)]{jetsub}
+G.~A. et~al.
+\newblock Performance of jet substructure techniques for large-r jets in
+  proton-proton collisions at $\sqrt{s}=7$ tev using the atlas detector.
+\newblock \emph{Journal of High Energy Physics}, 2013\penalty0 (9), Sep 2013.
+\newblock \doi{10.1007/JHEP09(2013)076}.
+\newblock URL \url{https://doi.org/10.1007/JHEP09(2013)076}.
+
+\bibitem[Thaler and Van~Tilburg(2011)]{Nsubjetiness}
+J.~Thaler and K.~Van~Tilburg.
+\newblock {Identifying Boosted Objects with N-subjettiness}.
+\newblock \emph{JHEP}, 03:\penalty0 015, 2011.
+\newblock \doi{10.1007/JHEP03(2011)015}.
+
+\bibitem[Butterworth et~al.(2008)Butterworth, Davison, Rubin, and Salam]{BDRS}
+J.~M. Butterworth, A.~R. Davison, M.~Rubin, and G.~P. Salam.
+\newblock {Jet substructure as a new Higgs search channel at the LHC}.
+\newblock \emph{Phys. Rev. Lett.}, 100:\penalty0 242001, 2008.
+\newblock \doi{10.1103/PhysRevLett.100.242001}.
+
+\bibitem[Hinchliffe et~al.(2015)Hinchliffe, Kotwal, Mangano, Quigg, and
+  Wang]{FCClumi}
+I.~Hinchliffe, A.~Kotwal, M.~L. Mangano, C.~Quigg, and L.-T. Wang.
+\newblock {Luminosity goals for a 100-TeV pp collider}.
+\newblock \emph{Int. J. Mod. Phys.}, A30\penalty0 (23):\penalty0 1544002, 2015.
+\newblock \doi{10.1142/S0217751X15440029}.
+
+\bibitem[Arkani-Hamed et~al.(2016)Arkani-Hamed, Han, Mangano, and
+  Wang]{FCCphys}
+N.~Arkani-Hamed, T.~Han, M.~Mangano, and L.-T. Wang.
+\newblock {Physics opportunities of a 100 TeV proton–proton collider}.
+\newblock \emph{Phys. Rept.}, 652:\penalty0 1--49, 2016.
+\newblock \doi{10.1016/j.physrep.2016.07.004}.
+
+\bibitem[Baglio et~al.(2013)Baglio, Djouadi, Gröber, Mühlleitner, Quevillon,
+  and Spira]{higgsCrossSection}
+J.~Baglio, A.~Djouadi, R.~Gröber, M.~M. Mühlleitner, J.~Quevillon, and
+  M.~Spira.
+\newblock {The measurement of the Higgs self-coupling at the LHC: theoretical
+  status}.
+\newblock \emph{JHEP}, 04:\penalty0 151, 2013.
+\newblock \doi{10.1007/JHEP04(2013)151}.
+
+\bibitem[Aaboud et~al.(2016)]{hh2bbbbATLAS}
+M.~Aaboud et~al.
+\newblock {Search for pair production of Higgs bosons in the $b\bar{b}b\bar{b}$
+  final state using proton--proton collisions at $\sqrt{s} = 13$ TeV with the
+  ATLAS detector}.
+\newblock \emph{Phys. Rev.}, D94\penalty0 (5):\penalty0 052002, 2016.
+\newblock \doi{10.1103/PhysRevD.94.052002}.
+
+\bibitem[Sirunyan et~al.(2017{\natexlab{a}})]{hh2bbbbCMS}
+A.~M. Sirunyan et~al.
+\newblock {Search for a massive resonance decaying to a pair of Higgs bosons in
+  the four b quark final state in proton-proton collisions at $\sqrt{s}=$ 13
+  TeV}.
+\newblock 2017{\natexlab{a}}.
+
+\bibitem[Aad et~al.(2015{\natexlab{b}})]{hhATLAS}
+G.~Aad et~al.
+\newblock {Searches for Higgs boson pair production in the $hh\to bb\tau\tau,
+  \gamma\gamma WW^*, \gamma\gamma bb, bbbb$ channels with the ATLAS detector}.
+\newblock \emph{Phys. Rev.}, D92:\penalty0 092004, 2015{\natexlab{b}}.
+\newblock \doi{10.1103/PhysRevD.92.092004}.
+
+\bibitem[Sirunyan et~al.(2017{\natexlab{b}})]{hhbbtautau_CMS}
+A.~M. Sirunyan et~al.
+\newblock {Search for Higgs boson pair production in events with two bottom
+  quarks and two tau leptons in proton-proton collisions at $\sqrt{s} = 13$
+  TeV}.
+\newblock 2017{\natexlab{b}}.
+
+\bibitem[Khachatryan et~al.(2016)]{hhbbAA_CMS}
+V.~Khachatryan et~al.
+\newblock {Search for two Higgs bosons in final states containing two photons
+  and two bottom quarks in proton-proton collisions at 8 TeV}.
+\newblock \emph{Phys. Rev.}, D94\penalty0 (5):\penalty0 052012, 2016.
+\newblock \doi{10.1103/PhysRevD.94.052012}.
+
+\bibitem[Aad et~al.(2015{\natexlab{c}})]{hhAAbb_ATLAS}
+G.~Aad et~al.
+\newblock {Search For Higgs Boson Pair Production in the $\gamma\gamma
+  b\bar{b}$ Final State using $pp$ Collision Data at $\sqrt{s}=8$ TeV from the
+  ATLAS Detector}.
+\newblock \emph{Phys. Rev. Lett.}, 114\penalty0 (8):\penalty0 081802,
+  2015{\natexlab{c}}.
+\newblock \doi{10.1103/PhysRevLett.114.081802}.
+
+\bibitem[Sirunyan et~al.(2017{\natexlab{c}})]{hhbbll_CMS}
+A.~M. Sirunyan et~al.
+\newblock {Search for resonant and nonresonant Higgs boson pair production in
+  the bblnulnu final state in proton-proton collisions at $\sqrt{s} = 13$ TeV}.
+\newblock 2017{\natexlab{c}}.
+
+\bibitem[Behr et~al.(2016)Behr, Bortoletto, Frost, Hartland, Issever, and
+  Rojo]{hhFeasibility}
+J.~K. Behr, D.~Bortoletto, J.~A. Frost, N.~P. Hartland, C.~Issever, and
+  J.~Rojo.
+\newblock {Boosting Higgs pair production in the $b\bar{b}b\bar{b}$ final state
+  with multivariate techniques}.
+\newblock \emph{Eur. Phys. J.}, C76\penalty0 (7):\penalty0 386, 2016.
+\newblock \doi{10.1140/epjc/s10052-016-4215-5}.
+
+\bibitem[Wardrope et~al.(2015)Wardrope, Jansen, Konstantinidis, Cooper, Falla,
+  and Norjoharuddeen]{hhFeasibility_LHC}
+D.~Wardrope, E.~Jansen, N.~Konstantinidis, B.~Cooper, R.~Falla, and
+  N.~Norjoharuddeen.
+\newblock {Non-resonant Higgs-pair production in the $b\overline{b}$
+  $b\overline{b}$ final state at the LHC}.
+\newblock \emph{Eur. Phys. J.}, C75\penalty0 (5):\penalty0 219, 2015.
+\newblock \doi{10.1140/epjc/s10052-015-3439-0}.
+
+\bibitem[Ferreira~de Lima et~al.(2014)Ferreira~de Lima, Papaefstathiou, and
+  Spannowsky]{hhFeasibility1_LHC}
+D.~E. Ferreira~de Lima, A.~Papaefstathiou, and M.~Spannowsky.
+\newblock {Standard model Higgs boson pair production in the ( $ b\overline{b}
+  $ )( $ b\overline{b} $ ) final state}.
+\newblock \emph{JHEP}, 08:\penalty0 030, 2014.
+\newblock \doi{10.1007/JHEP08(2014)030}.
+
+\bibitem[Banerjee et~al.(2018)Banerjee, Englert, Mangano, Selvaggi, and
+  Spannowsky]{hh+jet_100TeV}
+S.~Banerjee, C.~Englert, M.~L. Mangano, M.~Selvaggi, and M.~Spannowsky.
+\newblock {$hh+\text{jet}$ production at 100 TeV}.
+\newblock \emph{Eur. Phys. J.}, C78\penalty0 (4):\penalty0 322, 2018.
+\newblock \doi{10.1140/epjc/s10052-018-5788-y}.
+
+\bibitem[Hartland(2016)]{hhFeasibility1_100TeV}
+N.~P. Hartland.
+\newblock {Double Higgs production from $HH\to(b\bar{b})(b\bar{b})$ at a 100
+  TeV hadron collider}.
+\newblock \emph{PoS}, DIS2016:\penalty0 115, 2016.
+
+\bibitem[Chekanov et~al.(2017)Chekanov, Beydler, Kotwal, Gray, Sen, Tran, Yu,
+  and Zuzelski]{FCC_HCALgran_doubleK}
+S.~V. Chekanov, M.~Beydler, A.~V. Kotwal, L.~Gray, S.~Sen, N.~V. Tran, S.~S.
+  Yu, and J.~Zuzelski.
+\newblock {Initial performance studies of a general-purpose detector for
+  multi-TeV physics at a 100 TeV pp collider}.
+\newblock \emph{JINST}, 12\penalty0 (06):\penalty0 P06009, 2017.
+\newblock \doi{10.1088/1748-0221/12/06/P06009}.
+
+\bibitem[Chekanov(2017)]{BOOST2017}
+S.~Chekanov.
+\newblock {Boosted jets in high-granularity calorimeter at a 100 TeV pp
+  collider}.
+\newblock BOOST 2017, 2017.
+
+\bibitem[Chekanov(2015)]{FCCweek2015}
+S.~Chekanov.
+\newblock {Physics requirements for a Hadron Calorimeter for a 100 TeV
+  proton-proton collider}.
+\newblock FCC week 2015, 2015.
+
+\bibitem[Chekanov(2016)]{FCCweek2016}
+S.~Chekanov.
+\newblock {Simulation of a high-granular hadronic calorimeter for multi-TeV
+  physics}.
+\newblock FCC week 2016, 2016.
+
+\bibitem[Alwall et~al.()Alwall, Herquet, Maltoni, Mattelaer, and Stelzer]{MG5}
+J.~Alwall, M.~Herquet, F.~Maltoni, O.~Mattelaer, and T.~Stelzer.
+
+\bibitem[Sjostrand et~al.(2008)Sjostrand, Mrenna, and Skands]{Pythia8}
+T.~Sjostrand, S.~Mrenna, and P.~Z. Skands.
+\newblock {A Brief Introduction to PYTHIA 8.1}.
+\newblock \emph{Comput. Phys. Commun.}, 178:\penalty0 852--867, 2008.
+\newblock \doi{10.1016/j.cpc.2008.01.036}.
+
+\bibitem[de~Favereau et~al.(2014)de~Favereau, Delaere, Demin, Giammanco,
+  Lemaître, Mertens, and Selvaggi]{Delphes}
+J.~de~Favereau, C.~Delaere, P.~Demin, A.~Giammanco, V.~Lemaître, A.~Mertens,
+  and M.~Selvaggi.
+\newblock {DELPHES 3, A modular framework for fast simulation of a generic
+  collider experiment}.
+\newblock \emph{JHEP}, 02:\penalty0 057, 2014.
+\newblock \doi{10.1007/JHEP02(2014)057}.
+
+\bibitem[Cacciari et~al.(2012)Cacciari, Salam, and Soyez]{fastjet}
+M.~Cacciari, G.~P. Salam, and G.~Soyez.
+\newblock {FastJet User Manual}.
+\newblock \emph{Eur. Phys. J.}, C72:\penalty0 1896, 2012.
+\newblock \doi{10.1140/epjc/s10052-012-1896-2}.
+
+\bibitem[{FCC study group}(2018)]{FCCSW}
+{FCC study group}.
+\newblock Fccsw.
+\newblock \url{https://github.com/HEP-FCC/FCCSW}, 2018.
+
+\bibitem[Barrand et~al.(2001)]{gaudi}
+G.~Barrand et~al.
+\newblock {GAUDI - A software architecture and framework for building HEP data
+  processing applications}.
+\newblock \emph{Comput. Phys. Commun.}, 140:\penalty0 45--55, 2001.
+\newblock \doi{10.1016/S0010-4655(01)00254-5}.
+
+\bibitem[Gaede et~al.(2017)Gaede, Hegner, and Mato]{Podio}
+F.~Gaede, B.~Hegner, and P.~Mato.
+\newblock Podio: An event-data-model toolkit for high energy physics
+  experiments.
+\newblock \emph{Journal of Physics: Conference Series}, 898\penalty0
+  (7):\penalty0 072039, 2017.
+\newblock URL \url{http://stacks.iop.org/1742-6596/898/i=7/a=072039}.
+
+\bibitem[{FCC-hh study group}(2018)]{FCCEventProducer}
+{FCC-hh study group}.
+\newblock Eventproducer.
+\newblock \url{https://github.com/FCC-hh-framework/EventProducer}, 2018.
+
+\bibitem[Christensen and Duhr(2009)]{Feynrules}
+N.~D. Christensen and C.~Duhr.
+\newblock {FeynRules - Feynman rules made easy}.
+\newblock \emph{Comput. Phys. Commun.}, 180:\penalty0 1614--1641, 2009.
+\newblock \doi{10.1016/j.cpc.2009.02.018}.
+
+\bibitem[Ferreira et~al.(2013)Ferreira, Santos, Sher, and Silva]{2HDMdata}
+P.~M. Ferreira, R.~Santos, M.~Sher, and J.~P. Silva.
+\newblock {2HDM confronting LHC data}.
+\newblock In \emph{{Proceedings, 48th Rencontres de Moriond on QCD and High
+  Energy Interactions: La Thuile, Italy, March 9-16, 2013}}, pages 67--70,
+  2013.
+\newblock URL
+  \url{https://inspirehep.net/record/1234236/files/arXiv:1305.4587.pdf}.
+
+\end{thebibliography}

@@ -1,0 +1,56 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                      %
+%     File: Thesis_Appendix_A.tex                                      %
+%     Tex Master: Thesis.tex                                           %
+%                                                                      %
+%     Author: Andre C. Marta                                           %
+%     Last modified :  2 Jul 2015                                      %
+%                                                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Samples generation: parameters}
+\label{chapter:samples_gen}
+
+In this appendix we provide we list the values of parameters used in MadGraph (section \ref{sec:MG_par}) and Pythia (section \ref{sec:Pythia_par}) to generate the samples used in this work. 
+
+\section{MadGraph}
+\label{sec:MG_par}
+
+The MadGraph5 level cuts are summarized in table \ref{table:MG5cuts}. We show only the most relevant cuts for this analysis: the minimum $p_T$ of light and b quarks, $p_{T,j}^{\min}$ and $p_{T,b}^{\min}$, the maximum pseudorapidity range for light and b quarks, $\eta_j^{\max}$ and $\eta_b^{\max}$ and the $\Delta R$ separation between two light quarks, $\Delta R(jj)$, two b quarks, $\Delta R(bb)$, and between a light and b quarks, $\Delta R(jb)$. The \textit{xqcut} parameter is a measure of the required parton separation at Madgraph level. Whenever MadGraph produces two partons, $i$ and $j$, we define the distance between them as $\sqrt{2*\min{p_{T,i},p_{T,j}}[\cosh{(\eta_i-\eta_j)}-\cos{(\phi_i-\phi_j)}]}$. If the value of this expression is smaller than the specified value of xqcut then we do not generate the event. The \textit{bwcutoff} parameter defines what is considered to be on-shell s-channel resonances. The $H_T$ variable is the scalar sum of the $p_T$ of all truth level partons, including b quarks.
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{lp{17mm}p{15mm}p{20mm}p{15mm}p{20mm}l}
+		\toprule 
+		\textbf{MadGraph5}& SM hh (h$\rightarrow b\overline{b}$) \& BSM hh& 4b+j (QCD) & 4b+j (QCD+EWK) & 4b+j (EWK) & jj+0/1/2 j & tt+0/1/2 j \\
+		\midrule
+		$p_{T,j}^{\text{min}}$, $p_{T,b}^{\text{min}}$ [GeV]& $0$ & $200;30$\newline $500;30$ & $20;15$ & $20;15$ & $20;5$ & $5;5$\\
+		\rowcolor{black!7} $\eta_j^{\text{max}}$, $\eta_b^{\text{max}}$ & --- & $5;5$ & $5;3$ & $5;3$ & $8;8$ & $8;8$\\
+		$\Delta R(jj)$, $\Delta R(bb)$, $\Delta R(jb)$& $0.001$ & $0.4;0.1;0.3$ & $0.4;0.2;0.4$ & $0.4;0.2;0.4$ & $0;0.001;0.001$ & $0.001$ \\
+		\rowcolor{black!7} xqcut [GeV]& $0$ & $0$ & $0$ & $0$ & $20$ & $60$ \\
+		bwcutoff [GeV]& $30$ & $15$ & $15$ & $15$ & $30$ & $30$\\
+		\rowcolor{black!7} $H_T$ & --- & --- & --- & --- & $0-500$\newline $500-1\text{k}$\newline $1\text{k}-2\text{k}$\newline $2\text{k}-4\text{k}$\newline $4\text{k}-7.2\text{k}$\newline $7.2\text{k}-15\text{k}$\newline $15\text{k}-25\text{k}$\newline $25\text{k}-35\text{k}$\newline $35\text{k}-100\text{k}$ & ---\\
+		\bottomrule
+	\end{tabular}
+	\caption{Generator (MadGraph5) level cuts for the signal and background samples.}
+	\label{table:MG5cuts}
+\end{table}
+
+\section{Pythia}
+\label{sec:Pythia_par}
+
+The settings for jet matching can be found in table \ref{table:Pythia8settings} under the corresponding samples' columns. We perform the jet matching procedure (merge=on) using the MLM matching scheme and the appropriate algorithm for a parton level process generated in MadGraph (scheme=1). We do not read the matching parameters from the MadGraph file (setMad=off) because this option is not available for these files. The size of the cone drawn around the jet's center, the maximum pseudorapidity and the maximum number of jets to be matched are given by coneRadius, etaJetMax and nJetMax, respectively. The cone radius is set to one. The maximum allowed pseudorapidity of jets is ten which is a much loser cut than the acceptance of any current detector. The maximum number of jets is set to four for the jj+0/1/2 j and to two for the $t\overline{t}$+0/1/2 j. The qCut parameter defines the $k_T$ scale for merging shower products into jets.
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{p{20mm}p{45mm}p{10mm}p{30mm}p{30mm}}
+		\toprule 
+		\textbf{Pythia} & hh (h$\rightarrow b\overline{b}$) & 4b+j & jj+0/1/2 j & tt+0/1/2 j \\
+		\midrule
+		Relevant settings & 25:onMode=off \newline 25:onIfAny= 5 -5& --- & \textbf{Jet matching:} \newline merge=on \newline scheme=1 \newline setMad=off \newline coneRadius=1.0 \newline etaJetMax=10 \newline nJetMax=4 \newline qCut=30 & \textbf{Jet matching:} \newline merge=on \newline scheme=1 \newline setMad=off \newline coneRadius=1.0 \newline etaJetMax=10 \newline nJetMax=2 \newline qCut=60\\
+		\rowcolor{black!7} Description & Turn on the $h\rightarrow b\overline{b}$ decay for the undecayed Higgs, in the case of the SM sample, or for both Higgs in the case of the BSM samples. & --- & \multicolumn{2}{p{65mm}}{Set the parameters for jet matching (a detailed description can be found in the text).} \\
+		\bottomrule
+	\end{tabular}
+	\caption{Pythia settings for the signal and background samples.}
+	\label{table:Pythia8settings}
+\end{table}
