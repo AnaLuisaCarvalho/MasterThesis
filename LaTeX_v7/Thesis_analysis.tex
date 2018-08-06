@@ -20,18 +20,103 @@
 \begin{figure}
 	\centering
 	\includegraphics[width=0.6\textwidth]{./Figures/hhBR.png}
+	\label{fig:hhBR}
 	\caption{Higgs pair branching ratios.}
 \end{figure}
 
-The searches for Higgs pair production in the four b quarks final state benefit from the large BR of $h\rightarrow b\overline{b}$. The value of this BR is $58\%$ making it the largest one among all Higgs boson decay modes. This leads to a cross section times BR of $\sim 0.7$ pb. However, in this channel, the main background is the QCD multijet production that has a very large cross section, of the order of $10^9$ pb. Nonetheless, it is a well known feature of QCD that the majority of jets produced are soft. This means that the $p_T$ distributions of this background have a very large yield close to zero and then fall very steeply while for the signal has a much larger tail to high values of $p_T$. This indicates that searches targeting the boosted kinematic regime may be the key to measure $hh\rightarrow b\overline{b}b\overline{b}$. In addition, the jets produced by QCD interaction are more likely to be initiated by a gluon or a light quark. Therefore, tight b-tagging criteria and sophisticated algorithms can also help reject this background. 
+The searches for Higgs pair production in the four b quarks final state benefit from the large BR of $h\rightarrow b\overline{b}$. For the SM Higgs, with a mass around $125$ GeV, the branching ratio of the $hh\rightarrow b\overline{b}b\overline{b}$ decay is approximately $33.6\%$, making it the most probable decay for Higgs pairs, as it is illustrate in Figure \ref{fig:hhBR}.
 
-\subsection{Signal}
+%This leads to a cross section times BR of $\sim 0.7$ pb. 
 
-The experimental signature depends on the kinematic regime that is targeted. In the boosted regime, we expect at least two jets that are reconstructed using a large R parameter and that contain, each, the two b quarks that come from the decay of a Higgs boson. In the fully resolved regime, we expect at least four jets reconstructed with the standard R parameter of $0.4$, each corresponding to a b quark. Furthermore, an intermediate (or semi-resolved) category, in which one of the Higgs can be fully reconstructed using two small R jets and the other is reconstructed using a single large-R jet can also be explored. In all categories, we expect the presence of extra jets due to QCD activity. 
+However, in this channel, the main background is QCD multijet production that has a cross section several orders of magnitude larger than di-Higgs production in the SM, as Table \ref{table:samples_summary} shows. Nonetheless, it is a well known feature of QCD that the majority of jets produced are soft. This means that the $p_T$ distributions of this background have a very large yield close to zero and then fall very steeply while the signal has a much larger tail to high values of $p_T$. This indicates that searches targeting the boosted kinematic regime may be the key to measure $hh\rightarrow b\overline{b}b\overline{b}$ using inclusive production.
+
+In this work we target the boosted regime. In this kinematic region, the final state of the signal is characterized by two jets with a large R parameter. Each jet is expected to contain the two b quarks originated from the decay of a Higgs boson. Extra jets are also expected to be reconstructed as a consequence of QCD activity. 
+
+The analysis presented here is performed using the Monte-Carlo samples described in chapter \ref{chapter:tools}. All samples assume $m_h=125$ GeV. The event selection criteria are designed to optimize the significance, given by$S/\sqrt{B}$, where $S$ and $B$ represent the number of signal and background events, respectively. 
+
+%In addition, the jets produced by QCD interaction are more likely to be initiated by a gluon or a light quark. Therefore, tight b-tagging criteria and algorithms based on substructure variables can also help reject this background. 
+
+\subsection{Signal event characterization}
+
+The cross section for di-Higgs inclusive production from $pp$ collisions at $100$ TeV is $1.2$ pb \cite{FCCphys}. This value is computed at NLO accuracy. The dominant process is gluon-gluon fusion that has been extensively discussed in section \ref{section:Higgs_pair}. The signal process comprehends the di-Higgs inclusive production and the $hh\rightarrow b\overline{b}b\overline{b}$ subsequent decays. The total process cross section is then given by $\sigma(pp\rightarrow hh)\times BR(hh\rightarrow b\overline{b}b\overline{b})$ and it amounts to approximately $0.4$ pb [NOT VERY COHERENT WITH MG VALUES - CHECK]. For an integrated luminosity of $3000\text{fb}^{-1}$ of proton collisions at $\sqrt{s}=100$ TeV we expect X events.
+
+The Higgs candidates are reconstructed using large R jets that can be directly measured using information from the calorimeters and tracking systems. EVENT TOPOLOGY: TWO JETS BACK TO BACK, EXTRA JET??. Each wide jetis expected to be consistent with having two subjets associated with the two b quarks from the $h\rightarrow b\overline{b}$ decay. In the Higgs rest frame, the two subjets are produced back-to-back conserving momentum. In the laboratory frame, the $\Delta R$ between the subjets depends on the momentum of the Higgs boson, with larger $\Delta R$ corresponding to Higgs bosons with a lower momentum.
+
+%In the boosted regime, we expect at least two jets that are reconstructed using a large R parameter and that contain, each, the two b quarks that come from the decay of a Higgs boson. In the fully resolved regime, we expect at least four jets reconstructed with the standard R parameter of $0.4$, each corresponding to a b quark. Furthermore, an intermediate (or semi-resolved) category, in which one of the Higgs can be fully reconstructed using two small R jets and the other is reconstructed using a single large-R jet can also be explored. In all categories, we expect the presence of extra jets due to QCD activity. 
 
 \subsection{Backgrounds}
 
-In this work we include the QCD multijet background because of its huge cross section and the $t\overline{t}$ because the cross section is much larger than the signal, approximately $10^4$ pb, and the event topology is expected to be similar to the signal because it also consists in the production of a pair of particles with the same mass. The assumption that these are the two main backgrounds is corroborated by the ATLAS di-Higgs search performed in the same channel where these backgrounds are found to be the dominant ones and that all other sources of backgrounds, including processes involving Higgs bosons, are found to be negligible \cite{hh2bbbbATLAS}. In the appendix X we discuss and evaluate the importance of some backgrounds that include Higgs bosons to our analysis. In addition, we also take into account the irreducible background, $b\overline{b}b\overline{b}$.
+The relevant backgrounds for this analysis are QCD (light?)multijet production, $t\overline{t}$ and $b\overline{b}b\overline{b}$. Although the $b\overline{b}b\overline{b}$ background is a particular case of a QCD multijet production process we consider it separately because it constitutes the irreducible background and therefore it will have a higher efficiency in the analysis. The cross sections for these processes are several orders of magnitude larger than the cross section for the signal, as Table \ref{table:samples_summary} shows. In addition, in the case of the $t\overline{t}$ background, the event topology is expected to be similar to the signal because it also consists in the production of a pair of particles with the same mass.
+
+The assumption that QCD multijet production and $t\overline{t}$ two main backgrounds is corroborated by the ATLAS di-Higgs search performed in the same channel where these backgrounds are found to be the dominant ones and that all other sources of backgrounds, including processes involving Higgs bosons, are found to be negligible \cite{hh2bbbbATLAS}. In the appendix X we discuss and evaluate the importance of some backgrounds that include Higgs bosons to our analysis.
+
+Figure \ref{fig:QCD} shows examples of LO Feynman diagrams that contribute to $b\overline{b}b\overline{b}$+j (left), three (middle) and four (right) light jets production. SAMPLE GENERATION (extra jet in bbbb+j, jj+0/1/2j). CROSS SECTION FOR THESE PROCESSES. 
+
+Figure \ref{fig:tt} shows examples of LO Feynman diagrams that contribute to $t\overline{t}$ production through $q\overline{q}$ (left) and $gg$ (middle and right) fusion. SAMPLE GENERATION (tt+0/1/2j). TOP DECAYS, RESULTING FINAL STATES AND HOW THEY CAN PENETRATE THE ANALYSIS. CROSS SECTION.
+
+%In addition, we also take into account the irreducible background, $b\overline{b}b\overline{b}$ because it is expected to be the background with the highest efficiency.
+
+\begin{figure}
+	\centering
+	\feynmandiagram[small,layered layout,horizontal=i1 to a] {% Draw the top and bottom lines
+		i1 [particle=\(\overline{q}\)]-- [anti fermion] a-- [boson, edge label'=\(g/h/Z/\gamma\)]  b,
+		i2 [particle=\(q\)]-- [fermion] c-- [gluon, edge label=\(g\)] d,
+		% Draw the two internal fermion lines
+		{ [  same layer] a -- [anti fermion] c},
+		%f1  -- [fermion] b -- [fermion] f2 ,
+		%f3  -- [fermion] f2 -- [gluon] g1 ,
+		%f4  -- [fermion] g1 -- [fermion] f5 ,
+		%	a -- [opacity=0.2] c,
+		%g1 -- [anti fermion] b,
+		b -- [anti fermion] f2 [particle=\(\overline{b}\)],
+		b -- [fermion] f3 ,
+		f3 -- [fermion] f4 [particle=\(b\)],
+		f3 -- [boson, edge label'=\(g/h/Z/\gamma\)] g1,
+		g1 -- [anti fermion] f5 [particle=\(\overline{b}\)],
+		g1 -- [fermion] f6 [particle=\(b\)],
+	};\qquad
+	\feynmandiagram[small,layered layout,horizontal=a to b] {% Draw the top and bottom lines
+		i1 [particle=\(\overline{q}\)]-- [anti fermion] a-- [anti fermion]  b,
+		i2 [particle=\(q\)]-- [fermion] c-- [fermion] d [particle=\(q\)],
+		% Draw the two internal fermion lines
+		{ [  same layer] a -- [gluon] c},
+		%f1  -- [fermion] b -- [fermion] f2 ,
+		%f3  -- [fermion] f2 -- [gluon] g1 ,
+		%f4  -- [fermion] g1 -- [fermion] f5 ,
+		%	a -- [opacity=0.2] c,
+		%g1 -- [anti fermion] b,
+		b -- [anti fermion] f2 [particle=\(\overline{q}\)],
+		b -- [gluon] f3 [particle=\(g\)],
+	};\qquad
+	\feynmandiagram
+	[horizontal=a to b] {i1 [particle=\(q\)] -- [fermion] a -- [fermion] i2 [particle=\(\overline{q}\)],
+		a -- [gluon] b,
+		g1 -- [gluon] b -- [gluon] g2,
+		f1 [particle=\(\overline{q}\)] -- [fermion] g1 -- [fermion] f2 [particle=\(q\)],
+		f3 [particle=\(\overline{q}\)] -- [fermion] g2 -- [fermion] f4 [particle=\(q\)],
+		g1 -- [opacity=0] g2,
+		f2 -- [opacity=0] f4,
+	};
+	%		\feynmandiagram[small,layered layout,horizontal=i1 to a] {% Draw the top and bottom lines
+	%			i1 [particle=\(\overline{q}\)]-- [anti fermion] a-- [boson, edge label'=\(h/Z/\gamma\)]  b,
+	%			i2 [particle=\(q\)]-- [fermion] c-- [gluon, edge label=\(g\)] d,
+	%			% Draw the two internal fermion lines
+	%			{ [  same layer] a -- [anti fermion] c},
+	%			%f1  -- [fermion] b -- [fermion] f2 ,
+	%			%f3  -- [fermion] f2 -- [gluon] g1 ,
+	%			%f4  -- [fermion] g1 -- [fermion] f5 ,
+	%			%	a -- [opacity=0.2] c,
+	%			%g1 -- [anti fermion] b,
+	%			b -- [anti fermion] f2 [particle=\(\overline{b}\)],
+	%			b -- [fermion] f3 ,
+	%			f3 -- [fermion] f4 [particle=\(b\)],
+	%			f3 -- [boson, edge label'=\(h/Z/\gamma\)] g1,
+	%			g1 -- [anti fermion] f5 [particle=\(\overline{b}\)],
+	%			g1 -- [fermion] f6 [particle=\(b\)],
+	%		};
+	\label{fig:QCD}
+	\caption{Example of diagrams that contribute to the QCD multijet background: five final state jets, four of which are b-jets (left), three final state jets (middle) and four final state jets (right). Here, $q$ stands for a light quark/jet.}
+\end{figure}
 
 \begin{figure}
 \centering
@@ -46,69 +131,11 @@ In this work we include the QCD multijet background because of its huge cross se
 	% Draw the two internal fermion lines
 	{ [  same layer] a -- [fermion] c},
 };
+\label{fig:tt}
 \caption{Dominant diagrams of $pp\rightarrow t\overline{t}$ at LO.}
 \end{figure}
 
-\begin{figure}
-	\centering
-	\feynmandiagram[small,layered layout,horizontal=i1 to a] {% Draw the top and bottom lines
-		i1 [particle=\(\overline{q}\)]-- [anti fermion] a-- [boson, edge label'=\(g/h/Z/\gamma\)]  b,
-		i2 [particle=\(q\)]-- [fermion] c-- [gluon, edge label=\(g\)] d,
-		% Draw the two internal fermion lines
-		{ [  same layer] a -- [anti fermion] c},
-		%f1  -- [fermion] b -- [fermion] f2 ,
-		%f3  -- [fermion] f2 -- [gluon] g1 ,
-		%f4  -- [fermion] g1 -- [fermion] f5 ,
-	%	a -- [opacity=0.2] c,
-		%g1 -- [anti fermion] b,
-		b -- [anti fermion] f2 [particle=\(\overline{b}\)],
-		b -- [fermion] f3 ,
-		f3 -- [fermion] f4 [particle=\(b\)],
-		f3 -- [boson, edge label'=\(g/h/Z/\gamma\)] g1,
-		g1 -- [anti fermion] f5 [particle=\(\overline{b}\)],
-		g1 -- [fermion] f6 [particle=\(b\)],
-	};\qquad
-		\feynmandiagram[small,layered layout,horizontal=a to b] {% Draw the top and bottom lines
-			i1 [particle=\(\overline{q}\)]-- [anti fermion] a-- [anti fermion]  b,
-			i2 [particle=\(q\)]-- [fermion] c-- [fermion] d [particle=\(q\)],
-			% Draw the two internal fermion lines
-			{ [  same layer] a -- [gluon] c},
-			%f1  -- [fermion] b -- [fermion] f2 ,
-			%f3  -- [fermion] f2 -- [gluon] g1 ,
-			%f4  -- [fermion] g1 -- [fermion] f5 ,
-			%	a -- [opacity=0.2] c,
-			%g1 -- [anti fermion] b,
-			b -- [anti fermion] f2 [particle=\(\overline{q}\)],
-			b -- [gluon] f3 [particle=\(g\)],
-		};\qquad
-		\feynmandiagram
-		[horizontal=a to b] {i1 [particle=\(q\)] -- [fermion] a -- [fermion] i2 [particle=\(\overline{q}\)],
-			a -- [gluon] b,
-			g1 -- [gluon] b -- [gluon] g2,
-			f1 [particle=\(\overline{q}\)] -- [fermion] g1 -- [fermion] f2 [particle=\(q\)],
-			f3 [particle=\(\overline{q}\)] -- [fermion] g2 -- [fermion] f4 [particle=\(q\)],
-			g1 -- [opacity=0] g2,
-			f2 -- [opacity=0] f4,
-		};
-%		\feynmandiagram[small,layered layout,horizontal=i1 to a] {% Draw the top and bottom lines
-%			i1 [particle=\(\overline{q}\)]-- [anti fermion] a-- [boson, edge label'=\(h/Z/\gamma\)]  b,
-%			i2 [particle=\(q\)]-- [fermion] c-- [gluon, edge label=\(g\)] d,
-%			% Draw the two internal fermion lines
-%			{ [  same layer] a -- [anti fermion] c},
-%			%f1  -- [fermion] b -- [fermion] f2 ,
-%			%f3  -- [fermion] f2 -- [gluon] g1 ,
-%			%f4  -- [fermion] g1 -- [fermion] f5 ,
-%			%	a -- [opacity=0.2] c,
-%			%g1 -- [anti fermion] b,
-%			b -- [anti fermion] f2 [particle=\(\overline{b}\)],
-%			b -- [fermion] f3 ,
-%			f3 -- [fermion] f4 [particle=\(b\)],
-%			f3 -- [boson, edge label'=\(h/Z/\gamma\)] g1,
-%			g1 -- [anti fermion] f5 [particle=\(\overline{b}\)],
-%			g1 -- [fermion] f6 [particle=\(b\)],
-%		};
-	\caption{Example of diagrams that contribute to the QCD multijet background: five final state jets, four of which are b-jets (left), three final state jets (middle) and four final state jets (right). Here, $q$ stands for a light quark/jet.}
-\end{figure}
+
 %\begin{figure}[h]
 %	\centering
 %	\feynmandiagram [horizontal=b to c] {
@@ -184,13 +211,15 @@ In this work we include the QCD multijet background because of its huge cross se
 	\label{fig:final_state}
 \end{figure} 
 
-This analysis category targets events in which the Higgs bosons have a high Lorentz boost which leads to the collimation of the pairs of b quarks resulting from their decay. As a result, the b quarks cannot be reconstructed in four separated jets. Therefore, two pairs of b quarks are reconstructed using two jets with a larger R parameter. Each jet contains the b quarks coming from one of the Higgs bosons and works as a proxy for the properties of that Higgs boson.
+%In this analysis is focused on the bosoted regime. It targets events in which the Higgs bosons have a high Lorentz boost which leads to the collimation of the pairs of b quarks resulting from their decay. As a result, the b quarks cannot be reconstructed in four separated jets. Therefore, two pairs of b quarks are reconstructed using two jets with a larger R parameter. Each jet is expected to contain the b quarks coming from one of the Higgs bosons and works as a proxy for the properties of that Higgs boson.
 
-The events are reconstructed using particle flow jets with $R=0.8$\footnote{Find discussion about jet radius in the appendix.}, clustered with the anti-$k_T$ algorithm. We perform the b-tagging of jets using truth level information as it is described in the following section \footnote{Jets with a large R parameter cannot be b tagged using Delphes default algorithm because the tagging of large R jets is an ambiguous task that can be performed in several different ways. Therefore, we need to implement our own b tagging algorithm/strategy.}. 
+This analysis targets events in which at least two large R jets are reconstructed. The jet with the highest momentum is assumed to correspond to the leading Higgs candidate and the jet with the second highest momentum to the sub leading one. Both the leading and sub leading jets must be b-tagged in order for the event to be accepted.
+
+The events are reconstructed using particle flow jets with $R=0.8$\footnote{Find discussion about jet radius in the appendix.}, clustered with the anti-$k_T$ algorithm. We perform the b-tagging of jets using truth level information as it is described in the following section. Jets with a large R parameter cannot be b-tagged using Delphes default algorithm because the tagging of large R jets is an ambiguous task that can be performed in several different ways. Therefore, we need to implement our own b-tagging algorithm/strategy. 
 
 \subsection{Implementation of b-tagging}
 
-For each jet, the two hardest subjets are found using the mass drop procedure. It might happen that there are not two subjets because the algorithm's criteria are not met. In that case, the jet is rejected. We compute the $\Delta R$ distance between all b and c quarks in the event with Pythia 8 status equal to $23$ \footnote{These are the partons that come from the hardest subprocess.} and with $p_T>10$ GeV and each subjet, $\Delta R(\text{subjet,parton})$. We consider that a subjet is matched to a given quark if $\Delta R(\text{subjet,parton})<0.3$. If the subjet is matched to at least a b quark, we b-tag the subjet with a given probability. If the subjet is not matched to any b quark but it is matched to at least one c quark we apply a c mistag rate. If the subjet is not matched to any b or c quark we apply a light mistag rate. The b-tag probability and mistag rates were obtained from the Delphes FCC-hh card. They depend on the momentum of the jet and on its $\eta$ coordinate. They are summarized in Table \ref{table:btag}. Note that a jet cannot be b-tagged if $|\eta|>4$ or if its momentum is smaller than $10$ GeV or larger than $15000$ GeV.  
+For each jet, the two hardest subjets are found using the mass drop procedure. It might happen that there are not two subjets because the algorithm's criteria are not met. In that case, the jet is rejected. We compute the $\Delta R$ distance between all b and c quarks in the event with Pythia 8 status equal to $23$ and with $p_T>10$ GeV and each subjet, $\Delta R(\text{subjet,parton})$. According to the Pyhtia manual, particles with status $23$ result directly from the hardest subprocess. We consider that a subjet is matched to a given quark if $\Delta R(\text{subjet,parton})<0.3$. If the subjet is matched to at least a b quark, we b-tag the subjet with a given probability. If the subjet is not matched to any b quark but it is matched to at least one c quark we apply a c mistag rate. If the subjet is not matched to any b or c quark we apply a light mistag rate. The b-tag probability and mistag rates were obtained from the Delphes FCC-hh card. They depend on the momentum of the jet and on its $\eta$ coordinate. They are summarized in Table \ref{table:btag}. Note that a jet cannot be b-tagged if $|\eta|>4$ or if its momentum is smaller than $10$ GeV or larger than $15000$ GeV. 
 
 \begin{table}
 	\centering
@@ -211,7 +240,11 @@ For each jet, the two hardest subjets are found using the mass drop procedure. I
 
 \subsection{Event selection}
 
-We require at least two b-tagged jets with $|\eta|<6$. We require that the leading and sub leading jets have $p_T>200$ GeV. 
+[MENTION TRIGGER: IMPORTANT IN REAL ANALYSIS]
+
+We require at least two b-tagged jets. In addition, the leading and sub leading jets must have $p_T\geq200$ GeV in order for the event to be accepted. Due to the b-tagging efficiency formulas, there is a natural cutoff at $|\eta|=4$ so we do not place any additional cut in $\eta$. From now on, these cuts are referred to as pre-selection cuts.
+
+
 
 \subsection{Optimization}
 

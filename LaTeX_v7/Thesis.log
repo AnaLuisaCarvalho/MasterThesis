@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2017.11.27)  3 AUG 2018 19:31
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2017.11.27)  6 AUG 2018 18:30
  restricted \write18 enabled.
 **Thesis.tex
 (./Thesis.tex
@@ -1444,74 +1444,75 @@ File: ./Figures/hhBR.png Graphic file (type png)
 Package pdftex.def Info: ./Figures/hhBR.png used on input line 22.
 (pdftex.def)             Requested size: 273.14923pt x 233.59859pt.
 
-[45
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 166--170
+[46<./Figures/hhBR.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 193--197
 
  []
 
-[46<./Figures/hhBR.png>]
-<./Figures/boosted1.png, id=1086, 778.8297pt x 385.44pt>
+[47] <./Figures/boosted1.png, id=1100, 778.8297pt x 385.44pt>
 File: ./Figures/boosted1.png Graphic file (type png)
 
 <use ./Figures/boosted1.png>
-Package pdftex.def Info: ./Figures/boosted1.png used on input line 180.
+Package pdftex.def Info: ./Figures/boosted1.png used on input line 207.
 (pdftex.def)             Requested size: 455.24411pt x 225.30211pt.
+ [48<./Figures/boosted1.png>]) [49] [50
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [47<./Figures/boosted1.png>]) [48] (./Thesis_Results.tex
+]
+(./Thesis_Results.tex
 Chapter 7.
-) [49
-
-
-] [50] (./Thesis_Conclusions.tex
-Chapter 8.
 ) [51
 
+] [52] (./Thesis_Conclusions.tex
+Chapter 8.
+) [53
 
-] [52
 
-] (./Thesis.bbl [53
+] [54
+
+] (./Thesis.bbl [55
 
 Missing character: There is no ñ (U+00F1) in font phvr7t!
-] [54] [55
+] [56] [57
 Missing character: There is no – (U+2013) in font phvr7t!
-] [56
+] [58
 Missing character: There is no – (U+2013) in font phvr7t!
 Missing character: There is no ö (U+00F6) in font phvr7t!
 Missing character: There is no ü (U+00FC) in font phvr7t!
-] [57]) [58
+] [59]) [60
 Missing character: There is no î (U+00EE) in font phvr7t!
 ]
 (./Thesis_Appendix_A.tex
 Appendix A.
-<./Figures/deltaR.pdf, id=1193, 569.12625pt x 385.44pt>
+<./Figures/deltaR.pdf, id=1207, 569.12625pt x 385.44pt>
 File: ./Figures/deltaR.pdf Graphic file (type pdf)
 
 <use ./Figures/deltaR.pdf>
 Package pdftex.def Info: ./Figures/deltaR.pdf used on input line 35.
 (pdftex.def)             Requested size: 227.62206pt x 154.15562pt.
-) [59
+) [61
 
 
 <./Figures/deltaR.pdf>] (./Thesis_Appendix_B.tex
 Appendix B.
-) [60
+) [62
 
 
 ] (./Thesis_Appendix_C.tex
 Appendix C.
-<./Figures/hist_M_deltaRmax_jetb_corr.pdf, id=1251, 569.12625pt x 385.44pt>
+<./Figures/hist_M_deltaRmax_jetb_corr.pdf, id=1265, 569.12625pt x 385.44pt>
 File: ./Figures/hist_M_deltaRmax_jetb_corr.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_M_deltaRmax_jetb_corr.pdf>
 Package pdftex.def Info: ./Figures/hist_M_deltaRmax_jetb_corr.pdf used on input 
 line 22.
 (pdftex.def)             Requested size: 227.62206pt x 154.15562pt.
-) [61
+) [63
 
 
 <./Figures/hist_M_deltaRmax_jetb_corr.pdf>] (./Thesis_Appendix_D.tex
@@ -1575,28 +1576,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--50
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [62
+) [64
 
 
-] [63]
+] [65]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 291.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 291.
  (./Thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 291.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 291.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: DFA822D637CE87FF9516B6469EE6DBBE;3554.
+(rerunfilecheck)             Checksum: 719B4EDD77E6767ECA31440892361492;3577.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 291.
 )
 
 Here is how much of LuaTeX's memory you used:
- 26162 strings out of 495004
+ 26165 strings out of 495004
  100000,794899 words of node,token memory allocated
- 1034 words of node memory still in use:
+ 1042 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 31 kern, 52 glue_spec, 23 action, 2 write n
 odes
-   avail lists: 1:7,2:41,3:2249,4:5041,5:386,6:4014,7:219,8:53,9:931,10:364
- 27931 multiletter control sequences out of 65536+600000
+   avail lists: 1:7,2:41,3:2250,4:5061,5:386,6:4014,7:219,8:53,9:932,10:364
+ 27934 multiletter control sequences out of 65536+600000
  108 fonts using 4251707 bytes
  60i,18n,98p,1644b,1640s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}<</usr/share/texlive/
@@ -1620,10 +1621,10 @@ sfonts/cm/cmtt10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 symbols/msam7.pfb><</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8
 a.pfb><</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><</usr
 /share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Thesis.pdf (79 pages, 9505613 bytes).
+Output written on Thesis.pdf (81 pages, 9509423 bytes).
 
-PDF statistics: 1401 PDF objects out of 1440 (max. 8388607)
- 1177 compressed objects within 12 object streams
+PDF statistics: 1416 PDF objects out of 1440 (max. 8388607)
+ 1190 compressed objects within 12 object streams
  297 named destinations out of 1000 (max. 131072)
  480 words of extra memory for PDF output out of 10000 (max. 10000000)
 
