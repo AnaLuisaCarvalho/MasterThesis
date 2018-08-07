@@ -42,9 +42,9 @@
 \contentsline {subsection}{\numberline {6.1.1}Signal event characterization}{46}{subsection.6.1.1}
 \contentsline {subsection}{\numberline {6.1.2}Backgrounds}{46}{subsection.6.1.2}
 \contentsline {section}{\numberline {6.2}Analysis strategy}{47}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Implementation of b-tagging}{48}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.1}Implementation of b-tagging}{49}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Event selection}{49}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Optimization}{49}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.3}Optimization}{50}{subsection.6.2.3}
 \contentsline {chapter}{\numberline {7}Results}{51}{chapter.7}
 \contentsline {section}{\numberline {7.1}Statistical analysis}{51}{section.7.1}
 \contentsline {chapter}{\numberline {8}Conclusions}{53}{chapter.8}

@@ -38,45 +38,45 @@ Warning--empty title in MG5
 Warning--empty journal in MG5
 Warning--empty year in MG5
 Warning--empty year in MG5
-You've used 78 entries,
+You've used 79 entries,
             2481 wiz_defined-function locations,
-            1074 strings with 18649 characters,
-and the built_in function-call counts, 28339 in all, are:
-= -- 2465
-> -- 1363
-< -- 53
-+ -- 557
-- -- 392
-* -- 2166
-:= -- 4621
-add.period$ -- 303
-call.type$ -- 78
-change.case$ -- 154
-chr.to.int$ -- 69
-cite$ -- 100
-duplicate$ -- 1429
-empty$ -- 2588
-format.name$ -- 503
-if$ -- 6039
+            1082 strings with 18766 characters,
+and the built_in function-call counts, 28719 in all, are:
+= -- 2500
+> -- 1378
+< -- 54
++ -- 563
+- -- 396
+* -- 2194
+:= -- 4681
+add.period$ -- 307
+call.type$ -- 79
+change.case$ -- 156
+chr.to.int$ -- 70
+cite$ -- 101
+duplicate$ -- 1448
+empty$ -- 2625
+format.name$ -- 509
+if$ -- 6122
 int.to.chr$ -- 10
-int.to.str$ -- 79
-missing$ -- 66
-newline$ -- 466
-num.names$ -- 219
-pop$ -- 535
+int.to.str$ -- 80
+missing$ -- 67
+newline$ -- 472
+num.names$ -- 222
+pop$ -- 541
 preamble$ -- 1
-purify$ -- 78
+purify$ -- 79
 quote$ -- 0
-skip$ -- 833
+skip$ -- 845
 stack$ -- 0
-substring$ -- 1075
-swap$ -- 187
+substring$ -- 1095
+swap$ -- 189
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 543
+type$ -- 550
 warning$ -- 17
-while$ -- 205
+while$ -- 208
 width$ -- 0
-write$ -- 1138
+write$ -- 1153
 (There were 4 error messages)

@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2017.11.27)  6 AUG 2018 18:30
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2017.11.27)  7 AUG 2018 15:41
  restricted \write18 enabled.
 **Thesis.tex
 (./Thesis.tex
@@ -1451,22 +1451,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 [46<./Figures/hhBR.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 193--197
+Underfull \hbox (badness 10000) in paragraph at lines 197--201
 
  []
 
-[47] <./Figures/boosted1.png, id=1100, 778.8297pt x 385.44pt>
+<./Figures/boosted1.png, id=1098, 778.8297pt x 385.44pt>
 File: ./Figures/boosted1.png Graphic file (type png)
 
 <use ./Figures/boosted1.png>
-Package pdftex.def Info: ./Figures/boosted1.png used on input line 207.
+Package pdftex.def Info: ./Figures/boosted1.png used on input line 211.
 (pdftex.def)             Requested size: 455.24411pt x 225.30211pt.
- [48<./Figures/boosted1.png>]) [49] [50
-
-]
+ [47] [48<./Figures/boosted1.png>] [49]) [50]
 (./Thesis_Results.tex
 Chapter 7.
 ) [51
+
 
 ] [52] (./Thesis_Conclusions.tex
 Chapter 8.
@@ -1489,7 +1488,7 @@ Missing character: There is no î (U+00EE) in font phvr7t!
 ]
 (./Thesis_Appendix_A.tex
 Appendix A.
-<./Figures/deltaR.pdf, id=1207, 569.12625pt x 385.44pt>
+<./Figures/deltaR.pdf, id=1211, 569.12625pt x 385.44pt>
 File: ./Figures/deltaR.pdf Graphic file (type pdf)
 
 <use ./Figures/deltaR.pdf>
@@ -1505,7 +1504,7 @@ Appendix B.
 
 ] (./Thesis_Appendix_C.tex
 Appendix C.
-<./Figures/hist_M_deltaRmax_jetb_corr.pdf, id=1265, 569.12625pt x 385.44pt>
+<./Figures/hist_M_deltaRmax_jetb_corr.pdf, id=1270, 569.12625pt x 385.44pt>
 File: ./Figures/hist_M_deltaRmax_jetb_corr.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_M_deltaRmax_jetb_corr.pdf>
@@ -1591,13 +1590,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 291.
 )
 
 Here is how much of LuaTeX's memory you used:
- 26165 strings out of 495004
+ 26169 strings out of 495004
  100000,794899 words of node,token memory allocated
- 1042 words of node memory still in use:
+ 1045 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 31 kern, 52 glue_spec, 23 action, 2 write n
 odes
-   avail lists: 1:7,2:41,3:2250,4:5061,5:386,6:4014,7:219,8:53,9:932,10:364
- 27934 multiletter control sequences out of 65536+600000
+   avail lists: 1:7,2:41,3:2315,4:5728,5:391,6:4014,7:219,8:53,9:1036,10:364
+ 27937 multiletter control sequences out of 65536+600000
  108 fonts using 4251707 bytes
  60i,18n,98p,1644b,1640s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}<</usr/share/texlive/
@@ -1621,10 +1620,10 @@ sfonts/cm/cmtt10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 symbols/msam7.pfb><</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8
 a.pfb><</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><</usr
 /share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Thesis.pdf (81 pages, 9509423 bytes).
+Output written on Thesis.pdf (81 pages, 9512135 bytes).
 
-PDF statistics: 1416 PDF objects out of 1440 (max. 8388607)
- 1190 compressed objects within 12 object streams
- 297 named destinations out of 1000 (max. 131072)
+PDF statistics: 1420 PDF objects out of 1440 (max. 8388607)
+ 1194 compressed objects within 12 object streams
+ 298 named destinations out of 1000 (max. 131072)
  480 words of extra memory for PDF output out of 10000 (max. 10000000)
 
