@@ -38,45 +38,46 @@ Warning--empty title in MG5
 Warning--empty journal in MG5
 Warning--empty year in MG5
 Warning--empty year in MG5
-You've used 79 entries,
+Warning--empty author in PF2
+You've used 81 entries,
             2481 wiz_defined-function locations,
-            1082 strings with 18766 characters,
-and the built_in function-call counts, 28719 in all, are:
-= -- 2500
-> -- 1378
-< -- 54
-+ -- 563
-- -- 396
-* -- 2194
-:= -- 4681
-add.period$ -- 307
-call.type$ -- 79
-change.case$ -- 156
-chr.to.int$ -- 70
-cite$ -- 101
-duplicate$ -- 1448
-empty$ -- 2625
-format.name$ -- 509
-if$ -- 6122
+            1096 strings with 19040 characters,
+and the built_in function-call counts, 29331 in all, are:
+= -- 2562
+> -- 1393
+< -- 56
++ -- 571
+- -- 400
+* -- 2241
+:= -- 4772
+add.period$ -- 314
+call.type$ -- 81
+change.case$ -- 160
+chr.to.int$ -- 72
+cite$ -- 105
+duplicate$ -- 1482
+empty$ -- 2685
+format.name$ -- 515
+if$ -- 6257
 int.to.chr$ -- 10
-int.to.str$ -- 80
-missing$ -- 67
-newline$ -- 472
-num.names$ -- 222
-pop$ -- 541
+int.to.str$ -- 82
+missing$ -- 68
+newline$ -- 483
+num.names$ -- 225
+pop$ -- 552
 preamble$ -- 1
-purify$ -- 79
+purify$ -- 81
 quote$ -- 0
-skip$ -- 845
+skip$ -- 865
 stack$ -- 0
-substring$ -- 1095
-swap$ -- 189
-text.length$ -- 7
+substring$ -- 1121
+swap$ -- 194
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 550
-warning$ -- 17
-while$ -- 208
+type$ -- 564
+warning$ -- 18
+while$ -- 211
 width$ -- 0
-write$ -- 1153
+write$ -- 1182
 (There were 4 error messages)

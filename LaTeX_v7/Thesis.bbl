@@ -1,4 +1,4 @@
-\begin{thebibliography}{79}
+\begin{thebibliography}{81}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -503,6 +503,18 @@ M.~Cacciari, G.~P. Salam, and G.~Soyez.
 \newblock {FastJet User Manual}.
 \newblock \emph{Eur. Phys. J.}, C72:\penalty0 1896, 2012.
 \newblock \doi{10.1140/epjc/s10052-012-1896-2}.
+
+\bibitem[Buskulic et~al.(1995)]{PF1}
+D.~Buskulic et~al.
+\newblock {Performance of the ALEPH detector at LEP}.
+\newblock \emph{Nucl. Instrum. Meth.}, A360:\penalty0 481--506, 1995.
+\newblock \doi{10.1016/0168-9002(95)00138-7}.
+
+\bibitem[PF2(2009)]{PF2}
+{Particle-Flow Event Reconstruction in CMS and Performance for Jets, Taus, and
+  MET}.
+\newblock Technical Report CMS-PAS-PFT-09-001, CERN, Geneva, Apr 2009.
+\newblock URL \url{http://cds.cern.ch/record/1194487}.
 
 \bibitem[{FCC study group}(2018)]{FCCSW}
 {FCC study group}.

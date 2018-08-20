@@ -27,26 +27,31 @@
 \BOOKMARK [1][-]{section.4.3}{4.3 Hadronic calorimeter granularity studies}{chapter.4}% 27
 \BOOKMARK [0][-]{chapter.5}{5 Sample generation and analysis tools}{}% 28
 \BOOKMARK [1][-]{section.5.1}{5.1 Fast simulation workflow}{chapter.5}% 29
-\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 FCC-hh software}{section.5.1}% 30
-\BOOKMARK [1][-]{section.5.2}{5.2 Signal and background samples}{chapter.5}% 31
-\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 MadGraph}{section.5.2}% 32
-\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 Pythia}{section.5.2}% 33
-\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 Delphes}{section.5.2}% 34
-\BOOKMARK [0][-]{chapter.6}{6 Analysis}{}% 35
-\BOOKMARK [1][-]{section.6.1}{6.1 Overview of the hhbbbb channel}{chapter.6}% 36
-\BOOKMARK [2][-]{subsection.6.1.1}{6.1.1 Signal event characterization}{section.6.1}% 37
-\BOOKMARK [2][-]{subsection.6.1.2}{6.1.2 Backgrounds}{section.6.1}% 38
-\BOOKMARK [1][-]{section.6.2}{6.2 Analysis strategy}{chapter.6}% 39
-\BOOKMARK [2][-]{subsection.6.2.1}{6.2.1 Implementation of b-tagging}{section.6.2}% 40
-\BOOKMARK [2][-]{subsection.6.2.2}{6.2.2 Event selection}{section.6.2}% 41
-\BOOKMARK [2][-]{subsection.6.2.3}{6.2.3 Optimization}{section.6.2}% 42
-\BOOKMARK [0][-]{chapter.7}{7 Results}{}% 43
-\BOOKMARK [1][-]{section.7.1}{7.1 Statistical analysis}{chapter.7}% 44
-\BOOKMARK [0][-]{chapter.8}{8 Conclusions}{}% 45
-\BOOKMARK [0][-]{section*.15}{Bibliography}{}% 46
-\BOOKMARK [0][-]{appendix.A}{A Jet radius discussion}{}% 47
-\BOOKMARK [0][-]{appendix.B}{B Additional background processes}{}% 48
-\BOOKMARK [0][-]{appendix.C}{C Softdrop mass}{}% 49
-\BOOKMARK [0][-]{appendix.D}{D Samples generation: parameters}{}% 50
-\BOOKMARK [1][-]{section.D.1}{D.1 MadGraph}{appendix.D}% 51
-\BOOKMARK [1][-]{section.D.2}{D.2 Pythia}{appendix.D}% 52
+\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Particle flow and calorimeter reconstruction in Delphes}{section.5.1}% 30
+\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 FCC-hh software}{section.5.1}% 31
+\BOOKMARK [1][-]{section.5.2}{5.2 Signal and background samples}{chapter.5}% 32
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 MadGraph}{section.5.2}% 33
+\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 Pythia}{section.5.2}% 34
+\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 Delphes}{section.5.2}% 35
+\BOOKMARK [0][-]{chapter.6}{6 Analysis}{}% 36
+\BOOKMARK [1][-]{section.6.1}{6.1 Overview of the hhbbbb channel}{chapter.6}% 37
+\BOOKMARK [2][-]{subsection.6.1.1}{6.1.1 Signal event characterization}{section.6.1}% 38
+\BOOKMARK [2][-]{subsection.6.1.2}{6.1.2 Backgrounds}{section.6.1}% 39
+\BOOKMARK [1][-]{section.6.2}{6.2 Analysis strategy}{chapter.6}% 40
+\BOOKMARK [2][-]{subsection.6.2.1}{6.2.1 Implementation of b-tagging}{section.6.2}% 41
+\BOOKMARK [2][-]{subsection.6.2.2}{6.2.2 Pre-selection}{section.6.2}% 42
+\BOOKMARK [2][-]{subsection.6.2.3}{6.2.3 Baseline analysis}{section.6.2}% 43
+\BOOKMARK [2][-]{subsection.6.2.4}{6.2.4 Optimization}{section.6.2}% 44
+\BOOKMARK [0][-]{chapter.7}{7 Results}{}% 45
+\BOOKMARK [1][-]{section.7.1}{7.1 Di-Higgs discovery potential at the FCC-hh}{chapter.7}% 46
+\BOOKMARK [2][-]{subsection.7.1.1}{7.1.1 Statistical analysis}{section.7.1}% 47
+\BOOKMARK [1][-]{section.7.2}{7.2 Hadronic calorimeter granularity studies for future colliders}{chapter.7}% 48
+\BOOKMARK [1][-]{section.7.3}{7.3 Benchmarking against ATLAS analysis at s=13 TeV}{chapter.7}% 49
+\BOOKMARK [0][-]{chapter.8}{8 Conclusions}{}% 50
+\BOOKMARK [0][-]{section*.15}{Bibliography}{}% 51
+\BOOKMARK [0][-]{appendix.A}{A Jet radius discussion}{}% 52
+\BOOKMARK [0][-]{appendix.B}{B Additional background processes}{}% 53
+\BOOKMARK [0][-]{appendix.C}{C Softdrop mass}{}% 54
+\BOOKMARK [0][-]{appendix.D}{D Samples generation: parameters}{}% 55
+\BOOKMARK [1][-]{section.D.1}{D.1 MadGraph}{appendix.D}% 56
+\BOOKMARK [1][-]{section.D.2}{D.2 Pythia}{appendix.D}% 57

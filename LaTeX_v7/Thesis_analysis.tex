@@ -219,11 +219,18 @@ TOP DECAYS, RESULTING FINAL STATES AND HOW THEY CAN PENETRATE THE ANALYSIS. CROS
 
 This analysis targets events in which at least two large R jets are reconstructed. The jet with the highest momentum is assumed to correspond to the leading Higgs candidate and the jet with the second highest momentum to the sub leading one. Both the leading and sub leading jets must be b-tagged in order for the event to be accepted.
 
-The events are reconstructed using particle flow jets with $R=0.8$\footnote{Find discussion about jet radius in the appendix.}, clustered with the anti-$k_T$ algorithm. We perform the b-tagging of jets using truth level information as it is described in the following section. Jets with a large R parameter cannot be b-tagged using Delphes default algorithm because the tagging of large R jets is an ambiguous task that can be performed in several different ways. Therefore, we need to implement our own b-tagging algorithm/strategy. 
+The events are reconstructed using particle flow (or eflow) or pure calormeter jets (we explored both approaches) with $R=0.8$\footnote{Find discussion about jet radius in the appendix.}, clustered with the anti-$k_T$ algorithm. We perform the b-tagging of jets using truth level information as it is described in the following section. Jets with a large R parameter cannot be b-tagged using Delphes default algorithm because the tagging of large R jets is an ambiguous task that can be performed in several different ways. Therefore, we need to implement our own b-tagging algorithm/strategy. 
 
 \subsection{Implementation of b-tagging}
 
-For each jet, the two hardest subjets are found using the mass drop procedure. It might happen that there are not two subjets because the algorithm's criteria are not met. In that case, the jet is rejected. We compute the $\Delta R$ distance between all b and c quarks in the event with Pythia 8 status equal to $23$ and with $p_T>10$ GeV and each subjet, $\Delta R(\text{subjet,parton})$. According to the Pyhtia manual, particles with status $23$ result directly from the hardest subprocess. We consider that a subjet is matched to a given quark if $\Delta R(\text{subjet,parton})<0.3$. If the subjet is matched to at least a b quark, we b-tag the subjet with a given probability. If the subjet is not matched to any b quark but it is matched to at least one c quark we apply a c mistag rate. If the subjet is not matched to any b or c quark we apply a light mistag rate. The b-tag probability and mistag rates were obtained from the Delphes FCC-hh card. They depend on the momentum of the jet and on its $\eta$ coordinate. They are summarized in Table \ref{table:btag}. Note that a jet cannot be b-tagged if $|\eta|>4$ or if its momentum is smaller than $10$ GeV or larger than $15000$ GeV. 
+For each jet, the two hardest subjets are found using the mass drop procedure. It might happen that there are not two subjets because the algorithm's criteria are not met. In that case, the jet is rejected. We compute the $\Delta R$ distance between all b and c quarks in the event with Pythia 8 status equal to $23$ and with $p_T>10$ GeV and each subjet, $\Delta R(\text{subjet,parton})$. According to the Pyhtia manual, particles with status $23$ result directly from the hardest subprocess. We consider that a subjet is matched to a given quark if $\Delta R(\text{subjet,parton})<0.3$, as indicated by the plot in Figure \ref{fig:deltaR_bsubjet}. In this plot there is a peak for $\Delta R<0.3$ that corresponds to the  If the subjet is matched to at least a b quark, we b-tag the subjet with a given probability. If the subjet is not matched to any b quark but it is matched to at least one c quark we apply a c mistag rate. If the subjet is not matched to any b or c quark we apply a light mistag rate. The b-tag probability and mistag rates were obtained from the Delphes FCC-hh card. They depend on the momentum of the jet and on its $\eta$ coordinate. They are summarized in Table \ref{table:btag}. Note that a jet cannot be b-tagged if $|\eta|>4$ or if its momentum is smaller than $10$ GeV or larger than $15000$ GeV. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{./Figures/deltaR_bsubjet}
+	\caption{Minimun $\Delta R$ between b quarks and subjets of the $R=0.8$ jets. There is a minimum around $\Delta R=0.3$. It corresponds to the maximum $\Delta R$ for which the b quark and the subjet are matched.} 
+	\label{fig:deltaR_bsubjet}
+\end{figure}
 
 \begin{table}
 	\centering
@@ -239,18 +246,29 @@ For each jet, the two hardest subjets are found using the mass drop procedure. I
 	\label{table:btag}
 \end{table}
 
-[PLOT OF DELTA R (b,subjet)]
+\subsection{Pre-selection}
 
+TO INCLUDE: \\
+- discussion on trigger requirements: important in real analysis\\
+- show and discuss some distributions: invariant mass (h, hh), momentum, tau21, delta eta (hh), more substructure variables (may be all that we considered relevant)\\
+- compare with other articles/analysis ? \\
 
-\subsection{Event selection}
-
-[MENTION TRIGGER: IMPORTANT IN REAL ANALYSIS]
+--------------------------------------------------------------------------------------------------
 
 We require at least two b-tagged jets. In addition, the leading and sub leading jets must have $p_T\geq200$ GeV in order for the event to be accepted. Due to the b-tagging efficiency formulas, there is a natural cutoff at $|\eta|=4$ so we do not place any additional cut in $\eta$. From now on, these cuts are referred to as pre-selection cuts.
 
+\subsection{Baseline analysis}
 
+As a first step, we implemented a baseline analysis based on the  
 
 \subsection{Optimization}
+
+We explored different methods to optimize the baseline analysis in order to try to increase the achieved significance.  
+
+TO INCLUDE:\\
+- Mention study on correlations ? \\
+- Optimization of cut-based analysis based on $S/\sqrt{B}$ plots \\
+- MVA analysis ? 
 
 %% ----------------------------------------------------------------------
 %\subsection{Intermediate}

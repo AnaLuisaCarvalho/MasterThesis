@@ -36,6 +36,25 @@ The magnetic field is uniform, axial and parallel to the beam direction. Charged
 Jets can be produced using generator level long-lived particles after showering and hadronization, tracks, calorimeter towers or particle-flow tracks and towers. These are referred to as generator, track, calorimeter or particle-flow jets, respectively. For generator jets no detector simulation nor reconstruction are taken into account. In spite of the type of jet the user can choose the jet clustering algorithm and the values of its parameters as well as the minimum transverse momentum of the jets that are stored in the final collection. Delphes integrates the FastJet package \cite{fastjet} and therefore allows jet reconstruction with the most popular jet reconstruction algorithms, namely, anti-$k_T$, $k_T$ and C/A. 
 Jets resulting from the hadronization of a b quark, b jets, are identified if a b quark is found within a $\Delta R$ distance from the jet's axis. The tagging efficiency and mis-tagging probabilities can be defined by the user. 
 
+\subsection{Particle flow and calorimeter reconstruction in Delphes}
+
+In Delphes, hadronic jets can be reconstructed using only the information from the HCAL towers or using a particle flow algorithm that combines information from the tracking system and from the HCAL towers. These two approaches create jets that are referred to as calorimeter and particle flow jets, respectively. The latter can also be referred to as energy flow jets (eflow jets in short). In this work we performed the analysis using both sets of jets and compare the results. Therefore we briefly describe them here.
+
+Calorimeter jets are very simple. They are reconstructed using as input for the jet clustering algorithm the 4-vectors associated with the calorimeter towers, after an energy smearing has been applied. Therefore the energy resolution is limited by the transverse segmentation of the calorimeters.
+
+The goal of the particle flow approach is to make use of all the available information provided by the various sub-detectors for reconstructing an event \cite{Delphes}. This approach is used by some experimental collaborations \cite{PF1,PF2} but the exact implementation depends on the specificities of the experiment. If the momentum resolution of the tracking system is better than the energy resolution of the calorimeters it might be convenient to use the tracking information to estimate the momentum of charged particles. In real experiments, the tracking resolution is only better than the calorimeter's energy resolution up to some energy threshold. However, in Delphes, it is assumed that it is always convenient to estimate the momentum of charged particles via the tracker. 
+
+The particle flow algorithm works as follows \cite{Delphes}. For each calorimeter tower it counts:
+\begin{itemize}
+	\item the total energy deposited in ECAL and HCAL, $E_{\text{ECAL}}$ and $E_{\text{HCAL}}$, respectively;
+	\item the total energy deposited in ECAL and HCAL originating from charged particles for which a track has been reconstructed, $E_{\text{ECAL,trk}}$ and $E_{\text{HCAL,trk}}$, respectively.
+\end{itemize}
+Then it defines $\Delta_{\text{ECAL}}=E_{\text{ECAL}}-E_{\text{ECAL,trk}}$, $\Delta_{\text{HCAL}}=E_{\text{HCAL}}-E_{\text{HCAL,trk}}$ and computes $E^{eflow}_{Tower}$ given by
+\begin{equation}
+	E^{eflow}_{Tower}=\max(0,\Delta_{\text{ECAL}})+\max(0,\Delta_{\text{HCAL}}).
+\end{equation}
+All reconstructed tracks result in a particle flow track. If $E^{eflow}_{Tower}>0$ a particle flow tower is created with energy $E^{eflow}_{Tower}$. The particle flow tracks and jets are then used as input for the jet clustering algorithms.
+
 \subsection{FCC-hh software}
 \label{subsec:FCC_software}
 
