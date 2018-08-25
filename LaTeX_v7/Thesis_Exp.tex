@@ -261,6 +261,12 @@ where the index $k$ runs over all particles in a jet, the indexes $1$ to $N$ ide
 
 We usually use ratios of $\tau_N$ variables ($\tau_{MN}=\tau_M/\tau_N$). Of particular interest for this work are the $\tau_{21}$, $\tau_{31}$ and $\tau_{32}$ ratios. These observables can take values between zero and one. For $\tau_{21}$, for example, a small value (close to zero) indicates that the jet is more compatible with two subjets than with one and therefore it can help discriminate between two-prong and one-prong jets. The same applies to every other ratio. 
 
+The Fox-Wolfram moments, $H_l$, can be used to identify jets that have a structure of two back-to-back subjets in their rest frames \cite{FW2}. They are given by:
+\begin{equation}
+H_l = \sum_{i,j}\frac{|\vec{p}_i||\vec{p}_j|}{E^2}P_l(\cos(\theta_{i,j}))
+\end{equation}  
+where $\theta_{ij}$ is the angle between energy clusters i and j, $E$ is the total energy of the clusters in the jet rest frame, the $P_l(x)$ are the Legendre polynomials. For a jet that has a structure of two back-to-back subjets in its rest frame, $H_1 = 0$, $H_l \sim 1$ for even l, and $H_l \sim 0$ for odd l. This is what we expect for jets coming from the decay of a boosted resonance. In this work we make use of $H_2$.
+
 In addition to jet substructure observables, more standard variables, from which we highlight the jet mass, can also be used to discriminate between jets coming from QCD background and jets resulting from heavy resonance decays. In the latter, the jet's invariant mass should roughly correspond to the mass of the resonance. The invariant mass of a jet, $M$, is  calculated from the energies and momenta of its constituents as follows:
 \begin{equation}
 	M=\left(\sum_{i}E_i\right)^2-\left(\sum_{i}\vec{p}_i\right)^2

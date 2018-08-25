@@ -11,13 +11,13 @@
 \contentsline {table}{\numberline {5.1}{\ignorespaces Summary of the cross sections, k factors and total number of events of the samples used in the analysis.}}{44}{table.5.1}
 \contentsline {table}{\numberline {5.2}{\ignorespaces Summary of the benchmark granularity configurations of the HCAL.}}{45}{table.5.2}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces b-Tagging (black), c (blue) and light (red) mistag probabilities as a function of $\eta $ and $p_T$ of the (sub)jet. The momentum dependent factor, $\left (1-p_T/15000\right )$, is common to the three probabilities.}}{51}{table.6.1}
+\contentsline {table}{\numberline {6.1}{\ignorespaces b-Tagging (black), c (blue) and light (red) mistag probabilities as a function of $\eta $ and $p_T$ of the (sub)jet. The momentum dependent factor, $\left (1-p_T/15000\right )$, is common to the three probabilities.}}{54}{table.6.1}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Cumulative efficiency, in percentage, of each event selection criterion for the signal samples (SM and 2HDM) and for the background sample (4b+j, jj+0/1/2 j and $t\overline {t}$+0/1/2 j). The absolute value of expected events after some key selection cuts is shown in curved brackets. The number of expected events is normalized to $\mathcal {L}=30~\text {ab}^{-1}$. The double horizontal line marks the pre-selection cuts. These results were obtained using the FCC-hh baseline detector design, as implemented in Delphes by the FCC-hh study group.}}{54}{table.7.1}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Cumulative efficiency, in percentage, of each event selection criterion for the signal samples (SM and 2HDM) and for the background sample (4b+j, jj+0/1/2 j and $t\overline {t}$+0/1/2 j). The absolute value of expected events after some key selection cuts is shown in curved brackets. The number of expected events is normalized to $\mathcal {L}=30~\text {ab}^{-1}$. The double horizontal line marks the pre-selection cuts. These results were obtained using the FCC-hh baseline detector design, as implemented in Delphes by the FCC-hh study group.}}{60}{table.7.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {D.1}{\ignorespaces Generator (MadGraph5) level cuts for the signal and background samples.}}{73}{table.D.1}
-\contentsline {table}{\numberline {D.2}{\ignorespaces Pythia settings for the signal and background samples.}}{73}{table.D.2}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {D.1}{\ignorespaces Generator (MadGraph5) level cuts for the signal and background samples.}}{77}{table.D.1}
+\contentsline {table}{\numberline {D.2}{\ignorespaces Pythia settings for the signal and background samples.}}{77}{table.D.2}

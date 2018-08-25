@@ -13,24 +13,31 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Exclusion limits on the mass of a spin 0 resonance from searches for Higgs pair production with the CMS detector.}}{35}{figure.4.1}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Azimuthal distribution of the energy deposits in the ECAL and HCAL for a pair of $K_L^0$ with $E=100$ GeV for an hadronic calorimeter with $20~\text {cm}\times 20~\text {cm}$ (left) and $5~\text {cm}\times 5~\text {cm}$ (right). Figures from \cite {BOOST2017} (based on \cite {FCC_HCALgran_doubleK}).}}{37}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Jet mass}}{38}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces $\tau _{32}$}}{38}{figure.4.4}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Jet mass (left) and jet mass resolution (right) plots in $t\overline {t}$ events for eflow jets with $p_T>3$ TeV for three different HCAL and ECAL configurations: HCAL(ECAL) $0.1(0.025)~\eta \times 5.6(1.4)~\text {deg}~\phi $, HCAL(ECAL) $0.05(0.012)~\eta \times 2.8(0.7)~\text {deg}~\phi $ and HCAL(ECAL) $0.025(0.006)~\eta \times 1.4(0.35)~\text {deg}~\phi $. On the right, the root mean square (RMS) are also shown. Figures from \cite {BOOST2017}.}}{38}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces $\tau _{32}$ resolution plots for QCD dijet events reconstructed using eflow jets (left) and tower jets (right). Figures from \cite {FCCweek2015}.}}{38}{figure.4.4}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Higgs pair branching ratios.}}{48}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Example of diagrams that contribute to the QCD multijet background: five final state jets, four of which are b-jets (left), three final state jets (middle) and four final state jets (right). Here, $q$ stands for a light quark/jet.}}{50}{figure.6.2}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Dominant diagrams of $pp\rightarrow t\overline {t}$ at LO.}}{50}{figure.6.3}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Event topology targeted by the boosted analysis region. The blob represents the interaction between the gluons and the Higg bosons that is represented by the Feynman diagrams shown in figure \ref {fig:higgs_pair}.}}{50}{figure.6.4}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Minimun $\Delta R$ between b quarks and subjets of the $R=0.8$ jets. There is a minimum around $\Delta R=0.3$. It corresponds to the maximum $\Delta R$ for which the b quark and the subjet are matched.}}{52}{figure.6.5}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Higgs pairs branching ratios.}}{48}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Event topology targeted by the boosted analysis region. The blob represents the interaction between the gluons and the Higg bosons that is represented by the Feynman diagrams shown in figure \ref {fig:higgs_pair}.}}{48}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces $\Delta R$ between the b quarks coming from the decay of the leading Higgs candidate, $h_1$.}}{50}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces $\Delta \phi $ between the Higgs candidates.}}{50}{figure.6.4}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Example of diagrams that contribute to the QCD multijet background: five final state jets, four of which are b-jets (left), three final state jets (middle) and four final state jets (right). Here, $q$ stands for a light quark/jet.}}{52}{figure.6.5}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Dominant diagrams of $pp\rightarrow t\overline {t}$ at LO.}}{52}{figure.6.6}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces $p_T$ distributions for the leading (left) and sub leading (right) Higgs candidates. The signal is the SM $hh\rightarrow b\overline {b}$ process. The histograms are normalized to unit area.}}{52}{figure.6.7}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces $\eta $ distribution for the leading Higgs candidate (left) and softdrop mass distribution for the leading Higgs candidate (right). The signal is the SM $hh\rightarrow b\overline {b}$ process. The histograms are normalized to unit area.}}{53}{figure.6.8}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces oi}}{53}{figure.6.9}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Minimun $\Delta R$ between b quarks and subjets of the $R=0.8$ jets.}}{54}{figure.6.10}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces $p_T$ distributions for the sub leading Higgs candidate (left) and for the Higgs pair (right). The histograms are normalized to $\mathcal {L}=30~\text {ab}^{-1}$.}}{56}{figure.6.11}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Distributions of the $\tau _{21}$ variable for the leading (left) and sub leading (right) Higgs candidates. The histograms are normalized to $\mathcal {L}=30~\text {ab}^{-1}$.}}{56}{figure.6.12}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces $H_2$ variable for the leading Higgs candidate (left) and softdrop mass distribution for the leading Higgs candidate. The histograms are normalized to $\mathcal {L}=30~\text {ab}^{-1}$.}}{56}{figure.6.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces oi}}{54}{figure.7.1}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces SUPERIMPOSE ONE BKG? MAYBE NOT}}{55}{figure.7.2}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces $S/\sqrt {B}$ as a function of the detector configuration for $\mathcal {L}=30~\text {ab}^{-1}$ (black) and $\mathcal {L}=3~\text {ab}^{-1}$ (blue) and for particle flow jets (squares) and pure calorimeter (HCAL) jets (triangles). }}{56}{figure.7.3}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Signal efficiency as a function of the detector configuration for particle flow jets (squares) and pure calorimeter (HCAL) jets (triangles).}}{57}{figure.7.4}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Leading Higgs candidate softdrop mass (left) and $\tau _{21}$ (right) plots for the different detector configurations for the SM signal sample. The plots contain all the signal events that passed all the cuts of the baseline analysis. For the plot on the left note that the x axis range is from $80$ GeV to $160$ GeV in order to make the differences between the histograms more clear.}}{60}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Significance $(S/\sqrt {B})$ as a function of the detector configuration for $\mathcal {L}=30~\text {ab}^{-1}$ (black) and $\mathcal {L}=3~\text {ab}^{-1}$ (blue) and for particle flow jets (squares) and pure calorimeter (HCAL) jets (triangles) for the SM signal sample.}}{61}{figure.7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Signal efficiency as a function of the detector configuration for particle flow jets (squares) and pure calorimeter (HCAL) jets (triangles).}}{62}{figure.7.3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces $\Delta R(b,\overline {b})$ distributions for $p_T(h_1)>200/300$ GeV (solid blue/black) and for $p_T(h_1,h_2)>200/300$ GeV (dashed blue/black).}}{69}{figure.A.1}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces $\Delta R(b,\overline {b})$ distributions for $p_T(h_1)>200/300$ GeV (solid blue/black) and for $p_T(h_1,h_2)>200/300$ GeV (dashed blue/black).}}{73}{figure.A.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Correlation between the maximum $\Delta R$ between the Higgs candidate jet and one of the b quarks (y axis) and the jet's mass (x axis). The horizontal line corresponds to $\Delta R=0.8$.}}{71}{figure.C.1}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Correlation between the maximum $\Delta R$ between the Higgs candidate jet and one of the b quarks (y axis) and the jet's mass (x axis). The horizontal line corresponds to $\Delta R=0.8$.}}{75}{figure.C.1}
 \addvspace {10\p@ }

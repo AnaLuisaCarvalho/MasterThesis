@@ -20,11 +20,11 @@
 \contentsline {section}{\numberline {3.3}Jet reconstruction}{23}{section.3.3}
 \contentsline {subsubsection}{Boosted kinematic regime}{24}{section*.13}
 \contentsline {subsection}{\numberline {3.3.1}Jet properties and substructure observables}{25}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Jet grooming algorithms}{26}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}Jet grooming algorithms}{27}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}Future Colliders}{27}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}The hadronic Future Circular Collider}{27}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}FCC-hh baseline detector}{28}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}FCC-hh physics program}{31}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.1}The hadronic Future Circular Collider}{28}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}FCC-hh baseline detector}{29}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}FCC-hh physics program}{30}{subsection.3.4.3}
 \contentsline {chapter}{\numberline {4}State of the art}{33}{chapter.4}
 \contentsline {section}{\numberline {4.1}Searches for Higgs pair production at the LHC}{33}{section.4.1}
 \contentsline {section}{\numberline {4.2}Feasibility studies for high-luminosity and future colliders}{34}{section.4.2}
@@ -40,23 +40,23 @@
 \contentsline {subsection}{\numberline {5.2.3}Delphes}{45}{subsection.5.2.3}
 \contentsline {chapter}{\numberline {6}Analysis}{47}{chapter.6}
 \contentsline {section}{\numberline {6.1}Overview of the $hh\rightarrow b\overline {b}b\overline {b}$ channel}{47}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Signal event characterization}{48}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Backgrounds}{48}{subsection.6.1.2}
-\contentsline {section}{\numberline {6.2}Analysis strategy}{49}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Implementation of b-tagging}{51}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Pre-selection}{51}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Baseline analysis}{52}{subsection.6.2.3}
-\contentsline {subsection}{\numberline {6.2.4}Optimization}{52}{subsection.6.2.4}
-\contentsline {chapter}{\numberline {7}Results}{53}{chapter.7}
-\contentsline {section}{\numberline {7.1}Di-Higgs discovery potential at the FCC-hh}{53}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Statistical analysis}{53}{subsection.7.1.1}
-\contentsline {section}{\numberline {7.2}Hadronic calorimeter granularity studies for future colliders}{53}{section.7.2}
-\contentsline {section}{\numberline {7.3}Benchmarking against ATLAS analysis at $\sqrt {s}=13$ TeV}{53}{section.7.3}
-\contentsline {chapter}{\numberline {8}Conclusions}{59}{chapter.8}
-\contentsline {chapter}{Bibliography}{61}{section*.15}
-\contentsline {chapter}{\numberline {A}Jet radius discussion}{69}{appendix.A}
-\contentsline {chapter}{\numberline {B}Additional background processes}{70}{appendix.B}
-\contentsline {chapter}{\numberline {C}Softdrop mass}{71}{appendix.C}
-\contentsline {chapter}{\numberline {D}Samples generation: parameters}{72}{appendix.D}
-\contentsline {section}{\numberline {D.1}MadGraph}{72}{section.D.1}
-\contentsline {section}{\numberline {D.2}Pythia}{72}{section.D.2}
+\contentsline {subsection}{\numberline {6.1.1}Event pre-selection}{48}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Signal characterization}{49}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Backgrounds}{50}{subsection.6.1.3}
+\contentsline {section}{\numberline {6.2}Analysis strategy}{51}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Implementation of b-tagging}{54}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Baseline analysis}{55}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Optimization}{55}{subsection.6.2.3}
+\contentsline {chapter}{\numberline {7}Results}{59}{chapter.7}
+\contentsline {section}{\numberline {7.1}Di-Higgs discovery potential at the FCC-hh}{59}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Statistical analysis}{59}{subsection.7.1.1}
+\contentsline {section}{\numberline {7.2}Hadronic calorimeter granularity studies for future colliders}{59}{section.7.2}
+\contentsline {section}{\numberline {7.3}Benchmarking against ATLAS analysis at $\sqrt {s}=13$ TeV}{59}{section.7.3}
+\contentsline {chapter}{\numberline {8}Conclusions}{63}{chapter.8}
+\contentsline {chapter}{Bibliography}{65}{section*.15}
+\contentsline {chapter}{\numberline {A}Jet radius discussion}{73}{appendix.A}
+\contentsline {chapter}{\numberline {B}Additional background processes}{74}{appendix.B}
+\contentsline {chapter}{\numberline {C}Softdrop mass}{75}{appendix.C}
+\contentsline {chapter}{\numberline {D}Samples generation: parameters}{76}{appendix.D}
+\contentsline {section}{\numberline {D.1}MadGraph}{76}{section.D.1}
+\contentsline {section}{\numberline {D.2}Pythia}{76}{section.D.2}

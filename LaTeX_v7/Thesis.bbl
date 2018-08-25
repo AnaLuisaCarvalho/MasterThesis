@@ -1,4 +1,4 @@
-\begin{thebibliography}{81}
+\begin{thebibliography}{82}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -333,6 +333,13 @@ J.~Thaler and K.~Van~Tilburg.
 \newblock {Identifying Boosted Objects with N-subjettiness}.
 \newblock \emph{JHEP}, 03:\penalty0 015, 2011.
 \newblock \doi{10.1007/JHEP03(2011)015}.
+
+\bibitem[Chen(2012)]{FW2}
+C.~Chen.
+\newblock {New approach to identifying boosted hadronically-decaying particle
+  using jet substructure in its center-of-mass frame}.
+\newblock \emph{Phys. Rev.}, D85:\penalty0 034007, 2012.
+\newblock \doi{10.1103/PhysRevD.85.034007}.
 
 \bibitem[Butterworth et~al.(2008)Butterworth, Davison, Rubin, and Salam]{BDRS}
 J.~M. Butterworth, A.~R. Davison, M.~Rubin, and G.~P. Salam.
