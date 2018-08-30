@@ -27,7 +27,7 @@
 	\begin{minipage}{.55\textwidth}
 		\centering
 		\includegraphics[trim={4cm 0 5cm 0},clip,width=\linewidth]{./Figures/boosted1.png}
-		\caption{Event topology targeted by the boosted analysis region. The blob represents the interaction between the gluons and the Higg bosons that is represented by the Feynman diagrams shown in figure \ref{fig:higgs_pair}.}
+		\caption{Event topology targeted by this analysis. The blob represents all possible interactions between the gluons and the Higgs bosons.}
 		\label{fig:final_state}
 	\end{minipage}
 	\label{fig:boosted}
@@ -96,15 +96,17 @@ In addition to the basic kinematic distributions that we just described there ar
 	\begin{minipage}{.5\textwidth}
 		\centering
 		\includegraphics[width=\linewidth]{./Figures/hist_hh_deltaPhi.pdf}
-		\caption{$\Delta R$ between the b quarks coming from the decay of the leading Higgs candidate, $h_1$.}
-		\label{fig:deltaR_bb_pt}
+		%\caption{$\Delta\phi$ between the Higgs candidates.}
+		%\label{fig:deltaR_bb_pt}
 	\end{minipage}%
 	\begin{minipage}{.5\textwidth}
 		\centering
-		\includegraphics[width=\linewidth]{./Figures/deltaR_bb_pt.pdf}
-		\label{fig:hh_deltaPhi}
-		\caption{$\Delta\phi$ between the Higgs candidates.}
+		\includegraphics[width=\linewidth]{./Figures/hist_deltaR_bb_pt.pdf}
+		%\label{fig:hh_deltaPhi}
+		%\caption{$\Delta R$ between the b quarks coming from the decay of the leading Higgs candidate, $h_1$. To obtain this plot the cut $|M-125|<40$ GeV was applied in addition to the pre-selection cuts.}
 	\end{minipage}
+	\label{fig:deltaPhi_deltaR}
+	\caption{$\Delta\phi$ between the Higgs candidates, $\Delta\phi(hh)$, (left) and $\Delta R$ between the b quarks coming from the decay of the leading Higgs candidate, $h_1$ (right). To obtain this plot the cut $|M-125|<40$ GeV was applied in addition to the pre-selection cuts..}
 \end{figure}
 
 %\begin{figure}
@@ -417,7 +419,7 @@ Finally, based on the distribution shown in figure \ref{fig:M_stack} on the righ
 	(100\leq M_{SD}(h_1,h_2)\leq 135) ~\text{GeV}.
 \end{equation}
 
-Using this analysis, we achieve a significance, $S/\sqrt{B}$, of approximately $6$ for an integrated luminosity of $30~\text{ab}^{-1}$.
+Using this analysis, we achieve a significance, $S/\sqrt{B}$, of $6.8\pm0.7(2.15\pm0.22)$ for an integrated luminosity of $30(3)~\text{ab}^{-1}$.
 
 \begin{figure}
 	\centering
@@ -475,14 +477,93 @@ Using this analysis, we achieve a significance, $S/\sqrt{B}$, of approximately $
 
 \subsection{Optimization}
 
-We explored different methods to optimize the baseline analysis in order to try to increase the achieved significance. 
-
-
-
 TO INCLUDE:\\
 - Mention study on correlations ? \\
 - Optimization of cut-based analysis based on $S/\sqrt{B}$ plots \\
-- MVA analysis ? 
+- MVA analysis ? \\
+----------------------------------------------------------------------------
+
+We explored different methods to optimize the baseline analysis in order to increase the achieved significance. 
+
+The first approach to the optimization consists in placing successive cuts in the most relevant kinematic variables. The value of each cut is chosen in order to optimize the significance after that cut. As for the baseline analysis we start by looking at the transverse momentums of the leading and sub leading Higgs candidates. After the pre-selection cuts are applied, we scan the histograms of the $p_T$ of the leading Higgs candidate for signal and backgrounds by placing a lower cut on this variable. For each value of the cut we integrate upwards in order to obtained the expected number of signal and background events after the cut. Using these number we calculate the significance, $S/\sqrt{B}$. The significance as a function of the lower cut on $p_T(h_1)$ is shown in figure \ref{fig:SSB_h1h2_pt} on the left. Based on this plot we choose the cut:	
+\begin{equation}
+	p_T(h_1)>300~\text{GeV}.
+\end{equation}
+
+After placing the cut on $p_T(h_1)$ we do the same plot for the $p_T$ of the sub leading Higgs candidate and of the Higgs pair. These are shown in figures \ref{fig:SSB_h1h2_pt} on the right and \ref{fig:SSB_hh_pt} on the left, respectively. From figure \ref{fig:SSB_h1h2_pt} on the right we see that a cut on $p_T(h_2)$ above $200$ GeV is not favorable. Therefore, we do not apply any other cut on this variable. Based on the plot shown on the left of figure \ref{fig:SSB_hh_pt} we choose the cut:
+\begin{equation}
+	p_T(hh)>100~\text{GeV}.
+\end{equation}
+
+Following the cuts on the momentums we place a cut on the $\tau_{21}$ variable for both Higgs candidates. From all the variables considered during the optimization process this was the one that lead to the highest increase in the significance. From the definition of the $\tau_{21}$ variable we expect the signal to take lower values that the background. Therefore we optimize the cut on this variable by placing and upper cut and integrating the distribution backwards. The plot is shown in figure \ref{fig:SSB_hh_pt} on the right. From this plot we place the following cut on the $\tau_{21}$ of the leading Higgs candidate:
+\begin{equation}
+	\tau_{21}(h_1)<0.4.
+\end{equation}
+We apply exactly the same cut on the $\tau_{21}$ of the sub leading Higgs candidate. [JUSTIFY? HIGGS TAGGING].
+
+Next we apply cuts on the $\Delta\eta$ between the Higgs candidates and on the second Fox-Wolfram momentum of the leading Higgs candidates, in this order:
+\begin{equation}
+	|\Delta\eta(hh)|<1.5 \qquad H_2(h_1)>0.2.
+\end{equation} 
+These cut follow from the plots on figure \ref{fig:SSB_hh_deltaEta}. The optimization plot for $\Delta\eta(hh)$ is obtained placing a cut in a window around zero which follows directly from the shape of the distributions in figure \ref{fig:hh_deltaEta_h1_tau21} on the left. For the $H_2(h_1)$ variable the cut is placed on the lower value.
+
+Finally we apply the mass cuts on the leading and sub leading Higgs candidates. These are the same that were applied in the baseline analysis. [OPTIMIZE THEM?].
+
+Using the optimized analysis we obtain a significance, $S/\sqrt{B}$, of $10\pm2(3.2\pm0.6)$ for an integrated luminosity of $30(3)~\text{ab}^{-1}$. This corresponds to an improvement of approximately $47\%$ with respect to the baseline analysis.
+
+\begin{figure}
+	\centering
+	\begin{minipage}{.5\textwidth}
+		\centering
+		\includegraphics[trim={.6cm 0 0 0},clip,width=\linewidth]{./Figures/SSB_h1_pt.pdf}
+		%\caption{oi}
+		%\label{fig:h1_pt}
+	\end{minipage}%
+	\begin{minipage}{.5\textwidth}
+		\centering
+		\includegraphics[trim={0 0 .6cm 0},clip,width=\linewidth]{./Figures/SSB_h2_pt.pdf}
+		%\caption{oi}
+		%\label{fig:h2_pt}
+	\end{minipage}
+	\label{fig:SSB_h1h2_pt}
+	\caption{$S/\sqrt{B}$ as a function of the cut on the $p_T$ of the leading Higgs candidate, $p_T(h_1)$ (left) after the pre-selection cuts and of the sub leading Higgs candidate, $p_T(h_2)$ (right) after the cut on $p_T(h_1)$.}
+\end{figure} 
+
+\begin{figure}
+	\centering
+	\begin{minipage}{.5\textwidth}
+		\centering
+		\includegraphics[trim={.6cm 0 0 0},clip,width=\linewidth]{./Figures/SSB_hh_pt.pdf}
+		%\caption{oi}
+		%\label{fig:h1_pt}
+	\end{minipage}%
+	\begin{minipage}{.5\textwidth}
+		\centering
+		\includegraphics[trim={0 0 .65cm 0},clip,width=\linewidth]{./Figures/SSB_h1_tau21.pdf}
+		%\caption{oi}
+		%\label{fig:h2_pt}
+	\end{minipage}
+	\label{fig:SSB_hh_pt}
+	\caption{$S/\sqrt{B}$ as a function of the cut on the $p_T$ of the Higgs pair, $p_T(hh)$ (left) after the cut on $p_T(h_1)$ and as a function of the $\tau_{21}$ variable for leading Higgs candidate, $\tau_{21}(h_1)$ (right) after the cut on $p_T(hh)$.}
+\end{figure} 
+
+\begin{figure}
+	\centering
+	\begin{minipage}{.5\textwidth}
+		\centering
+		\includegraphics[trim={.6cm 0 0 0},clip,width=\linewidth]{./Figures/SSB_hh_deltaEta.pdf}
+		%\caption{oi}
+		%\label{fig:h1_pt}
+	\end{minipage}%
+	\begin{minipage}{.5\textwidth}
+		\centering
+		\includegraphics[trim={0 0 .6cm 0},clip,width=\linewidth]{./Figures/SSB_h1_FW2.pdf}
+		%\caption{oi}
+		%\label{fig:h2_pt}
+	\end{minipage}
+	\label{fig:SSB_hh_deltaEta}
+	\caption{$S/\sqrt{B}$ as a function of the cut on the $\Delta\eta$ between the Higgs candidates, $\Delta\eta(hh)$ (left) after the cuts on the transverse momentums and on the $\tau_{21}$ variables and as a function of the second Fox-Wolfram momentum for the leading Higgs candidate, $H_l(h_1)$ (right) after the cuts on the transverse momentums, $\tau_{21}$ and $\Delta\eta$.}
+\end{figure} 
 
 %% ----------------------------------------------------------------------
 %\subsection{Intermediate}
