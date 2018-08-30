@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2017.11.27)  30 AUG 2018 10:01
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2017.11.27)  30 AUG 2018 12:09
  restricted \write18 enabled.
 **Thesis.tex
 (./Thesis.tex
@@ -1886,7 +1886,7 @@ s/msam10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msam7.pfb><</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><
 </usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><</usr/share/
 texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Thesis.pdf (97 pages, 9928193 bytes).
+Output written on Thesis.pdf (97 pages, 9930364 bytes).
 
 PDF statistics: 2884 PDF objects out of 2984 (max. 8388607)
  1961 compressed objects within 20 object streams
