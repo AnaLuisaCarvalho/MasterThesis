@@ -52,12 +52,12 @@
 \contentsline {section}{\numberline {7.1}Di-Higgs discovery potential at the FCC-hh}{57}{section.7.1}
 \contentsline {subsection}{\numberline {7.1.1}Statistical analysis}{58}{subsection.7.1.1}
 \contentsline {subsection}{\numberline {7.1.2}Comparing with the ATLAS detector}{58}{subsection.7.1.2}
-\contentsline {section}{\numberline {7.2}Hadronic calorimeter granularity studies for future colliders}{59}{section.7.2}
-\contentsline {chapter}{\numberline {8}Conclusions}{63}{chapter.8}
-\contentsline {chapter}{Bibliography}{65}{section*.15}
-\contentsline {chapter}{\numberline {A}Jet radius discussion}{73}{appendix.A}
-\contentsline {chapter}{\numberline {B}Additional background processes}{74}{appendix.B}
-\contentsline {chapter}{\numberline {C}Softdrop mass}{75}{appendix.C}
-\contentsline {chapter}{\numberline {D}Samples generation: parameters}{76}{appendix.D}
-\contentsline {section}{\numberline {D.1}MadGraph}{76}{section.D.1}
-\contentsline {section}{\numberline {D.2}Pythia}{76}{section.D.2}
+\contentsline {section}{\numberline {7.2}Hadronic calorimeter granularity studies for future colliders}{61}{section.7.2}
+\contentsline {chapter}{\numberline {8}Conclusions}{64}{chapter.8}
+\contentsline {chapter}{Bibliography}{66}{section*.15}
+\contentsline {chapter}{\numberline {A}Jet radius discussion}{74}{appendix.A}
+\contentsline {chapter}{\numberline {B}Additional background processes}{75}{appendix.B}
+\contentsline {chapter}{\numberline {C}Softdrop mass}{76}{appendix.C}
+\contentsline {chapter}{\numberline {D}Samples generation: parameters}{77}{appendix.D}
+\contentsline {section}{\numberline {D.1}MadGraph}{77}{section.D.1}
+\contentsline {section}{\numberline {D.2}Pythia}{77}{section.D.2}

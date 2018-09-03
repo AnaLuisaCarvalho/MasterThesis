@@ -14,13 +14,13 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {7.1}{\ignorespaces Cumulative efficiency, in percentage, of each event selection criterion for the signal samples (SM and 2HDM). The absolute value of expected events after some key selection cuts is shown in curved brackets. The number of expected events is normalized to $\mathcal {L}=30~\text {ab}^{-1}$. The double horizontal line marks the pre-selection cuts. These results were obtained using the FCC-hh baseline detector design, as implemented in Delphes by the FCC-hh study group.\newline }}{58}{table.7.1}
 \contentsline {table}{\numberline {7.2}{\ignorespaces Cumulative efficiency, in percentage, of each event selection criterion for the background samples ($4b+j$, $jj+0/1/2 j$ and $t\overline {t}$+0/1/2 j). The absolute value of expected events after some key selection cuts is shown in curved brackets. The number of expected events is normalized to $\mathcal {L}=30~\text {ab}^{-1}$. The double horizontal line marks the pre-selection cuts. These results were obtained using the FCC-hh baseline detector design, as implemented in Delphes by the FCC-hh study group.\newline }}{59}{table.7.2}
-\contentsline {table}{\numberline {7.3}{\ignorespaces Cumulative efficiency, in percentage, of each event selection criterion for the signal samples (SM and 2HDM). The absolute value of expected events after some key selection cuts is shown in curved brackets. The number of expected events is normalized to $\mathcal {L}=30~\text {ab}^{-1}$. The double horizontal line marks the pre-selection cuts. These results were obtained using the ATLAS detector design, as implemented in Delphes.\newline }}{60}{table.7.3}
+\contentsline {table}{\numberline {7.3}{\ignorespaces Cumulative efficiency, in percentage, of each event selection criterion for the signal samples (SM and 2HDM). The absolute value of expected events after some key selection cuts is shown in curved brackets. The number of expected events is normalized to $\mathcal {L}=30~\text {ab}^{-1}$. The double horizontal line marks the pre-selection cuts. These results were obtained using the ATLAS detector design, as implemented in Delphes.\newline }}{59}{table.7.3}
 \contentsline {table}{\numberline {7.4}{\ignorespaces Cumulative efficiency, in percentage, of each event selection criterion for the background samples ($4b+j$, $jj+0/1/2 j$ and $t\overline {t}$+0/1/2 j). The absolute value of expected events after some key selection cuts is shown in curved brackets. The number of expected events is normalized to $\mathcal {L}=30~\text {ab}^{-1}$. The double horizontal line marks the pre-selection cuts. These results were obtained using the ATLAS detector design, as implemented in Delphes.\newline }}{60}{table.7.4}
-\contentsline {table}{\numberline {7.5}{\ignorespaces oi\newline }}{61}{table.7.5}
+\contentsline {table}{\numberline {7.5}{\ignorespaces oi\newline }}{60}{table.7.5}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {D.1}{\ignorespaces Generator (MadGraph5) level cuts for the signal and background samples.}}{77}{table.D.1}
-\contentsline {table}{\numberline {D.2}{\ignorespaces Pythia settings for the signal and background samples.}}{77}{table.D.2}
+\contentsline {table}{\numberline {D.1}{\ignorespaces Generator (MadGraph5) level cuts for the signal and background samples.}}{78}{table.D.1}
+\contentsline {table}{\numberline {D.2}{\ignorespaces Pythia settings for the signal and background samples.}}{78}{table.D.2}
