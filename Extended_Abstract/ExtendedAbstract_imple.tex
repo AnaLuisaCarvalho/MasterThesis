@@ -9,13 +9,32 @@
 % from a theoretical basis.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Implementation/Analysis}
+\section{Analysis}
 \label{sec:imple}
 
-- Granularity benchmark configurations \\
-- Signal and backgrounds \\
-- Boosted category\\
-- Experimental signature\\
-- Optimization \\
-- Event selection \\
+%- Granularity benchmark configurations \\
+%- Signal and backgrounds \\
+%- Boosted category\\
+%- Experimental signature\\
+%- Optimization \\
+%- Event selection \\
 
+The analysis that we implemented targets the boosted kinematic regime in which both Higgs bosons are reconstructed using large $R$ jets. The expected event topology is illustrated in figure \ref{fig:boosted}.
+
+The events are reconstructed using particle flow (or calorimeter) jets with $R=0.8$ clustered with the anti-$k_T$ algorithm. The events are required to have at least two jets. Each jet is required to have two subjets, both b-tagged. In addition, both jets are required to have $p_T>200$ GeV. These cuts consist of the event pre-selection.
+
+The b-tagging is implemented using truth level information. The b-tagging and mis tagging efficiencies are extracted from the FCC-hh detector default Delphes card, implemented by the FCC-hh study group.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[trim={4.5cm .5cm 1cm .5cm},clip,width=1.2\linewidth]{./images/boosted1.png}
+	\label{fig:boosted}
+	\caption{oi}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\linewidth]{./images/hist_h1_softdrop_M_stack.pdf}
+	\label{fig:stack}
+	\caption{oi}
+\end{figure}

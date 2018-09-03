@@ -11,10 +11,28 @@
 \chapter{Results}
 \label{chapter:results}
 
-In this chapter we describe the main results of the search for $hh\rightarrow b\overline{b}b\overline{b}$ at the FCC-hh using two benchmark luminosities, $3~\text{ab}^{-1}$ and $30~\text{ab}^{-1}$ (section \ref{sec:dihiggs_FCC}). The statistical analysis used to extract the signal strength and to set limits on the Higgs boson triple coupling is also discussed. In section \ref{sec:gran_studies} we show how the significance of the analysis varies as a function of the granularity of the HCAL and/or the detector configuration. We also compare the results obtained using particle flow and pure calorimeter jets.
+In this chapter we describe the main results of the search for $hh\rightarrow b\overline{b}b\overline{b}$ at the FCC-hh using two benchmark luminosities, $30~\text{ab}^{-1}$ and $3~\text{ab}^{-1}$ (section \ref{sec:dihiggs_FCC}). The statistical analysis used to extract the signal strength and to set limits on the Higgs boson triple coupling is also discussed. In section \ref{sec:gran_studies} we show how the significance of the analysis varies as a function of the granularity of the HCAL and/or the detector configuration. We also compare the results obtained using particle flow and pure calorimeter jets.
 
 \section{Di-Higgs discovery potential at the FCC-hh}
 \label{sec:dihiggs_FCC}
+
+The event selection of the optimized analysis (described and motivated in section \ref{sec:opt}) for the search for $hh\rightarrow b\overline{b}b\overline{b}$ at the FCC with the baseline detector design is summarized in tables \ref{table:cutflow_sig_FCC} and \ref{table:cutflow_bkg_FCC} for the signal samples (SM, DM mediator and type II 2HDM) and for the background samples ($4b+j$, $jj+0/1/2 j$ and $t\overline{t}$), respectively.
+
+CUTS EFF [COMPARING BETWEEN SIGNAL MODELS]
+
+Considering the SM production of Higgs pairs, the achieved significance is
+\begin{equation}
+	S/\sqrt{B}=10\pm 2\quad (3.2\pm 0.6)
+\end{equation}
+for an integrated luminosity of $30(3)~\text{ab}^{-1}$. For $\mathcal{L}=30~\text{ab}^{-1}$, the significance is above the $5\sigma$ threshold while for $\mathcal{L}=3~\text{ab}^{-1}$ it is above the $3\sigma$ threshold. These results indicated that with the entire dataset that is expected to be accumulated by the FCC-hh detector it should be possible to observe the production of Higgs pairs.
+
+For a signal model that includes a $1$ TeV dark matter mediator that can decay to pairs of SM Higgs bosons the achieve significance is $1.48\pm0.15(0.47\pm0.05)$ for an integrated luminosity of $30(3)~\text{ab}^{-1}$. The significance is well bellow the $3\sigma$ threshold for both luminosities. Therefore, from the point of view of enhancing Higgs pair production with respect to the SM, this model is not very interesting. In this model, the coupling of the DM mediator to the Higgs pairs is small which means that the contribution from the box diagram dominates over the resonant production (s-channel diagram), just like in the SM. 
+
+For the type II 2HDM the achieved significance is
+\begin{equation}
+	S/\sqrt{B}=...
+\end{equation}
+for an integrated luminosity of $30(3)~\text{ab}^{-1}$. The high efficiency of this signal sample through the cuts, reflected in the high significance that is achieved, make it a very interesting model from the point of view of Higgs pair production.   
 
 %\begin{table}
 %	\begin{tabular}{lcccccccccc}
@@ -37,30 +55,131 @@ In this chapter we describe the main results of the search for $hh\rightarrow b\
 
 \begin{table}
 	\centering
-	\begin{tabular}{lccccc}
+	\caption{Cumulative efficiency, in percentage, of each event selection criterion for the signal samples (SM and 2HDM). The absolute value of expected events after some key selection cuts is shown in curved brackets. The number of expected events is normalized to $\mathcal{L}=30~\text{ab}^{-1}$. The double horizontal line marks the pre-selection cuts. These results were obtained using the FCC-hh baseline detector design, as implemented in Delphes by the FCC-hh study group.\newline}
+	\label{table:cutflow_sig_FCC}
+	\begin{tabular}{lccc}
 		\toprule 
-		\textbf{Selection} & SM  & 2HDM &  4b+j & jj+0/1/2 j & $t\overline{t}$+0/1/2 j\\
+		\textbf{Selection [FCC-hh]} & SM  & DM mediator &2HDM type II\\
 		\midrule
-		\multirow{2}{*}{Gen level} & $100$ & $100$ & $100$&$100$ & $100$\\
-		&  ($3.46\text{e}7$) & ($5.55\text{e}7$) & ($4.90\text{e}10$) & ($5.47\text{e}14$) & ($2.25\text{e}12$)\\
-		\rowcolor{black!10}N(b-tags)$\geq4$ & $92.5$ & $91.8$& $75.8$ & $3.963$& $53.5$\\
-		\multirow{2}{*}{$p_T(j_1,j_2)\geq200$ GeV} & $16.6$ & $30.6$ & $17.8$ &$0.74$ & $1.06$\\ 
-		& ($5.75\text{e}6$) & ($1.70\text{e}7$) & ($8.73\text{e}9$) & ($4.06\text{e}12$ ) & ($2.38\text{e}10$) \\
+		\multirow{2}{*}{Gen level} & $100$ & $100$ &$100$ \\
+		&  $(34638\pm16)\times 10^3$ & $(65400\pm29)\times 10^2$ & $(13977\pm7)\times 10^3$ \\
+		\rowcolor{black!10}N(b-tags)$\geq4$ & $92.488$ & $92.593$ &$93.430$\\
+		\multirow{2}{*}{$p_T(j_1,j_2)\geq200$ GeV} & $16.6602$ & $17.033$ &$58.860$ \\ 
+		& $(5751\pm6)\times 10^3$ & $(11140\pm12)\times 10^2$ & $8227\pm5\times 10^3$\\
 		\midrule \midrule
-		\rowcolor{black!10}$p_T(j_1)\geq 400$ GeV & $8.623$ & $18.2$ & $7.0$ & $0.18$ & $0.446$\\ 
-		$p_T(j_2)\geq 350$ GeV & $5.7$ &  $11.2$ &$3.9$ &$0.121$ & $0.263$\\
-		\rowcolor{black!10}$p_T(j_1+j_2)\geq 100$ GeV &  $4.648$&  $8.16$& $3.3$& $0.07$ & $0.223$\\
-		$\tau_{21}(j_1,j_2)<0.55$ & $1.7$ &$3.3$& $0.54$ & $0.005$ & $0.069$\\
-		\rowcolor{black!10}$FW2(j_1)>0.2$ & $1.28$& $2.7$& $ 0.32$& $0.003$& $0.020$\\
-		\multirow{2}{*}{$(100<M_{SD}(j1,j2)<135)$ GeV} & $0.422$ & $1.09$& $0.0136$ & $0.00008$ & $0.00078$\\
-		&($1.46\text{e}5$)&($6.07\text{e}5$)& ($6.66\text{e}6$)& ($4.38\text{e}8$) & ($1.75\text{e}7$)\\
+		\rowcolor{black!10}$p_T(j_1)\geq 400$ GeV & $8.623$ & $9.156$ &$21.041$\\ 
+		$p_T(j_2)\geq 350$ GeV & $5.709$ &$6.161$&  $13.202$ \\
+		\rowcolor{black!10}$p_T(j_1+j_2)\geq 100$ GeV &  $4.648$&$4.968$ &  $9.624$\\
+		$\tau_{21}(j_1,j_2)<0.55$ & $1.705$&$1.878$ &$4.057$\\
+		\rowcolor{black!10}$FW2(j_1)>0.2$ & $1.281$&$1.421$& $3.267$\\
+		\multirow{2}{*}{$(100<M_{SD}(j1,j2)<135)$ GeV} & $0.422$ & $0.487$&$1.342$\\
+		&$(1463\pm10)\times 10^2$&$(3188\pm20)\times10$&$(1876\pm8)\times 10^2$\\
 		\bottomrule
 	\end{tabular}
-	\caption{Cumulative efficiency, in percentage, of each event selection criterion for the signal samples (SM and 2HDM) and for the background sample (4b+j, jj+0/1/2 j and $t\overline{t}$+0/1/2 j). The absolute value of expected events after some key selection cuts is shown in curved brackets. The number of expected events is normalized to $\mathcal{L}=30~\text{ab}^{-1}$. The double horizontal line marks the pre-selection cuts. These results were obtained using the FCC-hh baseline detector design, as implemented in Delphes by the FCC-hh study group.}
 \end{table}
 
+\begin{table}
+	\centering
+	\caption{Cumulative efficiency, in percentage, of each event selection criterion for the background samples ($4b+j$, $jj+0/1/2 j$ and $t\overline{t}$+0/1/2 j). The absolute value of expected events after some key selection cuts is shown in curved brackets. The number of expected events is normalized to $\mathcal{L}=30~\text{ab}^{-1}$. The double horizontal line marks the pre-selection cuts. These results were obtained using the FCC-hh baseline detector design, as implemented in Delphes by the FCC-hh study group.\newline}
+	\label{table:cutflow_bkg_FCC}
+	\begin{tabular}{lccc}
+		\toprule 
+		\textbf{Selection [FCC-hh]} & $4b+j$  & $jj+0/1/2 j$ & $t\overline{t}$ \\
+		\midrule
+		\multirow{2}{*}{Gen level} & $100$ & $100$ &$100$ \\
+		&  $(49035\pm12)\times 10^6$ & $(54698\pm17)\times 10^{10}$ & $(22503\pm11)\times 10^8$ \\
+		\rowcolor{black!10}N(b-tags)$\geq4$ & $75.819$ & $3.963$ &$53.495$\\
+		\multirow{2}{*}{$p_T(j_1,j_2)\geq200$ GeV} & $17.811$ & $0.742$ &$1.056$ \\ 
+		& $(8734\pm5)\times 10^6$ & $(4058\pm14)\times 10^9$ & $(2377\pm11)\times 10^7$\\
+		\midrule \midrule
+		\rowcolor{black!10}$p_T(j_1)\geq 400$ GeV & $7.008$ & $0.183$ &$0.446$\\ 
+		$p_T(j_2)\geq 350$ GeV & $3.928$ &$0.121$&  $0.263$ \\
+		\rowcolor{black!10}$p_T(j_1+j_2)\geq 100$ GeV &  $3.311$&$0.070$ &  $0.223$\\
+		$\tau_{21}(j_1,j_2)<0.55$ & $0.540$&$0.005$ &$0.069$\\
+		\rowcolor{black!10}$FW2(j_1)>0.2$ & $0.320$&$0.003$& $0.020$\\
+		\multirow{2}{*}{$(100<M_{SD}(j1,j2)<135)$ GeV} & $0.014$ & $0.00008$&$0.0008$\\
+		&$(666\pm13)\times 10^4$&$(4\pm4)\times10^8$&$(175\pm30)\times 10^5$\\
+		\bottomrule
+	\end{tabular}
+\end{table}
 
 \subsection{Statistical analysis}
+
+\subsection{Comparing with the ATLAS detector}
+
+The event selection of the search for $hh\rightarrow b\overline{b}b\overline{b}$ with the ATLAS detector at a CM energy of $100$ TeV is summarized in tables \ref{table:cutflow_sig_ATLAS} and \ref{table:cutflow_bkg_ATLAS} for the signal and background samples, respectively.
+
+It is interesting to compare the results obtained with the FCC-hh default detector simulation with the ones obtained using the simulation of the ATLAS detector. These are summarized in table \ref{table:FCC_ATLAS_comp} in terms of the achieved significance for an integrated luminosity of $30~\text{ab}^{-1}$.
+
+For the SM signal, the significance increases by aproximately $20\%$. Nonetheless, using the ATLAS default detector configuration the achieved significance is already above $5\sigma$: $S/\sqrt{B}=5.6\pm 0.6$. For the DM mediator, the significance also increases by approximately $20\%$. For the type II 2HDM with $m_H=900$ GeV, ...
+
+\begin{table}
+	\centering
+	\caption{Cumulative efficiency, in percentage, of each event selection criterion for the signal samples (SM and 2HDM). The absolute value of expected events after some key selection cuts is shown in curved brackets. The number of expected events is normalized to $\mathcal{L}=30~\text{ab}^{-1}$. The double horizontal line marks the pre-selection cuts. These results were obtained using the ATLAS detector design, as implemented in Delphes.\newline}
+	\label{table:cutflow_sig_ATLAS}
+	\begin{tabular}{lccc}
+		\toprule 
+		\textbf{Selection [ATLAS]} & SM  & DM mediator &2HDM type II\\
+		\midrule
+		\multirow{2}{*}{Gen level} & $100$ & $100$ &$100$ \\
+		&  $(34638\pm16)\times 10^3$ & $(65400\pm29)\times 10^2$ &  \\
+		\rowcolor{black!10}N(b-tags)$\geq4$ & $88.691$ & $88.787$ &\\
+		\multirow{2}{*}{$p_T(j_1,j_2)\geq200$ GeV} & $15.534$ & $15.94$ & \\ 
+		& $(5381\pm6)\times 10^3$ & $(10426\pm12)\times 10^2$ & \\
+		\midrule \midrule
+		\rowcolor{black!10}$p_T(j_1)\geq 400$ GeV & $7.997$ & $8.499$ &\\ 
+		$p_T(j_2)\geq 350$ GeV & $5.283$ &$5.704$&  \\
+		\rowcolor{black!10}$p_T(j_1+j_2)\geq 100$ GeV &  $4.305$&$4.604$ &  \\
+		$\tau_{21}(j_1,j_2)<0.55$ & $1.648$&$1.809$ &\\
+		\rowcolor{black!10}$FW2(j_1)>0.2$ & $1.125$&$1.243$& \\
+		\multirow{2}{*}{$(100<M_{SD}(j1,j2)<135)$ GeV} & $0.323$ & $0.374$&\\
+		&$(1119\pm9)\times 10^2$&$(2446\pm18)\times10$&\\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\begin{table}
+	\centering
+	\caption{Cumulative efficiency, in percentage, of each event selection criterion for the background samples ($4b+j$, $jj+0/1/2 j$ and $t\overline{t}$+0/1/2 j). The absolute value of expected events after some key selection cuts is shown in curved brackets. The number of expected events is normalized to $\mathcal{L}=30~\text{ab}^{-1}$. The double horizontal line marks the pre-selection cuts. These results were obtained using the ATLAS detector design, as implemented in Delphes.\newline}
+	\label{table:cutflow_bkg_ATLAS}
+	\begin{tabular}{lccc}
+		\toprule 
+		\textbf{Selection [ATLAS]} & $4b+j$  & $jj+0/1/2 j$ & $t\overline{t}$ \\
+		\midrule
+		\multirow{2}{*}{Gen level} & $100$ & $100$ &$100$ \\
+		&  $(49035\pm15)\times 10^6$ & $(54698\pm15)\times 10^{10}$ & $(22503\pm9)\times 10^8$ \\
+		\rowcolor{black!10}N(b-tags)$\geq4$ & $71.617$ & $3.747$ &$51.782$\\
+		\multirow{2}{*}{$p_T(j_1,j_2)\geq200$ GeV} & $16.301$ & $0.767$ &$0.984$ \\ 
+		& $(7993\pm6)\times 10^6$ & $(4193\pm12)\times 10^9$ & $(2215\pm9)\times 10^7$\\
+		\midrule \midrule
+		\rowcolor{black!10}$p_T(j_1)\geq 400$ GeV & $6.378$ & $0.170$ &$0.416$\\ 
+		$p_T(j_2)\geq 350$ GeV & $3.560$ &$0.112$&  $0.245$ \\
+		\rowcolor{black!10}$p_T(j_1+j_2)\geq 100$ GeV &  $3.000$&$0.064$ &  $0.206$\\
+		$\tau_{21}(j_1,j_2)<0.55$ & $0.545$&$0.008$ &$0.064$\\
+		\rowcolor{black!10}$FW2(j_1)>0.2$ & $0.272$&$0.003$& $0.016$\\
+		\multirow{2}{*}{$(100<M_{SD}(j1,j2)<135)$ GeV} & $0.010$ & $0.00007$&$0.0007$\\
+		&$(496\pm14)\times 10^4$&$(37\pm30)\times10^7$&$(165\pm25)\times 10^5$\\
+		\bottomrule
+	\end{tabular}
+	
+\end{table}
+
+\begin{table}
+	\centering
+	\caption{oi\newline}
+	\label{table:FCC_ATLAS_comp}
+	\begin{tabular}{lcc}
+		\toprule 
+		\textbf{Signal sample} & ATLAS  & FCC-hh  \\
+		\midrule
+		SM & $5.6\pm 0.6$ & $6.8\pm 0.7$ \\
+		\rowcolor{black!10}1 TeV DM mediator & $1.23\pm0.12$ & $1.48\pm0.15$ \\
+		2HDM type II &  &  \\ 
+
+	\end{tabular}
+	
+\end{table}
+
 
 \section{Hadronic calorimeter granularity studies for future colliders}
 \label{sec:gran_studies}
@@ -70,6 +189,18 @@ In this section we present the results that allow us to compare the different de
 The softdrop mass of the leading Higgs candidate for the SM signal sample is shown on the left of figure \ref{fig:CompGran} for the different detector configurations. We see that the mass resolution increases as we increase the granularity [QUANTIFY?].
 
 The $\tau_{21}$ variable for the leading Higgs candidate for the SM signal (filled lines) and for the $4b+j$ background (dashed lines) is shown on the right of figure \ref{fig:CompGran} for the different detector configurations. The overlap between the signal and background distributions decreases as the granularity of the HCAL increases. This means that the separation between signal and background increases. This was expected because an increase in the granularity of the hadronic calorimeter should help resolve better the substructure of boosted jets. For the $4b+j$ background the maximum overlap fraction is $0.68\pm0.12$ for the ATLAS detector and for the ATLAS HCAL. The minimum is $0.67\pm0.12$ for the remaining configurations. For the multijet background the maximum overlap is $0.55\pm0.10$ for the ATLAS detector and the minimum is $0.50\pm0.09$ for the FCC-hh default detector, with an HCAL two times less granular in $\phi$ and with an HCAL two times more granular in $\eta$ and $\phi$. For the $t\overline{t}$, the overlap is $0.78\pm0.13$ for all configurations except for the FCC-hh default configuration for which it is $0.77\pm0.13$. Regardless of the background, the overlap area between the distributions changes very little for different detector configurations. The multijet background has the smallest overlap, as expected. 
+
+The efficiency of the signal samples through the analysis is shown in figure \ref{fig:SSBvsGran} on the left for the SM signal, DM mediator and type II 2HDM. [DESCRIBE+QUANTIFY]
+
+COMPARE THE DIFFERENT SIGNAL SAMPLES IN TERMS OF EFF 
+
+The significances achieved with the optimized analysis as a function of the detector configuration for the SM signal, the DM mediator model and the type II 2HDM are shown in figures \ref{fig:SSBvsGran} on the right, \ref{fig:SSBvsGran1} on the left and \ref{fig:SSBvsGran1} on the right. The uncertainty associated with each value of the significance is computed using standard error propagation. Only the statistical error is taken in to account.
+
+Motivated by the small change in significance over the range of configurations that were tested we implemented exactly the same analysis but using HCAL jets instead of eflow jets. The results are shown in the same plots (triangular markers). On the one hand, the achieved significance is always smaller when using HCAL jets because we are not making use of the tracking information. On the other hand, when using HCAL jets, the significance changes a lot more over the configuration range. In particular, it increases as the HCAL granularity is increased. [QUANTIFY]
+
+The small change in the significance when using eflow jets and the fact the change increases when using HCAL jets indicate that in the FCC-hh baseline detector design the resolution of the tracking system is so good, in particular, so much better than the HCAL resolution [NUMBERS] that it is the limiting factor.
+
+COMPARE THE DIFFERENT SIGNAL SAMPLES IN TERMS OF THE CHANGE IN SIGNIFICANCE
 
 \begin{figure}
 	\centering
@@ -103,22 +234,33 @@ The $\tau_{21}$ variable for the leading Higgs candidate for the SM signal (fill
 %	\caption{Leading Higgs candidate $\tau_{21}$ plot for the different detector configurations for the SM signal sample. This plot contains all the signal events that passed all the cuts of the baseline analysis.}
 %\end{figure}
 
-
 \begin{figure}
 	\centering
-	\includegraphics[width=\linewidth]{./Figures/SSBplotGran.pdf}
-	\label{fig:granSSB}
-	\caption{Significance $(S/\sqrt{B})$ as a function of the detector configuration for $\mathcal{L}=30~\text{ab}^{-1}$ (black) and $\mathcal{L}=3~\text{ab}^{-1}$ (blue) and for particle flow jets (squares) and pure calorimeter (HCAL) jets (triangles) for the SM signal sample.}
+	\begin{minipage}{.5\textwidth}
+		\centering
+		\includegraphics[trim={.6cm 0 0 0},clip,width=\linewidth]{./Figures/EffPlotGran.pdf}
+	\end{minipage}%
+	\begin{minipage}{.5\textwidth}
+		\centering
+		\includegraphics[trim={0 0 .6cm 0},clip,width=\linewidth]{./Figures/SSBplotGran.pdf}
+	\end{minipage}
+	\label{fig:SSBvsGran}
+	\caption{Signal efficiency as a function of the detector configuration for particle flow jets (squares) and pure calorimeter (HCAL) jets (triangles) (left). The error bars are drawn but are smaller than the markers. Significance $(S/\sqrt{B})$ as a function of the detector configuration for $\mathcal{L}=30~\text{ab}^{-1}$ (black) and $\mathcal{L}=3~\text{ab}^{-1}$ (blue) and for particle flow jets (squares) and pure calorimeter (HCAL) jets (triangles) for the SM signal sample (right).}
 \end{figure}
 
 \begin{figure}
 	\centering
-	\includegraphics[width=\linewidth]{./Figures/EffPlotGran.pdf}
-	\label{fig:granEff}
-	\caption{Signal efficiency as a function of the detector configuration for particle flow jets (squares) and pure calorimeter (HCAL) jets (triangles). The error bars are drawn but are smaller than the markers.}
+	\begin{minipage}{.5\textwidth}
+		\centering
+		\includegraphics[trim={.6cm 0 0 0},clip,width=\linewidth]{./Figures/SSBplotGran.pdf}
+	\end{minipage}%
+	\begin{minipage}{.5\textwidth}
+		\centering
+		\includegraphics[trim={0 0 .6cm 0},clip,width=\linewidth]{./Figures/SSBplotGran.pdf}
+	\end{minipage}
+	\label{fig:SSBvsGran1}
+	\caption{Significance $(S/\sqrt{B})$ as a function of the detector configuration for $\mathcal{L}=30~\text{ab}^{-1}$ (black) and $\mathcal{L}=3~\text{ab}^{-1}$ (blue) and for particle flow jets (squares) and pure calorimeter (HCAL) jets (triangles) for the DM mediator model (left) and for 2HDM type II (right).}
 \end{figure}
-
-\section{Benchmarking against ATLAS analysis at $\sqrt{s}=13$ TeV}
 
 %\begin{figure}[!htb]
 %  \centering

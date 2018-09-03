@@ -2,15 +2,15 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: ExtendedAbstract.aux
 The style file: abbrv.bst
+I found no \citation commands---while reading file ExtendedAbstract.aux
 Database file #1: ExtendedAbstract_ref_db.bib
 Unbalanced braces---line 977 of file ExtendedAbstract_ref_db.bib
  :       title          = "MadGraph 5 : Going Beyond
  :                                                  }",
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "nocedal:opt"
 You've used 0 entries,
             2118 wiz_defined-function locations,
-            498 strings with 3755 characters,
+            497 strings with 3744 characters,
 and the built_in function-call counts, 18 in all, are:
 = -- 0
 > -- 0
@@ -49,4 +49,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 2
-(There was 1 error message)
+(There were 2 error messages)

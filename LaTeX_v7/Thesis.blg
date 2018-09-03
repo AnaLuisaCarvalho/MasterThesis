@@ -21,63 +21,84 @@ I'm skipping whatever remains of this entry
  : url= \url
  :          {https://indico.cern.ch/event/340703/contributions/802259/attachments/668834/919361/PhysicsRequirementsFCC_2015DC.pdf},
 I'm skipping whatever remains of this entry
+Warning--entry type for "running_coupling" isn't style-file defined
+--line 1863 of file Thesis_bib_DB.bib
+Warning--entry type for "FCCmag" isn't style-file defined
+--line 1951 of file Thesis_bib_DB.bib
+I was expecting a `,' or a `}'---line 1974 of file Thesis_bib_DB.bib
+ :       title         = "
+ :                        {Searches for Higgs boson pair production in the $hh\to
+I'm skipping whatever remains of this entry
+Repeated entry---line 2008 of file Thesis_bib_DB.bib
+ : @online{DM
+ :           ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "2HDM" isn't style-file defined
+--line 2016 of file Thesis_bib_DB.bib
 Warning--empty journal in DM
 Warning--empty journal in BSM_motivation
-Warning--empty journal in h2bb
-Warning--empty author in CMSh2bb
+Warning--empty journal in 2HDMpedro
+Warning--empty author in ATLASh2bb_discovery
+Warning--empty author in CMSh2bb_discovery
 Warning--empty journal in ATLAStth
 Warning--empty author in ATLAShMass
 Warning--empty author in CMStopMass
 Warning--empty author in ATLAS_LAr_TDR
 Warning--empty journal in ATLAS_LAr_TDR
 Warning--empty author in btagATLAS
+Warning--empty author in ATLASbtag
+Warning--empty journal in ATLASbtag1
 Warning--empty journal in hh2bbbbCMS
 Warning--empty journal in hhbbtautau_CMS
 Warning--empty journal in hhbbll_CMS
+Warning--empty title in ATLAShhBSMcomb
+Warning--empty journal in ATLAShhBSMcomb
+Warning--empty year in ATLAShhBSMcomb
+Warning--empty year in ATLAShhBSMcomb
 Warning--empty title in MG5
 Warning--empty journal in MG5
 Warning--empty year in MG5
 Warning--empty year in MG5
 Warning--empty author in PF2
-You've used 82 entries,
+You've used 96 entries,
             2481 wiz_defined-function locations,
-            1103 strings with 19213 characters,
-and the built_in function-call counts, 29669 in all, are:
-= -- 2594
-> -- 1400
-< -- 57
-+ -- 575
-- -- 402
-* -- 2263
-:= -- 4826
-add.period$ -- 318
-call.type$ -- 82
-change.case$ -- 162
-chr.to.int$ -- 73
-cite$ -- 106
-duplicate$ -- 1501
-empty$ -- 2721
-format.name$ -- 518
-if$ -- 6330
+            1175 strings with 21405 characters,
+and the built_in function-call counts, 33281 in all, are:
+= -- 2917
+> -- 1508
+< -- 73
++ -- 633
+- -- 432
+* -- 2463
+:= -- 5395
+add.period$ -- 361
+call.type$ -- 96
+change.case$ -- 189
+chr.to.int$ -- 87
+cite$ -- 129
+duplicate$ -- 1707
+empty$ -- 3103
+format.name$ -- 567
+if$ -- 7106
 int.to.chr$ -- 10
-int.to.str$ -- 83
-missing$ -- 69
-newline$ -- 489
-num.names$ -- 228
-pop$ -- 558
+int.to.str$ -- 97
+missing$ -- 72
+newline$ -- 560
+num.names$ -- 264
+pop$ -- 692
 preamble$ -- 1
-purify$ -- 82
+purify$ -- 96
 quote$ -- 0
-skip$ -- 876
+skip$ -- 1014
 stack$ -- 0
-substring$ -- 1141
-swap$ -- 196
-text.length$ -- 8
+substring$ -- 1175
+swap$ -- 219
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 571
-warning$ -- 18
-while$ -- 214
+type$ -- 669
+warning$ -- 25
+while$ -- 237
 width$ -- 0
-write$ -- 1197
-(There were 4 error messages)
+write$ -- 1373
+(There were 6 error messages)

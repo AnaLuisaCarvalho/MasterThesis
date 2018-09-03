@@ -1,4 +1,4 @@
-\begin{thebibliography}{82}
+\begin{thebibliography}{96}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -92,6 +92,15 @@ S.~M. Bilenky and J.~Hosek.
 \newblock \emph{Phys. Rept.}, 90:\penalty0 73--157, 1982.
 \newblock \doi{10.1016/0370-1573(82)90016-3}.
 
+\bibitem[Frederix et~al.(2014)Frederix, Frixione, Hirschi, Maltoni, Mattelaer,
+  Torrielli, Vryonidou, and Zaro]{hhxsNLO}
+R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer, P.~Torrielli,
+  E.~Vryonidou, and M.~Zaro.
+\newblock {Higgs pair production at the LHC with NLO and parton-shower
+  effects}.
+\newblock \emph{Phys. Lett.}, B732:\penalty0 142--149, 2014.
+\newblock \doi{10.1016/j.physletb.2014.03.026}.
+
 \bibitem[Mangano(2017)]{FCCyellow}
 M.~Mangano.
 \newblock \emph{{Physics at the FCC-hh, a 100 TeV pp collider}}.
@@ -158,6 +167,24 @@ B.~Gripaios.
 \newblock {Lectures on Physics Beyond the Standard Model}.
 \newblock 2015.
 
+\bibitem[2018(2004)]{running_coupling}
+N.~M.~A. 2018.
+\newblock Popular information, 2004.
+\newblock URL
+  \url{https://www.nobelprize.org/prizes/physics/2004/popular-information/}.
+
+\bibitem[Branchina et~al.(2018)Branchina, Contino, and Ferreira]{2HDMpedro}
+V.~Branchina, F.~Contino, and P.~M. Ferreira.
+\newblock {Electroweak vacuum lifetime in two Higgs doublet models}.
+\newblock 2018.
+
+\bibitem[Gunion and Haber(2003)]{2HDMdec}
+J.~F. Gunion and H.~E. Haber.
+\newblock {The CP conserving two Higgs doublet model: The Approach to the
+  decoupling limit}.
+\newblock \emph{Phys. Rev.}, D67:\penalty0 075019, 2003.
+\newblock \doi{10.1103/PhysRevD.67.075019}.
+
 \bibitem[Sun et~al.(2012)Sun, Zhou, and Chen]{hhBSMgrav}
 H.~Sun, Y.-J. Zhou, and H.~Chen.
 \newblock {Constraints on large-extra-dimensions model through 125-GeV Higgs
@@ -186,18 +213,18 @@ S.~Chatrchyan et~al.
 \newblock \emph{Phys. Lett.}, B716:\penalty0 30--61, 2012.
 \newblock \doi{10.1016/j.physletb.2012.08.021}.
 
-\bibitem[Aaboud et~al.(2017)]{h2bb}
-M.~Aaboud et~al.
-\newblock {Evidence for the $H \to b\bar{b}$ decay with the ATLAS detector}.
-\newblock 2017.
+\bibitem[ATL(2018)]{ATLASh2bb_discovery}
+{Observation of $H \to b\bar{b}$ decays and $VH$ production with the ATLAS
+  detector}.
+\newblock Technical Report ATLAS-CONF-2018-036, CERN, Geneva, Jul 2018.
+\newblock URL \url{http://cds.cern.ch/record/2630338}.
 
-\bibitem[CMS(2018)]{CMSh2bb}
-Evidence for the higgs boson decay to a bottom quark–antiquark pair.
-\newblock \emph{Physics Letters B}, 780:\penalty0 501 -- 532, 2018.
-\newblock ISSN 0370-2693.
-\newblock \doi{https://doi.org/10.1016/j.physletb.2018.02.050}.
-\newblock URL
-  \url{http://www.sciencedirect.com/science/article/pii/S0370269318301618}.
+\bibitem[CMS(2018)]{CMSh2bb_discovery}
+{Observation of Higgs boson decay to bottom quarks}.
+\newblock Technical Report arXiv:1808.08242. CMS-HIG-18-016-003, CERN, Geneva,
+  Aug 2018.
+\newblock URL \url{https://cds.cern.ch/record/2636067}.
+\newblock * Temporary entry *.
 
 \bibitem[Sirunyan et~al.(2018{\natexlab{a}})]{CMSh2tautau}
 A.~M. Sirunyan et~al.
@@ -285,6 +312,18 @@ M.~Cacciari, G.~P. Salam, and G.~Soyez.
 \newblock Technical Report ATL-PHYS-PUB-2016-012, CERN, Geneva, Jun 2016.
 \newblock URL \url{https://cds.cern.ch/record/2160731}.
 
+\bibitem[ATL(2011)]{ATLASbtag}
+{Commissioning of the ATLAS high-performance b-tagging algorithms in the 7 TeV
+  collision data}.
+\newblock Technical Report ATLAS-CONF-2011-102, CERN, Geneva, Jul 2011.
+\newblock URL \url{https://cds.cern.ch/record/1369219}.
+
+\bibitem[Aad et~al.(2009)]{ATLASbtag1}
+G.~Aad et~al.
+\newblock {Expected Performance of the ATLAS Experiment - Detector, Trigger and
+  Physics}.
+\newblock 2009.
+
 \bibitem[Ruiz-Martinez and Collaboration(2016)]{run2trigger}
 A.~Ruiz-Martinez and A.~Collaboration.
 \newblock {The Run-2 ATLAS Trigger System}.
@@ -361,6 +400,42 @@ N.~Arkani-Hamed, T.~Han, M.~Mangano, and L.-T. Wang.
 \newblock \emph{Phys. Rept.}, 652:\penalty0 1--49, 2016.
 \newblock \doi{10.1016/j.physrep.2016.07.004}.
 
+\bibitem[{C. Helsens}(2017)]{FCCgen}
+{C. Helsens}.
+\newblock Fcc/he-lhc physics/performance studies towards the cdr.
+\newblock
+  \textsc{url:}~\url{https://indico.cern.ch/event/675588/contributions/2765045/attachments/1572548/2484309/Clement_FCC.pdf},
+  2017.
+
+\bibitem[an~FCC-hh Detector Magnet~System(2018)]{FCCmag}
+T.~an~FCC-hh Detector Magnet~System.
+\newblock E. bielert, 2018.
+\newblock URL
+  \url{https://ep-news.web.cern.ch/content/towards-fcc-hh-detector-magnet-system}.
+
+\bibitem[{J. Faltova}(2017)]{FCC_ECAL}
+{J. Faltova}.
+\newblock Electromagnetic calorimeter using lar technology for fcc-hh.
+\newblock
+  \textsc{url:}~\url{https://indico.cern.ch/event/556692/contributions/2465166/attachments/1468150/2272205/ecal_fccBerlin.pdf},
+  2017.
+
+\bibitem[{A. Zaborowska}(2018)]{FCC_ECAL1}
+{A. Zaborowska}.
+\newblock Electromagnetic calorimetry based on liquid argon for the fcc-hh
+  experiments.
+\newblock
+  \textsc{url:}~\url{https://indico.cern.ch/event/656491/contributions/2923535/attachments/1631506/2601159/FCChh_LArCalo_Zaborowska.pdf},
+  2018.
+
+\bibitem[{C. Neubüser}(2017)]{FCC_HCAL}
+{C. Neubüser}.
+\newblock Performance studies and requirements on the calorimeters for a fcc-hh
+  experiment.
+\newblock
+  \textsc{url:}~\url{https://indico.ihep.ac.cn/event/6387/session/14/contribution/117/material/slides/0.pdf},
+  2017.
+
 \bibitem[Baglio et~al.(2013)Baglio, Djouadi, Gröber, Mühlleitner, Quevillon,
   and Spira]{higgsCrossSection}
 J.~Baglio, A.~Djouadi, R.~Gröber, M.~M. Mühlleitner, J.~Quevillon, and
@@ -421,6 +496,16 @@ A.~M. Sirunyan et~al.
   the bblnulnu final state in proton-proton collisions at $\sqrt{s} = 13$ TeV}.
 \newblock 2017{\natexlab{c}}.
 
+\bibitem[Collaboration(2018)]{ATLAShhComb}
+A.~Collaboration.
+\newblock {Combination of searches for Higgs boson pairs in $pp$ collisions at
+  13 TeV with the ATLAS experiment.}
+\newblock Technical Report ATLAS-COM-CONF-2018-048, CERN, Geneva, Aug 2018.
+\newblock URL \url{https://cds.cern.ch/record/2634999}.
+
+\bibitem[Aad and others()Aad et~al.]{ATLAShhBSMcomb}
+G.~Aad and t.~. others.
+
 \bibitem[Behr et~al.(2016)Behr, Bortoletto, Frost, Hartland, Issever, and
   Rojo]{hhFeasibility}
 J.~K. Behr, D.~Bortoletto, J.~A. Frost, N.~P. Hartland, C.~Issever, and
@@ -429,23 +514,6 @@ J.~K. Behr, D.~Bortoletto, J.~A. Frost, N.~P. Hartland, C.~Issever, and
   with multivariate techniques}.
 \newblock \emph{Eur. Phys. J.}, C76\penalty0 (7):\penalty0 386, 2016.
 \newblock \doi{10.1140/epjc/s10052-016-4215-5}.
-
-\bibitem[Wardrope et~al.(2015)Wardrope, Jansen, Konstantinidis, Cooper, Falla,
-  and Norjoharuddeen]{hhFeasibility_LHC}
-D.~Wardrope, E.~Jansen, N.~Konstantinidis, B.~Cooper, R.~Falla, and
-  N.~Norjoharuddeen.
-\newblock {Non-resonant Higgs-pair production in the $b\overline{b}$
-  $b\overline{b}$ final state at the LHC}.
-\newblock \emph{Eur. Phys. J.}, C75\penalty0 (5):\penalty0 219, 2015.
-\newblock \doi{10.1140/epjc/s10052-015-3439-0}.
-
-\bibitem[Ferreira~de Lima et~al.(2014)Ferreira~de Lima, Papaefstathiou, and
-  Spannowsky]{hhFeasibility1_LHC}
-D.~E. Ferreira~de Lima, A.~Papaefstathiou, and M.~Spannowsky.
-\newblock {Standard model Higgs boson pair production in the ( $ b\overline{b}
-  $ )( $ b\overline{b} $ ) final state}.
-\newblock \emph{JHEP}, 08:\penalty0 030, 2014.
-\newblock \doi{10.1007/JHEP08(2014)030}.
 
 \bibitem[Banerjee et~al.(2018)Banerjee, Englert, Mangano, Selvaggi, and
   Spannowsky]{hh+jet_100TeV}
@@ -505,6 +573,14 @@ J.~de~Favereau, C.~Delaere, P.~Demin, A.~Giammanco, V.~Lemaître, A.~Mertens,
 \newblock \emph{JHEP}, 02:\penalty0 057, 2014.
 \newblock \doi{10.1007/JHEP02(2014)057}.
 
+\bibitem[Boos et~al.(2001)]{lhe}
+E.~Boos et~al.
+\newblock {Generic user process interface for event generators}.
+\newblock In \emph{{Physics at TeV colliders. Proceedings, Euro Summer School,
+  Les Houches, France, May 21-June 1, 2001}}, 2001.
+\newblock URL
+  \url{http://lss.fnal.gov/archive/preprint/fermilab-conf-01-496-t.shtml}.
+
 \bibitem[Cacciari et~al.(2012)Cacciari, Salam, and Soyez]{fastjet}
 M.~Cacciari, G.~P. Salam, and G.~Soyez.
 \newblock {FastJet User Manual}.
@@ -554,14 +630,25 @@ N.~D. Christensen and C.~Duhr.
 \newblock \emph{Comput. Phys. Commun.}, 180:\penalty0 1614--1641, 2009.
 \newblock \doi{10.1016/j.cpc.2009.02.018}.
 
-\bibitem[Ferreira et~al.(2013)Ferreira, Santos, Sher, and Silva]{2HDMdata}
-P.~M. Ferreira, R.~Santos, M.~Sher, and J.~P. Silva.
-\newblock {2HDM confronting LHC data}.
-\newblock In \emph{{Proceedings, 48th Rencontres de Moriond on QCD and High
-  Energy Interactions: La Thuile, Italy, March 9-16, 2013}}, pages 67--70,
-  2013.
-\newblock URL
-  \url{https://inspirehep.net/record/1234236/files/arXiv:1305.4587.pdf}.
+\bibitem[general Two-Higgs-Doublet~Model(2018)]{2HDM}
+T.~general Two-Higgs-Doublet~Model.
+\newblock C. degrande, c. duhr, m. herquet, 2018.
+\newblock URL \url{http://feynrules.irmp.ucl.ac.be/wiki/2HDM}.
+
+\bibitem[Degrande(2015)]{2HDM1}
+C.~Degrande.
+\newblock {Automatic evaluation of UV and R2 terms for beyond the Standard
+  Model Lagrangians: a proof-of-principle}.
+\newblock \emph{Comput. Phys. Commun.}, 197:\penalty0 239--262, 2015.
+\newblock \doi{10.1016/j.cpc.2015.08.015}.
+
+\bibitem[Haber and Stål(2015)]{2HDMhaber}
+H.~E. Haber and O.~Stål.
+\newblock {New LHC benchmarks for the $\mathcal{CP}$ -conserving
+  two-Higgs-doublet model}.
+\newblock \emph{Eur. Phys. J.}, C75\penalty0 (10):\penalty0 491, 2015.
+\newblock \doi{10.1140/epjc/s10052-015-3697-x, 10.1140/epjc/s10052-016-4151-4}.
+\newblock [Erratum: Eur. Phys. J.C76,no.6,312(2016)].
 
 \bibitem[Patrignani et~al.(2016)]{PDG2016}
 C.~Patrignani et~al.

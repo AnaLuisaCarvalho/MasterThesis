@@ -13,25 +13,25 @@
 
 A crucial component of this work is the generation of the Monte Carlo samples that are used in the analysis. They are produced using fast simulation. We use the software and machinery that was developed by the FCC study group at CERN. The simulation work flow and Monte Carlo samples are described in this chapter.
 
-In section \ref{sec:workflow} we introduce the generators used to produce the Monte Carlo samples and briefly describe their working principles and functionalities. We then focus on the FCC-hh software, in subsection \ref{subsec:FCC_software}, and explain how the implementation of the previously described simulation work flow is implemented. A detailed description of the technical settings used to produce the samples is provided in sections \ref{sec:sig+bkg} and \ref{sec:HCALgran}.
+In section \ref{sec:workflow} we introduce the generators used to produce the Monte Carlo samples and briefly describe their working principles and functionalities. We then focus on the FCC-hh software, in subsection \ref{subsec:FCC_software}, and explain how the previously described simulation work flow is implemented. A detailed description of the technical settings used to produce the samples is provided in sections \ref{sec:sig+bkg} and \ref{sec:HCALgran}.
 
 %In section \ref{sec:skim}, we briefly mention the skimming procedure we implemented as the first step of the analysis.
 
 \section{Fast simulation workflow}
 \label{sec:workflow}
 
-- Samples used for signal and backgrounds \\
-- Number of events, cross section, how they were generated (gen level cuts)\\
-----------------------------------------------------------------------\\
-The Monte Carlo samples used in this study were generated using MadGraph5\_aMC@NLO  \cite{MG5}. The showering and hadronization are simulated using Pythia 8 \cite{Pythia8} and the detector response is parametrized using Delphes 3 \cite{Delphes} with the FCC-hh card. These samples are available at the CERN EOS storage. 
+%- Samples used for signal and backgrounds \\
+%- Number of events, cross section, how they were generated (gen level cuts)\\
 
-MadGraph5 is a matrix element generator for high energy physics processes, such as decays and scatterings. The user specifies the desired process in terms of the initial and final states and can impose additional constraints such as allowing for a number of refined criteria, including forced or forbidden s-channel resonances, excluded internal particles, and forced decay chains of final state particles \cite{MG5}. As a result, MadGraph automatically generates the corresponding Feynman diagrams and creates the necessary code to compute the matrix element at a given point of the phase space.
+The Monte Carlo samples used in this study were generated using MadGraph5\_aMC@NLO  \cite{MG5}. The showering and hadronization are simulated using Pythia 8 \cite{Pythia8} and the detector response is parametrized using Delphes 3 \cite{Delphes}. These samples are available at the CERN EOS storage. 
 
-The Pythia8 program is frequently used for event generation in high energy physics. In this work, however, we use it only to simulate the showering and hadronization process and not the parton level hard process which is simulated in MadGraph5. The Les Houches file that is produced by MadGraph5 is used as input to a Pythia8 program that can decay unstable particles, simulate initial and final state showers as well as the hadronization of coloured particles, such as quarks and gluons. The desired settings can be specified in an additional file, a card, that is used as input for a Pythia8 run.
+MadGraph5 is a matrix element generator for high energy physics processes, such as decays and scatterings. The user specifies the desired process in terms of the initial and final states and can impose additional constraints such as allowing for a number of refined criteria, including forced or forbidden s-channel resonances, excluded internal particles, and forced decay chains of final state particles \cite{MG5}. As a result, MadGraph automatically generates the corresponding Feynman diagrams and creates the necessary code to compute the matrix element at a given point of the phase space. The output file is written in the Les Houches Accord \cite{lhe}.
+
+Pythia8 is frequently used for event generation in high energy physics. In this work, however, we use it only to simulate the showering and hadronization process and not the parton level hard process which is simulated in MadGraph5. The Les Houches file that is produced by MadGraph5 is used as input to a Pythia8 program that can decay unstable particles, simulate initial and final state showers as well as the hadronization of coloured particles, such as quarks and gluons. The desired settings can be specified in an additional file, a card, that is used as input for a Pythia8 run.
 
 Delphes3 allows for a quick and simple simulation of the detector's response \cite{Delphes}. Its goal is to allow the fast simulation of a multipurpose detector for phenomenological studies. The simulation includes a track propagation system, electromagnetic and hadronic calorimeters and a muon identification system. Low level physics objects, such as tracks and energy deposits, and high level physics objects, such as leptons and jets, are reconstructed from the detector's response and can be used to perform physics analysis. In the following paragraphs we briefly describe how the detector response is simulated and how jet reconstruction is performed.  
 
-The magnetic field is uniform, axial and parallel to the beam direction. Charged particles follow a helicoidal trajectory from the interaction point to the calorimeter while neutral particles have a straight line trajectory. The probability of a charged particle being reconstructed as a track is defined by the user. Only a smear in the modulus of the transverse momentum is applied (not to the direction). The tracking efficiency as well as energy and momentum resolutions are specified by the user and may include a dependency on the particle type, momentum and pseudorapidity. The calorimeters have a finite segmentation in the $(\eta,\phi)$ plane and the cell size can be defined in the configuration file. For simplicity, the segmentation is the same for the ECAL and in the HCAL and they are perfectly overlaid. The amount of energy deposited in the calorimeters by each particle type can be defined by the user. By default, stable hadrons deposit all their energy in the HCAL although in a real detector a significant fraction of their energy is deposited in the ECAL. The energy resolution of the ECAL and HCAL are parameterized as a function of $\eta$ and include stochastic, noise and constant terms. The electromagnetic and hadronic energy deposits are independently smeared by a log-normal distribution. 
+The magnetic field is uniform, axial and parallel to the beam direction. Charged particles follow a helicoidal trajectory from the interaction point to the calorimeter while neutral particles have a straight line trajectory. The probability of a charged particle being reconstructed as a track is defined by the user. Only a smear in the modulus of the transverse momentum is applied (not to the direction). The tracking efficiency as well as energy and momentum resolutions are specified by the user and may include a dependency on the particle type, momentum and pseudorapidity. The calorimeters have a finite segmentation in the $(\eta,\phi)$ plane and the cell size can be defined in the configuration file. The amount of energy deposited in the calorimeters by each particle type can be defined by the user. By default, stable hadrons deposit all their energy in the HCAL although in a real detector a significant fraction of their energy is deposited in the ECAL. The energy resolution of the ECAL and HCAL are parameterized as a function of $\eta$ and include stochastic, noise and constant terms. The electromagnetic and hadronic energy deposits are independently smeared by a log-normal distribution. 
 
 Jets can be produced using generator level long-lived particles after showering and hadronization, tracks, calorimeter towers or particle-flow tracks and towers. These are referred to as generator, track, calorimeter or particle-flow jets, respectively. For generator jets no detector simulation nor reconstruction are taken into account. In spite of the type of jet the user can choose the jet clustering algorithm and the values of its parameters as well as the minimum transverse momentum of the jets that are stored in the final collection. Delphes integrates the FastJet package \cite{fastjet} and therefore allows jet reconstruction with the most popular jet reconstruction algorithms, namely, anti-$k_T$, $k_T$ and C/A. 
 Jets resulting from the hadronization of a b quark, b jets, are identified if a b quark is found within a $\Delta R$ distance from the jet's axis. The tagging efficiency and mis-tagging probabilities can be defined by the user. 
@@ -60,7 +60,7 @@ All reconstructed tracks result in a particle flow track. If $E^{eflow}_{Tower}>
 
 FCC software (FCCSW) \cite{FCCSW}, common to all FCC experiments (electron-electron, electron-hadron and hadron-hadron) has been developed and is maintained by the FCC study group. The software is based on Gaudi \cite{gaudi}. An FCC Event Data Model based on podio \cite{Podio} was also developed. It consists in specific classes that encode the information about the events.
 
-The FCC-hh study group is responsible for the generation of Monte Carlo quick simulation samples for the main benchmark processes for the FCC-hh. The samples are generated using the worflow described in the previous section. CERN users can request rights to run the EventProducer package \cite{FCCEventProducer} and produce samples for any desired process using the machinery that is already implemented. In addition, the FCC Event Data Model classes are directly accessible and can be used to read the ROOT files that are produced after the events are pass through Delphes.
+The FCC-hh study group is responsible for the generation of Monte Carlo quick simulation samples for the main benchmark processes for the FCC-hh. The samples are generated using the worflow described in the previous section. CERN users can request rights to run the EventProducer package \cite{FCCEventProducer} and produce samples for any desired process using the machinery that is already implemented. In addition, the FCC Event Data Model classes are directly accessible and can be used to read the ROOT files that are produced after the events are passed through Delphes.
 
 The machinery to submit jobs to CERN's batch system is also implemented for both the generation (MadGraph5) and reconstruction (Pythia8 plus Delphes3) levels.
 
@@ -74,39 +74,80 @@ In this work we make use of this software in order to produce the necessary samp
 \section{Signal and background samples}
 \label{sec:sig+bkg}
 
+In this work we focus on the $hh\rightarrow b\overline{b}b\overline{b}$ channel and perform an analysis targeting the boosted kinematic region. The main backgrounds are multijet and $t\overline{t}$ production and the irreducible $pp\rightarrow b\overline{b}b\overline{b}$ process. This was introduced and motivated in chapter \ref{chapter:introduction} and it is discussed in detail in chapter \ref{chapter:analysis}. Here we provide a technical description of how the signal and background samples were generated. 
+
 %The MadGraph5 level cuts are summarized in table \ref{table:MG5cuts}. We show only the most relevant cuts for this analysis: the minimum $p_T$ of light and b quarks, $p_{T,j}^{\min}$ and $p_{T,b}^{\min}$, the maximum pseudorapidity range for light and b quarks, $\eta_j^{\max}$ and $\eta_b^{\max}$ and the $\Delta R$ separation between two light quarks, $\Delta R(jj)$, two b quarks, $\Delta R(bb)$, and between a light and b quarks, $\Delta R(jb)$. The \textit{xqcut} parameter is a measure of the required parton separation at Madgraph level. Whenever MadGraph produces two partons, $i$ and $j$, we define the distance between them as $\sqrt{2*\min{p_{T,i},p_{T,j}}[\cosh{(\eta_i-\eta_j)}-\cos{(\phi_i-\phi_j)}]}$. If the value of this expression is smaller than the specified value of xqcut then we do not generate the event. The \textit{bwcutoff} parameter defines what is considered to be on-shell s-channel resonances. The $H_T$ variable is the scalar sum of the $p_T$ of all truth level partons, including b quarks. 
 
 \subsection{MadGraph}
 
-The 4b+j samples are generated with an extra jet with a high $p_T$ at generator level in order to force the four b quarks to have a high Lorentz boost and therefore increases the probability of the events being reconstructed with two large-R jets with a two-prong substructure. The 4b+j QCD sample is constituted by two independent samples that have a different generator level cut in the minimum $p_T$ of the light jets, namely, $200<p_{T,j}^{\min}<500$ GeV and $p_{T,j}^{\min}>500$ GeV. The jj+0/1/2 j is divided into several individual samples that are produced in different $H_T$ regions, where $H_T$ is the scalar sum of the $p_T$ of all partons at generator level. The minimum allowed $H_T$ is 500 GeV. Since these backgrounds are QCD processes, the $p_T$ distribution of the final state jets falls very steeply as the $p_T$ increases. Therefore, if one were to generate events for these processes without restricting the phase space, most events would consist of jets with a very low $p_T$ which are exactly the type of events that are rejected the most by a boosted analysis (see chapter \ref{chapter:analysis} for more details on the event topology that is targeted and on the analysis strategy). Also note that for the 4b+j (QCD) and jj+0/1/2 j samples we do not take into account the regions of the phase space with $p_{T,j}<200$ GeV and with $0<H_T<500$ GeV. We assume that we can reject most of the events (if not all) events with these kinematic characteristics by going to a sufficiently boosted region of the phase space.
+The irreducible background is generated with an extra jet with a high $p_T$ at generator level, $4b+j$, where $j$ stands for a light jet (initiated by a gluon or $u,d,c,s$ quarks). This is referred to as the four flavor scheme. The extra jet forces the four b quarks to have a high Lorentz boost and therefore increases the probability of the events being reconstructed with two large-$R$ jets with a two-prong substructure. For this process, QCD and electroweak contributions are considered separately, i.e, we include three different types of samples: one in which only QCD processes are considered, one in which only electroweak processes are considered and one in which both process are considered simultaneously. The samples do not overlap. The $4b+j$ QCD sample is constituted by two independent samples that have a different generator level cut in the minimum $p_T$ of the light jets, namely, $200<p_{T,j}^{\min}<500$ GeV and $p_{T,j}^{\min}>500$ GeV. This allows for a more efficient generation. 
 
-The 4b+j is generated using the four flavor scheme meaning that the extra parton can be a gluon or a quark from the first he second geerations. For the jj+0/1/2 j and $t\overline{t}$+0/1/2 j samples the five flavor scheme is used and therefore the extra partons can also be b quarks. Notice that after the showering procedure there could be some overlapp between the 4b+j and jj+0/1/2 j. This is taken care of in our analysis code: if an event from the jj+0/1/2 j has four b quarks at truth level [GIVE PERCENTAGE] then we do not consider it because it will certainly overlapp with an event from the 4b+j sample. 
+The multijet background is simulated through $jj+0/1/2 ~j$ where $j$ stands for a light or b jet (five flavor scheme).
+This background is divided into several individual samples that are produced in different $H_T$ regions, where $H_T$ is the scalar sum of the $p_T$ of all partons at generator level. The minimum(maximum) allowed $H_T$ is $500(100,000)$ GeV. Since these backgrounds are QCD processes, the $p_T$ distribution of the final state jets falls very steeply as the $p_T$ increases. Therefore, if one were to generate events for these processes without restricting the phase space, most events would consist of jets with a very low $p_T$ which are exactly the type of events that are rejected the most by a boosted analysis (see chapter \ref{chapter:analysis} for more details on the event topology that is targeted and on the analysis strategy). As we move to regions of the phase with a higher $H_T$ the cross section decreases meaning we need fewer MC events to properly simulate the background in that region.
+
+Note that for the $4b+j$ (QCD) and $jj+0/1/2 ~j$ samples we do not take into account the regions of the phase space with $p_{T,j}<200$ GeV and with $0<H_T<500$ GeV. We assume that we can reject most of the events (if not all) events with these kinematic characteristics by going to a sufficiently boosted region of the phase space. In addition, note that after the showering procedure there could be some overlap between the $4b+j$ and $jj+0/1/2~ j$. This is taken care of in our analysis code: if an event from the $jj+0/1/2 ~j$ has four b quarks at truth level [GIVE PERCENTAGE] then we do not consider it because it will certainly overlap with an event from the $4b+j$ sample.
+
+%The 4b+j is generated using the four flavor scheme meaning that the extra parton can be a gluon or a quark from the first he second geerations. For the jj+0/1/2 j and $t\overline{t}$+0/1/2 j samples the five flavor scheme is used and therefore the extra partons can also be b quarks. Notice that after the showering procedure there could be some overlapp between the 4b+j and jj+0/1/2 j. This is taken care of in our analysis code: if an event from the jj+0/1/2 j has four b quarks at truth level [GIVE PERCENTAGE] then we do not consider it because it will certainly overlapp with an event from the 4b+j sample. 
+
+The $t\overline{t}$ background sample is generated with extra jets at generator level, $t\overline{t}+0/1/2 ~j$, using the five flavor scheme. We consider an inclusive sample for this background, meaning that we do not force any particular decay of the top quark or of the subsequent particles.
  
-For the $hh$ SM sample, one of the Higgs is decayed to $b\overline{b}$ in MadGraph. The reasoning behind this choice is that most searches for Higgs pair production make use of final channel that include at least two b quarks in order to keep the cross section times BR of the process large enough an this way the same generator level sample can be used to perform different analysis. The decay of the remaining Higgs boson can then be implemented in Pythia, in the case of this work, to $b\overline{b}$. For the $hh$ BSM samples both Higgs are decayed only in Pythia.
+For the $hh$ SM signal sample, one of the Higgs is decayed to $b\overline{b}$ in MadGraph. The reasoning behind this choice is that most searches for Higgs pair production make use of a final state that includes at least two b quarks in order to keep the cross section times BR of the process large enough. In addition, this method allows the same generator level samples to be used to perform different analysis, simply by choosing the decay of the remaining Higgs boson. The decay of the remaining Higgs boson can be implemented in Pythia, in the case of this work, to $b\overline{b}$.
+
+The generator level cuts for the signal and background samples are summarized in table \ref{table:MG5cuts} in appendix \ref{chapter:samples_gen}. 
 
 \subsubsection{Signal samples - BSM} 
 
-In addtion to the SM di-Higgs signal, we also explore the signature and analysis sensitivity for di-Higgs signals produced by two benchmark BSM models: CP-conserving 2HDM and a simplified dark matter model (DM) with a spin 0 mediator. These models were described in section \ref{section:BSM}.
+In addtion to the SM di-Higgs signal, we also explore the signature and analysis sensitivity for di-Higgs signals produced by two benchmark BSM models: CP-conserving type II 2HDM and a simplified dark matter model (DM) with a spin 0 mediator. These models were described in section \ref{section:BSM}.
 
 Both models are readily available in Feynrules \cite{Feynrules} (which is a Mathematica package for the implementation of new physics models) model database and can be straightforwardly implemented in Madgraph5. The parameters of the models, namely the masses of the new particles, can be changed by the user. In the case of this work, we want new particles to have a large mass so that they produce SM Higgs pairs with a high Lorentz boost. 
 
-Starting from \cite{2HDMdata}, that constraints the parameter space of the CP-conserving 2HDM using ATLAS and CMS data collected during LHC's $7$ and $8$ TeV runs, we choose values for the masses of the additional Higgs bosons ($h_2$, $h_3$, $h^{\pm}$) that are as high as possible but that are within the allowed (not excluded by experimental data or theoretical constraints) phase space of the model. We set:
-\begin{equation}
-m_{h_2}=600 ~\text{GeV}, \quad m_{h_3}=900 ~\text{GeV}, \quad m_{h^{\pm}}=360. ~\text{GeV}
-\end{equation}
-As a safety check, we test the model with these parameters at a CM energy of $13$ TeV. We obtain a value for the cross section of approximately $0.1$ pb which smaller than the current experimental limit on the cross section.
+%Starting from \cite{2HDMdata}, that constraints the parameter space of the CP-conserving 2HDM using ATLAS and CMS data collected during LHC's $7$ and $8$ TeV runs, we choose values for the masses of the additional Higgs bosons ($h_2$, $h_3$, $h^{\pm}$) that are as high as possible but that are within the allowed (not excluded by experimental data or theoretical constraints) phase space of the model. We set:
+%\begin{equation}
+%m_{h_2}=600 ~\text{GeV}, \quad m_{h_3}=900 ~\text{GeV}, \quad m_{h^{\pm}}=360. ~\text{GeV}
+%\end{equation}
+%As a safety check, we test the model with these parameters at a CM energy of $13$ TeV. We obtain a value for the cross section of approximately $0.1$ pb which smaller than the current experimental limit on the cross section.
 
-In the case of the DM model, the spin 0 mediator's mass is set at $1$ TeV. The cross section for the signal generated with this model is smaller than the cross section of the SM signal (approximately $0.2$ pb \textit{versus} $0.7$ pb) and therefore this model is not excluded by experimental data.
+For the DM model \cite{DM}, the spin 0 mediator's mass is set at $1$ TeV. The cross section for the signal generated with this model is smaller than the cross section of the SM signal (approximately $0.2$ pb \textit{versus} $0.7$ pb) and therefore this model is not excluded by experimental data.
+
+For the 2HDM \cite{2HDM,2HDM1}, a finner tunning of the parameters is required because the model is very general and has a lot external free parameters. In addition, it is written in the Higgs basis such that we need to convert the parameters from the physical basis (introduced in \ref{section:BSM}) to this basis. The free parameters of the model that we are interested in are the masses of the neutral, $mh1, mh2, mh3$, and charged scalars, $mhc$, the neutral scalars mixing angles, $mixh, mixh2, mixh3$, the real and imaginary parts of the up, down and charged lepton $3\times 3$ Yukawa matrices, $GUR, GUI, GDR, GDI, GLR, GLI$ and the values (real and imaginary parts) of the second, third and seventh quartic couplings, $l_{2,3,7}$,. In the CP-conserving model $h_{1,2,3}$ can be identified with the physical states $h$, $H$ and $A$, respectively.
+
+We start from the following parameters (in the physical basis):
+\begin{align}
+	&m_h=125 ~\text{GeV}, \quad m_H=900 ~\text{GeV},\quad m_A=850 ~\text{GeV}, \quad m_{H^{\pm}}=800 ~\text{GeV} \nonumber \\
+	&\beta=\frac{\pi}{4}, \quad \alpha = -0.75\nonumber \\	 
+	&m_{12}^2=[(m_H^2+m_A^2+m_{H^{\pm}}^2)/3] \cos(\beta)\sin(\beta)\simeq181041.6667.
+	\label{eq:2HDMphys_par}
+\end{align}
+In the Higgs basis, the input parameters for the model are
+\begin{align}
+&m_{h_1}=125 ~\text{GeV}, \quad m_{h_2}=900 ~\text{GeV},\quad m_{h_3}=850 ~\text{GeV}, \quad m_{hc}=800 ~\text{GeV} \nonumber \\
+&mix_{h_2}=mix_{h_3} =0 \nonumber \\
+&mix_{h_1}=\frac{\pi}{2}-(\beta-\alpha)\simeq 0.035 \nonumber \\
+&l_2\simeq 0.27, \quad l_3\simeq 9.46, \quad l_7\simeq 0.46.
+\label{eq:2HDMhiggs_par}
+\end{align}
+The masses of the scalars cannot change when going from one basis to the other. Therefore we set them to the exact same values. $mix_{h_2},mix_{h_3}=0$ because we are considering the CP-conserving model.
+To obtain the values of $l_{2,3,7}$ we use Eq. 11 from \cite{2HDMpedro} we write the $\lambda$ parameters of the scalar potential in terms of the parameters defined in Eq. \ref{eq:2HDMphys_par}. Then we use Eq. 47,48 and 50 from \cite{2HDMhaber} to obtain the values of the quartic coupling in Higgs basis.
+
+Regarding the Yukawa interactions, we work in the type II model. Following the type II restriction file found in \cite{2HDM} we set
+\begin{align}
+	&GLR=GLI=GDI=GUI=0 \nonumber \\
+	&GDR=\text{diag}\left(0,0,\frac{m_b\sqrt{2}\tan(\beta)}{v}\right) \nonumber \\
+	&GDR=\text{diag}\left(0,0,-\frac{m_t\sqrt{2}}{v\tan(\beta)}\right)
+\end{align}	
+where $m_b=4.7$ GeV and $m_t=172$ GeV are the masses of the bottom and top quarks.
 
 \subsection{Pythia}
 
-For the signal sample we simply turn off all other decays except $h\rightarrow b\overline{b}$ therefore forcing the Higgs to decay to a pair of b quarks leading to the desired final state with four b quarks. All other settings are left are not altered with respect to their default configuration.
+For the signal sample we simply turn off all other decays except $h\rightarrow b\overline{b}$ therefore forcing the Higgs to decay to a pair of b quarks leading to the desired final state with four b quarks. All other settings are not altered with respect to their default configuration.
 
-For the multijet and $t\overline{t}$ samples we have to perform jet matching because we require additional jets at the level of the matrix element. In addition to the partons generated in MadGraph and that produce a jet, Pythia may introduce extra jets that are usually soft and collinear (with the particle from which they were radiated) and result from the showering process. This could lead to the same process (meaning processes with the same final states) being counted twice (double counting). Take, for example, the processes j~j and  j~j~j at MadGraph level. It can happen that Pythia generates an extra jet for the first process but not for the second, leading to both processes having the same final state (three jets). Each process would then give its independent contribution to the total number of events but because they simply represent two distinct ways of achieving the same final state they should only be counted once. The goal of jet matching procedures is to avoid this problem. 
+For the $jj+0/1/2 ~$ and $t\overline{t}+0/1/2 ~j$ samples we have to perform jet matching because we require additional jets at the level of the matrix element. In addition to the partons generated in MadGraph and that can produce a jet, Pythia may introduce extra jets that are usually soft and collinear (with the particle from which they were radiated) and result from the showering process. This could lead to the same process (meaning processes with the same final states) being counted twice (double counting). Take, for example, the processes $j~j$ and  $j~j~j$ at MadGraph level. It can happen that Pythia generates an extra jet for the first process but not for the second, leading to both processes having the same final state (three jets). Each process would then give its independent contribution to the total number of events but because they simply represent two distinct ways of achieving the same final state they should only be counted once. The goal of jet matching procedures is to avoid this problem. 
 
 %The settings for jet matching can be found in table \ref{table:Pythia8settings} under the corresponding samples' columns. We perform the jet matching procedure (merge=on) using the MLM matching scheme and the appropriate algorithm for a parton level process generated in MadGraph (scheme=1). We do not read the matching parameters from the MadGraph file (setMad=off) because this option is not available for these files. The size of the cone drawn around the jet's center, the maximum pseudorapidity and the maximum number of jets to be matched are given by coneRadius, etaJetMax and nJetMax, respectively. The cone radius is set to one. The maximum allowed pseudorapidity of jets is ten which is a much loser cut than the acceptance of any current detector. The maximum number of jets is set to four for the jj+0/1/2 j and to two for the $t\overline{t}$+0/1/2 j. The qCut parameter defines the $k_T$ scale for merging shower products into jets.  
 
-The cross section times branching ratio (when applicable), the k-factors and the total number of events used in the analysis are summarized in table \ref{table:samples_summary}, for all samples. The k-factor multiplies the cross section times branching ratio in order to reproduce known higher order results. This factor corresponds only to the ratio between the total cross section and it does not correct for possible difference that might exist between the differential cross sections.
+The cross section times branching ratio (when applicable), the k-factors and the total number of events used in the analysis are summarized in table \ref{table:samples_summary}, for all samples. The k-factor multiplies the cross section times branching ratio in order to reproduce known higher order results. It corresponds only to the ratio between the total cross sections and it does not correct for possible difference that might exist between the differential cross sections.
+
+The parameters used in Pyhtia 8 can be found in table \ref{table:Pythia8settings} in appendix \ref{chapter:samples_gen}.
 
 \begin{table}
 	\centering
@@ -114,23 +155,22 @@ The cross section times branching ratio (when applicable), the k-factors and the
 		\toprule 
 		\textbf{Sample} & $\sigma\times BR$ [pb] & k-factor & Number of events\\
 		\midrule
-		hh (hh$\rightarrow b\overline{b}b\overline{b}$) - \textbf{SM} & $0.76$ & $1.52$ &\\
-		\rowcolor{black!7} hh (hh$\rightarrow b\overline{b}b\overline{b}$) - \textbf{DM mediator} & $0.218$ & $1.0$ & \\
-		hh (hh$\rightarrow b\overline{b}b\overline{b}$) - \textbf{2HDM} & $1.85$ & $1.0$ & \\
-		\rowcolor{black!7} 4b+j (QCD, $200<p_T^j<500$)& $756.4$ & $2.0$ &\\
-		4b+j (QCD, $p_T^j>500$)& $57.71$ & $2.0$ &\\
+		$hh\rightarrow b\overline{b}b\overline{b}$ - \textbf{SM} & $0.76$ & $1.52$ &\\
+		\rowcolor{black!7} $hh\rightarrow b\overline{b}b\overline{b}$ - \textbf{DM mediator} & $0.218$ & $1.0$ & \\
+		$hh\rightarrow b\overline{b}b\overline{b}$ - \textbf{2HDM} & $1.85$ & $1.0$ & \\
+		\rowcolor{black!7} $4b+j$ (QCD, $200<p_T^j<500$)& $756.4$ & $2.0$ &\\
+		$4b+j$ (QCD, $p_T^j>500$)& $57.71$ & $2.0$ &\\
 		\rowcolor{black!7}4b+j (QCD+EWK) & $6.204$ & $1.0$ & \\
-		4b+j (EWK)& $0.07206$ & $1.0$ & \\
-		\rowcolor{black!7}jj+0/1/2 j ($0<H_T<500$) & $6.52\times 10^9$ & $1.0$ &\\
-		jj+0/1/2 j ($500<H_T<1000$) & $1.64\times 10^7$ &$1.0$&\\
-		\rowcolor{black!7}jj+0/1/2 j ($1000<H_T<2000$) & $1.67\times 10^6$ &$1.0$ &\\
-		jj+0/1/2 j ($2000<H_T<4000$) & $1.32\times 10^5$ & $1.0$&\\
-		\rowcolor{black!7}jj+0/1/2 j ($4000<H_T<7200$) & $7.32\times 10^3$ & $1.0$&\\
-		jj+0/1/2 j ($7200<H_T<15000$) & $4.75\times 10^2$ & $1.0$&\\
-		\rowcolor{black!7}jj+0/1/2 j ($15000<H_T<25000$) & $7.35$ & $1.0$&\\
-		jj+0/1/2 j ($25000<H_T<35000$) & $0.176$ & $1.0$&\\
-		\rowcolor{black!7}jj+0/1/2 j ($35000<H_T<100000$) & $0.00765$ & $1.0$&\\
-		$t\overline{t}$+0/1/2 j & $4.31	\times 10^4$ & $1.74$ &\\
+		$4b+j$ (EWK)& $0.07206$ & $1.0$ & \\
+		\rowcolor{black!7} jj+0/1/2 j ($500<H_T<1000$) & $1.64\times 10^7$ &$1.0$&\\
+		$jj+0/1/2 ~j$ ($1000<H_T<2000$) & $1.67\times 10^6$ &$1.0$ &\\
+		\rowcolor{black!7}$jj+0/1/2 ~j$ ($2000<H_T<4000$) & $1.32\times 10^5$ & $1.0$&\\
+		$jj+0/1/2 ~j$ ($4000<H_T<7200$) & $7.32\times 10^3$ & $1.0$&\\
+		\rowcolor{black!7}$jj+0/1/2 ~j$ ($7200<H_T<15000$) & $4.75\times 10^2$ & $1.0$&\\
+		$jj+0/1/2 ~j$ ($15000<H_T<25000$) & $7.35$ & $1.0$&\\
+		\rowcolor{black!7}$jj+0/1/2 ~j$ ($25000<H_T<35000$) & $0.176$ & $1.0$&\\
+		$jj+0/1/2 ~j$ ($35000<H_T<100000$) & $0.00765$ & $1.0$&\\
+		\rowcolor{black!7}$t\overline{t}$+0/1/2 j & $4.31	\times 10^4$ & $1.74$ &\\
 		\bottomrule
 	\end{tabular}
 	\caption{Summary of the cross sections, k factors and total number of events of the samples used in the analysis.}
@@ -140,7 +180,7 @@ The cross section times branching ratio (when applicable), the k-factors and the
 \subsection{Delphes}
 \label{sec:HCALgran}
 
-It is one of the main goals of this work to evaluate how the analysis sensitivity is influenced by the granularity of the hadronic calorimeter. We start from the same MadGraph level samples and pass them through Pythia and Delphes changing the setting of the Delphes card that correspond to the HCAL. All other detector's parameters were kept unchanged with respect to the FCC default Delphes card. 
+It is one of the main goals of this work to evaluate how the analysis sensitivity is influenced by the granularity of the hadronic calorimeter. We start from the same MadGraph level samples and pass them through Pythia and Delphes changing the settings of the Delphes card that correspond to the HCAL. All other detector's parameters were kept unchanged with respect to the FCC default Delphes card. 
 We tested five benchmark granularity configurations:
 
 \begin{enumerate}
@@ -151,8 +191,9 @@ We tested five benchmark granularity configurations:
 	\item Starting from the FCC HCAL configuration we increase the granularity in $|\eta|$ and in $\phi$ by two, in the entire pseudo rapidity range covered by the HCAL.
 \end{enumerate}
 
-The granularities of these five configurations are summarized in table \ref{table:Gran}. The values that are shown, as well as the corresponding pseudo rapidity regions, are exactly what is implemented in the Delphes' cards. In addition, we also passed the same generator level samples through the default ATLAS detector simulation in Delphes. The HCAL granularity is the one that is indicate in table \ref{table:Gran} but the other detector's parameters, such as the radius, magnetic field, tracking resolutions are the ones that are implemented in the default ATLAS Delphes card. 
+The granularities of these five configurations are summarized in table \ref{table:Gran}. The values that are shown, as well as the corresponding pseudorapidity regions, are exactly what is implemented in the Delphes. 
 
+In addition, we also passed the same generator level samples through the default ATLAS detector simulation in Delphes. The HCAL granularity is the one that is indicate in table \ref{table:Gran} but the other detector's parameters, such as the radius, magnetic field, tracking resolutions are the ones that are implemented in the default ATLAS Delphes card. This additional detector configuration gives us an extra point in the phase space of parameters that we are trying to explore. Furthermore, in a first, very crude, approximation, it allow us to compare the results obtained at $\sqrt{s}=100$ TeV to the ones obtained at $\sqrt{s}=13$ TeV by ATLAS.
 
 \begin{table}
 	\centering

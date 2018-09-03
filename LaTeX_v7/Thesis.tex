@@ -69,6 +69,7 @@
 % ----------------------------------------------------------------------
 \usepackage{lineno}
 \linenumbers
+\usepackage{mathtools} 
 \usepackage{wrapfig}
 \usepackage[table,xcdraw]{xcolor}
 \usepackage[utf8]{inputenc}
@@ -102,19 +103,19 @@
 % Dedication page (optional)
 % ----------------------------------------------------------------------
 \input{Thesis_Dedication} % file "Thesis_Dedication.tex"
-\cleardoublepage
+\clearpage
 
 % ----------------------------------------------------------------------
 %  Acknowledgments (optional)
 % ----------------------------------------------------------------------
 \input{Thesis_Acknowledgements} % file "Thesis_Acknowledgements.tex"
-\cleardoublepage
+\clearpage
 
 % ----------------------------------------------------------------------
 %  Abstract (both in English and Portuguese)
 % ----------------------------------------------------------------------
 \input{Thesis_Resumo}   % file "Thesis_Resumo.tex"
-\cleardoublepage
+\clearpage
 
 \input{Thesis_Abstract} % file "Thesis_Abstract.tex"
 \cleardoublepage
@@ -135,7 +136,7 @@
 \addcontentsline{toc}{section}{\listtablename}
 % Generate list
 \listoftables
-\cleardoublepage 
+\clearpage 
 
 % List of figures
 %
@@ -144,7 +145,7 @@
 \addcontentsline{toc}{section}{\listfigurename}
 % Generate list
 \listoffigures
-\cleardoublepage 
+\clearpage 
 
 % Nomenclature
 %
@@ -156,7 +157,7 @@
 \addcontentsline{toc}{section}{\nomname}
 % Insert glossary/nomenclature section produced by MakeIndex
 \printnomenclature
-\cleardoublepage
+\clearpage
 
 % entries of glossary list
 \input{Thesis_Glossary} % file "Thesis_Glossary.tex"
@@ -166,7 +167,7 @@
 \addcontentsline{toc}{section}{\glossaryname}
 % Insert glossary section produced by MakeIndex
 \printglossary
-\cleardoublepage
+\clearpage
 
 % Set arabic numbering (1,2,...) after preface
 %
@@ -178,19 +179,19 @@
 % ----------------------------------------------------------------------
 
 \input{Thesis_Introduction} % file "Thesis_Introduction.tex"
-\cleardoublepage
+\clearpage
 
 \input{Thesis_SM} % file "Thesis_Background.tex"
-\cleardoublepage
+\clearpage
 
 \input{Thesis_Exp} % file "Thesis_Implementation.tex"
-\cleardoublepage
+\clearpage
 
 \input{Thesis_state} % add new .tex files for new chapters
-\cleardoublepage
+\clearpage
 
 \input{Thesis_Tools}
-\cleardoublepage
+\clearpage
 
 %\input{Thesis_new_file} % add new .tex files for new chapters
 % \cleardoublepage
@@ -202,13 +203,13 @@
 %\cleardoublepage
 
 \input{Thesis_analysis} % file "Thesis_Conclusions.tex"
-\cleardoublepage
+\clearpage
 
 \input{Thesis_Results} % file "Thesis_Results.tex"
-\cleardoublepage
+\clearpage
 
 \input{Thesis_Conclusions} % file "Thesis_Conclusions.tex"
-\cleardoublepage
+\clearpage
 
 % ----------------------------------------------------------------------
 %  Bibliography
@@ -256,7 +257,7 @@
 % External bibliography database file in the BibTeX format
 \bibliography{Thesis_bib_DB} % file "Thesis_bib_DB.bib"
 
-\cleardoublepage
+\clearpage
 
 % ----------------------------------------------------------------------
 %  Appendix (optional)
