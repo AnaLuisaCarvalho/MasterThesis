@@ -4,9 +4,25 @@ The top-level auxiliary file: ExtendedAbstract.aux
 The style file: abbrv.bst
 I found no \citation commands---while reading file ExtendedAbstract.aux
 Database file #1: ExtendedAbstract_ref_db.bib
-Unbalanced braces---line 977 of file ExtendedAbstract_ref_db.bib
+Unbalanced braces---line 743 of file ExtendedAbstract_ref_db.bib
  :       title          = "MadGraph 5 : Going Beyond
  :                                                  }",
+I'm skipping whatever remains of this entry
+"{" immediately follows a field part---line 1702 of file ExtendedAbstract_ref_db.bib
+ : URL= \url
+ :          {https://indico.cern.ch/event/438866/contributions/1085149/attachments/1256884/1855819/FCCweek_2016_Rome_April.pdf},
+I'm skipping whatever remains of this entry
+"{" immediately follows a field part---line 1710 of file ExtendedAbstract_ref_db.bib
+ : URL= \url
+ :          {https://indico.cern.ch/event/579660/contributions/2575089/attachments/1495811/2327298/BOOST2017_hcal.pdf},
+I'm skipping whatever remains of this entry
+"{" immediately follows a field part---line 1718 of file ExtendedAbstract_ref_db.bib
+ : URL= \url
+ :          {https://indico.cern.ch/event/340703/contributions/802259/attachments/668834/919361/PhysicsRequirementsFCC_2015DC.pdf},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1974 of file ExtendedAbstract_ref_db.bib
+ :       title         = "
+ :                        {Searches for Higgs boson pair production in the $hh\to
 I'm skipping whatever remains of this entry
 You've used 0 entries,
             2118 wiz_defined-function locations,
@@ -49,4 +65,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 2
-(There were 2 error messages)
+(There were 6 error messages)

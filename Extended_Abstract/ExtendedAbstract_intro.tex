@@ -31,9 +31,17 @@ A particularly interesting process to be studied in future colliders is the prod
 		e -- [scalar, edge label'=\(h^*\)]  f,
 		h -- [scalar, edge label'=\(h\)] f -- [scalar, edge label'=\(h\)] i,
 		a -- [opacity=0] d,
+	};\\
+	\feynmandiagram[baseline=(current bounding box.center),small, layered layout,horizontal=a to b] {
+		% Draw the top and bottom lines
+		i1 -- [gluon, edge label'=\(g\)] a-- [anti fermion] b-- [scalar, edge label'=\(h\)] f1,
+		i2 -- [gluon, edge label'=\(g\)] c-- [fermion] d-- [scalar, edge label'=\(h\)] f2,
+		% Draw the two internal fermion lines
+		{ [  same layer	] a -- [fermion] c },
+		{ [  same layer] b -- [anti fermion] d},
 	};
 	\label{fig:hh_diag}
-	\caption{oi}
+	\caption{Feynman diagrams for the $gg\rightarrow hh$ process at leading order.}
 \end{figure}
 
 However, searches for di-Higgs production are extremely challenging mainly because the cross section of this process is very small, of the order of tens of femtobarns (fb). Even with the entire dataset that is expected to be accumulated during the LHC's (including its high luminosity upgrade) lifetime ($O(3)~\text{ab}^{-1}$), it is very unlikely that we will be able to declare the observation of this process. Therefore, the discovery of di-Higgs production relies on future colliders making it a key benchmark process.

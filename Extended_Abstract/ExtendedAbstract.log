@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2017.11.27)  1 SEP 2018 14:03
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2017.11.27)  5 SEP 2018 19:57
  restricted \write18 enabled.
 **ExtendedAbstract.tex
 (./ExtendedAbstract.tex
@@ -657,49 +657,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--25
  []
 
 ) (./ExtendedAbstract_intro.tex
-<./images/hist_deltaR_bb_pt.pdf, id=4, 569.12625pt x 385.44pt>
-File: ./images/hist_deltaR_bb_pt.pdf Graphic file (type pdf)
-
-<use ./images/hist_deltaR_bb_pt.pdf>
-Package pdftex.def Info: ./images/hist_deltaR_bb_pt.pdf used on input line 45.
-(pdftex.def)             Requested size: 222.62204pt x 154.6379pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]) (./ExtendedAbstract_det.tex)
+]
+<./images/hist_deltaR_bb_pt.pdf, id=21, 569.12625pt x 385.44pt>
+File: ./images/hist_deltaR_bb_pt.pdf Graphic file (type pdf)
+
+<use ./images/hist_deltaR_bb_pt.pdf>
+Package pdftex.def Info: ./images/hist_deltaR_bb_pt.pdf used on input line 53.
+(pdftex.def)             Requested size: 222.62204pt x 154.6379pt.
+) (./ExtendedAbstract_det.tex)
 (./ExtendedAbstract_detFCC.tex) (./ExtendedAbstract_backg.tex [2<./images/hist_d
-eltaR_bb_pt.pdf>]) (./ExtendedAbstract_sim.tex) (./ExtendedAbstract_imple.tex
-Underfull \hbox (badness 1005) in paragraph at lines 22--23
-[]\OT1/cmr/m/n/10 The anal-y-sis that we im-ple-mented tar-gets the
+eltaR_bb_pt.pdf>]
+Underfull \hbox (badness 2237) in paragraph at lines 28--29
+\OT1/cmr/m/n/10 HCAL(ECAL) $0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 05(0\OML/cmm/m/i
+t/10 :\OT1/cmr/m/n/10 012)\OML/cmm/m/it/10  \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10
+ 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 8(0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 7)\OML
+/cmm/m/it/10 deg$ \OT1/cmr/m/n/10 and
  []
 
+
+Underfull \vbox (badness 1043) has occurred while \output is active []
+
+)
+(./ExtendedAbstract_sim.tex) (./ExtendedAbstract_imple.tex
 <./images/boosted1.png, id=73, 778.8297pt x 385.44pt>
 File: ./images/boosted1.png Graphic file (type png)
 
 <use ./images/boosted1.png>
-Package pdftex.def Info: ./images/boosted1.png used on input line 30.
+Package pdftex.def Info: ./images/boosted1.png used on input line 26.
 (pdftex.def)             Requested size: 267.14577pt x 153.24551pt.
 
-Overfull \hbox (44.52373pt too wide) in paragraph at lines 30--32
+Overfull \hbox (44.52373pt too wide) in paragraph at lines 26--28
  [][][] 
  []
 
-<./images/hist_h1_softdrop_M_stack.pdf, id=75, 569.12625pt x 385.44pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3] <./images/hist_h1_softdrop_M_stack.pdf, id=78, 569.12625pt x 385.44pt>
 File: ./images/hist_h1_softdrop_M_stack.pdf Graphic file (type pdf)
 
 <use ./images/hist_h1_softdrop_M_stack.pdf>
 Package pdftex.def Info: ./images/hist_h1_softdrop_M_stack.pdf used on input lin
-e 37.
+e 50.
 (pdftex.def)             Requested size: 222.62204pt x 150.77385pt.
 ) (./ExtendedAbstract_resul.tex
-<./images/EffPlotGran.pdf, id=76, 569.12625pt x 385.44pt>
+<./images/EffPlotGran.pdf, id=79, 569.12625pt x 385.44pt>
 File: ./images/EffPlotGran.pdf Graphic file (type pdf)
 
 <use ./images/EffPlotGran.pdf>
@@ -709,7 +717,7 @@ Package pdftex.def Info: ./images/EffPlotGran.pdf used on input line 25.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/SSBplotGran.pdf, id=77, 569.12625pt x 385.44pt>
+<./images/SSBplotGran.pdf, id=80, 569.12625pt x 385.44pt>
 File: ./images/SSBplotGran.pdf Graphic file (type pdf)
 
 <use ./images/SSBplotGran.pdf>
@@ -724,19 +732,18 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [3<./images/boosted1.png><./images/hist_h1_softdrop_M_stack.pdf>] [4
-
-<./images/EffPlotGran.pdf><./images/SSBplotGran.pdf>] (./ExtendedAbstract.aux))
+) [4<./images/boosted1.png><./images/hist_h1_softdrop_M_stack.pdf><./images/EffP
+lotGran.pdf><./images/SSBplotGran.pdf>] (./ExtendedAbstract.aux))
 
 Here is how much of LuaTeX's memory you used:
- 17651 strings out of 495004
+ 17726 strings out of 495004
  100000,552014 words of node,token memory allocated
- 380 words of node memory still in use:
-   5 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 50 glue_spec, 1 write nodes
-   avail lists: 1:7,2:40,3:756,4:2390,5:286,6:4744,7:459,8:2,9:402,10:408
- 20355 multiletter control sequences out of 65536+600000
+ 395 words of node memory still in use:
+   5 hlist, 2 vlist, 2 rule, 2 glue, 3 kern, 50 glue_spec, 1 write nodes
+   avail lists: 1:7,2:40,3:762,4:2925,5:356,6:5558,7:459,8:2,9:462,10:510
+ 20430 multiletter control sequences out of 65536+600000
  59 fonts using 2329191 bytes
- 56i,13n,98p,1906b,1564s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 58i,14n,98p,1906b,1564s stack positions out of 5000i,500n,10000p,200000b,100000s
 <</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><</usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><</usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><</usr/share/texliv
@@ -748,7 +755,7 @@ lic/amsfonts/cm/cmr7.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmr9.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.
 pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ExtendedAbstract.pdf (4 pages, 494313 bytes).
+Output written on ExtendedAbstract.pdf (4 pages, 500713 bytes).
 
 PDF statistics: 263 PDF objects out of 1000 (max. 8388607)
  135 compressed objects within 2 object streams
