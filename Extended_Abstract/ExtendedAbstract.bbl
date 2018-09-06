@@ -1,3 +1,93 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{ATLAShhComb}
+A.~Collaboration, \href{https://cds.cern.ch/record/2634999}{{Combination of
+  searches for Higgs boson pairs in $pp$ collisions at 13 TeV with the ATLAS
+  experiment.}}, Tech. Rep. ATLAS-COM-CONF-2018-048, CERN, Geneva (Aug 2018).
+\newline\urlprefix\url{https://cds.cern.ch/record/2634999}
+
+\bibitem{hhFeasibility}
+J.~K. Behr, D.~Bortoletto, J.~A. Frost, N.~P. Hartland, C.~Issever, J.~Rojo,
+  {Boosting Higgs pair production in the $b\bar{b}b\bar{b}$ final state with
+  multivariate techniques}, Eur. Phys. J. C76~(7) (2016) 386.
+\newblock \href {http://arxiv.org/abs/1512.08928} {\path{arXiv:1512.08928}},
+  \href {http://dx.doi.org/10.1140/epjc/s10052-016-4215-5}
+  {\path{doi:10.1140/epjc/s10052-016-4215-5}}.
+
+\bibitem{ATLAShh2bbAA_HL}
+\href{https://cds.cern.ch/record/2243387}{{Study of the double Higgs production
+  channel $H(\rightarrow b\bar{b})H(\rightarrow \gamma\gamma)$ with the ATLAS
+  experiment at the HL-LHC}}, Tech. Rep. ATL-PHYS-PUB-2017-001, CERN, Geneva
+  (Jan 2017).
+\newline\urlprefix\url{https://cds.cern.ch/record/2243387}
+
+\bibitem{hh+jet_100TeV}
+S.~Banerjee, C.~Englert, M.~L. Mangano, M.~Selvaggi, M.~Spannowsky,
+  {$hh+\text{jet}$ production at 100 TeV}, Eur. Phys. J. C78~(4) (2018) 322.
+\newblock \href {http://arxiv.org/abs/1802.01607} {\path{arXiv:1802.01607}},
+  \href {http://dx.doi.org/10.1140/epjc/s10052-018-5788-y}
+  {\path{doi:10.1140/epjc/s10052-018-5788-y}}.
+
+\bibitem{FCC_HCALgran_doubleK}
+S.~V. Chekanov, M.~Beydler, A.~V. Kotwal, L.~Gray, S.~Sen, N.~V. Tran, S.~S.
+  Yu, J.~Zuzelski, {Initial performance studies of a general-purpose detector
+  for multi-TeV physics at a 100 TeV pp collider}, JINST 12~(06) (2017) P06009.
+\newblock \href {http://arxiv.org/abs/1612.07291} {\path{arXiv:1612.07291}},
+  \href {http://dx.doi.org/10.1088/1748-0221/12/06/P06009}
+  {\path{doi:10.1088/1748-0221/12/06/P06009}}.
+
+\bibitem{BOOST2017}
+S.~Chekanov, {Boosted jets in high-granularity calorimeter at a 100 TeV pp
+  collider}, bOOST 2017 (2017).
+
+\bibitem{FCCweek2015}
+S.~Chekanov, {Physics requirements for a Hadron Calorimeter for a 100 TeV
+  proton-proton collider}, fCC week 2015 (2015).
+
+\bibitem{FCCweek2016}
+S.~Chekanov, {Simulation of a high-granular hadronic calorimeter for multi-TeV
+  physics}, fCC week 2016 (2016).
+
+\bibitem{MG5}
+J.~Alwall, M.~Herquet, F.~Maltoni, O.~Mattelaer, T.~Stelzer.
+
+\bibitem{Pythia8}
+T.~Sjostrand, S.~Mrenna, P.~Z. Skands, {A Brief Introduction to PYTHIA 8.1},
+  Comput. Phys. Commun. 178 (2008) 852--867.
+\newblock \href {http://arxiv.org/abs/0710.3820} {\path{arXiv:0710.3820}},
+  \href {http://dx.doi.org/10.1016/j.cpc.2008.01.036}
+  {\path{doi:10.1016/j.cpc.2008.01.036}}.
+
+\bibitem{Delphes}
+J.~de~Favereau, C.~Delaere, P.~Demin, A.~Giammanco, V.~Lemaître, A.~Mertens,
+  M.~Selvaggi, {DELPHES 3, A modular framework for fast simulation of a generic
+  collider experiment}, JHEP 02 (2014) 057.
+\newblock \href {http://arxiv.org/abs/1307.6346} {\path{arXiv:1307.6346}},
+  \href {http://dx.doi.org/10.1007/JHEP02(2014)057}
+  {\path{doi:10.1007/JHEP02(2014)057}}.
+
+\bibitem{DM}
+H.~C. {van de Hulst}, E.~{Raimond}, H.~{van Woerden}, {Rotation and density
+  distribution of the Andromeda nebula derived from observations of the 21-cm
+  line} 14 (1957) 1.
+
+\bibitem{2HDM}
+T.~general Two-Higgs-Doublet~Model,
+  \href{http://feynrules.irmp.ucl.ac.be/wiki/2HDM}{C. degrande, c. duhr, m.
+  herquet} (2018).
+\newline\urlprefix\url{http://feynrules.irmp.ucl.ac.be/wiki/2HDM}
+
+\bibitem{2HDM1}
+C.~Degrande, {Automatic evaluation of UV and R2 terms for beyond the Standard
+  Model Lagrangians: a proof-of-principle}, Comput. Phys. Commun. 197 (2015)
+  239--262.
+\newblock \href {http://arxiv.org/abs/1406.3030} {\path{arXiv:1406.3030}},
+  \href {http://dx.doi.org/10.1016/j.cpc.2015.08.015}
+  {\path{doi:10.1016/j.cpc.2015.08.015}}.
 
 \end{thebibliography}

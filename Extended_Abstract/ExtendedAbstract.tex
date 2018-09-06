@@ -21,11 +21,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % This document uses the LaTeX class file "article.cls"              %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass[10pt,a4paper,twocolumn]{article}
+\documentclass[10pt,a4paper,twocolumn,number]{article}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Document preamble
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{booktabs}
 \usepackage{tikz}
 \usepackage[compat=1.1.0]{tikz-feynman}
 \usepackage{graphicx}
@@ -84,13 +90,20 @@
 \usepackage{sectsty}
 %%
 %% Redefine the font size of the 'section' and 'subsection' headings
-\newcommand{\myFontSize}{\fontsize{10}{0}\selectfont}
+\newcommand{\myFontSize}{\fontsize{12}{0}\selectfont}
 \sectionfont{\myFontSize}       % 10pt, Bold face (default)
-\subsectionfont{\rm\myFontSize} % 10pt, Plain face
+\newcommand{\myFontSizeOi}{\fontsize{10}{0}\selectfont\bfseries}
+\subsectionfont{\rm\myFontSizeOi} % 10pt, Plain face
 
 %% Select alternative section titles.
 %% http://www.ctan.org/tex-archive/help/Catalogue/entries/titlesec.html
 \usepackage{titlesec}
+\usepackage{etoolbox}
+
+\makeatletter
+\patchcmd{\ttlh@hang}{\parindent\z@}{\parindent\z@\leavevmode}{}{}
+\patchcmd{\ttlh@hang}{\noindent}{}{}{}
+\makeatother
 %%
 %% Left indent, before and after spacing
 %% (The starred version kills the indentation of the paragraph following the title)
@@ -157,13 +170,13 @@
 
 \input{ExtendedAbstract_det}
 
-\input{ExtendedAbstract_detFCC}
+%\input{ExtendedAbstract_detFCC}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % BACKGROUND
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{ExtendedAbstract_backg}
 
-\input{ExtendedAbstract_sim}
+%\input{ExtendedAbstract_sim}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % IMPLEMENTATION
@@ -196,9 +209,9 @@
 % > entries ordered alphabetically
 %\bibliographystyle{plain}
 % > unsorted with entries appearing in the order in which the citations appear.
-%\bibliographystyle{unsrt}
+\bibliographystyle{elsarticle-num}
 % > entries ordered alphabetically, with first names and names of journals and months abbreviated
-\bibliographystyle{abbrv}
+%\bibliographystyle{abbrvunsrtnat}
 % > entries ordered alphabetically, with reference markers based on authors' initials and publication year
 %\bibliographystyle{alpha}
 

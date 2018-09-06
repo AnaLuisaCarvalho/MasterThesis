@@ -19,6 +19,59 @@
 %- Optimization \\
 %- Event selection \\
 
+The main backgrounds affecting di-Higgs searches in the $b\overline{b}b\overline{b}$ are multijet and $t\overline{t}$ production. All other sources of background, including processes involving Higgs bosons, are found to be negligible [REF]. In addition to these, we also consider the irreducible background as a separate background source.
+
+We study the production of Higgs pairs in three different models: the SM, a dark matter model with a $1$ TeV spin-$0$ mediator that can decay to Higgs pairs and the CP-conserving 2HDM of type II where the heavier CP-even Higgs can decay to pairs of SM Higgs bosons.
+
+We choose the mass of the new heavy resonances to be high ($\sim 1$ TeV) in order to increase the efficiency of the boosted selection.
+
+\subsection{Simulation setup}
+\label{sec:sim}
+
+We simulate the signal and background Monte Carlo samples using a fast simulation workflow. MadGraph5 aMC@NLO \cite{MG5} is used to compute the matrix elements of a given process. Showering and hadronization of colored particles are handled by Pythia8 \cite{Pythia8} and the detector response is parameterized using Delphes3 \cite{Delphes}. 
+
+The irreducible background is generated with an extra jet with $p_T>200$ GeV at generator level ($4b+j$). This guarantees that the pairs of b quarks are boosted enough to increase the probability of being reconstructed as a single jet. The multijet background is simulated as $jj+0/1/2~j$ where $j$ stands for a light or b jet. To make the simulation more efficient, this background is generated in several $H_T$ regions between $500<H_T<100000$, where $H_T$ is the scalar sum of the $p_T$ of all the partons at generator level. The $t\overline{t}$ background is simulated as $t\overline{t}+0/1/2~j$. The sample is inclusive in the top quark and $W^{\pm}$ boson decay modes.
+
+The BSM signal samples are simulated using publicly available in the FeynRules database. For the DM mediator model \cite{DM}, the spin-$0$ mediator mass is set at $1$ TeV.The cross section for the signal
+generated with this model is smaller than the cross section of the SM signal (approximately $0.2$ pb versus $0.7$ pb) and therefore this model is not excluded by experimental data. 
+
+For the 2HDM \cite{2HDM,2HDM1}, the input parameters for the scalar sector are: the mass of the scalars and charged bosons, $m_{h_1}=125$ GeV, $m_{h_2}=900$ GeV, $m_{h_3}=850$ GeV and $m_{h_c}=800$ GeV, the mixing between the scalars, $mix_{h_2}=mix_{h_3}=0$ and $mix_h=\frac{\pi}{2}-(\beta-\alpha)$ where we have chosen $\beta=\frac{\pi}{4}$ and $\alpha=-0.75$, and the quartic couplings of the potential, $l_2\simeq0.27$, $l_3\simeq9.46$ and $l_7\simeq0.46$. All parameters are given in the Higgs basis. Regarding the Yukawa sector, we consider the type II model. The real part of the Yukawa matrices of the coupling of $h_2$ to down $(GDR)$ and up-type $(GUR)$ quarks are given by \cite{2HDM}: $GDR=\text{diag}\left(0,0,\frac{m_b\sqrt{2}\tan(\beta)}{v}\right)$ and $GUR=\text{diag}\left(0,0,\frac{m_b\sqrt{2}}{v\tan(\beta)}\right)$, where $m_b=4.7$ GeV and $m_t=172$ GeV are the masses of the bottom and top quarks. All other matrices are null.  
+
+Different detector configurations were implemented in Delphes3. The granularity of the HCAL was the main study parameter. Starting from the FCC-hh baseline detector, five HCAL granularity benchmark configurations were tested:
+\begin{enumerate}
+	\item ATLAS HCAL granularity;
+	\item Starting from the ATLAS HCAL configuration we increase the granularity in $|\eta|$ by four, in the pseudorapidity range $|\eta| < 1.7$ which corresponds to the TileCal region;
+	\item Starting from the FCC HCAL configuration we decrease the granularity in φ by two, in the entire pseudorapidity range covered by the HCAL;
+	\item FCC HCAL default granularity;
+	\item Starting from the FCC HCAL configuration we increase the granularity in $|\eta|$ and in $\phi$ by two, in the entire pseudorapidity range covered by the HCAL.
+\end{enumerate}
+These configurations are summarized in table \ref{table:Gran}. In addition, we also passed the same generator level samples through the default ATLAS detector simulation in Delphes. The HCAL granularity is the one that is indicate in the first line of table \ref{table:Gran} but the other detector’s parameters, such as the radius, magnetic field, tracking resolutions are the ones that are implemented in the default ATLAS Delphes card.
+
+\begin{table}
+	\centering
+	\begin{tabular}{lll}
+		\toprule 
+		\textbf{Config.} & $\Delta \eta \times \Delta \phi$ & $\eta$ range\\
+		\midrule
+		\multirow{2}{*}{1} & $0.1\times 0.1$  & $|\eta|<2.5$\\
+		& $0.2\times 0.2$ & $2.5<|\eta|<5.0$ \\
+		\cellcolor{black!7} &\cellcolor{black!7} $0.025\times 0.1$  & \cellcolor{black!7}$|\eta|<1.7$\\
+		\cellcolor{black!7} & \cellcolor{black!7}$0.1\times 0.1$  & \cellcolor{black!7}$1.7<|\eta|<2.5$\\
+		\multirow{-3}{*}{2} \cellcolor{black!7}& \cellcolor{black!7}$0.2\times 0.2$  &\cellcolor{black!7} $2.5<|\eta|<5.0$\\
+		\multirow{2}{*}{3 }& $0.025\times0.05$ & $|\eta|<2.5$\\
+		& $0.05\times 0.1$ & $2.5<|\eta|<6.0$ \\
+		\cellcolor{black!7}&  \cellcolor{black!7}$0.025\times0.025$ &  \cellcolor{black!7}$|\eta|<2.5$\\
+		\multirow{-2}{*}{4}\cellcolor{black!7}&  \cellcolor{black!7}$0.05\times 0.05$ & \cellcolor{black!7} $2.5<|\eta|<6.0$ \\
+		& $0.0125\times0.0125$ &$|\eta|<2.5$\\
+		\multirow{-2}{*}{5 }&$0.025\times 0.025$ & $2.5<|\eta|<6.0$\\
+		\bottomrule
+	\end{tabular}
+	\caption{Summary of the benchmark granularity configurations of the HCAL.}
+	\label{table:Gran}
+\end{table}
+
+\subsection{Event selection}
+
 This targets the boosted kinematic regime in which both Higgs bosons are reconstructed using large $R$ jets. The expected event topology is illustrated in figure \ref{fig:boosted}.
 
 \begin{figure}[h]
@@ -39,15 +92,30 @@ We require
 	p_T(h_1)>300~\text{GeV}, \quad p_T(hh)>100 ~\text{GeV}
 \end{equation}
 where $p_T(h_1)$, $p_T(hh)$ are the transverse momentums of the leading Higgs candidate and of the pair of Higgs candidates.
-These cuts help suppress multijet background whose $p_T$ distributions fall more steeply than for the signal. A requirement on the maximum value of the N-subjetiness variable of the leading and subleading Higgs candidates, $\tau_{21}(h_1,h_2)]$ to further reject jets that are not consistent with a two-prong substructure:
+These cuts help suppress multijet background whose $p_T$ distributions fall more steeply than for the signal. A requirement on the maximum value of the N-subjetiness variable of the leading and subleading Higgs candidates, $\tau_{21}(h_1,h_2)$ to further reject jets that are not consistent with a two-prong substructure:
 \begin{equation}
 	\tau_{21}(h_1,h_2)<0.4.
 \end{equation}
 These cuts work as a Higgs tagging criteria.
+Since high-mass resonances tend to produce more central jets than multijet background processes we require
+\begin{equation}
+	|\eta(hh)|<1.5.
+\end{equation}
+We place an additional requirement on the second Fox Wolfram momentum of the leading Higgs candidate, $H_2(h_1)$, to further suppress $t\overline{t}$ contamination
+\begin{equation}
+	H_2(h_1)<0.2.
+\end{equation}
+Events are selected if the soft drop masses, $M_{SD}$, of the large-$R$ jets are consistent with the SM Higgs boson mass
+\begin{equation}
+	(100<M_{SD}(h_1,h_2)<135) ~\text{GeV}.
+\end{equation}
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=\linewidth]{./images/hist_h1_softdrop_M_stack.pdf}
-	\label{fig:stack}
-	\caption{oi}
-\end{figure}
+%
+%\begin{figure}[h]
+%	\centering
+%	\includegraphics[width=\linewidth]{./images/hist_h1_softdrop_M_stack.pdf}
+%	\label{fig:stack}
+%	\caption{oi}
+%\end{figure}
+
+
