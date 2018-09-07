@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2017.11.27)  6 SEP 2018 18:51
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2017.11.27)  7 SEP 2018 09:02
  restricted \write18 enabled.
 **ExtendedAbstract.tex
 (./ExtendedAbstract.tex
@@ -855,15 +855,60 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [4
 Missing character: There is no φ (U+03C6) in font cmr10!
 Missing character: There is no ’ (U+2019) in font cmr10!
-<./images/boosted1.png>]) (./ExtendedAbstract_resul.tex
-<./images/EffvsGran_PFjets.pdf, id=87, 569.12625pt x 385.44pt>
+<./images/boosted1.png>]
+<./images/hist_h1_pt.pdf, id=87, 569.12625pt x 385.44pt>
+File: ./images/hist_h1_pt.pdf Graphic file (type pdf)
+
+<use ./images/hist_h1_pt.pdf>
+Package pdftex.def Info: ./images/hist_h1_pt.pdf used on input line 117.
+(pdftex.def)             Requested size: 227.62204pt x 154.15562pt.
+
+<./images/hist_hh_pt.pdf, id=88, 569.12625pt x 385.44pt>
+File: ./images/hist_hh_pt.pdf Graphic file (type pdf)
+
+<use ./images/hist_hh_pt.pdf>
+Package pdftex.def Info: ./images/hist_hh_pt.pdf used on input line 121.
+(pdftex.def)             Requested size: 227.62204pt x 154.15562pt.
+
+<./images/hist_h1_tau21.pdf, id=89, 569.12625pt x 385.44pt>
+File: ./images/hist_h1_tau21.pdf Graphic file (type pdf)
+
+<use ./images/hist_h1_tau21.pdf>
+Package pdftex.def Info: ./images/hist_h1_tau21.pdf used on input line 130.
+(pdftex.def)             Requested size: 227.62204pt x 154.15562pt.
+
+<./images/hist_hh_deltaEta.pdf, id=90, 569.12625pt x 385.44pt>
+File: ./images/hist_hh_deltaEta.pdf Graphic file (type pdf)
+
+<use ./images/hist_hh_deltaEta.pdf>
+Package pdftex.def Info: ./images/hist_hh_deltaEta.pdf used on input line 134.
+(pdftex.def)             Requested size: 227.62204pt x 154.15562pt.
+
+<./images/hist_h1_FW2.pdf, id=91, 569.12625pt x 385.44pt>
+File: ./images/hist_h1_FW2.pdf Graphic file (type pdf)
+
+<use ./images/hist_h1_FW2.pdf>
+Package pdftex.def Info: ./images/hist_h1_FW2.pdf used on input line 143.
+(pdftex.def)             Requested size: 227.62204pt x 154.15562pt.
+
+<./images/hist_h1_SD_M.pdf, id=92, 569.12625pt x 385.44pt>
+File: ./images/hist_h1_SD_M.pdf Graphic file (type pdf)
+
+<use ./images/hist_h1_SD_M.pdf>
+Package pdftex.def Info: ./images/hist_h1_SD_M.pdf used on input line 147.
+(pdftex.def)             Requested size: 227.62204pt x 154.15562pt.
+) (./ExtendedAbstract_resul.tex
+<./images/EffvsGran_PFjets.pdf, id=93, 569.12625pt x 385.44pt>
 File: ./images/EffvsGran_PFjets.pdf Graphic file (type pdf)
 
 <use ./images/EffvsGran_PFjets.pdf>
 Package pdftex.def Info: ./images/EffvsGran_PFjets.pdf used on input line 52.
 (pdftex.def)             Requested size: 222.62204pt x 150.77385pt.
 
-<./images/SSBvsGran_SM.pdf, id=88, 569.12625pt x 385.44pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images/SSBvsGran_SM.pdf, id=94, 569.12625pt x 385.44pt>
 File: ./images/SSBvsGran_SM.pdf Graphic file (type pdf)
 
 <use ./images/SSBvsGran_SM.pdf>
@@ -873,7 +918,7 @@ Package pdftex.def Info: ./images/SSBvsGran_SM.pdf used on input line 59.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/SSBvsGran_2HDM.pdf, id=89, 569.12625pt x 385.44pt>
+<./images/SSBvsGran_2HDM.pdf, id=95, 569.12625pt x 385.44pt>
 File: ./images/SSBvsGran_2HDM.pdf Graphic file (type pdf)
 
 <use ./images/SSBvsGran_2HDM.pdf>
@@ -895,12 +940,14 @@ Underfull \hbox (badness 1648) in paragraph at lines 9--13
  col-li-sions at
  []
 
-[5<./images/EffvsGran_PFjets.pdf>]
+
 Underfull \hbox (badness 2189) in paragraph at lines 15--21
 [][]\OT1/cmr/m/n/10 J. K. Behr, D. Bor-to-letto, J. A. Frost,
  []
 
-
+[5] [6<./images/hist_h1_pt.pdf><./images/hist_hh_pt.pdf><./images/hist_h1_tau21.
+pdf><./images/hist_hh_deltaEta.pdf><./images/hist_h1_FW2.pdf><./images/hist_h1_S
+D_M.pdf>]
 Underfull \hbox (badness 1057) in paragraph at lines 30--35
 [][]\OT1/cmr/m/n/10 S. Baner-jee, C. En-glert, M. L. Mangano,
  []
@@ -982,18 +1029,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--92
 \OT1/cmr/m/n/10 197 (2015) 239--262.  arXiv:1406.3030,
  []
 
-) [6
+) [7
 Missing character: There is no î (U+00EE) in font cmr10!
-<./images/SSBvsGran_SM.pdf><./images/SSBvsGran_2HDM.pdf>]
-(./ExtendedAbstract.aux))
+<./images/EffvsGran_PFjets.pdf><./images/SSBvsGran_SM.pdf><./images/SSBvsGran_2H
+DM.pdf>] (./ExtendedAbstract.aux))
 
 Here is how much of LuaTeX's memory you used:
- 18771 strings out of 495004
+ 18831 strings out of 495004
  100000,552014 words of node,token memory allocated
- 449 words of node memory still in use:
+ 458 words of node memory still in use:
    5 hlist, 2 vlist, 2 rule, 2 glue, 7 kern, 50 glue_spec, 1 write nodes
-   avail lists: 1:8,2:41,3:804,4:2907,5:355,6:5648,7:463,8:2,9:460,10:510
- 21400 multiletter control sequences out of 65536+600000
+   avail lists: 1:8,2:41,3:813,4:2898,5:355,6:5648,7:463,8:2,9:460,10:510
+ 21424 multiletter control sequences out of 65536+600000
  61 fonts using 2407623 bytes
  58i,13n,98p,1906b,1564s stack positions out of 5000i,500n,10000p,200000b,100000s
 <</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><</usr
@@ -1012,10 +1059,10 @@ re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><</usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><</usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><</usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ExtendedAbstract.pdf (6 pages, 571822 bytes).
+Output written on ExtendedAbstract.pdf (7 pages, 651686 bytes).
 
-PDF statistics: 289 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
+PDF statistics: 575 PDF objects out of 1000 (max. 8388607)
+ 282 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 131072)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
