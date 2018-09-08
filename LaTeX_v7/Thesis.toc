@@ -33,21 +33,21 @@
 \contentsline {section}{\numberline {5.1}Fast simulation workflow}{36}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Particle flow and calorimeter reconstruction in Delphes}{37}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}FCC-hh software}{38}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}Signal and background samples}{38}{section.5.2}
+\contentsline {section}{\numberline {5.2}Signal and background samples}{39}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}MadGraph}{39}{subsection.5.2.1}
 \contentsline {subsubsection}{Signal samples - BSM}{40}{section*.14}
 \contentsline {subsection}{\numberline {5.2.2}Pythia}{41}{subsection.5.2.2}
 \contentsline {subsection}{\numberline {5.2.3}Delphes}{42}{subsection.5.2.3}
-\contentsline {chapter}{\numberline {6}Analysis}{44}{chapter.6}
-\contentsline {section}{\numberline {6.1}Overview of the $hh\rightarrow b\overline {b}b\overline {b}$ channel}{44}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Event pre-selection}{45}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Signal characterization}{45}{subsection.6.1.2}
+\contentsline {chapter}{\numberline {6}Analysis}{45}{chapter.6}
+\contentsline {section}{\numberline {6.1}Overview of the $hh\rightarrow b\overline {b}b\overline {b}$ channel}{45}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Event pre-selection}{46}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Signal characterization}{46}{subsection.6.1.2}
 \contentsline {subsection}{\numberline {6.1.3}Backgrounds}{47}{subsection.6.1.3}
-\contentsline {section}{\numberline {6.2}Analysis strategy}{50}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Implementation of b-tagging}{50}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Baseline analysis}{51}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Optimization}{52}{subsection.6.2.3}
-\contentsline {subsection}{\numberline {6.2.4}Handling of uncertainties}{54}{subsection.6.2.4}
+\contentsline {section}{\numberline {6.2}Analysis strategy}{51}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Implementation of b-tagging}{51}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Baseline analysis}{52}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Optimization}{53}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Handling of uncertainties}{55}{subsection.6.2.4}
 \contentsline {chapter}{\numberline {7}Results}{57}{chapter.7}
 \contentsline {section}{\numberline {7.1}Di-Higgs discovery potential at the FCC-hh}{57}{section.7.1}
 \contentsline {subsection}{\numberline {7.1.1}Statistical analysis}{58}{subsection.7.1.1}

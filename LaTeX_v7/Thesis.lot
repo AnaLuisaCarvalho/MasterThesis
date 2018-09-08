@@ -9,9 +9,9 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {5.1}{\ignorespaces Summary of the cross sections, k factors and total number of events of the samples used in the analysis.}}{42}{table.5.1}
 \contentsline {table}{\numberline {5.2}{\ignorespaces Summary of the benchmark granularity configurations of the HCAL.}}{43}{table.5.2}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Summary of the benchmark granularity configurations of the HCAL.}}{43}{table.5.3}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Summary of the benchmark granularity configurations of the HCAL.}}{44}{table.5.3}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces b-Tagging (black), c (blue) and light (red) mistag probabilities as a function of $\eta $ and $p_T$ of the (sub)jet. The momentum dependent factor, $\left (1-p_T/15000\right )$, is common to the three probabilities.}}{51}{table.6.1}
+\contentsline {table}{\numberline {6.1}{\ignorespaces b-Tagging (black), c (blue) and light (red) mistag probabilities as a function of $\eta $ and $p_T$ of the (sub)jet. The momentum dependent factor, $\left (1-p_T/15000\right )$, is common to the three probabilities.}}{52}{table.6.1}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {7.1}{\ignorespaces Cumulative efficiency, in percentage, of each event selection criterion for the signal samples (SM and 2HDM). The absolute value of expected events after some key selection cuts is shown in curved brackets. The number of expected events is normalized to $\mathcal {L}=30~\text {ab}^{-1}$. The double horizontal line marks the pre-selection cuts. These results were obtained using the FCC-hh baseline detector design, as implemented in Delphes by the FCC-hh study group.\newline }}{58}{table.7.1}
 \contentsline {table}{\numberline {7.2}{\ignorespaces Cumulative efficiency, in percentage, of each event selection criterion for the background samples ($4b+j$, $jj+0/1/2 j$ and $t\overline {t}$+0/1/2 j). The absolute value of expected events after some key selection cuts is shown in curved brackets. The number of expected events is normalized to $\mathcal {L}=30~\text {ab}^{-1}$. The double horizontal line marks the pre-selection cuts. These results were obtained using the FCC-hh baseline detector design, as implemented in Delphes by the FCC-hh study group.\newline }}{59}{table.7.2}
