@@ -358,7 +358,9 @@ In this section, we present the baseline analysis based on cuts on the kinematic
 	\label{fig:deltaR_bsubjet}
 \end{figure}
 
-For each jet, the two hardest subjets are found using the mass drop procedure. It might happen that there are not two subjets because the algorithm's criteria are not met. In that case, the jet is rejected. We compute the $\Delta R$ distance between all b and c quarks in the event with Pythia 8 status equal to $23$ and with $p_T>10$ GeV and each subjet ($\Delta R(\text{subjet,parton})$). According to the Pythia manual, particles with status $23$ result directly from the hardest subprocess. We consider that a subjet is matched to a given quark if $\Delta R(\text{subjet,parton})<0.3$, as indicated by the plot in figure \ref{fig:deltaR_bsubjet}. If the subjet is matched to at least a b quark, we b-tag the subjet with a given probability. If the subjet is not matched to any b quark but it is matched to at least one c quark we apply a c mistag rate. If the subjet is not matched to any b or c quark we apply a light mis tag rate. The b-tag probability and mistag rates were obtained from the Delphes FCC-hh card. They depend on the momentum of the jet and on its $\eta$ coordinate. They are summarized in table \ref{table:btag}. The b-tagging probabilities are given in black and the c and light mis tagging probabilities are given in blue and red, respectively. Note that a jet cannot be b-tagged if $|\eta|>4$ or if its momentum is smaller than $10$ GeV or larger than $15000$ GeV [EXPLICAR MECANICA: NºALEATORIO ENTRE 0 E 1...]. 
+For each jet, the two hardest subjets are found using the mass drop procedure. It might happen that there are not two subjets because the algorithm's criteria are not met. In that case, the jet is rejected. We compute the $\Delta R$ distance between all b and c quarks in the event with Pythia 8 status equal to $23$ and with $p_T>10$ GeV and each subjet ($\Delta R(\text{subjet,parton})$). According to the Pythia manual, particles with status $23$ result directly from the hardest subprocess. We consider that a subjet is matched to a given quark if $\Delta R(\text{subjet,parton})<0.3$, as indicated by the plot in figure \ref{fig:deltaR_bsubjet}. If the subjet is matched to at least a b quark, we b-tag the subjet with a given probability. If the subjet is not matched to any b quark but it is matched to at least one c quark we apply a c mistag rate. If the subjet is not matched to any b or c quark we apply a light mis tag rate. The b-tag probability and mistag rates were obtained from the Delphes FCC-hh card. They depend on the momentum of the jet and on its $\eta$ coordinate. They are summarized in table \ref{table:btag}. The b-tagging probabilities are given in black and the c and light mis tagging probabilities are given in blue and red, respectively. Note that a jet cannot be b-tagged if $|\eta|>4$ or if its momentum is smaller than $10$ GeV or larger than $15000$ GeV.
+
+In terms of the technical implementation, the b-tagging algorithm works as follows: for each subjet we look for a truth-level b quark within $\Delta R=0.3$ of the subjet and calculate the b-tagging and mis-tagging efficiencies using the expressions in table \ref{table:btag}, where $p_T$ and $\eta$ refer to the subjet. If a b quark is found we generate a random number between $0$ and $1$. If it smaller that the b-tagging efficiency we consider the subjet to be b-tagged. If the subjet is not b-tagged we look for truth-level c quarks within $\Delta R=0.3$ of the subjet. If one is found we generate a new random number between $0$ and $1$ and if the number is smaller than the c mis-tag probability we consider the subjet to be b-tagged. If the subjet is not b-tagged we generate a random number between $0$ and $1$ and consider the subjet b-tagged if the number is smaller than the ligh mis-tag probability. 
 
 \begin{table}
 	\centering
@@ -571,7 +573,15 @@ If we assume that the number of events follows a Poisson distribution then the s
 \begin{equation}
 	N_{\text{norm}}\pm \Delta N_{\text{norm}}=w\times \left(N \pm \sqrt{N}\right).
 \end{equation}
-$\Delta N_{\text{norm}}$ can then be used in standard error propagation to compute the statistical uncertainty associated with any expression, in particular, with $S/\sqrt{B}$ [FORMULA COM PROPAGAÇAO].
+$\Delta N_{\text{norm}}$ can then be used in standard error propagation to compute the statistical uncertainty associated with any expression, in particular, with $S/\sqrt{B}$. The error associated with $S/\sqrt{B}$ is given by:
+\begin{equation}
+	\Delta\left(\frac{S}{\sqrt{B}}\right)=\left|\frac{1}{\sqrt{B}}\right|^2 (\Delta S)^2+\left|-\frac{S}{B^{3/2}}\right|^2 (\Delta B)^2
+\end{equation}
+where $\Delta S$ and $\Delta B$ are the uncertainties associated with the number of signal and background events. $\Delta B$ is given by:
+\begin{equation}
+		(\Delta B)^2 =\sum_i (\Delta B_i)^2
+\end{equation}
+where the index $i$ runs over all independent backgrounds.
 
 %% ----------------------------------------------------------------------
 %\subsection{Intermediate}20
