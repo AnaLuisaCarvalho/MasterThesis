@@ -25,16 +25,18 @@ Warning--entry type for "running_coupling" isn't style-file defined
 --line 1863 of file Thesis_bib_DB.bib
 Warning--entry type for "FCCmag" isn't style-file defined
 --line 1951 of file Thesis_bib_DB.bib
-I was expecting a `,' or a `}'---line 1974 of file Thesis_bib_DB.bib
+I was expecting a `,' or a `}'---line 1976 of file Thesis_bib_DB.bib
  :       title         = "
  :                        {Searches for Higgs boson pair production in the $hh\to
 I'm skipping whatever remains of this entry
-Repeated entry---line 2008 of file Thesis_bib_DB.bib
+Repeated entry---line 2010 of file Thesis_bib_DB.bib
  : @online{DM
  :           ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "2HDM" isn't style-file defined
---line 2016 of file Thesis_bib_DB.bib
+--line 2018 of file Thesis_bib_DB.bib
+Warning--entry type for "FCCphysClement" isn't style-file defined
+--line 2103 of file Thesis_bib_DB.bib
 Warning--empty journal in DM
 Warning--empty journal in BSM_motivation
 Warning--empty journal in 2HDMpedro
@@ -51,6 +53,7 @@ Warning--empty journal in ATLASbtag1
 Warning--empty journal in hh2bbbbCMS
 Warning--empty journal in hhbbtautau_CMS
 Warning--empty journal in hhbbll_CMS
+Warning--empty journal in ATLAShhComb
 Warning--empty title in ATLAShhBSMcomb
 Warning--empty journal in ATLAShhBSMcomb
 Warning--empty year in ATLAShhBSMcomb
@@ -60,45 +63,47 @@ Warning--empty journal in MG5
 Warning--empty year in MG5
 Warning--empty year in MG5
 Warning--empty author in PF2
-You've used 96 entries,
+Warning--empty journal in HiggsHandbook
+Warning--empty journal in hh2bbbbATLAS1
+You've used 101 entries,
             2481 wiz_defined-function locations,
-            1175 strings with 21405 characters,
-and the built_in function-call counts, 33281 in all, are:
-= -- 2917
-> -- 1508
-< -- 73
-+ -- 633
-- -- 432
-* -- 2463
-:= -- 5395
-add.period$ -- 361
-call.type$ -- 96
-change.case$ -- 189
-chr.to.int$ -- 87
-cite$ -- 129
-duplicate$ -- 1707
-empty$ -- 3103
-format.name$ -- 567
-if$ -- 7106
-int.to.chr$ -- 10
-int.to.str$ -- 97
-missing$ -- 72
-newline$ -- 560
-num.names$ -- 264
-pop$ -- 692
+            1197 strings with 22454 characters,
+and the built_in function-call counts, 34962 in all, are:
+= -- 3050
+> -- 1613
+< -- 77
++ -- 676
+- -- 462
+* -- 2574
+:= -- 5673
+add.period$ -- 379
+call.type$ -- 101
+change.case$ -- 199
+chr.to.int$ -- 89
+cite$ -- 137
+duplicate$ -- 1794
+empty$ -- 3250
+format.name$ -- 606
+if$ -- 7460
+int.to.chr$ -- 13
+int.to.str$ -- 102
+missing$ -- 76
+newline$ -- 588
+num.names$ -- 279
+pop$ -- 741
 preamble$ -- 1
-purify$ -- 96
+purify$ -- 101
 quote$ -- 0
-skip$ -- 1014
+skip$ -- 1070
 stack$ -- 0
-substring$ -- 1175
-swap$ -- 219
+substring$ -- 1194
+swap$ -- 229
 text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 669
-warning$ -- 25
-while$ -- 237
+type$ -- 704
+warning$ -- 28
+while$ -- 248
 width$ -- 0
-write$ -- 1373
+write$ -- 1437
 (There were 6 error messages)

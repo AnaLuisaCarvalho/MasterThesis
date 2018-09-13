@@ -26,8 +26,17 @@
 		\centering
 		\includegraphics[trim={4cm 0 5cm 0},clip,width=\linewidth]{./Figures/boosted1.png}
 	\end{minipage}
-	\label{fig:boosted}
+	\begin{minipage}[t]{0.45\textwidth}
+		\caption*{(a)}
+		%\label{fig1}
+	\end{minipage}%%%
+	\hfill
+	\begin{minipage}[t]{0.55\textwidth}
+		\caption*{(b)}
+		%\label{fig2}
+	\end{minipage}
 	\caption{Higgs pairs branching ratios (left) and event topology targeted by this analysis (right).}
+	\label{fig:boosted}
 \end{figure}
 
 %\begin{figure}
@@ -48,11 +57,11 @@
 
 %The searches for Higgs pair production in the four b quarks final state benefit from the large BR of $h\rightarrow b\overline{b}$. 
 
-For the SM Higgs, with a mass around $125$ GeV, the branching ratio of the $hh\rightarrow b\overline{b}b\overline{b}$ decay is approximately $33.6\%$, making it the most probable decay for Higgs pairs, as is illustrated in figure \ref{fig:boosted} on the left.
+For the SM Higgs, with a mass around $125$ GeV, the branching ratio of the $hh\rightarrow b\overline{b}b\overline{b}$ decay is approximately $33.6\%$, making it the most probable decay for Higgs pairs, as is illustrated in figure \ref{fig:boosted}(a).
 %This leads to a cross section times BR of $\sim 0.7$ pb. 
 However, in this channel, the main background is QCD multijet production that has a cross section several orders of magnitude larger than di-Higgs production in the SM, as table \ref{table:samples_summary} shows. Nonetheless, the jet $p_T$ distributions in this background have a very large yield close to zero and then fall very steeply while the signal has a much larger tail to high values of $p_T$. This indicates that searches targeting the boosted kinematic regime may be the key to measure $hh\rightarrow b\overline{b}b\overline{b}$ using inclusive production.
 
-In this work we target the boosted regime. In this kinematic region, the final state of the signal is characterized by two jets with a large radius parameter. Each jet is expected to contain the two b quarks originated from the decay of a Higgs boson, as the scheme on the right of figure \ref{fig:boosted} illustrates. Extra jets are also expected to be reconstructed as a consequence of QCD radiation. 
+In this work we target the boosted regime. In this kinematic region, the final state of the signal is characterized by two jets with a large radius parameter. Each jet is expected to contain the two b quarks originated from the decay of a Higgs boson, as figure \ref{fig:boosted}(b) illustrates. Extra jets are also expected to be reconstructed as a consequence of QCD radiation. 
 
 The analysis presented here is performed using the Monte-Carlo samples described in chapter \ref{chapter:tools}. All samples assume $m_h=125$ GeV. The event selection criteria are designed to optimize the significance, given by $S/\sqrt{B}$, where $S$ and $B$ represent the number of signal and background events, respectively. 
 
@@ -73,19 +82,19 @@ After the pre-selection cuts we can plot all the relevant distributions that all
 
 \subsection{Signal characterization}
 
-The cross section for di-Higgs inclusive production from $pp$ collisions at $100$ TeV is $1.2$ pb \cite{FCCphys}. This value is computed at NLO accuracy. The dominant process is gluon-gluon fusion that has been extensively discussed in section \ref{section:Higgs_pair}. The signal process comprehends the di-Higgs inclusive production and the $hh\rightarrow b\overline{b}b\overline{b}$ subsequent decays. The total process cross section is then given by $\sigma(pp\rightarrow hh)\times BR(hh\rightarrow b\overline{b}b\overline{b})$ and it amounts to approximately $0.4$ pb [NOT VERY COHERENT WITH MG VALUES - CHECK]. For an integrated luminosity of $3000~\text{fb}^{-1}$ of proton collisions at $\sqrt{s}=100$ TeV we expect X events.
+The cross section for di-Higgs inclusive production from $pp$ collisions at $100$ TeV is $1.22$ pb \cite{HxsNNLO}. This value is computed at NNLO accuracy. The dominant process is gluon-gluon fusion that has been extensively discussed in section \ref{section:Higgs_pair}. The signal process comprehends the di-Higgs inclusive production and the $hh\rightarrow b\overline{b}b\overline{b}$ subsequent decays. The total process cross section amounts to approximately $0.9$ pb. This number includes the branching ratio and a k-factor to account for known NNLL resuls. This is described in detail in section \ref{sec:Pythia_samples}. For an integrated luminosity of $30~\text{ab}^{-1}$ of proton-proton collisions at $\sqrt{s}=100$ TeV we expect $2.7\times 10^{7}$ events.
 
-The Higgs candidates are reconstructed using large $R$ jets that can be directly measured using information from the calorimeters and tracking systems. The plot on the left of figure \ref{fig:deltaPhi_deltaR} shows the $\Delta\phi$ between the two leading jets (Higgs candidates), $\Delta\phi(hh)$. For a large fraction of the signal events (red curve) $\Delta\phi(hh)\sim \pi$ which indicates that the jets are produced back-to-back in the transverse plane. There is also a small fraction of events for which the jets have $\Delta\phi(hh)\sim 1$. For these events there must be at least a third jet that balances the momentum of the jets pair. 
+The Higgs candidates are reconstructed using large $R$ jets that can be directly measured using information from the calorimeters and tracking systems. Figure \ref{fig:deltaPhi_deltaR}(a) shows the $\Delta\phi$ between the two leading jets (Higgs candidates), $\Delta\phi(hh)$. For a large fraction of the signal events (red curve) $\Delta\phi(hh)\sim \pi$ which indicates that the jets are produced back-to-back in the transverse plane. There is also a small fraction of events for which the jets have $\Delta\phi(hh)\sim 1$. For these events there must be at least a third jet that balances the momentum of the jets pair. 
 
-Each wide jet is expected to be consistent with having two subjets associated with the two b quarks from the $h\rightarrow b\overline{b}$ decay. In the Higgs rest frame, the two subjets are produced back-to-back conserving momentum. In the laboratory frame, the $\Delta R$ between the subjets depends on the momentum of the Higgs boson, with larger $\Delta R$ corresponding to Higgs bosons with a lower momentum. This correlation between the $\Delta R$ between the subjets of the leading Higgs candidate ($\Delta R(b\overline{b})$) and its momentum ($p_T(h_1)$) is shown in figure \ref{fig:deltaPhi_deltaR}, on the right. 
+Each wide jet is expected to be consistent with having two subjets associated with the two b quarks from the $h\rightarrow b\overline{b}$ decay. In the Higgs rest frame, the two subjets are produced back-to-back conserving momentum. In the laboratory frame, the $\Delta R$ between the subjets depends on the momentum of the Higgs boson, with larger $\Delta R$ corresponding to Higgs bosons with a lower momentum. This correlation between the $\Delta R$ between the subjets of the leading Higgs candidate ($\Delta R(b\overline{b})$) and its momentum ($p_T(h_1)$) is shown in figure \ref{fig:deltaPhi_deltaR}(b). 
 
-The $p_T$ distributions of the leading and sub leading jets (Higgs candidates) are shown in figure \ref{fig:h1h2_pt} on the left and right, respectively. The histograms are normalized to unit area in order to allow for shape comparison between them. For the leading jet, the signal $p_T$ spectrum peaks at approximately $350$ GeV and has a long tail for large values of $p_T$, in particular, longer than any of the backgrounds, at least up to $p_T>1000$ GeV. For the sub leading jet the spectrum is softer, as expected, but the tail of the distribution is still longer that for any of the backgrounds. These distributions show that the signal process produces jets with larger transverse momenta than the jets produce by the background processes which indicates that a boosted analysis might perform well.
+The $p_T$ distributions of the leading and sub leading jets (Higgs candidates) are shown in figures \ref{fig:h1h2_pt}(a) and \ref{fig:h1h2_pt}(b), respectively. The histograms are normalized to unit area in order to allow for shape comparison between them. For the leading jet, the signal $p_T$ spectrum peaks at approximately $350$ GeV and has a long tail for large values of $p_T$, in particular, longer than any of the backgrounds, at least up to $p_T>1000$ GeV. For the sub leading jet the spectrum is softer, as expected, but the tail of the distribution is still longer that for any of the backgrounds. These distributions show that the signal process produces jets with larger transverse momenta than the jets produce by the background processes which indicates that a boosted analysis might perform well.
 
-The $\eta$ distribution of the leading jet is shown in figure \ref{fig:h1_eta_M} on the left. This distribution is limited to $|\eta|<4$ because the b-tagging efficiency goes to zero for $|\eta|>4$ (see section \ref{sec:btagging} for more details). The number of events decreases as we go to larger values of $\eta$ which is due to the detector's acceptance. The $\eta$ distribution of the sub leading jet is very similar to this one so we abstain from showing it here.
+The $\eta$ distribution of the leading jet is shown in figure \ref{fig:h1_eta_M}(a). This distribution is limited to $|\eta|<4$ because the b-tagging efficiency goes to zero for $|\eta|>4$ (see section \ref{sec:btagging} for more details). The number of events decreases as we go to larger values of $\eta$ which is due to the detector's acceptance. The $\eta$ distribution of the sub leading jet is very similar to this one so we abstain from showing it here.
 
-The softdrop mass distribution of the leading jet is shown in figure \ref{fig:h1_eta_M} on the right. For the signal (red curve) there is a clear peak at approximately $120$ GeV which corresponds to the SM Higgs boson mass peak. The peak is quite broad which means the mass resolution in this channel is not very good. On the one hand, this is because we are using large-$R$ jets to reconstruct the Higgs candidates. These objects have a worse mass resolution than other cleaner objects such as photons or electrons.  On the other hand, the cuts applied before plotting these distributions are very loose. As we place additional cuts the mass peak can be made slightly narrower. Another interesting feature of the signal mass spectrum is the existence of a peak close to zero. The explanation is the following: some jets do not contain both b quarks from the Higgs decay such that when applying the mass drop procedure only one b quark with a mass of approximately $5$ GeV remains inside the jet, creating the peak at lower masses. A more detailed discussion, as well as a plot that supports this interpretation, can be found in appendix \ref{chapter:SDmass}.
+The softdrop mass distribution of the leading jet is shown in figure \ref{fig:h1_eta_M}(b). For the signal (red curve) there is a clear peak at approximately $120$ GeV which corresponds to the SM Higgs boson mass peak. The peak is quite broad which means the mass resolution in this channel is not very good. On the one hand, this is because we are using large-$R$ jets to reconstruct the Higgs candidates. These objects have a worse mass resolution than other cleaner objects such as photons or electrons.  On the other hand, the cuts applied before plotting these distributions are very loose. As we place additional cuts the mass peak can be made slightly narrower. Another interesting feature of the signal mass spectrum is the existence of a peak close to zero. The explanation is the following: some jets do not contain both b quarks from the Higgs decay such that when applying the mass drop procedure only one b quark with a mass of approximately $5$ GeV remains inside the jet, creating the peak at lower masses. A more detailed discussion, as well as a plot that supports this interpretation, can be found in appendix \ref{chapter:SDmass}.
 
-In addition to the basic kinematic distributions that we have just described, there are a multitude of other variables one can look at. Here we show the $\Delta\eta$ between the Higgs pairs, figure \ref{fig:hh_deltaEta_h1_tau21} on the left, and the $\tau_{21}$ variable for the leading Higgs candidate, figure \ref{fig:hh_deltaEta_h1_tau21} on the right. The first distribution shows that the Higgs pair tends to have a $\Delta\eta$ close to zero, which indicates that the pair is highly boosted in the longitudinal plane. The $\tau_{21}$ distribution shows that for the signal this variable takes values close to zero which means the jet is consistent with having two subjets.
+In addition to the basic kinematic distributions that we have just described, there are a multitude of other variables one can look at. Here we show the $\Delta\eta$ between the Higgs pairs, figure \ref{fig:hh_deltaEta_h1_tau21}(a), and the $\tau_{21}$ variable for the leading Higgs candidate, figure \ref{fig:hh_deltaEta_h1_tau21}(b). The first distribution shows that the Higgs pair tends to have a $\Delta\eta$ close to zero, which indicates that the pair is highly boosted in the longitudinal plane. The $\tau_{21}$ distribution shows that for the signal this variable takes values close to zero which means the jet is consistent with having two subjets.
 
 \begin{figure}
 	\centering
@@ -101,8 +110,17 @@ In addition to the basic kinematic distributions that we have just described, th
 		%\label{fig:hh_deltaPhi}
 		%\caption{$\Delta R$ between the b quarks coming from the decay of the leading Higgs candidate, $h_1$. To obtain this plot the cut $|M-125|<40$ GeV was applied in addition to the pre-selection cuts.}
 	\end{minipage}
-	\label{fig:deltaPhi_deltaR}
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(a)}
+		%\label{fig1}
+	\end{minipage}%%%
+	\hfill
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(b)}
+		%\label{fig2}
+	\end{minipage}
 	\caption{$\Delta\phi$ between the Higgs candidates, $\Delta\phi(hh)$, (left) and $\Delta R$ between the b quarks coming from the decay of the leading Higgs candidate, $h_1$ (right). To obtain this plot the cut $|M-125|<40$ GeV was applied in addition to the pre-selection cuts..}
+	\label{fig:deltaPhi_deltaR}
 \end{figure}
 
 %\begin{figure}
@@ -120,13 +138,13 @@ The relevant backgrounds for this analysis are QCD multijet production, $t\overl
 
 The assumption that QCD multijet production and $t\overline{t}$ are the two main backgrounds is corroborated by the ATLAS di-Higgs search performed in the same channel, where these backgrounds are found to be the dominant ones. All other sources of backgrounds, including processes involving Higgs bosons, are found to be negligible \cite{hh2bbbbATLAS}. In appendix \ref{chapter:bkgHiggs} we discuss and evaluate the importance of some backgrounds that include Higgs bosons in our analysis.
 
-Figure \ref{fig:QCD} shows examples of LO Feynman diagrams that contribute to $4b+~j$ (left), three (middle) and four (right) light jets production. The $b\overline{b}b\overline{b}$ background is generated with an extra light jet at generator level, as discussed in chapter \ref{chapter:tools}. This jet boosts the four b quarks and has a minimum $p_T$ of $200$ GeV. This increases the probability of two b quarks being reconstructed as single large-$R$ jet therefore emulating the signal's final state signature, i.e, high $p_T$ jets compatible with a two-prong substructure. The QCD $4b+j$ sample with $(200<p_T<500)$ GeV has a cross section of approximately $756$ pb. In addition, as indicated in table \ref{table:samples_summary}, we multiply this cross section by a k-factor of $2$ in order to account for unknown high order contributions.
+Figure \ref{fig:QCD} shows examples of LO Feynman diagrams that contribute to $4b+~j$ (left), three (middle) and four (right) light jets production. The $b\overline{b}b\overline{b}$ background is generated with an extra light jet at generator level, as discussed in chapter \ref{chapter:tools}. This jet boosts the four b quarks and has a minimum $p_T$ of $200$ GeV. This increases the probability of two b quarks being reconstructed as single large-$R$ jet therefore emulating the signal's final state signature, i.e, high $p_T$ jets compatible with a two-prong substructure. The QCD $4b+j$ sample with $(200<p_T<500)$ GeV has a cross section of approximately $756$ pb. In addition, as explained in section \ref{sec:Pythia_samples}, we multiply this cross section by a k-factor of $2$, which yields a total cross section of approximately $1.5\times 10^{3}$ pb. The cross section is a lot smaller for the other $4b+j$ QCD sample as well as for the samples that include both QCD and eletroweak contributions, as expected.
 
-The QCD multijet background consists of two, three and four jet events (represented as $jj+0/1/2 ~j$), at generator level. The jets can originated from light and b quarks and from gluons. A jet matching procedure is implemented in Pythia in order to avoid double counting. Due to mis-tagging probabilities, light and c jets can be identified as b jets. Although these probabilities are relatively small when compared to the b-tagging efficiency (see section \ref{sec:btagging}) the cross section of multijet processes is very large such that this background becomes dominant. The $jj+0/1/2 ~j$ sample with $(500<H_T<1000)$ GeV has a cross section of the order of $10^7$ GeV. As anticipated, the $p_T$ spectrum of the multijet background is a lot softer than for the signal and remaining backgrounds, as it is shown on both plots of figure \ref{fig:h1h2_pt}. In addition, for this background the $\tau_{21}$ variable takes values close to one, as it is shown in figure \ref{fig:hh_deltaEta_h1_tau21} on the right. This indicates that the jets are not consistent with two subjets. 
+The QCD multijet background consists of two, three and four jet events (represented as $jj+0/1/2 ~j$), at generator level. The jets can originated from light and b quarks and from gluons. A jet matching procedure is implemented in Pythia in order to avoid double counting. Due to mis-tagging probabilities, light and c jets can be identified as b jets. Although these probabilities are relatively small when compared to the b-tagging efficiency (see section \ref{sec:btagging}) the cross section of multijet processes is very large such that this background becomes dominant. The $jj+0/1/2 ~j$ sample with $(500<H_T<1000)$ GeV has a cross section of the order of $10^7$ GeV. As anticipated, the $p_T$ spectrum of the multijet background is a lot softer than for the signal and remaining backgrounds, as it is shown in figures \ref{fig:h1h2_pt}(a) and \ref{fig:h1h2_pt}(b). In addition, for this background the $\tau_{21}$ variable takes values close to one, as it is shown in figure \ref{fig:hh_deltaEta_h1_tau21}(b). This indicates that the jets are not consistent with two subjets. 
 
-Figure \ref{fig:tt} shows examples of LO Feynman diagrams that contribute to $t\overline{t}$ production through $q\overline{q}$ (left) and $gg$ (middle and right) fusion. The $t\overline{t}$ background is simulated with additional zero, one or two jets (represented as $t\overline{t}$+0/1/2 j), at generator level. The extra jets can originated from light and b quarks and from gluons. A jet matching procedure is implemented in Pythia in order to avoid double counting. The top quark has a very short life time, predicted to be $5\times 10^{-25}$ s, such that it decays before it can hadronize. This sample is inclusive in the top quark decay modes. However, the most favoured decay of the top quark is $t\rightarrow Wb$ with a branching ratio close to $96\%$ \cite{PDG2016}. Therefore, $t\overline{t}$ events will, most of the times, result in the $W^+W^-b\overline{b}$ final state. We do not specify any decay mode for the $W$ such that the sample is also inclusive in the $W$ decay modes. The $W$ decays to hadrons $(W^+\rightarrow q\overline{q})$ and leptons $(W^+\rightarrow l^+\nu)$ with BR$(W^+\rightarrow q\overline{q})\sim 68\%$ and BR$(W^+\rightarrow l^+\nu)\sim 10\%$. If one (or both) $W$ bosons decays to hadrons then there will be additional jets in the final state. These can be b jets or can be misidentified as such. If both $W$ bosons decay to leptons there will still be at least two b jets in the final state, coming from the $t\overline{t}$ decay. The cross section of the $t\overline{t}+0/1/2 ~j$ is approximately $4.3\times 10^4$ pb. A k-factor of $1.74$ is applied to account for higher order effects.
+Figure \ref{fig:tt} shows examples of LO Feynman diagrams that contribute to $t\overline{t}$ production through $q\overline{q}$ (left) and $gg$ (middle and right) fusion. The $t\overline{t}$ background is simulated with additional zero, one or two jets (represented as $t\overline{t}+0/1/2 ~j$), at generator level. The extra jets can originated from light and b quarks and from gluons. A jet matching procedure is implemented in Pythia in order to avoid double counting. The top quark has a very short life time, predicted to be $5\times 10^{-25}$ s, such that it decays before it can hadronize. This sample is inclusive in the top quark decay modes. However, the most favoured decay of the top quark is $t\rightarrow Wb$ with a branching ratio close to $96\%$ \cite{PDG2016}. Therefore, $t\overline{t}$ events will, most of the times, result in the $W^+W^-b\overline{b}$ final state. We do not specify any decay mode for the $W$ such that the sample is also inclusive in the $W$ decay modes. The $W$ decays to hadrons $(W^+\rightarrow q\overline{q})$ and leptons $(W^+\rightarrow l^+\nu)$ with BR$(W^+\rightarrow q\overline{q})\sim 68\%$ and BR$(W^+\rightarrow l^+\nu)\sim 10\%$. If one (or both) $W$ bosons decays to hadrons then there will be additional jets in the final state. These can be b jets or can be misidentified as such. If both $W$ bosons decay to leptons there will still be at least two b jets in the final state, coming from the $t\overline{t}$ decay. The cross section of the $t\overline{t}+0/1/2 ~j$ is approximately $4.3\times 10^4$ pb. As explained in \ref{sec:Pythia_samples}, k-factor of $1.74$ is applied which yields a total cross section of approximately $7.5\times 10^{4}$ pb.
 
-It is interesting to note that in the softdrop mass plot for the leading Higgs candidate (figure \ref{fig:h1_eta_M} on the right) the $t\overline{t}$ background (green line) shows a small peak around $170$ GeV. In this region, all the decay products of the top quark are contained inside the $R=0.8$ jet such that the jet mass corresponds to the mass of the original top quark.
+It is interesting to note that in the softdrop mass plot for the leading Higgs candidate (figure \ref{fig:h1_eta_M}(b)) the $t\overline{t}$ background (green line) shows a small peak around $170$ GeV. In this region, all the decay products of the top quark are contained inside the $R=0.8$ jet such that the jet mass corresponds to the mass of the original top quark.
 
 %In addition, we also take into account the irreducible background, $b\overline{b}b\overline{b}$ because it is expected to be the background with the highest efficiency.
 
@@ -188,8 +206,8 @@ It is interesting to note that in the softdrop mass plot for the leading Higgs c
 	%			g1 -- [anti fermion] f5 [particle=\(\overline{b}\)],
 	%			g1 -- [fermion] f6 [particle=\(b\)],
 	%		};
-	\label{fig:QCD}
 	\caption{Example of diagrams that contribute to the QCD multijet background: five final state jets, four of which are b-jets (left), three final state jets (middle) and four final state jets (right). Here, $q$ stands for a light quark/jet.}
+	\label{fig:QCD}
 \end{figure}
 
 \begin{figure}
@@ -205,8 +223,8 @@ It is interesting to note that in the softdrop mass plot for the leading Higgs c
 	% Draw the two internal fermion lines
 	{ [  same layer] a -- [fermion] c},
 };
-\label{fig:tt}
 \caption{Dominant diagrams of $pp\rightarrow t\overline{t}$ at LO.}
+\label{fig:tt}
 \end{figure}
 
 
@@ -275,8 +293,17 @@ It is interesting to note that in the softdrop mass plot for the leading Higgs c
 		%\caption{oi}
 		%\label{fig:h2_pt}
 	\end{minipage}
-	\label{fig:h1h2_pt}
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(a)}
+		%\label{fig1}
+	\end{minipage}%%%
+	\hfill
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(b)}
+		%\label{fig2}
+	\end{minipage}
 	\caption{$p_T$ distributions for the leading (left) and sub leading (right) Higgs candidates. The signal is the SM $hh\rightarrow b\overline{b}$ process. The histograms are normalized to unit area.}
+	\label{fig:h1h2_pt}
 \end{figure}
 
 \begin{figure}
@@ -293,8 +320,17 @@ It is interesting to note that in the softdrop mass plot for the leading Higgs c
 		%\caption{oi}
 		%\label{fig:h2_pt}
 	\end{minipage}
-	\label{fig:h1_eta_M}
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(a)}
+		%\label{fig1}
+	\end{minipage}%%%
+	\hfill
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(b)}
+		%\label{fig2}
+	\end{minipage}
 	\caption{$\eta$ distribution for the leading Higgs candidate (left) and softdrop mass distribution for the leading Higgs candidate (right). The signal is the SM $hh\rightarrow b\overline{b}$ process. The histograms are normalized to unit area.}
+	\label{fig:h1_eta_M}
 \end{figure}	
 
 \begin{figure}
@@ -310,9 +346,18 @@ It is interesting to note that in the softdrop mass plot for the leading Higgs c
 		\includegraphics[trim={0 0 .65cm 0},clip,width=\linewidth]{./Figures/hist_h1_tau21.pdf}
 			%\caption{oi}
 			%\label{fig:h2_pt}
-		\end{minipage}
-		\label{fig:hh_deltaEta_h1_tau21}
-		\caption{Distributions of the $\Delta\eta$ between the Higgs candidates (left) and of the $\tau_{21}$ variable for the leading Higgs candidate (right).  The histograms are normalized to unit area.}
+	\end{minipage}
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(a)}
+			%\label{fig1}
+	\end{minipage}%%%
+	\hfill
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(b)}
+			%\label{fig2}
+	\end{minipage}
+	\caption{Distributions of the $\Delta\eta$ between the Higgs candidates (left) and of the $\tau_{21}$ variable for the leading Higgs candidate (right).  The histograms are normalized to unit area.}
+	\label{fig:hh_deltaEta_h1_tau21}
 \end{figure}
 	
 
@@ -364,6 +409,7 @@ In terms of the technical implementation, the b-tagging algorithm works as follo
 
 \begin{table}
 	\centering
+	\caption{b-Tagging (black), c (blue) and light (red) mistag probabilities as a function of $\eta$ and $p_T$ of the (sub)jet. The momentum dependent factor, $\left(1-p_T/15000\right)$, is common to the three probabilities.}
 	\begin{tabular}{llll}
 		\toprule 
 		\backslashbox{$\eta$}{$p_T$} & $10<p_T<500$ & $500<p_T<15000$ &  \\
@@ -372,7 +418,6 @@ In terms of the technical implementation, the b-tagging algorithm works as follo
 		\rowcolor{black!7} $2.5<|\eta|<4.0$ & $0.64;\textcolor{blue}{0.03};\textcolor{red}{0.0075}$ & $(0.64;\textcolor{blue}{0.03};\textcolor{red}{0.0075})\times\left(1-p_T/15000\right)$ &  \\
 		\bottomrule
 	\end{tabular}
-	\caption{b-Tagging (black), c (blue) and light (red) mistag probabilities as a function of $\eta$ and $p_T$ of the (sub)jet. The momentum dependent factor, $\left(1-p_T/15000\right)$, is common to the three probabilities.}
 	\label{table:btag}
 \end{table}
 
@@ -395,20 +440,20 @@ As a first step, we implemented a baseline analysis based on rectangular cuts on
 \begin{equation}
 	p_T(h_1)>400 ~\text{GeV}, \quad p_T(h_2)>350 ~\text{GeV}, \quad p_T(hh)>100 ~\text{GeV}.
 \end{equation}
-These cuts follow from both distributions shown in figure \ref{fig:pt_stack} and guarantee that we are choosing events for which the Higgs candidates are sufficiently boosted. In addition, a high threshold for the $p_T$ of the jets suppresses $t\overline{t}$ events because the decay products of the top quark are reconstructed in a single jet. In a more realistic analysis, these cuts would also be dictated by the trigger threshold. 
+These cuts follow from both distributions shown in figures \ref{fig:pt_stack}(a) and \ref{fig:pt_stack}(b) and guarantee that we are choosing events for which the Higgs candidates are sufficiently boosted. In addition, a high threshold for the $p_T$ of the jets suppresses $t\overline{t}$ events because the decay products of the top quark are reconstructed in a single jet. In a more realistic analysis, these cuts would also be dictated by the trigger threshold. 
 
-From figure \ref{fig:sub_stack}, on the left, we then apply a cut on the $\tau_{21}$ of the leading Higgs candidate to select jets that are more compatible with a two-prong structure:
+From figure \ref{fig:sub_stack}(a) we then apply a cut on the $\tau_{21}$ of the leading Higgs candidate to select jets that are more compatible with a two-prong structure:
 \begin{equation}
 	\tau_{21}(h_1)<0.55.
 \end{equation}
-The cut on this variable works as a Higgs tagging method. Therefore we apply the same cut on the $\tau_{21}$ of the sub leading Higgs candidate although that does not necessarily follow from the distribution on the right of figure \ref{fig:sub_stack}.
-Then, from the distribution on the right of figure \ref{fig:M_stack}, we place a cut on the second Fox-Wolfram momentum (defined in section \ref{section_jet_sub}) of the leading Higgs candidate, $H_2 (h_1)$:
+The cut on this variable works as a Higgs tagging method. Therefore we apply the same cut on the $\tau_{21}$ of the sub leading Higgs candidate although that does not necessarily follow from the distribution in figure \ref{fig:sub_stack}(b).
+Then, from the distribution in figure \ref{fig:M_stack}(a), we place a cut on the second Fox-Wolfram momentum (defined in section \ref{section_jet_sub}) of the leading Higgs candidate, $H_2 (h_1)$:
 \begin{equation}
 	H_2 (h_1)>0.2
 \end{equation}
 This substructure variable is particularly interesting because it helps supress the $t\overline{t}$ background.
 
-Finally, based on the distribution shown in figure \ref{fig:M_stack} on the right, we apply a cut on the softdrop mass of both Higgs candidates, $M_{SD}(h_1,h_2)$. This cut is placed in a window around the nominal SM Higgs mass:
+Finally, based on the distribution shown in figure \ref{fig:M_stack}(b), we apply a cut on the softdrop mass of both Higgs candidates, $M_{SD}(h_1,h_2)$. This cut is placed in a window around the nominal SM Higgs mass:
 \begin{equation}
 	(100\leq M_{SD}(h_1,h_2)\leq 135) ~\text{GeV}.
 \end{equation}
@@ -429,8 +474,17 @@ Using this analysis, we achieve a significance, $S/\sqrt{B}$, of $6.8\pm0.7(2.15
 		%\caption{oi}
 		%\label{fig:h2_pt}
 	\end{minipage}
-	\label{fig:pt_stack}
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(a)}
+		%\label{fig1}
+	\end{minipage}%%%
+	\hfill
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(b)}
+		%\label{fig2}
+	\end{minipage}
 	\caption{$p_T$ distributions for the sub leading Higgs candidate (left) and for the Higgs pair (right). The histograms are normalized to $\mathcal{L}=30~\text{ab}^{-1}$.}
+	\label{fig:pt_stack}
 \end{figure} 
 
 \begin{figure}
@@ -447,8 +501,17 @@ Using this analysis, we achieve a significance, $S/\sqrt{B}$, of $6.8\pm0.7(2.15
 		%\caption{oi}
 		%\label{fig:h2_pt}
 	\end{minipage}
-	\label{fig:sub_stack}
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(a)}
+		%\label{fig1}
+	\end{minipage}%%%
+	\hfill
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(b)}
+		%\label{fig2}
+	\end{minipage}
 	\caption{Distributions of the $\tau_{21}$ variable for the leading (left) and sub leading (right) Higgs candidates. The histograms are normalized to $\mathcal{L}=30~\text{ab}^{-1}$.}
+	\label{fig:sub_stack}
 \end{figure} 
 
 \begin{figure}
@@ -465,8 +528,17 @@ Using this analysis, we achieve a significance, $S/\sqrt{B}$, of $6.8\pm0.7(2.15
 		%\caption{oi}
 		%\label{fig:h2_pt}
 	\end{minipage}
-	\label{fig:M_stack}
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(a)}
+		%\label{fig1}
+	\end{minipage}%%%
+	\hfill
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(b)}
+		%\label{fig2}
+	\end{minipage}
 	\caption{$H_2$ variable for the leading Higgs candidate (left) and softdrop mass distribution for the leading Higgs candidate. The histograms are normalized to $\mathcal{L}=30~\text{ab}^{-1}$.}
+	\label{fig:M_stack}
 \end{figure} 
 
 \subsection{Optimization}
@@ -479,17 +551,17 @@ Using this analysis, we achieve a significance, $S/\sqrt{B}$, of $6.8\pm0.7(2.15
 
 %We explored different methods to optimize the baseline analysis in order to increase the achieved significance. 
 
-The first approach to the optimization consists in placing successive cuts in the most relevant kinematic variables. The value of each cut is chosen in order to optimize the significance after that cut. As for the baseline analysis we start by looking at the transverse momenta of the leading and sub leading Higgs candidates. After the pre-selection cuts are applied, we scan the histograms of the $p_T$ of the leading Higgs candidate for signal and backgrounds by placing a lower cut on this variable. For each value of the cut we integrate upwards in order to obtained the expected number of signal and background events after the cut. Using these number we calculate the significance, $S/\sqrt{B}$. The significance as a function of the lower cut on $p_T(h_1)$ is shown in figure \ref{fig:SSB_h1h2_pt} on the left. Based on this plot we choose the cut:	
+The first approach to the optimization consists in placing successive cuts in the most relevant kinematic variables. The value of each cut is chosen in order to optimize the significance after that cut. As for the baseline analysis we start by looking at the transverse momenta of the leading and sub leading Higgs candidates. After the pre-selection cuts are applied, we scan the histograms of the $p_T$ of the leading Higgs candidate for signal and backgrounds by placing a lower cut on this variable. For each value of the cut we integrate upwards in order to obtained the expected number of signal and background events after the cut. Using these number we calculate the significance, $S/\sqrt{B}$. The significance as a function of the lower cut on $p_T(h_1)$ is shown in figure \ref{fig:SSB_h1h2_pt}(a). Based on this plot we choose the cut:	
 \begin{equation}
 	p_T(h_1)>300~\text{GeV}.
 \end{equation}
 
-After placing the cut on $p_T(h_1)$ we do the same plot for the $p_T$ of the sub leading Higgs candidate and of the Higgs pair. These are shown in figures \ref{fig:SSB_h1h2_pt} on the right and \ref{fig:SSB_hh_pt} on the left, respectively. From figure \ref{fig:SSB_h1h2_pt} on the right we see that a cut on $p_T(h_2)$ above $200$ GeV is not favorable. Therefore, we do not apply any other cut on this variable. Based on the plot shown on the left of figure \ref{fig:SSB_hh_pt} we choose the cut:
+After placing the cut on $p_T(h_1)$ we do the same plot for the $p_T$ of the sub leading Higgs candidate and of the Higgs pair. These are shown in figures \ref{fig:SSB_h1h2_pt}(b) and \ref{fig:SSB_hh_pt}(a), respectively. From figure \ref{fig:SSB_h1h2_pt}(b) we see that a cut on $p_T(h_2)$ above $200$ GeV is not favorable. Therefore, we do not apply any other cut on this variable. Based on the plot in figure \ref{fig:SSB_hh_pt}(a) we choose the cut:
 \begin{equation}
 	p_T(hh)>100~\text{GeV}.
 \end{equation}
 
-Following the cuts on the momentums we place a cut on the $\tau_{21}$ variable for both Higgs candidates. From all the variables considered during the optimization process this was the one that lead to the highest increase in the significance. From the definition of the $\tau_{21}$ variable we expect the signal to take lower values that the background. Therefore we optimize the cut on this variable by placing and upper cut and integrating the distribution backwards. The plot is shown in figure \ref{fig:SSB_hh_pt} on the right. From this plot we place the following cut on the $\tau_{21}$ of the leading Higgs candidate:
+Following the cuts on the momentums we place a cut on the $\tau_{21}$ variable for both Higgs candidates. From all the variables considered during the optimization process this was the one that lead to the highest increase in the significance. From the definition of the $\tau_{21}$ variable we expect the signal to take lower values that the background. Therefore we optimize the cut on this variable by placing and upper cut and integrating the distribution backwards. The plot is shown in figure \ref{fig:SSB_hh_pt}(b). From this plot we place the following cut on the $\tau_{21}$ of the leading Higgs candidate:
 \begin{equation}
 	\tau_{21}(h_1)<0.4.
 \end{equation}
@@ -499,7 +571,7 @@ Next we apply cuts on the $\Delta\eta$ between the Higgs candidates and on the s
 \begin{equation}
 	|\Delta\eta(hh)|<1.5 \qquad H_2(h_1)>0.2.
 \end{equation} 
-These cut follow from the plots on figure \ref{fig:SSB_hh_deltaEta}. The optimization plot for $\Delta\eta(hh)$ is obtained placing a cut in a window around zero which follows directly from the shape of the distributions in figure \ref{fig:hh_deltaEta_h1_tau21} on the left. For the $H_2(h_1)$ variable the cut is placed on the lower value.
+These cut follow from the plots on figures \ref{fig:SSB_hh_deltaEta}(a) and \ref{fig:SSB_hh_deltaEta}(b). The optimization plot for $\Delta\eta(hh)$ is obtained placing a cut in a window around zero which follows directly from the shape of the distributions in figure \ref{fig:hh_deltaEta_h1_tau21}(a). For the $H_2(h_1)$ variable the cut is placed on the lower value.
 
 Finally we apply the mass cuts on the leading and sub leading Higgs candidates. These are the same that were applied in the baseline analysis. [OPTIMIZE THEM?].
 
@@ -519,8 +591,17 @@ Using the optimized analysis we obtain a significance, $S/\sqrt{B}$, of $10\pm2(
 		%\caption{oi}
 		%\label{fig:h2_pt}
 	\end{minipage}
-	\label{fig:SSB_h1h2_pt}
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(a)}
+		%\label{fig1}
+	\end{minipage}%%%
+	\hfill
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(b)}
+		%\label{fig2}
+	\end{minipage}
 	\caption{$S/\sqrt{B}$ as a function of the cut on the $p_T$ of the leading Higgs candidate, $p_T(h_1)$ (left) after the pre-selection cuts and of the sub leading Higgs candidate, $p_T(h_2)$ (right) after the cut on $p_T(h_1)$.}
+	\label{fig:SSB_h1h2_pt}
 \end{figure} 
 
 \begin{figure}
@@ -537,8 +618,17 @@ Using the optimized analysis we obtain a significance, $S/\sqrt{B}$, of $10\pm2(
 		%\caption{oi}
 		%\label{fig:h2_pt}
 	\end{minipage}
-	\label{fig:SSB_hh_pt}
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(a)}
+		%\label{fig1}
+	\end{minipage}%%%
+	\hfill
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(b)}
+		%\label{fig2}
+	\end{minipage}
 	\caption{$S/\sqrt{B}$ as a function of the cut on the $p_T$ of the Higgs pair, $p_T(hh)$ (left) after the cut on $p_T(h_1)$ and as a function of the $\tau_{21}$ variable for leading Higgs candidate, $\tau_{21}(h_1)$ (right) after the cut on $p_T(hh)$.}
+	\label{fig:SSB_hh_pt}
 \end{figure} 
 
 \begin{figure}
@@ -555,13 +645,24 @@ Using the optimized analysis we obtain a significance, $S/\sqrt{B}$, of $10\pm2(
 		%\caption{oi}
 		%\label{fig:h2_pt}
 	\end{minipage}
-	\label{fig:SSB_hh_deltaEta}
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(a)}
+		%\label{fig1}
+	\end{minipage}%%%
+	\hfill
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(b)}
+		%\label{fig2}
+	\end{minipage}
 	\caption{$S/\sqrt{B}$ as a function of the cut on the $\Delta\eta$ between the Higgs candidates, $\Delta\eta(hh)$ (left) after the cuts on the transverse momentums and on the $\tau_{21}$ variables and as a function of the second Fox-Wolfram momentum for the leading Higgs candidate, $H_l(h_1)$ (right) after the cuts on the transverse momentums, $\tau_{21}$ and $\Delta\eta$.}
+	\label{fig:SSB_hh_deltaEta}
 \end{figure} 
 
 \subsection{Handling of uncertainties}
 
-In this work, only statistical uncertainties are considered. This is due to the exploratory nature of this analysis but also because systematic uncertainties are usually related to the detector and object reconstruction specificities making them difficult to list and quantify for a detector that is not yet built.
+\subsubsection{Statistical uncertainties}
+
+%In this work, only statistical uncertainties are considered. This is due to the exploratory nature of this analysis but also because systematic uncertainties are usually related to the detector and object reconstruction specificities making them difficult to list and quantify for a detector that is not yet built.
 
 For challenging analyses such as this one, the backgrounds usually have a much larger cross section than the signal meaning that we need a lot of Monte Carlo events to properly simulate them. Most of the times it is not feasible to generate as much events as we would need for a given luminosity. This is the case with this work, namely because we are targeting very high luminosities (of the order of tens of $\text{ab}^{-1}$). Take for example the multijet sample with $500<H_T<1000$. The cross section is approximately $10^7$ pb which means that we expect a total of $3\times 10^{14}$ events for an integrated luminosity of $30~\text{ab}^{-1}$. It is not feasible, within the time frame of this work and with the available computational resources, to generate this number of events. Therefore, we apply a weight, $w$, to each event given by:	
 \begin{equation}
@@ -575,13 +676,24 @@ If we assume that the number of events follows a Poisson distribution then the s
 \end{equation}
 $\Delta N_{\text{norm}}$ can then be used in standard error propagation to compute the statistical uncertainty associated with any expression, in particular, with $S/\sqrt{B}$. The error associated with $S/\sqrt{B}$ is given by:
 \begin{equation}
-	\Delta\left(\frac{S}{\sqrt{B}}\right)=\left|\frac{1}{\sqrt{B}}\right|^2 (\Delta S)^2+\left|-\frac{S}{B^{3/2}}\right|^2 (\Delta B)^2
+	\left(\Delta\frac{S}{\sqrt{B}}\right)^2=\left|\frac{1}{\sqrt{B}}\right|^2 (\Delta S)^2+\left|-\frac{S}{B^{3/2}}\right|^2 (\Delta B)^2
 \end{equation}
 where $\Delta S$ and $\Delta B$ are the uncertainties associated with the number of signal and background events. $\Delta B$ is given by:
 \begin{equation}
 		(\Delta B)^2 =\sum_i (\Delta B_i)^2
 \end{equation}
 where the index $i$ runs over all independent backgrounds.
+
+\subsubsection{Systematic uncertainties}
+
+Systematic uncertainties are usually related to the detector specificities and object reconstruction techniques, which makes it difficult to list and quantify for a detector that is not yet built. Nonetheless, we can use the numbers for the systematic uncertainties that are reported for existing searches for $pp\rightarrow hh\rightarrow b\overline{b}b\overline{b}$ using the ATLAS detector.
+
+When requiring four b-tags, the largest uncertainty affecting the signal is the the b-tagging uncertainty (table 6 of Ref. \cite{hh2bbbbATLAS1}). It is of the order of $30\%$. We use this number to estimate the impact of the b-tagging uncertainty on the analysis.
+For the background, the largest uncertainty comes from the estimation of its yield and shape, according to the same reference. The reported value is $16\%$. However, a study performed by the FCC study group \cite{FCCphysClement} considers more conservative values for the uncertainties on the $t\overline{t}$ and  QCD di-jet backgrounds normalizations. The reported values are $20\%$ for $t\overline{t}$ and $50\%$ for di-jet production. In this study, we use these numbers to estimate the impact of the systematic uncertainty on the normalization of the backgrounds.
+
+The b-tagging uncertainty can only be used to estimate a lower bound for the significance. This is done by simply considering that $30\%$ less signal events go through all the analysis cuts. This leads to a decrease in the significance from X to Y.
+
+The background normalization uncertainties are implemented by increasing and decreasing the k-factor by the corresponding percentage, with respect to what is given in table \ref{table:samples_summary}. We vary the k-factors of each background ($4b+j$, $jj+0/1/2~ j$ and $t\overline{t}$) individually. For the $4b+j$ and $jj+0/1/2 ~j$ we consider the same uncertainty of $50\%$. This leads to ...
 
 %% ----------------------------------------------------------------------
 %\subsection{Intermediate}20

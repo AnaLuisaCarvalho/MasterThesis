@@ -1,0 +1,65 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                      %
+%     File: Thesis_Appendix_A.tex                                      %
+%     Tex Master: Thesis.tex                                           %
+%                                                                      %
+%     Author: Andre C. Marta                                           %
+%     Last modified :  2 Jul 2015                                      %
+%                                                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Cutflow tables}
+\label{chapter:cutflows}
+In this appendix we collect the cutflow tables for the baseline and optimized analysis, for particle flow and calorimeter jets and for all detector configurations that were tested. The efficiencies of the cuts are shown for all cuts. The expected number of events for an integrated luminosity of $\mathcal{L}=30~\text{ab}^{-1}$ is also shown for some key cuts.
+
+\begin{table}[h]
+	\caption{oi}
+	\label{table:}
+	\centering
+	\begin{tabular}{lcccc}
+		\hline
+		 \multirow{2}{*}{\textbf{Configuration}} & \multicolumn{2}{c}{PF jets}    & \multicolumn{2}{c}{HCAL jets} \\ \cline{2-5} 
+		& Baseline & Optimized & Baseline  & Optimized           \\ \midrule \midrule
+		ATLAS&  &                       &           &           \\ 
+		\rowcolor{black!7}ATLAS gran.&  &  &           &           \\ 
+		ATLAS gran. $\eta\times 4$&  &  &           &           \\ 
+		\rowcolor{black!7}FCC gran. $\phi/2$&  &  &           &           \\ 
+		FCC&  &  &           &           \\ 
+		\rowcolor{black!7}FCC gran.$\eta,\phi \times 2$&  &  &           &           \\ \bottomrule
+	\end{tabular}
+	
+\end{table}
+
+\begin{landscape}
+	\begin{table}
+		\centering
+		\caption{oi}
+		\begin{tabular}{lcccccc}
+			\toprule 
+			\textbf{Selection [ATAS]} & $hh\rightarrow b\overline{b}b\overline{b}$~(SM) & $hh\rightarrow b\overline{b}b\overline{b}$~(DM mediator) & $hh\rightarrow b\overline{b}b\overline{b}$~(2HDM) & $4b+j$  & $jj+0/1/2 j$ & $t\overline{t}$ \\
+			\midrule
+			\multirow{2}{*}{Gen level} & $100$ & $100$ &$100$& $100$& $100$& $100$ \\
+			&   &&  &&&\\
+			\rowcolor{black!7}N(b-tags) &  &  &&&&\\
+			\multirow{2}{*}{$p_T(j_1,j_2)\geq200$ GeV} &  & & &&&\\ 
+			& && &&&\\
+			\midrule \midrule
+			\rowcolor{black!7}$p_T(j_1)\geq 400$ GeV &  &  &&&&\\ 
+			$p_T(j_2)\geq 350$ GeV & &&   &&&\\
+			\rowcolor{black!7}$p_T(j_1+j_2)\geq 100$ GeV &  & &  &&&\\
+			$\tau_{21}(j_1)<0.55$ & & &&&&\\
+			\rowcolor{black!7}$\tau_{21}(j_2)<0.55$ & & &&&&\\
+			$FW2(j_1)>0.2$ & &&&&&\\
+			\rowcolor{black!7}$(100<M_{SD}(j1)<135)$ GeV& &&&&&\\
+			\multirow{2}{*}{$(100<M_{SD}(j2)<135)$ GeV} &  & &&&&\\
+			&&&&&&\\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+
+
+\end{landscape}
+	
+
+
+

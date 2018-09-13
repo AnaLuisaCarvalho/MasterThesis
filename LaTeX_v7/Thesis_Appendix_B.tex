@@ -11,4 +11,22 @@
 \chapter{Additional background processes}
 \label{chapter:bkgHiggs}
 
-In this section we discuss the importance of additional background processes and estimate how they influence the analysis. In particular, we investigate backgrounds involving Higgs bosons.
+In this section we discuss the importance of additional background processes and estimate how they influence the analysis. In particular, we investigate backgrounds involving Higgs bosons. We consider the $t\overline{t}h$ and $h+0/1/2~j$ processes. The effective cross section, efficiency and expected number of events for an integrated luminosity of $\mathcal{L}=30~\text{ab}^{-1}$ are summarized in table \ref{table:add_bkg}. Including these backgrounds in the analysis leads to a decrease in the significance of $0.26\%$, which we consider to be a very small effect. Therefore, neglecting these backgrounds is a safe assumption. 
+
+\begin{table}[h]
+	\centering
+	\caption{Effective cross section ($\sigma\times \text{BR}\times \text{k-factor}$), efficiency and expected number of events for $\mathcal{L}=30~\text{ab}^{-1}$ for the $t\overline{t}h+0/1 ~j(h\rightarrow b\overline{b})$ and $h+0/1/2~j(h\rightarrow b\overline{b})$ backgrounds.}
+	\label{table:add_bkg}
+	\begin{tabular}{lccc}
+		\toprule 
+		\textbf{Process} & $\sigma\times \text{BR}\times \text{k-factor}$ [pb]  &  Efficiency [\%] & Expected nb. events ($\mathcal{L}=30~\text{ab}^{-1}$) \\
+		\midrule
+		\rowcolor{black!7}$t\overline{t}h+0/1 ~j(h\rightarrow b\overline{b})$& $31.86$ & $0.089$ & $8.5\times 10^{5}$\\
+		$h+0/1/2~j(h\rightarrow b\overline{b})$& $1286.52$ & $0.0041$ & $1.6\times 10^{6}$\\
+		\bottomrule
+	\end{tabular}
+	
+\end{table}
+
+In addition, we also estimate the error associated with not considering the a sample of $4b+j$ with $p_T(j)<200$ GeV. In order to do so, we generate a sample with $110$k events of $4b+j$ with $(30<p_T(j)<200)$ GeV. The cross section is $\sigma=7450$ pb. No event goes through the cuts $p_T(\text{leading jet})>300$ GeV and $p_T(\text{Higgs pair})>100$ GeV. However, if we assume that $1$ events goes through the cuts (which corresponds to a very conservative $9.09\times 10^{-4}\%$ efficiency) we have an expected number of events of $2.03\times 10^{6}$ for an integrated luminosity of $\mathcal{L}=30~\text{ab}^{-1}$. If we include this background, the significance decreases by $0.22\%$ which is a very small effect. Therefore, it is safe to neglect this background.
+

@@ -31,7 +31,7 @@ Pythia8 is frequently used for event generation in high energy physics. In this 
 
 Delphes3 allows for a quick and simple simulation of the detector's response \cite{Delphes}. Its goal is to allow the fast simulation of a multipurpose detector for phenomenological studies. The simulation includes a track propagation system, electromagnetic and hadronic calorimeters and a muon identification system. Low level physics objects, such as tracks and energy deposits, and high level physics objects, such as leptons and jets, are reconstructed from the detector's response and can be used to perform physics analysis. In the following paragraphs we briefly describe how the detector response is simulated and how jet reconstruction is performed.  
 
-The magnetic field is uniform, axial and parallel to the beam direction. Charged particles follow a helicoidal trajectory from the interaction point to the calorimeter while neutral particles have a straight line trajectory. The probability of a charged particle being reconstructed as a track is defined by the user. Only a smearing in the modulus of the transverse momentum is applied (not to the direction). The tracking efficiency as well as energy and momentum resolutions are specified by the user and may include a dependency on the particle type, momentum and pseudorapidity. The calorimeters have a finite segmentation in the $(\eta,\phi)$ plane and the cell size can be defined in the configuration file. The amount of energy deposited in the calorimeters by each particle type can be defined by the user. By default, stable hadrons deposit all their energy in the HCAL although in a real detector a significant fraction of their energy is deposited in the ECAL. The energy resolution of the ECAL and HCAL are parameterized as a function of $\eta$ and include stochastic, noise and constant terms [FORMULA?]. The electromagnetic and hadronic energy deposits are independently smeared by log-normal distributions. 
+The magnetic field is uniform, axial and parallel to the beam direction. Charged particles follow a helicoidal trajectory from the interaction point to the calorimeter while neutral particles have a straight line trajectory. The probability of a charged particle being reconstructed as a track is defined by the user. Only a smearing in the modulus of the transverse momentum is applied (not to the direction). The tracking efficiency as well as energy and momentum resolutions are specified by the user and may include a dependency on the particle type, momentum and pseudorapidity. The calorimeters have a finite segmentation in the $(\eta,\phi)$ plane and the cell size can be defined in the configuration file. The amount of energy deposited in the calorimeters by each particle type can be defined by the user. By default, stable hadrons deposit all their energy in the HCAL although in a real detector a significant fraction of their energy is deposited in the ECAL. The energy resolution of the ECAL and HCAL are parameterized as a function of $\eta$ and include stochastic, noise and constant terms: $\sigma (E)/E=a/\sqrt{E}\bigoplus b$ . The electromagnetic and hadronic energy deposits are independently smeared by log-normal distributions. 
 
 Jets can be produced using generator level long-lived particles after showering and hadronization, tracks, calorimeter towers or particle-flow tracks and towers. These are referred to as generator, track, calorimeter or particle-flow jets, respectively. For generator level jets no detector simulation nor reconstruction are taken into account. In spite of the type of jet the user can choose the jet clustering algorithm and the values of its parameters as well as the minimum transverse momentum of the jets that are stored in the final collection. Delphes integrates the FastJet package \cite{fastjet} and therefore allows jet reconstruction with the most popular jet reconstruction algorithms, namely, anti-$k_T$, $k_T$ and Cambridge-Aachen (C/A). 
 Jets resulting from the hadronization of a b quark (known as b jets), are identified if a b quark is found within a $\Delta R$ distance from the jet's axis. The tagging efficiency and mis-tagging probabilities can be defined by the user. 
@@ -109,7 +109,7 @@ Both models are readily available in Feynrules \cite{Feynrules} (which is a Math
 
 For the DM model \cite{DM}, the spin 0 mediator's mass is set at $1$ TeV. The cross section for the signal generated with this model is smaller than the cross section of the SM signal (approximately $0.2$ pb \textit{versus} $0.7$ pb) and therefore this model is not excluded by experimental data.
 
-For the 2HDM \cite{2HDM,2HDM1}, a finer tuning of the parameters is required because the model is very general and has a lot external free parameters. In addition, it is written in the Higgs basis such that we need to convert the parameters from the physical basis (introduced in \ref{section:BSM}) to this basis. The free parameters of the model that we are interested in are the masses of the neutral, $mh1, mh2, mh3$, and charged scalars, $mhc$, the neutral scalars mixing angles, $mixh, mixh2, mixh3$, the real and imaginary parts of the up, down and charged lepton $3\times 3$ Yukawa matrices, $GUR, GUI, GDR, GDI, GLR, GLI$ and the values (real and imaginary parts) of the second, third and seventh quartic couplings, $l_{2,3,7}$,. In the CP-conserving model $h_{1,2,3}$ can be identified with the physical states $h$, $H$ and $A$, respectively.
+For the 2HDM \cite{2HDM,2HDM1}, a finer tuning of the parameters is required because the model is very general and has a lot external free parameters. In addition, it is written in the Higgs basis such that we need to convert the parameters from the physical basis (introduced in \ref{section:BSM}) to this basis. The free parameters of the model that we are interested in are the masses of the neutral, $m_{h_1}, m_{h_2}, m_{h_3}$, and charged scalars, $m_{hc}$, the neutral scalars mixing angles, $mix_h, mix_{h_2}, mix_{h_3}$, the real and imaginary parts of the up, down and charged lepton $3\times 3$ Yukawa matrices, $GUR, GUI, GDR, GDI, GLR, GLI$ and the values (real and imaginary parts) of the second, third and seventh quartic couplings, $l_{2,3,7}$,. In the CP-conserving model $h_{1,2,3}$ can be identified with the physical states $h$, $H$ and $A$, respectively.
 
 We start from the following parameters (in the physical basis):
 \begin{align}
@@ -138,31 +138,47 @@ Regarding the Yukawa interactions, we work in the type II model. Following the t
 where $m_b=4.7$ GeV and $m_t=172$ GeV are the masses of the bottom and top quarks.
 
 \subsection{Pythia}
+\label{sec:Pythia_samples}
 
-For the signal sample we simply turn off all other decays except $h\rightarrow b\overline{b}$ therefore forcing the Higgs to decay to a pair of b quarks leading to the desired final state with four b quarks. All other settings are not altered with respect to their default configuration.
+For the signal samples (SM and BSM) we simply turn off all other decays except $h\rightarrow b\overline{b}$ therefore forcing the Higgs to decay to a pair of b quarks leading to the desired final state with four b quarks. All other settings are not altered with respect to their default configuration. For the BSM samples, this implies that the coupling of the SM Higgs boson to the b quarks is set to its SM value.
 
 For the $jj+0/1/2 ~$ and $t\overline{t}+0/1/2 ~j$ samples we have to perform jet matching because we require additional jets at the level of the matrix element. In addition to the partons generated in MadGraph and that can produce a jet, Pythia may introduce extra jets that are usually soft and collinear (with the particle from which they were radiated) and result from the showering process. This could lead to the same process (meaning processes with the same final states) being counted twice (double counting). Take, for example, the processes $j~j$ and  $j~j~j$ at MadGraph level. It can happen that Pythia generates an extra jet for the first process but not for the second, leading to both processes having the same final state (three jets). Each process would then give its independent contribution to the total number of events but because they simply represent two distinct ways of achieving the same final state they should only be counted once. The goal of jet matching procedures is to avoid this problem. 
 
 %The settings for jet matching can be found in table \ref{table:Pythia8settings} under the corresponding samples' columns. We perform the jet matching procedure (merge=on) using the MLM matching scheme and the appropriate algorithm for a parton level process generated in MadGraph (scheme=1). We do not read the matching parameters from the MadGraph file (setMad=off) because this option is not available for these files. The size of the cone drawn around the jet's center, the maximum pseudorapidity and the maximum number of jets to be matched are given by coneRadius, etaJetMax and nJetMax, respectively. The cone radius is set to one. The maximum allowed pseudorapidity of jets is ten which is a much loser cut than the acceptance of any current detector. The maximum number of jets is set to four for the jj+0/1/2 j and to two for the $t\overline{t}$+0/1/2 j. The qCut parameter defines the $k_T$ scale for merging shower products into jets.  
 
-The cross section times branching ratio (when applicable), the k-factors and the total number of events used in the analysis are summarized in table \ref{table:samples_summary}, for all samples. The k-factor multiplies the cross section times branching ratio in order to reproduce known higher order results. It corresponds only to the ratio between the total cross sections and it does not correct for possible difference that might exist between the differential cross sections.
+The cross section times branching ratio (when applicable), the k-factors and the total number of events used in the analysis are summarized in table \ref{table:samples_summary}, for all samples. The k-factor multiplies the cross section times branching ratio in order to reproduce known higher order results. It corresponds only to the ratio between the total cross sections and it does not correct for possible differences that might exist between the differential cross sections.
+
+For the SM signal, $\sigma\times BR$ is given by $\sigma(hh,h\rightarrow b\overline{b})\times BR(h\rightarrow b\overline{b})$, with $BR(h\rightarrow b\overline{b})=0.5824$ for $m_h=125$ GeV \cite{HiggsHandbook}. $\sigma(hh,h\rightarrow b\overline{b})$ is given by:
+\begin{equation}
+	\sigma(hh,h\rightarrow b\overline{b})=\sigma(hh)\times 2\times BR(h\rightarrow b\overline{b})=1.22~\text{pb}\times 2 \times 0.5824 = 1.42 ~\text{pb}
+\end{equation}
+where $\sigma(hh)=1.22$ pb follows from Ref. \cite{HxsNNLO} and the factor of $2$ is a combinatorial factor that indicates that both Higgs bosons can decay to a pair of b quarks. The k-factor is given by $\sigma_{\text{NNLL}}/\sigma_{\text{NNLO}}$, where $\sigma_{\text{NNLL}}$ is calculated according to the prescription given in equation I.7.8 of Ref. \cite{HiggsHandbook}, with $\delta_t=-0.315$, which yields $\sigma_{\text{NNLL}}=1.33$ pb.
+
+For the BSM signal samples, $\sigma\times BR$ is given by:
+\begin{equation}
+	\sigma\times BR = \sigma(hh)_{\text{MG}}\times (BR(h\rightarrow b\overline{b}))^2
+\end{equation}
+where $\sigma(hh)_{\text{MG5}}$ is the cross section for Higgs pair production as given by MadGraph. For these sample we consider a k-factor of $1.0$.
+
+For the remaining samples, $\sigma\times BR$ are the values given by MadGraph. In these samples no decay mode is imposed, therefore the branching ratio is one. For the $4b+j$(QCD) sample, a k-factor of two is applied \cite{FCCEventProducer} in order to parameterize our ignorance on the QCD irreducible background. For the $t\overline{t}+0/1/2 ~j$, a k-factor of $1.74$ is applied, following Ref. \cite{FCCEventProducer}.
 
 The parameters used in Pyhtia 8 can be found in table \ref{table:Pythia8settings} in appendix \ref{chapter:samples_gen}.
 
 \begin{table}
 	\centering
+	\caption{Summary of the cross sections, k factors and total number of events of the signal and background samples used in the analysis.}
 	\begin{tabular}{llll}
 		\toprule 
 		\textbf{Sample} & $\sigma\times BR$ [pb] & k-factor & Number of events\\
 		\midrule
-		$hh\rightarrow b\overline{b}b\overline{b}$ - \textbf{SM} & $0.76$ & $1.52$ &\\
+		$hh\rightarrow b\overline{b}b\overline{b}$ - \textbf{SM} & $0.827$ & $1.09$ &\\
 		\rowcolor{black!7} $hh\rightarrow b\overline{b}b\overline{b}$ - \textbf{DM mediator} & $0.218$ & $1.0$ & \\
-		$hh\rightarrow b\overline{b}b\overline{b}$ - \textbf{2HDM} & $1.85$ & $1.0$ & \\
+		$hh\rightarrow b\overline{b}b\overline{b}$ - \textbf{2HDM type II} & $1.85$ & $1.0$ & \\
 		\rowcolor{black!7} $4b+j$ (QCD, $200<p_T^j<500$)& $756.4$ & $2.0$ &\\
 		$4b+j$ (QCD, $p_T^j>500$)& $57.71$ & $2.0$ &\\
-		\rowcolor{black!7}4b+j (QCD+EWK) & $6.204$ & $1.0$ & \\
+		\rowcolor{black!7}$4b+j$ (QCD+EWK) & $6.204$ & $1.0$ & \\
 		$4b+j$ (EWK)& $0.07206$ & $1.0$ & \\
-		\rowcolor{black!7} jj+0/1/2 j ($500<H_T<1000$) & $1.64\times 10^7$ &$1.0$&\\
+		\rowcolor{black!7} $jj+0/1/2 ~j$ ($500<H_T<1000$) & $1.64\times 10^7$ &$1.0$&\\
 		$jj+0/1/2 ~j$ ($1000<H_T<2000$) & $1.67\times 10^6$ &$1.0$ &\\
 		\rowcolor{black!7}$jj+0/1/2 ~j$ ($2000<H_T<4000$) & $1.32\times 10^5$ & $1.0$&\\
 		$jj+0/1/2 ~j$ ($4000<H_T<7200$) & $7.32\times 10^3$ & $1.0$&\\
@@ -170,10 +186,9 @@ The parameters used in Pyhtia 8 can be found in table \ref{table:Pythia8settings
 		$jj+0/1/2 ~j$ ($15000<H_T<25000$) & $7.35$ & $1.0$&\\
 		\rowcolor{black!7}$jj+0/1/2 ~j$ ($25000<H_T<35000$) & $0.176$ & $1.0$&\\
 		$jj+0/1/2 ~j$ ($35000<H_T<100000$) & $0.00765$ & $1.0$&\\
-		\rowcolor{black!7}$t\overline{t}$+0/1/2 j & $4.31	\times 10^4$ & $1.74$ &\\
+		\rowcolor{black!7}$t\overline{t}+0/1/2 ~j$ & $4.31	\times 10^4$ & $1.74$ &\\
 		\bottomrule
 	\end{tabular}
-	\caption{Summary of the cross sections, k factors and total number of events of the samples used in the analysis.}
 	\label{table:samples_summary}
 \end{table}
 
@@ -198,6 +213,7 @@ For completion we summarize, in table \ref{table:det}, the values of some key de
 
 \begin{table}
 	\centering
+	\caption{Summary of the benchmark granularity configurations of the HCAL.}
 	\begin{tabular}{lll}
 		\toprule 
 		\textbf{Configuration} & $\Delta \eta \times \Delta \phi$ & $\eta$ range\\
@@ -215,12 +231,12 @@ For completion we summarize, in table \ref{table:det}, the values of some key de
 		\multirow{-2}{*}{5 (FCC HCAL $\eta,\phi\times 2$)}&$0.025\times 0.025$ & $2.5<|\eta|<6.0$\\
 		\bottomrule
 	\end{tabular}
-	\caption{Summary of the benchmark granularity configurations of the HCAL.}
 	\label{table:Gran}
 \end{table}
 
 \begin{table}
 	\centering
+	\caption{Summary of some key detector parameters for the FCC-hh and ATLAS detectors.}
 	\begin{tabular}{p{40mm}p{40mm}p{40mm}}
 		\toprule 
 		\textbf{Parameter} & FCC-hh & ATLAS\\
@@ -232,7 +248,6 @@ For completion we summarize, in table \ref{table:det}, the values of some key de
 		HCAL resolution & $\sqrt{E^2(0.03)^2+E(0.60)^2}$\linebreak for $1.7<|\eta|<4.0$& $\sqrt{E^2(0.05)^2+E(0.706)^2}$ \linebreak for $1.7<|\eta|<3.2$\\
 		\bottomrule
 	\end{tabular}
-	\caption{Summary of the benchmark granularity configurations of the HCAL.}
 	\label{table:det}
 \end{table}
 

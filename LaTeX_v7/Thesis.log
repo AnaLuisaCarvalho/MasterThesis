@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2017.11.27)  10 SEP 2018 14:45
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2017.11.27)  13 SEP 2018 15:04
  restricted \write18 enabled.
 **Thesis.tex
 (./Thesis.tex
@@ -40,6 +40,31 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \bframebox=\box26
 LaTeX Info: Redefining \\ on input line 3056.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count95
+)))
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
@@ -59,22 +84,22 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \caption@parindent=\dimen113
 \caption@hangindent=\dimen114
 )
-\c@ContinuedFloat=\count95
+\c@ContinuedFloat=\count96
 )
 (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count96
-\calc@Bcount=\count97
+\calc@Acount=\count97
+\calc@Bcount=\count98
 \calc@Adimen=\dimen115
 \calc@Bdimen=\dimen116
 \calc@Askip=\skip43
 \calc@Bskip=\skip44
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count98
+\calc@Ccount=\count99
 \calc@Cskip=\skip45
 )
 (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
@@ -100,13 +125,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count99
+\inf@bad=\count100
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count100
-\leftroot@=\count101
+\uproot@=\count101
+\leftroot@=\count102
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count102
-\DOTSCASE@=\count103
+\classnum@=\count103
+\DOTSCASE@=\count104
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
@@ -115,15 +140,15 @@ LaTeX Info: Redefining \cdots on input line 518.
 \big@size=\dimen119
 LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
-\macc@depth=\count104
-\c@MaxMatrixCols=\count105
+\macc@depth=\count105
+\c@MaxMatrixCols=\count106
 \dotsspace@=\muskip10
-\c@parentequation=\count106
-\dspbrk@lvl=\count107
+\c@parentequation=\count107
+\dspbrk@lvl=\count108
 \tag@help=\toks17
-\row@=\count108
-\column@=\count109
-\maxfields@=\count110
+\row@=\count109
+\column@=\count110
+\maxfields@=\count111
 \andhelp@=\toks18
 \eqnshift@=\dimen120
 \alignsep@=\dimen121
@@ -142,7 +167,7 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count111
+\g_MT_multlinerow_int=\count112
 \l_MT_multwidth_dim=\dimen126
 \origjot=\skip49
 \l_MT_shortvdotswithinadjustabove_dim=\dimen127
@@ -155,7 +180,7 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen133
 \WF@size=\dimen134
-\c@WF@wrappedlines=\count112
+\c@WF@wrappedlines=\count113
 \WF@box=\box29
 \WF@everypar=\toks21
 Package: wrapfig 2003/01/31  v 3.6
@@ -168,17 +193,6 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count113
-)
 (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
@@ -243,18 +257,6 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
-)
-Package graphics Info: Driver file: pdftex.def on input line 95.
-)
 \Gin@req@height=\dimen140
 \Gin@req@width=\dimen141
 )
@@ -1069,40 +1071,31 @@ File: ppluatex.def 2015/09/18 v0.5d Pdfpages driver for LuaTeX (AM)
 \AM@toc@title=\toks51
 \c@AM@survey=\count180
 \AM@templatesizebox=\box55
-)) (./Thesis.aux)
+)) (./Thesis.aux
+
+LaTeX Warning: Label `fig:CompGran_M' multiply defined.
+
+)
 \openout1 = Thesis.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 89.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 90.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: hyperref package is loaded.
-Package caption Info: hypcap package is loaded.
-Package caption Info: longtable package is loaded.
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
-Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
-)
-Package caption Info: rotating package is loaded.
-Package caption Info: subfigure package is loaded.
-Package caption Info: wrapfig package is loaded.
-Package caption Info: End \AtBeginDocument code.
-
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count181
@@ -1116,8 +1109,7 @@ Package caption Info: End \AtBeginDocument code.
 \MPnumerator=\count185
 \makeMPintoPDFobject=\count186
 \everyMPtoPDFconversion=\toks53
-) ABD: EveryShipout initializing macros
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -1131,6 +1123,20 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: hypcap package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+Package caption Info: subfigure package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+ABD: EveryShipout initializing macros
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 
@@ -1170,7 +1176,7 @@ Package geometry Warning: The marginal notes overrun the paper.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring ON on input line 89.
+Package hyperref Info: Link coloring ON on input line 90.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1179,9 +1185,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count187
 )
-LaTeX Info: Redefining \ref on input line 89.
-LaTeX Info: Redefining \pageref on input line 89.
-LaTeX Info: Redefining \nameref on input line 89.
+LaTeX Info: Redefining \ref on input line 90.
+LaTeX Info: Redefining \pageref on input line 90.
+LaTeX Info: Redefining \nameref on input line 90.
 
 (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write7
@@ -1190,10 +1196,6 @@ LaTeX Info: Redefining \nameref on input line 89.
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 )
 (./Thesis_FrontCover.tex
@@ -1201,7 +1203,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 Package pdftex.def Warning: Option `bb' does not make sense,
 (pdftex.def)                using `viewport' instead on input line 15.
 
-<IST_A_CMYK_POS.pdf, id=248, 845.0471pt x 597.51233pt>
+<IST_A_CMYK_POS.pdf, id=252, 845.0471pt x 597.51233pt>
 File: IST_A_CMYK_POS.pdf Graphic file (type pdf)
 
 <use IST_A_CMYK_POS.pdf>
@@ -1244,7 +1246,7 @@ Missing character: There is no á (U+00E1) in font phvr7t!
 
 ]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 130.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 131.
  (./Thesis.toc [7
 
 ])
@@ -1252,7 +1254,7 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <24.88> not available
 
 \openout8 = Thesis.toc
  [8] (./Thesis.lot
-Underfull \vbox (badness 4429) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9
 
@@ -1269,25 +1271,21 @@ Overfull \hbox (5.5284pt too wide) in paragraph at lines 20--20
 
 \openout9 = Thesis.lot
  [10] (./Thesis.lof
-Overfull \hbox (9.87895pt too wide) in paragraph at lines 16--16
- \OT1/cmr/m/n/10 5\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 6(1\OML/cmm/m/it/10 :\OT1/c
-mr/m/n/10 4) [] \OML/cmm/m/it/10 $\OT1/phv/m/n/10 , HCAL(ECAL) $\OT1/cmr/m/n/1
-0 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 05(0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 012)
- \OML/cmm/m/it/10  \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/
-cmr/m/n/10 8(0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 7) [] \OML/cmm/m/it/10 $ \OT1/
-phv/m/n/10 and HCAL(ECAL) $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0
-25(0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 006) \OML/cmm/m/it/10  \OMS/cmsy/m/n/10 
- 
+Overfull \hbox (12.627pt too wide) in paragraph at lines 16--16
+ \OT1/phv/m/n/10 HCAL(ECAL) $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10
+ 05(0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 012) \OML/cmm/m/it/10  \OMS/cmsy/m/n/10
+  \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 8(0\OML/cmm/m/it/10 :\OT1
+/cmr/m/n/10 7) [] \OML/cmm/m/it/10 $ \OT1/phv/m/n/10 and HCAL(ECAL) $\OT1/cmr/
+m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 025(0\OML/cmm/m/it/10 :\OT1/cmr/m/n/1
+0 006) \OML/cmm/m/it/10  \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 
+:\OT1/cmr/m/n/10 4(0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 35) [] \OML/cmm/m/it/10 
+$\OT1/phv/m/n/10 . 
  []
 
-
-Underfull \vbox (badness 1748) has occurred while \output is active []
-
- [11
+[11
 
 
-]
-[12])
+] [12])
 \tf@lof=\write10
 
 \openout10 = Thesis.lof
@@ -1317,7 +1315,7 @@ Underfull \vbox (badness 1033) has occurred while \output is active []
 
 
 ]
-<./Figures/SM_CERN.png, id=726, 803.0pt x 602.25pt>
+<./Figures/SM_CERN.png, id=720, 803.0pt x 602.25pt>
 File: ./Figures/SM_CERN.png Graphic file (type png)
 
 <use ./Figures/SM_CERN.png>
@@ -1327,75 +1325,54 @@ Package pdftex.def Info: ./Figures/SM_CERN.png used on input line 43.
 Underfull \vbox (badness 1490) has occurred while \output is active []
 
  [6]
-
-Package caption Warning: \label without proper reference on input line 150.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:higgsV' on page 7 undefined on input line 121.
-
-<./Figures/HiggsV_noEWSB.png, id=766, 416.5161pt x 401.5803pt>
+<./Figures/HiggsV_noEWSB.png, id=762, 416.5161pt x 401.5803pt>
 File: ./Figures/HiggsV_noEWSB.png Graphic file (type png)
 
 <use ./Figures/HiggsV_noEWSB.png>
 Package pdftex.def Info: ./Figures/HiggsV_noEWSB.png used on input line 144.
 (pdftex.def)             Requested size: 227.62206pt x 172.8177pt.
 
-<./Figures/HiggsV_EWSB.png, id=768, 416.5161pt x 401.5803pt>
+<./Figures/HiggsV_EWSB.png, id=764, 416.5161pt x 401.5803pt>
 File: ./Figures/HiggsV_EWSB.png Graphic file (type png)
 
 <use ./Figures/HiggsV_EWSB.png>
 Package pdftex.def Info: ./Figures/HiggsV_EWSB.png used on input line 148.
 (pdftex.def)             Requested size: 227.62206pt x 172.8177pt.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 159.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 169.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
 [8<./Figures/HiggsV_noEWSB.png><./Figures/HiggsV_EWSB.png>] [9]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 302.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 312.
  [10] [11]
-[12] <./Figures/HH-xsec.png, id=884, 484.81125pt x 330.23375pt>
+[12] <./Figures/HH-xsec.png, id=880, 484.81125pt x 330.23375pt>
 File: ./Figures/HH-xsec.png Graphic file (type png)
 
 <use ./Figures/HH-xsec.png>
-Package pdftex.def Info: ./Figures/HH-xsec.png used on input line 416.
+Package pdftex.def Info: ./Figures/HH-xsec.png used on input line 426.
 (pdftex.def)             Requested size: 318.66948pt x 217.07312pt.
  [13<./Figures/HH-xsec.png>]
-<Figures/SM_MSSM.jpg, id=901, 569.0058pt x 232.4685pt>
+<Figures/SM_MSSM.jpg, id=897, 569.0058pt x 232.4685pt>
 File: Figures/SM_MSSM.jpg Graphic file (type jpg)
 
 <use Figures/SM_MSSM.jpg>
-Package pdftex.def Info: Figures/SM_MSSM.jpg used on input line 461.
+Package pdftex.def Info: Figures/SM_MSSM.jpg used on input line 471.
 (pdftex.def)             Requested size: 455.24411pt x 185.98923pt.
  [14<./Figures/SM_MSSM.jpg>] [15]
-
-Package caption Warning: \label without proper reference on input line 501.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:BSM_diag' on page 16 undefined on input line 487.
-
-
-Package caption Warning: \label without proper reference on input line 501.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:BSM_diag' on page 16 undefined on input line 487.
-
-<./Figures/graviton.png, id=927, 369.2997pt x 208.8603pt>
+<./Figures/graviton.png, id=923, 369.2997pt x 208.8603pt>
 File: ./Figures/graviton.png Graphic file (type png)
 
 <use ./Figures/graviton.png>
-Package pdftex.def Info: ./Figures/graviton.png used on input line 495.
+Package pdftex.def Info: ./Figures/graviton.png used on input line 505.
 (pdftex.def)             Requested size: 159.33473pt x 90.11093pt.
 
-<./Figures/susy.png, id=929, 444.2196pt x 196.0926pt>
+<./Figures/susy.png, id=925, 444.2196pt x 196.0926pt>
 File: ./Figures/susy.png Graphic file (type png)
  <use ./Figures/susy.png>
-Package pdftex.def Info: ./Figures/susy.png used on input line 499.
+Package pdftex.def Info: ./Figures/susy.png used on input line 509.
 (pdftex.def)             Requested size: 227.62206pt x 93.19179pt.
 )
 [16<./Figures/graviton.png><./Figures/susy.png>] (./Thesis_Exp.tex
@@ -1409,7 +1386,7 @@ Overfull \hbox (3.28152pt too wide) in paragraph at lines 106--108
 acker, elec-tro-mag-netic (EM) and hadronic calorime-
  []
 
-[20] <./Figures/ATLASsvg3.png, id=1013, 845.40843pt x 597.73312pt>
+[20] <./Figures/ATLASsvg3.png, id=1009, 845.40843pt x 597.73312pt>
 File: ./Figures/ATLASsvg3.png Graphic file (type png)
 
 <use ./Figures/ATLASsvg3.png>
@@ -1424,7 +1401,7 @@ File: omsphv.fd
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 288.
  [26] [27]
-[28] <./Figures/FCCsvg1.png, id=1124, 845.40843pt x 597.73312pt>
+[28] <./Figures/FCCsvg1.png, id=1119, 845.40843pt x 597.73312pt>
 File: ./Figures/FCCsvg1.png Graphic file (type png)
 
 <use ./Figures/FCCsvg1.png>
@@ -1433,66 +1410,59 @@ Package pdftex.def Info: ./Figures/FCCsvg1.png used on input line 385.
  [29]) [30<./Figures/FCCsvg1.png>]
 (./Thesis_state.tex
 Chapter 4.
-
-Package caption Warning: \label without proper reference on input line 150.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:higgsV' on page 31 undefined on input line 30.
-
 [31
 
 
-] [32] <./Figures/CMS_spin0_exc.png, id=1180, 698.61pt x 473.77pt>
+] <./Figures/CMS_spin0_exc.png, id=1164, 698.61pt x 473.77pt>
 File: ./Figures/CMS_spin0_exc.png Graphic file (type png)
 
 <use ./Figures/CMS_spin0_exc.png>
 Package pdftex.def Info: ./Figures/CMS_spin0_exc.png used on input line 63.
 (pdftex.def)             Requested size: 227.62206pt x 154.3638pt.
 
-<./Figures/ATLASmH.png, id=1181, 569.12625pt x 408.52625pt>
+<./Figures/ATLASmH.png, id=1165, 569.12625pt x 408.52625pt>
 File: ./Figures/ATLASmH.png Graphic file (type png)
 
 <use ./Figures/ATLASmH.png>
 Package pdftex.def Info: ./Figures/ATLASmH.png used on input line 67.
 (pdftex.def)             Requested size: 227.62206pt x 163.3889pt.
- [33<./Figures/CMS_spin0_exc.png><./Figures/ATLASmH.png>] <./Figures/hcal_gran_
-doubleK1.png, id=1198, 465.6597pt x 337.26pt>
+ [32] [33<./Figures/CMS_spin0_exc.png><./Figures/ATLASmH.png>] <./Figures/hcal_
+gran_doubleK1.png, id=1195, 465.6597pt x 337.26pt>
 File: ./Figures/hcal_gran_doubleK1.png Graphic file (type png)
 
 <use ./Figures/hcal_gran_doubleK1.png>
-Package pdftex.def Info: ./Figures/hcal_gran_doubleK1.png used on input line 103
+Package pdftex.def Info: ./Figures/hcal_gran_doubleK1.png used on input line 112
 .
 (pdftex.def)             Requested size: 227.62206pt x 159.29428pt.
 
-<./Figures/hcal_gran_doubleK2.png, id=1200, 449.7603pt x 313.17pt>
+<./Figures/hcal_gran_doubleK2.png, id=1197, 449.7603pt x 313.17pt>
 File: ./Figures/hcal_gran_doubleK2.png Graphic file (type png)
 
 <use ./Figures/hcal_gran_doubleK2.png>
-Package pdftex.def Info: ./Figures/hcal_gran_doubleK2.png used on input line 107
+Package pdftex.def Info: ./Figures/hcal_gran_doubleK2.png used on input line 116
 .
 (pdftex.def)             Requested size: 227.62206pt x 158.49603pt.
  [34] [35<./Figures/hcal_gran_doubleK1.png><./Figures/hcal_gran_doubleK2.png>]
-<./Figures/hcal_gran_jet_mass.png, id=1230, 1300.86pt x 578.16pt>
+<./Figures/hcal_gran_jet_mass.png, id=1232, 1300.86pt x 578.16pt>
 File: ./Figures/hcal_gran_jet_mass.png Graphic file (type png)
 
 <use ./Figures/hcal_gran_jet_mass.png>
-Package pdftex.def Info: ./Figures/hcal_gran_jet_mass.png used on input line 126
+Package pdftex.def Info: ./Figures/hcal_gran_jet_mass.png used on input line 144
 .
 (pdftex.def)             Requested size: 455.24411pt x 202.33257pt.
 
-<./Figures/hcal_gran_tau32.png, id=1233, 1035.87pt x 457.71pt>
+<./Figures/hcal_gran_tau32.png, id=1235, 1035.87pt x 457.71pt>
 File: ./Figures/hcal_gran_tau32.png Graphic file (type png)
 
 <use ./Figures/hcal_gran_tau32.png>
-Package pdftex.def Info: ./Figures/hcal_gran_tau32.png used on input line 133.
+Package pdftex.def Info: ./Figures/hcal_gran_tau32.png used on input line 160.
 (pdftex.def)             Requested size: 455.24411pt x 201.15556pt.
 
-<./Figures/overlap.png, id=1236, 1124.2803pt x 305.2203pt>
+<./Figures/overlap.png, id=1238, 1124.2803pt x 305.2203pt>
 File: ./Figures/overlap.png Graphic file (type png)
 
 <use ./Figures/overlap.png>
-Package pdftex.def Info: ./Figures/overlap.png used on input line 140.
+Package pdftex.def Info: ./Figures/overlap.png used on input line 177.
 (pdftex.def)             Requested size: 455.24411pt x 123.59026pt.
 ) [36<./Figures/hcal_gran_jet_mass.png>] [37<./Figures/hcal_gran_tau32.png><./Fi
 gures/overlap.png>] (./Thesis_Tools.tex
@@ -1517,33 +1487,16 @@ Underfull \vbox (badness 2828) has occurred while \output is active []
 
  [40]
 [41]
-
-Package caption Warning: \label without proper reference on input line 35.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `table:MG5cuts' on page 42 undefined on input line 96.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [42]
-[43]
-
-Package caption Warning: \label without proper reference on input line 54.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `table:Pythia8settings' on page 44 undefined on input l
-ine 150.
-
-[44]
-Underfull \hbox (badness 10000) in paragraph at lines 232--232
+[43] [44]
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
 [][]|$[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
 [][]|$[]$
  []
 
@@ -1569,463 +1522,261 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 14.
 
-<./Figures/hhBR.png, id=1363, 554.07pt x 473.8503pt>
+<./Figures/hhBR.png, id=1374, 554.07pt x 473.8503pt>
 File: ./Figures/hhBR.png Graphic file (type png)
  <use ./Figures/hhBR.png>
 Package pdftex.def Info: ./Figures/hhBR.png used on input line 23.
 (pdftex.def)             Requested size: 204.85846pt x 175.19894pt.
 
-<./Figures/boosted1.png, id=1364, 778.8297pt x 385.44pt>
+<./Figures/boosted1.png, id=1375, 778.8297pt x 385.44pt>
 File: ./Figures/boosted1.png Graphic file (type png)
 
 <use ./Figures/boosted1.png>
 Package pdftex.def Info: ./Figures/boosted1.png used on input line 27.
 (pdftex.def)             Requested size: 250.38564pt x 184.61504pt.
+ [47
 
 
-Package caption Warning: \label without proper reference on input line 29.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:boosted' on page 47 undefined on input line 51.
-
-
-Package caption Warning: \label without proper reference on input line 29.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:boosted' on page 47 undefined on input line 55.
-
-[47
-
-
-<./Figures/boosted1.png><./Figures/hhBR.png>]
-
-Package caption Warning: \label without proper reference on input line 104.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:deltaPhi_deltaR' on page 48 undefined on input lin
-e 78.
-
-
-Package caption Warning: \label without proper reference on input line 104.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:deltaPhi_deltaR' on page 48 undefined on input lin
-e 80.
-
-[48]
-
-Package caption Warning: \label without proper reference on input line 278.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:h1h2_pt' on page 49 undefined on input line 82.
-
-
-Package caption Warning: \label without proper reference on input line 296.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:h1_eta_M' on page 49 undefined on input line 84.
-
-
-Package caption Warning: \label without proper reference on input line 296.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:h1_eta_M' on page 49 undefined on input line 86.
-
-
-Package caption Warning: \label without proper reference on input line 314.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:hh_deltaEta_h1_tau21' on page 49 undefined on inpu
-t line 88.
-
-
-Package caption Warning: \label without proper reference on input line 314.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:hh_deltaEta_h1_tau21' on page 49 undefined on inpu
-t line 88.
-
-<./Figures/hist_hh_deltaPhi.pdf, id=1401, 569.12625pt x 385.44pt>
+] [48<./Figures/boosted1.png><./Figures/hhBR.png>] <./Figures/hist_hh_deltaPhi.
+pdf, id=1414, 569.12625pt x 385.44pt>
 File: ./Figures/hist_hh_deltaPhi.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_hh_deltaPhi.pdf>
-Package pdftex.def Info: ./Figures/hist_hh_deltaPhi.pdf used on input line 94.
+Package pdftex.def Info: ./Figures/hist_hh_deltaPhi.pdf used on input line 103.
 (pdftex.def)             Requested size: 227.62206pt x 154.15562pt.
 
-<./Figures/hist_deltaR_bb_pt.pdf, id=1402, 569.12625pt x 385.44pt>
+<./Figures/hist_deltaR_bb_pt.pdf, id=1415, 569.12625pt x 385.44pt>
 File: ./Figures/hist_deltaR_bb_pt.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_deltaR_bb_pt.pdf>
-Package pdftex.def Info: ./Figures/hist_deltaR_bb_pt.pdf used on input line 100.
+Package pdftex.def Info: ./Figures/hist_deltaR_bb_pt.pdf used on input line 109.
 
 (pdftex.def)             Requested size: 227.62206pt x 154.15562pt.
  [49]
+Underfull \vbox (badness 4378) has occurred while \output is active []
 
-Package caption Warning: \label without proper reference on input line 191.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:QCD' on page 50 undefined on input line 123.
-
-
-Package caption Warning: \label without proper reference on input line 278.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:h1h2_pt' on page 50 undefined on input line 125.
-
-
-Package caption Warning: \label without proper reference on input line 314.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:hh_deltaEta_h1_tau21' on page 50 undefined on inpu
-t line 125.
-
-
-Package caption Warning: \label without proper reference on input line 208.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:tt' on page 50 undefined on input line 127.
-
-[50<./Figures/hist_hh_deltaPhi.pdf><./Figures/hist_deltaR_bb_pt.pdf>]
-
-Package caption Warning: \label without proper reference on input line 296.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:h1_eta_M' on page 51 undefined on input line 129.
-
-<./Figures/hist_h1_pt.pdf, id=1517, 569.12625pt x 385.44pt>
+ [50<./Figures/hist_hh_deltaPhi.pdf><./Figures/hist_deltaR_bb_pt.pdf>]
+<./Figures/hist_h1_pt.pdf, id=1532, 569.12625pt x 385.44pt>
 File: ./Figures/hist_h1_pt.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_h1_pt.pdf>
-Package pdftex.def Info: ./Figures/hist_h1_pt.pdf used on input line 268.
+Package pdftex.def Info: ./Figures/hist_h1_pt.pdf used on input line 286.
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
 
-<./Figures/hist_h2_pt.pdf, id=1519, 569.12625pt x 385.44pt>
+<./Figures/hist_h2_pt.pdf, id=1534, 569.12625pt x 385.44pt>
 File: ./Figures/hist_h2_pt.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_h2_pt.pdf>
-Package pdftex.def Info: ./Figures/hist_h2_pt.pdf used on input line 274.
+Package pdftex.def Info: ./Figures/hist_h2_pt.pdf used on input line 292.
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
 
-<./Figures/hist_h1_eta.pdf, id=1521, 569.12625pt x 385.44pt>
+<./Figures/hist_h1_eta.pdf, id=1536, 569.12625pt x 385.44pt>
 File: ./Figures/hist_h1_eta.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_h1_eta.pdf>
-Package pdftex.def Info: ./Figures/hist_h1_eta.pdf used on input line 286.
+Package pdftex.def Info: ./Figures/hist_h1_eta.pdf used on input line 313.
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
 
-<./Figures/hist_h1_softdrop_M.pdf, id=1523, 569.12625pt x 385.44pt>
+<./Figures/hist_h1_softdrop_M.pdf, id=1538, 569.12625pt x 385.44pt>
 File: ./Figures/hist_h1_softdrop_M.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_h1_softdrop_M.pdf>
-Package pdftex.def Info: ./Figures/hist_h1_softdrop_M.pdf used on input line 292
+Package pdftex.def Info: ./Figures/hist_h1_softdrop_M.pdf used on input line 319
 .
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
 
-<./Figures/hist_hh_deltaEta.pdf, id=1525, 569.12625pt x 385.44pt>
+<./Figures/hist_hh_deltaEta.pdf, id=1540, 569.12625pt x 385.44pt>
 File: ./Figures/hist_hh_deltaEta.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_hh_deltaEta.pdf>
-Package pdftex.def Info: ./Figures/hist_hh_deltaEta.pdf used on input line 304.
+Package pdftex.def Info: ./Figures/hist_hh_deltaEta.pdf used on input line 340.
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
 
-<./Figures/hist_h1_tau21.pdf, id=1527, 569.12625pt x 385.44pt>
+<./Figures/hist_h1_tau21.pdf, id=1542, 569.12625pt x 385.44pt>
 File: ./Figures/hist_h1_tau21.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_h1_tau21.pdf>
-Package pdftex.def Info: ./Figures/hist_h1_tau21.pdf used on input line 310.
+Package pdftex.def Info: ./Figures/hist_h1_tau21.pdf used on input line 346.
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3838) has occurred while \output is active []
 
  [51]
 [52<./Figures/hist_h1_pt.pdf><./Figures/hist_h2_pt.pdf><./Figures/hist_h1_eta.pd
 f><./Figures/hist_h1_softdrop_M.pdf><./Figures/hist_hh_deltaEta.pdf><./Figures/h
 ist_h1_tau21.pdf>]
-<./Figures/deltaR_bsubjet.pdf, id=1824, 569.12625pt x 385.44pt>
+<./Figures/deltaR_bsubjet.pdf, id=1839, 569.12625pt x 385.44pt>
 File: ./Figures/deltaR_bsubjet.pdf Graphic file (type pdf)
 
 <use ./Figures/deltaR_bsubjet.pdf>
-Package pdftex.def Info: ./Figures/deltaR_bsubjet.pdf used on input line 356.
+Package pdftex.def Info: ./Figures/deltaR_bsubjet.pdf used on input line 401.
 (pdftex.def)             Requested size: 227.62206pt x 154.15562pt.
  [53<./Figures/deltaR_bsubjet.pdf>]
-
-Package caption Warning: \label without proper reference on input line 432.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:pt_stack' on page 54 undefined on input line 398.
-
-
-Package caption Warning: \label without proper reference on input line 450.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:sub_stack' on page 54 undefined on input line 400.
-
-
-
 Underfull \vbox (badness 4660) has occurred while \output is active []
 
  [54]
-
-Package caption Warning: \label without proper reference on input line 450.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:sub_stack' on page 55 undefined on input line 404.
-
-
-
-Package caption Warning: \label without proper reference on input line 468.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:M_stack' on page 55 undefined on input line 405.
-
-
-Package caption Warning: \label without proper reference on input line 468.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:M_stack' on page 55 undefined on input line 411.
-
-<./Figures/hist_h2_pt_stack.pdf, id=1891, 569.12625pt x 385.44pt>
+<./Figures/hist_h2_pt_stack.pdf, id=1907, 569.12625pt x 385.44pt>
 File: ./Figures/hist_h2_pt_stack.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_h2_pt_stack.pdf>
-Package pdftex.def Info: ./Figures/hist_h2_pt_stack.pdf used on input line 422.
+Package pdftex.def Info: ./Figures/hist_h2_pt_stack.pdf used on input line 467.
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
 
-<./Figures/hist_hh_pt_stack.pdf, id=1893, 569.12625pt x 385.44pt>
+<./Figures/hist_hh_pt_stack.pdf, id=1909, 569.12625pt x 385.44pt>
 File: ./Figures/hist_hh_pt_stack.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_hh_pt_stack.pdf>
-Package pdftex.def Info: ./Figures/hist_hh_pt_stack.pdf used on input line 428.
+Package pdftex.def Info: ./Figures/hist_hh_pt_stack.pdf used on input line 473.
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
 
-<./Figures/hist_h1_tau21_stack.pdf, id=1895, 569.12625pt x 385.44pt>
+<./Figures/hist_h1_tau21_stack.pdf, id=1911, 569.12625pt x 385.44pt>
 File: ./Figures/hist_h1_tau21_stack.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_h1_tau21_stack.pdf>
-Package pdftex.def Info: ./Figures/hist_h1_tau21_stack.pdf used on input line 44
-0.
+Package pdftex.def Info: ./Figures/hist_h1_tau21_stack.pdf used on input line 49
+4.
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
 
-<./Figures/hist_h2_tau21_stack.pdf, id=1897, 569.12625pt x 385.44pt>
+<./Figures/hist_h2_tau21_stack.pdf, id=1913, 569.12625pt x 385.44pt>
 File: ./Figures/hist_h2_tau21_stack.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_h2_tau21_stack.pdf>
-Package pdftex.def Info: ./Figures/hist_h2_tau21_stack.pdf used on input line 44
-6.
+Package pdftex.def Info: ./Figures/hist_h2_tau21_stack.pdf used on input line 50
+0.
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
 
-<./Figures/hist_h1_FW2_stack.pdf, id=1899, 569.12625pt x 385.44pt>
+<./Figures/hist_h1_FW2_stack.pdf, id=1915, 569.12625pt x 385.44pt>
 File: ./Figures/hist_h1_FW2_stack.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_h1_FW2_stack.pdf>
-Package pdftex.def Info: ./Figures/hist_h1_FW2_stack.pdf used on input line 458.
+Package pdftex.def Info: ./Figures/hist_h1_FW2_stack.pdf used on input line 521.
 
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
 
-<./Figures/hist_h1_softdrop_M_stack.pdf, id=1901, 569.12625pt x 385.44pt>
+<./Figures/hist_h1_softdrop_M_stack.pdf, id=1917, 569.12625pt x 385.44pt>
 File: ./Figures/hist_h1_softdrop_M_stack.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_h1_softdrop_M_stack.pdf>
 Package pdftex.def Info: ./Figures/hist_h1_softdrop_M_stack.pdf used on input li
-ne 464.
+ne 527.
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
-
-
-Package caption Warning: \label without proper reference on input line 522.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:SSB_h1h2_pt' on page 55 undefined on input line 48
-2.
-
-[55<./Figures/hist_h2_pt_stack.pdf><./Figures/hist_hh_pt_stack.pdf>] [56<./Figur
-es/hist_h1_tau21_stack.pdf><./Figures/hist_h2_tau21_stack.pdf><./Figures/hist_h1
-_FW2_stack.pdf><./Figures/hist_h1_softdrop_M_stack.pdf>]
-
-Package caption Warning: \label without proper reference on input line 522.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:SSB_h1h2_pt' on page 57 undefined on input line 48
-7.
-
-
-Package caption Warning: \label without proper reference on input line 540.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:SSB_hh_pt' on page 57 undefined on input line 487.
-
-
-
-Package caption Warning: \label without proper reference on input line 522.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:SSB_h1h2_pt' on page 57 undefined on input line 48
-7.
-
-
-Package caption Warning: \label without proper reference on input line 540.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:SSB_hh_pt' on page 57 undefined on input line 487.
-
-
-
-Package caption Warning: \label without proper reference on input line 540.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:SSB_hh_pt' on page 57 undefined on input line 492.
-
-
-
-Package caption Warning: \label without proper reference on input line 558.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:SSB_hh_deltaEta' on page 57 undefined on input lin
-e 502.
-
-
-Package caption Warning: \label without proper reference on input line 314.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:hh_deltaEta_h1_tau21' on page 57 undefined on inpu
-t line 502.
-
-<./Figures/SSB_h1_pt.pdf, id=2207, 569.12625pt x 385.44pt>
+ [55<./Figures/hist_h2_pt_stack.pdf><./Figures/hist_hh_pt_stack.pdf>] [56<./Figu
+res/hist_h1_tau21_stack.pdf><./Figures/hist_h2_tau21_stack.pdf><./Figures/hist_h
+1_FW2_stack.pdf><./Figures/hist_h1_softdrop_M_stack.pdf>]
+<./Figures/SSB_h1_pt.pdf, id=2224, 569.12625pt x 385.44pt>
 File: ./Figures/SSB_h1_pt.pdf Graphic file (type pdf)
 
 <use ./Figures/SSB_h1_pt.pdf>
-Package pdftex.def Info: ./Figures/SSB_h1_pt.pdf used on input line 512.
+Package pdftex.def Info: ./Figures/SSB_h1_pt.pdf used on input line 584.
 (pdftex.def)             Requested size: 227.62206pt x 158.92538pt.
 
-<./Figures/SSB_h2_pt.pdf, id=2209, 569.12625pt x 385.44pt>
+<./Figures/SSB_h2_pt.pdf, id=2226, 569.12625pt x 385.44pt>
 File: ./Figures/SSB_h2_pt.pdf Graphic file (type pdf)
 
 <use ./Figures/SSB_h2_pt.pdf>
-Package pdftex.def Info: ./Figures/SSB_h2_pt.pdf used on input line 518.
+Package pdftex.def Info: ./Figures/SSB_h2_pt.pdf used on input line 590.
 (pdftex.def)             Requested size: 227.62206pt x 158.92538pt.
 
-<./Figures/SSB_hh_pt.pdf, id=2211, 569.12625pt x 385.44pt>
+<./Figures/SSB_hh_pt.pdf, id=2228, 569.12625pt x 385.44pt>
 File: ./Figures/SSB_hh_pt.pdf Graphic file (type pdf)
 
 <use ./Figures/SSB_hh_pt.pdf>
-Package pdftex.def Info: ./Figures/SSB_hh_pt.pdf used on input line 530.
+Package pdftex.def Info: ./Figures/SSB_hh_pt.pdf used on input line 611.
 (pdftex.def)             Requested size: 227.62206pt x 158.92538pt.
 
-<./Figures/SSB_h1_tau21.pdf, id=2213, 569.12625pt x 385.44pt>
+<./Figures/SSB_h1_tau21.pdf, id=2230, 569.12625pt x 385.44pt>
 File: ./Figures/SSB_h1_tau21.pdf Graphic file (type pdf)
 
 <use ./Figures/SSB_h1_tau21.pdf>
-Package pdftex.def Info: ./Figures/SSB_h1_tau21.pdf used on input line 536.
+Package pdftex.def Info: ./Figures/SSB_h1_tau21.pdf used on input line 617.
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
 
-<./Figures/SSB_hh_deltaEta.pdf, id=2215, 569.12625pt x 385.44pt>
+<./Figures/SSB_hh_deltaEta.pdf, id=2232, 569.12625pt x 385.44pt>
 File: ./Figures/SSB_hh_deltaEta.pdf Graphic file (type pdf)
 
 <use ./Figures/SSB_hh_deltaEta.pdf>
-Package pdftex.def Info: ./Figures/SSB_hh_deltaEta.pdf used on input line 548.
+Package pdftex.def Info: ./Figures/SSB_hh_deltaEta.pdf used on input line 638.
 (pdftex.def)             Requested size: 227.62206pt x 158.92538pt.
 
-<./Figures/SSB_h1_FW2.pdf, id=2217, 569.12625pt x 385.44pt>
+<./Figures/SSB_h1_FW2.pdf, id=2234, 569.12625pt x 385.44pt>
 File: ./Figures/SSB_h1_FW2.pdf Graphic file (type pdf)
 
 <use ./Figures/SSB_h1_FW2.pdf>
-Package pdftex.def Info: ./Figures/SSB_h1_FW2.pdf used on input line 554.
+Package pdftex.def Info: ./Figures/SSB_h1_FW2.pdf used on input line 644.
 (pdftex.def)             Requested size: 227.62206pt x 158.92538pt.
- [57] [58<./Figures/SSB_h1_pt.pdf><./Figures/SSB_h2_pt.pdf><./Figures/SSB_hh_pt.
-pdf><./Figures/SSB_h1_tau21.pdf><./Figures/SSB_hh_deltaEta.pdf><./Figures/SSB_h1
-_FW2.pdf>]) [59] (./Thesis_Results.tex
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57]
+[58<./Figures/SSB_h1_pt.pdf><./Figures/SSB_h2_pt.pdf><./Figures/SSB_hh_pt.pdf><.
+/Figures/SSB_h1_tau21.pdf><./Figures/SSB_hh_deltaEta.pdf><./Figures/SSB_h1_FW2.p
+df>] [59]) [60] (./Thesis_Results.tex
 Chapter 7.
-[60
+[61
 
 
-] [61] [62] [63] [64]
+] [62] [63] [64] [65]
 Overfull \hbox (0.80444pt too wide) in paragraph at lines 211--212
 [][]\OT1/phv/m/n/10 [COM-PARE THE DIF-FER-ENT SIG-NAL SAM-PLES IN TERMS OF THE 
 CHANGE IN SIG-NIF-I-CANCE] 
  []
 
-<./Figures/M.pdf, id=2570, 569.12625pt x 385.44pt>
+<./Figures/M.pdf, id=2599, 569.12625pt x 385.44pt>
 File: ./Figures/M.pdf Graphic file (type pdf)
  <use ./Figures/M.pdf>
 Package pdftex.def Info: ./Figures/M.pdf used on input line 217.
 (pdftex.def)             Requested size: 227.62206pt x 158.51369pt.
 
-<./Figures/MCALO.pdf, id=2572, 569.12625pt x 385.44pt>
+<./Figures/MCALO.pdf, id=2601, 569.12625pt x 385.44pt>
 File: ./Figures/MCALO.pdf Graphic file (type pdf)
 
 <use ./Figures/MCALO.pdf>
 Package pdftex.def Info: ./Figures/MCALO.pdf used on input line 223.
 (pdftex.def)             Requested size: 227.62206pt x 158.51369pt.
 
-<./Figures/Mhh_after.pdf, id=2574, 569.12625pt x 385.44pt>
+<./Figures/Mhh_after.pdf, id=2603, 569.12625pt x 385.44pt>
 File: ./Figures/Mhh_after.pdf Graphic file (type pdf)
 
 <use ./Figures/Mhh_after.pdf>
 Package pdftex.def Info: ./Figures/Mhh_after.pdf used on input line 244.
 (pdftex.def)             Requested size: 227.62206pt x 154.15562pt.
 
-<./Figures/MhhX_after.pdf, id=2575, 569.12625pt x 385.44pt>
+<./Figures/MhhX_after.pdf, id=2604, 569.12625pt x 385.44pt>
 File: ./Figures/MhhX_after.pdf Graphic file (type pdf)
 
 <use ./Figures/MhhX_after.pdf>
 Package pdftex.def Info: ./Figures/MhhX_after.pdf used on input line 253.
 (pdftex.def)             Requested size: 227.62206pt x 158.51369pt.
 
-<./Figures/Mhh2HDM_after.pdf, id=2577, 569.12625pt x 385.44pt>
+<./Figures/Mhh2HDM_after.pdf, id=2606, 569.12625pt x 385.44pt>
 File: ./Figures/Mhh2HDM_after.pdf Graphic file (type pdf)
 
 <use ./Figures/Mhh2HDM_after.pdf>
 Package pdftex.def Info: ./Figures/Mhh2HDM_after.pdf used on input line 259.
 (pdftex.def)             Requested size: 227.62206pt x 158.51369pt.
 
-<./Figures/tau21.pdf, id=2579, 569.12625pt x 385.44pt>
+<./Figures/tau21.pdf, id=2608, 569.12625pt x 385.44pt>
 File: ./Figures/tau21.pdf Graphic file (type pdf)
 
 <use ./Figures/tau21.pdf>
 Package pdftex.def Info: ./Figures/tau21.pdf used on input line 282.
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
 
-<./Figures/tau21CALO.pdf, id=2581, 569.12625pt x 385.44pt>
+<./Figures/tau21CALO.pdf, id=2610, 569.12625pt x 385.44pt>
 File: ./Figures/tau21CALO.pdf Graphic file (type pdf)
 
 <use ./Figures/tau21CALO.pdf>
 Package pdftex.def Info: ./Figures/tau21CALO.pdf used on input line 286.
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
 
-<./Figures/EffvsGran_PFjets.pdf, id=2583, 569.12625pt x 385.44pt>
+<./Figures/EffvsGran_PFjets.pdf, id=2612, 569.12625pt x 385.44pt>
 File: ./Figures/EffvsGran_PFjets.pdf Graphic file (type pdf)
 
 <use ./Figures/EffvsGran_PFjets.pdf>
 Package pdftex.def Info: ./Figures/EffvsGran_PFjets.pdf used on input line 320.
 (pdftex.def)             Requested size: 227.62206pt x 158.92538pt.
 
-<./Figures/EffvsGran_CALOjets.pdf, id=2585, 569.12625pt x 385.44pt>
+<./Figures/EffvsGran_CALOjets.pdf, id=2614, 569.12625pt x 385.44pt>
 File: ./Figures/EffvsGran_CALOjets.pdf Graphic file (type pdf)
 
 <use ./Figures/EffvsGran_CALOjets.pdf>
@@ -2033,47 +1784,53 @@ Package pdftex.def Info: ./Figures/EffvsGran_CALOjets.pdf used on input line 324
 .
 (pdftex.def)             Requested size: 227.62206pt x 158.92538pt.
 
-<./Figures/SSBvsGran_SM.pdf, id=2587, 569.12625pt x 385.44pt>
+<./Figures/SSBvsGran_SM.pdf, id=2616, 569.12625pt x 385.44pt>
 File: ./Figures/SSBvsGran_SM.pdf Graphic file (type pdf)
 
 <use ./Figures/SSBvsGran_SM.pdf>
 Package pdftex.def Info: ./Figures/SSBvsGran_SM.pdf used on input line 343.
 (pdftex.def)             Requested size: 227.62206pt x 158.92538pt.
 
-<./Figures/SSBvsGran_DM.pdf, id=2589, 569.12625pt x 385.44pt>
+<./Figures/SSBvsGran_DM.pdf, id=2618, 569.12625pt x 385.44pt>
 File: ./Figures/SSBvsGran_DM.pdf Graphic file (type pdf)
 
 <use ./Figures/SSBvsGran_DM.pdf>
 Package pdftex.def Info: ./Figures/SSBvsGran_DM.pdf used on input line 347.
 (pdftex.def)             Requested size: 227.62206pt x 158.92538pt.
 
-<./Figures/SSBvsGran_2HDM.pdf, id=2591, 569.12625pt x 385.44pt>
+<./Figures/SSBvsGran_2HDM.pdf, id=2620, 569.12625pt x 385.44pt>
 File: ./Figures/SSBvsGran_2HDM.pdf Graphic file (type pdf)
 
 <use ./Figures/SSBvsGran_2HDM.pdf>
 Package pdftex.def Info: ./Figures/SSBvsGran_2HDM.pdf used on input line 364.
 (pdftex.def)             Requested size: 227.62206pt x 154.15562pt.
-) [65<./Figures/M.pdf><./Figures/MCALO.pdf>]
-[66<./Figures/MhhX_after.pdf><./Figures/Mhh2HDM_after.pdf><./Figures/tau21.pdf><
-./Figures/tau21CALO.pdf><./Figures/Mhh_after.pdf>] [67<./Figures/EffvsGran_PFjet
+) [66<./Figures/M.pdf><./Figures/MCALO.pdf>]
+[67<./Figures/MhhX_after.pdf><./Figures/Mhh2HDM_after.pdf><./Figures/tau21.pdf><
+./Figures/tau21CALO.pdf><./Figures/Mhh_after.pdf>] [68<./Figures/EffvsGran_PFjet
 s.pdf><./Figures/EffvsGran_CALOjets.pdf><./Figures/SSBvsGran_SM.pdf><./Figures/S
 SBvsGran_DM.pdf><./Figures/SSBvsGran_2HDM.pdf>] (./Thesis_Conclusions.tex
 Chapter 8.
-) [68
+[69
 
 
-] (./Thesis.bbl [69
+]) [70] (./Thesis.bbl [71
 
 
 Missing character: There is no ñ (U+00F1) in font phvr7t!
-] [70] [71] [72]
-Underfull \hbox (badness 10000) in paragraph at lines 404--409
-\OT1/cmtt/m/n/10 ch / event / 675588 / contributions / 2765045 / attachments / 
-1572548 / 2484309 / Clement _ FCC . pdf$[][]\OT1/phv/m/n/10 ,
+] [72] [73] [74]
+Underfull \hbox (badness 2818) in paragraph at lines 404--409
+[][]\OT1/phv/m/n/10 C. Helsens.  Fcc/he-lhc physics/per-for-mance stud-ies to-w
+ards the cdr.  \OT1/phv/m/sc/10 url: [][]$\OT1/cmtt/m/n/10 https :
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 417--422
+Underfull \hbox (badness 10000) in paragraph at lines 404--409
+\OT1/cmtt/m/n/10 / / indico . cern . ch / event / 675588 / contributions / 2765
+045 / attachments / 1572548 / 2484309 /
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 417--422
 [][]\OT1/phv/m/n/10 J. Fal-tova.  Elec-tro-mag-netic calorime-ter us-ing lar te
 ch-nol-ogy for fcc-hh.  \OT1/phv/m/sc/10 url: [][]$\OT1/cmtt/m/n/10 https :
  []
@@ -2085,102 +1842,96 @@ Underfull \hbox (badness 10000) in paragraph at lines 417--422
  []
 
 
-Underfull \hbox (badness 2726) in paragraph at lines 432--438
-[][]\OT1/phv/m/n/10 C. Neubüser.  Per-for-mance stud-ies and re-quire-ments on
- the calorime-ters for a fcc-hh
+Underfull \hbox (badness 1845) in paragraph at lines 432--438
+\OT1/phv/m/n/10 per-i-ment.  \OT1/phv/m/sc/10 url: [][]$\OT1/cmtt/m/n/10 https 
+: / / indico . ihep . ac . cn / event / 6387 / session / 14 / contribution / 11
+7 /
  []
 
-[73
+[75
 Missing character: There is no – (U+2013) in font phvr7t!
 Missing character: There is no ü (U+00FC) in font phvr7t!
 Missing character: There is no ö (U+00F6) in font phvr7t!
 Missing character: There is no ü (U+00FC) in font phvr7t!
-] [74] [75
+] [76] [77
 Missing character: There is no î (U+00EE) in font phvr7t!
-]) [76
+]) [78
 Missing character: There is no å (U+00E5) in font phvr7t!
 ] (./Thesis_Appendix_A.tex
 Appendix A.
-<./Figures/deltaR.pdf, id=3280, 569.12625pt x 385.44pt>
+<./Figures/deltaR.pdf, id=3320, 569.12625pt x 385.44pt>
 File: ./Figures/deltaR.pdf Graphic file (type pdf)
 
 <use ./Figures/deltaR.pdf>
 Package pdftex.def Info: ./Figures/deltaR.pdf used on input line 35.
 (pdftex.def)             Requested size: 227.62206pt x 154.15562pt.
-) [77
+) [79
 
 
 <./Figures/deltaR.pdf>] (./Thesis_Appendix_B.tex
 Appendix B.
-) [78
+) [80
 
 
 ] (./Thesis_Appendix_C.tex
 Appendix C.
-<./Figures/hist_M_deltaRmax_jetb_corr.pdf, id=3339, 569.12625pt x 385.44pt>
+<./Figures/hist_M_deltaRmax_jetb_corr.pdf, id=3380, 569.12625pt x 385.44pt>
 File: ./Figures/hist_M_deltaRmax_jetb_corr.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_M_deltaRmax_jetb_corr.pdf>
 Package pdftex.def Info: ./Figures/hist_M_deltaRmax_jetb_corr.pdf used on input 
 line 22.
 (pdftex.def)             Requested size: 227.62206pt x 154.15562pt.
-) [79
+) [81
 
 
 <./Figures/hist_M_deltaRmax_jetb_corr.pdf>] (./Thesis_Appendix_D.tex
 Appendix D.
 
-Package caption Warning: \label without proper reference on input line 35.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `table:MG5cuts' on page 80 undefined on input line 19.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
 [][]|\OT1/phv/m/n/10 SM hh
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
 [][]|\OT1/phv/m/n/10 4b+j
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
 [][]|\OT1/phv/m/n/10 4b+j
  []
 
 
-Overfull \hbox (0.594pt too wide) in paragraph at lines 25--25
+Overfull \hbox (0.594pt too wide) in paragraph at lines 27--27
 \OT1/phv/m/n/10 (QCD+EWK)| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
 [][]|\OT1/phv/m/n/10 4b+j
  []
 
 
-Overfull \hbox (4.54315pt too wide) in paragraph at lines 29--29
+Overfull \hbox (4.54315pt too wide) in paragraph at lines 31--31
 [][]|$\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 4; 0\OML/cmm/m/it/10 :
 \OT1/cmr/m/n/10 1; 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 3$| 
  []
 
 
-Overfull \hbox (4.54315pt too wide) in paragraph at lines 29--29
+Overfull \hbox (4.54315pt too wide) in paragraph at lines 31--31
 [][]|$\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 4; 0\OML/cmm/m/it/10 :
 \OT1/cmr/m/n/10 2; 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 4$| 
  []
 
 
-Overfull \hbox (2.53903pt too wide) in paragraph at lines 29--29
+Overfull \hbox (2.53903pt too wide) in paragraph at lines 31--31
 [][]|$\OT1/cmr/m/n/10 0; 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 001; 0\OML/cmm/m/it
 /10 :\OT1/cmr/m/n/10 001$| 
  []
 
 
-Overfull \hbox (24.34396pt too wide) in paragraph at lines 23--36
+Overfull \hbox (24.34396pt too wide) in paragraph at lines 25--37
  [][][] 
  []
 
@@ -2188,49 +1939,46 @@ Overfull \hbox (24.34396pt too wide) in paragraph at lines 23--36
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package caption Warning: \label without proper reference on input line 54.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `table:Pythia8settings' on page 80 undefined on input l
-ine 42.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
 [][]|\OT1/phv/m/n/10 Rel-e-vant
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [80
+) [82
 
 
-] [81]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 293.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 293.
+] [83] (./Thesis_Appendix_E.tex
+Appendix E.
+[84
+
+
+] [85])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 298.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 298.
  (./Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 293.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 293.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 298.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 298.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3EA7082E9747C317C462973A4D258B1D;4353.
+(rerunfilecheck)             Checksum: AE2050D24B7FD9EB859645F7413B77C6;4406.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 293.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 298.
 )
 
 Here is how much of LuaTeX's memory you used:
- 28208 strings out of 495004
+ 28251 strings out of 495004
  100000,794899 words of node,token memory allocated
- 1479 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 46 kern, 53 glue_spec, 53 action, 2 write n
+ 1566 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 48 kern, 53 glue_spec, 55 action, 4 write n
 odes
-   avail lists: 1:7,2:41,3:2480,4:5417,5:674,6:4925,7:425,8:64,9:1049,10:401
- 29654 multiletter control sequences out of 65536+600000
+   avail lists: 1:7,2:41,3:2535,4:5534,5:674,6:4925,7:425,8:63,9:1097,10:401
+ 29674 multiletter control sequences out of 65536+600000
  109 fonts using 4290923 bytes
- 60i,18n,98p,1711b,1648s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 60i,18n,98p,1790b,1648s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}<</usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><</usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><</usr/share/texlive/texmf-dist/f
@@ -2251,10 +1999,10 @@ amsfonts/symbols/msam7.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/symbols/msbm10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/urw/helvet
 ic/uhvb8a.pfb><</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pf
 b><</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Thesis.pdf (94 pages, 11108932 bytes).
+Output written on Thesis.pdf (98 pages, 11128885 bytes).
 
-PDF statistics: 3488 PDF objects out of 3580 (max. 8388607)
- 2342 compressed objects within 24 object streams
- 375 named destinations out of 1000 (max. 131072)
- 718 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 3538 PDF objects out of 3580 (max. 8388607)
+ 2388 compressed objects within 24 object streams
+ 392 named destinations out of 1000 (max. 131072)
+ 726 words of extra memory for PDF output out of 10000 (max. 10000000)
 

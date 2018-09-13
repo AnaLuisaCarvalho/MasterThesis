@@ -1,4 +1,4 @@
-\begin{thebibliography}{96}
+\begin{thebibliography}{101}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -474,6 +474,16 @@ A.~M. Sirunyan et~al.
   TeV}.
 \newblock 2017{\natexlab{b}}.
 
+\bibitem[Aaboud et~al.(2018{\natexlab{c}})]{ATLAShh2tautau}
+M.~Aaboud et~al.
+\newblock {A search for resonant and non-resonant Higgs boson pair production
+  in the $b\bar{b}\tau^+\tau^-$ decay channel in $pp$ collisions at $\sqrt{s} =
+  13$ TeV with the ATLAS detector }.
+\newblock Technical Report arXiv:1808.00336, CERN, Geneva, Aug
+  2018{\natexlab{c}}.
+\newblock URL \url{https://cds.cern.ch/record/2632994}.
+\newblock * Temporary entry *.
+
 \bibitem[Khachatryan et~al.(2016)]{hhbbAA_CMS}
 V.~Khachatryan et~al.
 \newblock {Search for two Higgs bosons in final states containing two photons
@@ -496,12 +506,12 @@ A.~M. Sirunyan et~al.
   the bblnulnu final state in proton-proton collisions at $\sqrt{s} = 13$ TeV}.
 \newblock 2017{\natexlab{c}}.
 
-\bibitem[Collaboration(2018)]{ATLAShhComb}
-A.~Collaboration.
-\newblock {Combination of searches for Higgs boson pairs in $pp$ collisions at
-  13 TeV with the ATLAS experiment.}
-\newblock Technical Report ATLAS-COM-CONF-2018-048, CERN, Geneva, Aug 2018.
-\newblock URL \url{https://cds.cern.ch/record/2634999}.
+\bibitem[Aaboud et~al.(2018{\natexlab{d}})]{ATLAShhComb}
+M.~Aaboud et~al.
+\newblock {Combination of searches for heavy resonances decaying into bosonic
+  and leptonic final states using 36 fb$^{-1}$ of proton-proton collision data
+  at $\sqrt{s} = 13$ TeV with the ATLAS detector}.
+\newblock 2018{\natexlab{d}}.
 
 \bibitem[Aad and others()Aad et~al.]{ATLAShhBSMcomb}
 G.~Aad and t.~. others.
@@ -650,10 +660,38 @@ H.~E. Haber and O.~Stål.
 \newblock \doi{10.1140/epjc/s10052-015-3697-x, 10.1140/epjc/s10052-016-4151-4}.
 \newblock [Erratum: Eur. Phys. J.C76,no.6,312(2016)].
 
+\bibitem[de~Florian et~al.(2016)]{HiggsHandbook}
+D.~de~Florian et~al.
+\newblock {Handbook of LHC Higgs Cross Sections: 4. Deciphering the Nature of
+  the Higgs Sector}.
+\newblock 2016.
+\newblock \doi{10.23731/CYRM-2017-002}.
+
+\bibitem[Grazzini et~al.(2018)Grazzini, Heinrich, Jones, Kallweit, Kerner,
+  Lindert, and Mazzitelli]{HxsNNLO}
+M.~Grazzini, G.~Heinrich, S.~Jones, S.~Kallweit, M.~Kerner, J.~M. Lindert, and
+  J.~Mazzitelli.
+\newblock {Higgs boson pair production at NNLO with top quark mass effects}.
+\newblock \emph{JHEP}, 05:\penalty0 059, 2018.
+\newblock \doi{10.1007/JHEP05(2018)059}.
+
 \bibitem[Patrignani et~al.(2016)]{PDG2016}
 C.~Patrignani et~al.
 \newblock {Review of Particle Physics}.
 \newblock \emph{Chin. Phys.}, C40\penalty0 (10):\penalty0 100001, 2016.
 \newblock \doi{10.1088/1674-1137/40/10/100001}.
+
+\bibitem[Aaboud et~al.(2018{\natexlab{e}})]{hh2bbbbATLAS1}
+M.~Aaboud et~al.
+\newblock {Search for pair production of Higgs bosons in the $b\bar{b}b\bar{b}$
+  final state using proton-proton collisions at $\sqrt{s} = 13$ TeV with the
+  ATLAS detector}.
+\newblock 2018{\natexlab{e}}.
+
+\bibitem[Helsens(2018)]{FCCphysClement}
+C.~Helsens.
+\newblock Heavy resonances at 100tev, 2018.
+\newblock URL
+  \url{https://indico.cern.ch/event/704428/contributions/2957537/attachments/1627728/2594323/Resonances_FCC_hh_helsens.pdf}.
 
 \end{thebibliography}
