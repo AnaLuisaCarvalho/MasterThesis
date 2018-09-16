@@ -2,10 +2,9 @@
 \contentsline {section}{Acknowledgments}{iii}{section*.1}
 \contentsline {section}{Resumo}{iv}{section*.2}
 \contentsline {section}{Abstract}{v}{section*.3}
-\contentsline {section}{List of Tables}{ix}{section*.5}
-\contentsline {section}{List of Figures}{xi}{section*.7}
-\contentsline {section}{Nomenclature}{1}{section*.9}
-\contentsline {section}{Glossary}{1}{section*.10}
+\contentsline {section}{List of Tables}{xi}{section*.5}
+\contentsline {section}{List of Figures}{xiii}{section*.7}
+\contentsline {section}{Glossary}{xvi}{section*.9}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}The standard model and beyond}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Standard Model of Particle Physics}{4}{section.2.1}
@@ -56,13 +55,14 @@
 \contentsline {subsection}{\numberline {7.1.2}Comparing with the ATLAS detector}{62}{subsection.7.1.2}
 \contentsline {section}{\numberline {7.2}Hadronic calorimeter granularity studies for future colliders}{65}{section.7.2}
 \contentsline {subsection}{\numberline {7.2.1}Resolution of jet mass and N-subjetiness}{65}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Signal efficiency and significance}{65}{subsection.7.2.2}
-\contentsline {chapter}{\numberline {8}Conclusions}{69}{chapter.8}
-\contentsline {chapter}{Bibliography}{71}{section*.63}
-\contentsline {chapter}{\numberline {A}Jet radius discussion}{79}{appendix.A}
-\contentsline {chapter}{\numberline {B}Additional background processes}{80}{appendix.B}
-\contentsline {chapter}{\numberline {C}Softdrop mass}{81}{appendix.C}
-\contentsline {chapter}{\numberline {D}Samples generation: parameters}{82}{appendix.D}
-\contentsline {section}{\numberline {D.1}MadGraph}{82}{section.D.1}
-\contentsline {section}{\numberline {D.2}Pythia}{82}{section.D.2}
-\contentsline {chapter}{\numberline {E}Cutflow tables}{84}{appendix.E}
+\contentsline {subsection}{\numberline {7.2.2}Signal efficiency and significance}{66}{subsection.7.2.2}
+\contentsline {chapter}{\numberline {8}Conclusions}{70}{chapter.8}
+\contentsline {chapter}{Bibliography}{72}{section*.63}
+\contentsline {chapter}{\numberline {A}Jet radius discussion}{80}{appendix.A}
+\contentsline {chapter}{\numberline {B}Additional background processes}{81}{appendix.B}
+\contentsline {chapter}{\numberline {C}Softdrop mass}{82}{appendix.C}
+\contentsline {chapter}{\numberline {D}Samples generation: parameters}{83}{appendix.D}
+\contentsline {section}{\numberline {D.1}MadGraph}{83}{section.D.1}
+\contentsline {section}{\numberline {D.2}Pythia}{83}{section.D.2}
+\contentsline {chapter}{\numberline {E}Cutflow tables}{85}{appendix.E}
+\contentsline {chapter}{\numberline {F}Extra plots}{87}{appendix.F}

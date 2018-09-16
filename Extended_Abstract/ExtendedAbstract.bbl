@@ -5,6 +5,15 @@
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
 
+\bibitem{jetsub}
+G.~A. et~al, \href{https://doi.org/10.1007/JHEP09(2013)076}{Performance of jet
+  substructure techniques for large-r jets in proton-proton collisions at
+  $\sqrt{s}=7$ tev using the atlas detector}, Journal of High Energy Physics
+  2013~(9).
+\newblock \href {http://dx.doi.org/10.1007/JHEP09(2013)076}
+  {\path{doi:10.1007/JHEP09(2013)076}}.
+\newline\urlprefix\url{https://doi.org/10.1007/JHEP09(2013)076}
+
 \bibitem{ATLAShhComb}
 A.~Collaboration, \href{https://cds.cern.ch/record/2634999}{{Combination of
   searches for Higgs boson pairs in $pp$ collisions at 13 TeV with the ATLAS

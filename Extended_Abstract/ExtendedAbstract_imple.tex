@@ -19,7 +19,7 @@
 %- Optimization \\
 %- Event selection \\
 
-The main backgrounds affecting di-Higgs searches in the $b\overline{b}b\overline{b}$ are multijet and $t\overline{t}$ production. All other sources of background, including processes involving Higgs bosons, are found to be negligible [REF]. In addition to these, we also consider the irreducible background as a separate background source.
+The main backgrounds affecting di-Higgs searches in the $b\overline{b}b\overline{b}$ are multijet and $t\overline{t}$ production. All other sources of background, including processes involving Higgs bosons, are found to be negligible [REF]. In addition to these, we also consider the irreducible background ($pp\rightarrow b\overline{b}b\overline{b}$) as a separate background source.
 
 We study the production of Higgs pairs in three different models: the SM, a dark matter model with a $1$ TeV spin-$0$ mediator that can decay to Higgs pairs and the CP-conserving 2HDM of type II where the heavier CP-even Higgs can decay to pairs of SM Higgs bosons.
 
@@ -30,7 +30,7 @@ We choose the mass of the new heavy resonances to be high ($\sim 1$ TeV) in orde
 
 We simulate the signal and background Monte Carlo samples using a fast simulation workflow. MadGraph5 aMC@NLO \cite{MG5} is used to compute the matrix elements of a given process. Showering and hadronization of colored particles are handled by Pythia8 \cite{Pythia8} and the detector response is parameterized using Delphes3 \cite{Delphes}. 
 
-The irreducible background is generated with an extra jet with $p_T>200$ GeV at generator level ($4b+j$). This guarantees that the pairs of b quarks are boosted enough to increase the probability of being reconstructed as a single jet. The multijet background is simulated as $jj+0/1/2~j$ where $j$ stands for a light or b jet. To make the simulation more efficient, this background is generated in several $H_T$ regions between $500<H_T<100000$, where $H_T$ is the scalar sum of the $p_T$ of all the partons at generator level. The $t\overline{t}$ background is simulated as $t\overline{t}+0/1/2~j$. The sample is inclusive in the top quark and $W^{\pm}$ boson decay modes.
+The irreducible background is generated with an extra jet with $p_T>200$ GeV at generator level ($4b+j$). This guarantees that the pairs of b quarks are boosted enough to increase the probability of being reconstructed as a single jet because the b quarks recoil against the high $p_T$ jet. The multijet background is simulated as $jj+0/1/2~j$ where $j$ stands for a light or b jet. To make the simulation more efficient, this background is generated in several $H_T$ regions between $500<H_T<100000$, where $H_T$ is the scalar sum of the $p_T$ of all the partons at generator level. The $t\overline{t}$ background is simulated as $t\overline{t}+0/1/2~j$. The sample is inclusive in the top quark and $W^{\pm}$ boson decay modes.
 
 The BSM signal samples are simulated using publicly available in the FeynRules database. For the DM mediator model \cite{DM}, the spin-$0$ mediator mass is set at $1$ TeV.The cross section for the signal
 generated with this model is smaller than the cross section of the SM signal (approximately $0.2$ pb versus $0.7$ pb) and therefore this model is not excluded by experimental data. 
@@ -83,7 +83,7 @@ This targets the boosted kinematic regime in which both Higgs bosons are reconst
 
 The events are reconstructed using particle flow (or calorimeter) jets with $R=0.8$ clustered with the anti-$k_T$ algorithm. The events are required to have at least two jets. Each jet is required to have two subjets, both b-tagged. In addition, both jets are required to have $p_T>200$ GeV. These cuts consist of the event pre-selection.
 
-The b-tagging is implemented using truth level information. The b-tagging and mis tagging efficiencies are extracted from the FCC-hh detector default Delphes card, implemented by the FCC-hh study group.
+The b-tagging is implemented using truth level information. The b-tagging and mis-tagging efficiencies are extracted from the FCC-hh detector default Delphes card, implemented by the FCC-hh study group. They depend on the $p_T$ and $\eta$ of the jets. The b-tagging efficiency, c and light mis-tag rates are of the order of $85\%$, $5\%$ and $1\%$, respectively.
 
 The event selection is described in the following paragraphs. The value of the cuts follow from a scan over all the possible cut values. We choose the cut value that maximizes the significance, $S/\sqrt{B}$. 
 

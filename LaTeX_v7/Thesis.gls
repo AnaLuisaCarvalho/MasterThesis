@@ -1,0 +1,82 @@
+\begin{theglossary}\glogroupSymbols
+
+\gloitem {\glosslabel{glo:\textbf {2HDM}}{\textbf {2HDM}}}Two Higgs Doublet Model\relax
+\glodelim 
+		\glsnumformat{xiv}\delimT 
+
+\gloitem {\glosslabel{glo:\textbf {ATLAS}}{\textbf {ATLAS}}}A Toroidal LHC Apparatus\relax
+\glodelim 
+		\glsnumformat{xiv}\delimT 
+
+\gloitem {\glosslabel{glo:\textbf {BR}}{\textbf {BR}}}Branching Ratio\relax
+\glodelim 
+		\glsnumformat{xiv}\delimT 
+
+\gloitem {\glosslabel{glo:\textbf {BSM}}{\textbf {BSM}}}Beyond the Standard Model\relax
+\glodelim 
+		\glsnumformat{xiv}\delimT 
+
+\gloitem {\glosslabel{glo:\textbf {CERN}}{\textbf {CERN}}}European Organization for Nuclear Research\relax
+\glodelim 
+		\glsnumformat{xiv}\delimT 
+
+\gloitem {\glosslabel{glo:\textbf {CMS}}{\textbf {CMS}}}Compact Muon Solenoid\relax
+\glodelim 
+		\glsnumformat{xiv}\delimT 
+
+\gloitem {\glosslabel{glo:\textbf {ECAL}}{\textbf {ECAL}}}Electromagnetic Calorimeter\relax
+\glodelim 
+		\glsnumformat{xiv}\delimT 
+
+\gloitem {\glosslabel{glo:\textbf {EM}}{\textbf {EM}}}Electromagnetic\relax
+\glodelim 
+		\glsnumformat{xiv}\delimT 
+
+\gloitem {\glosslabel{glo:\textbf {HCAL}}{\textbf {HCAL}}}Hadronic Calorimeter\relax
+\glodelim 
+		\glsnumformat{xiv}\delimT 
+
+\gloitem {\glosslabel{glo:\textbf {ID}}{\textbf {ID}}}Inner Detector\relax
+\glodelim 
+		\glsnumformat{xiv}\delimT 
+
+\gloitem {\glosslabel{glo:\textbf {LHC}}{\textbf {LHC}}}Large Hadron Collider\relax
+\glodelim 
+		\glsnumformat{xiv}\delimT 
+
+\gloitem {\glosslabel{glo:\textbf {LO}}{\textbf {LO}}}Leading Order\relax
+\glodelim 
+		\glsnumformat{xiv}\delimT 
+
+\gloitem {\glosslabel{glo:\textbf {NLO}}{\textbf {NLO}}}Next to Leading Order\relax
+\glodelim 
+		\glsnumformat{xiv}\delimT 
+
+\gloitem {\glosslabel{glo:\textbf {QCD}}{\textbf {QCD}}}Quantum Chromodynamics\relax
+\glodelim 
+		\glsnumformat{xiv}\delimT 
+
+\gloitem {\glosslabel{glo:\textbf {QED}}{\textbf {QED}}}Quantum Electrodynamics\relax
+\glodelim 
+		\glsnumformat{xiv}\delimT 
+
+\gloitem {\glosslabel{glo:\textbf {QFT}}{\textbf {QFT}}}Quantum Field Theory\relax
+\glodelim 
+		\glsnumformat{xiv}\delimT 
+
+\gloitem {\glosslabel{glo:\textbf {SM}}{\textbf {SM}}}Standard Model\relax
+\glodelim 
+		\glsnumformat{xiv}\delimT 
+
+\gloitem {\glosslabel{glo:\textbf {SUSY}}{\textbf {SUSY}}}Super Symmetry\relax
+\glodelim 
+		\glsnumformat{xiv}\delimT 
+
+\gloitem {\glosslabel{glo:\textbf {TileCal}}{\textbf {TileCal}}}Tile Calorimeter\relax
+\glodelim 
+		\glsnumformat{xiv}\delimT 
+
+\gloitem {\glosslabel{glo:\textbf {VEV}}{\textbf {VEV}}}Vacuum Expectation Value\relax
+\glodelim 
+		\glsnumformat{xiv}\delimT 
+\end{theglossary}

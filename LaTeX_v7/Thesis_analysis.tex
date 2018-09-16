@@ -440,13 +440,13 @@ As a first step, we implemented a baseline analysis based on rectangular cuts on
 \begin{equation}
 	p_T(h_1)>400 ~\text{GeV}, \quad p_T(h_2)>350 ~\text{GeV}, \quad p_T(hh)>100 ~\text{GeV}.
 \end{equation}
-These cuts follow from both distributions shown in figures \ref{fig:pt_stack}(a) and \ref{fig:pt_stack}(b) and guarantee that we are choosing events for which the Higgs candidates are sufficiently boosted. In addition, a high threshold for the $p_T$ of the jets suppresses $t\overline{t}$ events because the decay products of the top quark are reconstructed in a single jet. In a more realistic analysis, these cuts would also be dictated by the trigger threshold. 
+These cuts follow from both distributions shown in figures \ref{fig:pt_stack}(a), \ref{fig:pt_stack}(b) and \ref{fig:sub_stack}(a) and guarantee that we are choosing events for which the Higgs candidates are sufficiently boosted. In addition, a high threshold for the $p_T$ of the jets suppresses $t\overline{t}$ events because the decay products of the top quark are reconstructed in a single jet. In a more realistic analysis, these cuts would also be dictated by the trigger threshold. 
 
-From figure \ref{fig:sub_stack}(a) we then apply a cut on the $\tau_{21}$ of the leading Higgs candidate to select jets that are more compatible with a two-prong structure:
+From figure \ref{fig:sub_stack}(b) we then apply a cut on the $\tau_{21}$ of the leading Higgs candidate to select jets that are more compatible with a two-prong structure:
 \begin{equation}
 	\tau_{21}(h_1)<0.55.
 \end{equation}
-The cut on this variable works as a Higgs tagging method. Therefore we apply the same cut on the $\tau_{21}$ of the sub leading Higgs candidate although that does not necessarily follow from the distribution in figure \ref{fig:sub_stack}(b).
+The cut on this variable works as a Higgs tagging method. Therefore we apply the same cut on the $\tau_{21}$ of the sub leading Higgs candidate although that does not necessarily follow from the distribution of $\tau_{21}$ for the sub leading Higgs candidate (which can be found in figure \ref{fig:tau21_h2_stack} in appendic \ref{chapter:extra_plots}).
 Then, from the distribution in figure \ref{fig:M_stack}(a), we place a cut on the second Fox-Wolfram momentum (defined in section \ref{section_jet_sub}) of the leading Higgs candidate, $H_2 (h_1)$:
 \begin{equation}
 	H_2 (h_1)>0.2
@@ -458,19 +458,19 @@ Finally, based on the distribution shown in figure \ref{fig:M_stack}(b), we appl
 	(100\leq M_{SD}(h_1,h_2)\leq 135) ~\text{GeV}.
 \end{equation}
 
-Using this analysis, we achieve a significance, $S/\sqrt{B}$, of $6.8\pm0.7(2.15\pm0.22)$ for an integrated luminosity of $30(3)~\text{ab}^{-1}$.
+Using this analysis, we achieve a significance, $S/\sqrt{B}$, of $5.1\pm0.5~\text{(stat.)}~(1.62\pm 0.16~\text{(stat.)})$ for an integrated luminosity of $30~(3)~\text{ab}^{-1}$.
 
 \begin{figure}
 	\centering
 	\begin{minipage}{.5\textwidth}
 		\centering
-		\includegraphics[trim={.65cm 0 0 0},clip,width=\linewidth]{./Figures/hist_h2_pt_stack.pdf}
+		\includegraphics[trim={.65cm 0 0 0},clip,width=\linewidth]{./Figures/hist_h1_pt_stack.pdf}
 		%\caption{oi}
 		%\label{fig:h1_pt}
 	\end{minipage}%
 	\begin{minipage}{.5\textwidth}
 		\centering
-		\includegraphics[trim={0 0 .65cm 0},clip,width=\linewidth]{./Figures/hist_hh_pt_stack.pdf}
+		\includegraphics[trim={0 0 .65cm 0},clip,width=\linewidth]{./Figures/hist_h2_pt_stack.pdf}
 		%\caption{oi}
 		%\label{fig:h2_pt}
 	\end{minipage}
@@ -483,7 +483,7 @@ Using this analysis, we achieve a significance, $S/\sqrt{B}$, of $6.8\pm0.7(2.15
 		\caption*{(b)}
 		%\label{fig2}
 	\end{minipage}
-	\caption{$p_T$ distributions for the sub leading Higgs candidate (left) and for the Higgs pair (right). The histograms are normalized to $\mathcal{L}=30~\text{ab}^{-1}$.}
+	\caption{$p_T$ distributions for the leading (a) and sub leading Higgs candidates (b). The histograms are normalized to $\mathcal{L}=30~\text{ab}^{-1}$.}
 	\label{fig:pt_stack}
 \end{figure} 
 
@@ -491,13 +491,13 @@ Using this analysis, we achieve a significance, $S/\sqrt{B}$, of $6.8\pm0.7(2.15
 	\centering
 	\begin{minipage}{.5\textwidth}
 		\centering
-		\includegraphics[trim={.65cm 0 0 0},clip,width=\linewidth]{./Figures/hist_h1_tau21_stack.pdf}
+		\includegraphics[trim={.65cm 0 0 0},clip,width=\linewidth]{./Figures/hist_hh_pt_stack.pdf}
 		%\caption{oi}
 		%\label{fig:h1_pt}
 	\end{minipage}%
 	\begin{minipage}{.5\textwidth}
 		\centering
-		\includegraphics[trim={0 0 .65cm 0},clip,width=\linewidth]{./Figures/hist_h2_tau21_stack.pdf}
+		\includegraphics[trim={0 0 .65cm 0},clip,width=\linewidth]{./Figures/hist_h1_tau21_stack.pdf}
 		%\caption{oi}
 		%\label{fig:h2_pt}
 	\end{minipage}
@@ -510,7 +510,7 @@ Using this analysis, we achieve a significance, $S/\sqrt{B}$, of $6.8\pm0.7(2.15
 		\caption*{(b)}
 		%\label{fig2}
 	\end{minipage}
-	\caption{Distributions of the $\tau_{21}$ variable for the leading (left) and sub leading (right) Higgs candidates. The histograms are normalized to $\mathcal{L}=30~\text{ab}^{-1}$.}
+	\caption{(a) $p_T$ distribution for the Higgs pair, (b) $\tau_{21}$ variable for the leading Higgs candidate. The histograms are normalized to $\mathcal{L}=30~\text{ab}^{-1}$.}
 	\label{fig:sub_stack}
 \end{figure} 
 
@@ -537,7 +537,7 @@ Using this analysis, we achieve a significance, $S/\sqrt{B}$, of $6.8\pm0.7(2.15
 		\caption*{(b)}
 		%\label{fig2}
 	\end{minipage}
-	\caption{$H_2$ variable for the leading Higgs candidate (left) and softdrop mass distribution for the leading Higgs candidate. The histograms are normalized to $\mathcal{L}=30~\text{ab}^{-1}$.}
+	\caption{(a) $H_2$ variable for the leading Higgs candidate, (b) softdrop mass distribution for the leading Higgs candidate. The histograms are normalized to $\mathcal{L}=30~\text{ab}^{-1}$.}
 	\label{fig:M_stack}
 \end{figure} 
 
@@ -565,7 +565,7 @@ Following the cuts on the momentums we place a cut on the $\tau_{21}$ variable f
 \begin{equation}
 	\tau_{21}(h_1)<0.4.
 \end{equation}
-We apply exactly the same cut on the $\tau_{21}$ of the sub leading Higgs candidate. [JUSTIFY? HIGGS TAGGING].
+We apply exactly the same cut on the $\tau_{21}$ of the sub leading Higgs candidate. This guarantees that both jets are consistent with having two subjets and therefore are more likely to originate from the decay of a Higgs boson.
 
 Next we apply cuts on the $\Delta\eta$ between the Higgs candidates and on the second Fox-Wolfram momentum of the leading Higgs candidates, in this order:
 \begin{equation}
@@ -573,9 +573,9 @@ Next we apply cuts on the $\Delta\eta$ between the Higgs candidates and on the s
 \end{equation} 
 These cut follow from the plots on figures \ref{fig:SSB_hh_deltaEta}(a) and \ref{fig:SSB_hh_deltaEta}(b). The optimization plot for $\Delta\eta(hh)$ is obtained placing a cut in a window around zero which follows directly from the shape of the distributions in figure \ref{fig:hh_deltaEta_h1_tau21}(a). For the $H_2(h_1)$ variable the cut is placed on the lower value.
 
-Finally we apply the mass cuts on the leading and sub leading Higgs candidates. These are the same that were applied in the baseline analysis. [OPTIMIZE THEM?].
+Finally we apply the mass cuts on the leading and sub leading Higgs candidates. These are the same that were applied in the baseline analysis.
 
-Using the optimized analysis we obtain a significance, $S/\sqrt{B}$, of $10\pm2(3.2\pm0.6)$ for an integrated luminosity of $30(3)~\text{ab}^{-1}$. This corresponds to an improvement of approximately $47\%$ with respect to the baseline analysis.
+Using the optimized analysis we obtain a significance, $S/\sqrt{B}$, of $8.8\pm 1.6~\text{(stat.)}\quad (2.36\pm 0.32~\text{(stat.)})$ for an integrated luminosity of $30~(3)~\text{ab}^{-1}$. This corresponds to an improvement of approximately $70\%$ with respect to the baseline analysis. This percentage is calculated as $(((S/\sqrt{B})_{\text{opt.}}-(S/\sqrt{B})_{\text{base.}})/(S/\sqrt{B})_{\text{base.}})\times 100$.
 
 \begin{figure}
 	\centering

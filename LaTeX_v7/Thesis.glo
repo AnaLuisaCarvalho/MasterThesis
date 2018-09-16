@@ -1,4 +1,20 @@
-\glossaryentry{\textbf {MDO}@{\glosslabel{glo:\textbf {MDO}}{\textbf {MDO}}}Multi-Disciplinar Optimization is an engineering technique that uses optimization methods to solve design problems incorporating two or more disciplines.\relax|glsnumformat}{1}
-\glossaryentry{\textbf {CFD}@{\glosslabel{glo:\textbf {CFD}}{\textbf {CFD}}}Computational Fluid Dynamics is a branch of fluid mechanics that uses numerical methods and algorithms to solve problems that involve fluid flows.\relax|glsnumformat}{1}
-\glossaryentry{\textbf {CSM}@{\glosslabel{glo:\textbf {CSM}}{\textbf {CSM}}}Computational Structural Mechanics is a branch of structure mechanics that uses numerical methods and algorithms to perform the analysis of structures and its components.\relax|glsnumformat}{1}
-\glossaryentry{oi@{\glosslabel{glo:oi}{oi}}\relax|glsnumformat}{1}
+\glossaryentry{\textbf {ATLAS}@{\glosslabel{glo:\textbf {ATLAS}}{\textbf {ATLAS}}}A Toroidal LHC Apparatus\relax|glsnumformat}{xvi}
+\glossaryentry{\textbf {2HDM}@{\glosslabel{glo:\textbf {2HDM}}{\textbf {2HDM}}}Two Higgs Doublet Model\relax|glsnumformat}{xvi}
+\glossaryentry{\textbf {CMS}@{\glosslabel{glo:\textbf {CMS}}{\textbf {CMS}}}Compact Muon Solenoid\relax|glsnumformat}{xvi}
+\glossaryentry{\textbf {SM}@{\glosslabel{glo:\textbf {SM}}{\textbf {SM}}}Standard Model\relax|glsnumformat}{xvi}
+\glossaryentry{\textbf {BSM}@{\glosslabel{glo:\textbf {BSM}}{\textbf {BSM}}}Beyond the Standard Model\relax|glsnumformat}{xvi}
+\glossaryentry{\textbf {BR}@{\glosslabel{glo:\textbf {BR}}{\textbf {BR}}}Branching Ratio\relax|glsnumformat}{xvi}
+\glossaryentry{\textbf {CERN}@{\glosslabel{glo:\textbf {CERN}}{\textbf {CERN}}}European Organization for Nuclear Research\relax|glsnumformat}{xvi}
+\glossaryentry{\textbf {EM}@{\glosslabel{glo:\textbf {EM}}{\textbf {EM}}}Electromagnetic\relax|glsnumformat}{xvi}
+\glossaryentry{\textbf {ID}@{\glosslabel{glo:\textbf {ID}}{\textbf {ID}}}Inner Detector\relax|glsnumformat}{xvi}
+\glossaryentry{\textbf {LHC}@{\glosslabel{glo:\textbf {LHC}}{\textbf {LHC}}}Large Hadron Collider\relax|glsnumformat}{xvi}
+\glossaryentry{\textbf {LO}@{\glosslabel{glo:\textbf {LO}}{\textbf {LO}}}Leading Order\relax|glsnumformat}{xvi}
+\glossaryentry{\textbf {NLO}@{\glosslabel{glo:\textbf {NLO}}{\textbf {NLO}}}Next to Leading Order\relax|glsnumformat}{xvi}
+\glossaryentry{\textbf {HCAL}@{\glosslabel{glo:\textbf {HCAL}}{\textbf {HCAL}}}Hadronic Calorimeter\relax|glsnumformat}{xvi}
+\glossaryentry{\textbf {ECAL}@{\glosslabel{glo:\textbf {ECAL}}{\textbf {ECAL}}}Electromagnetic Calorimeter\relax|glsnumformat}{xvi}
+\glossaryentry{\textbf {QCD}@{\glosslabel{glo:\textbf {QCD}}{\textbf {QCD}}}Quantum Chromodynamics\relax|glsnumformat}{xvi}
+\glossaryentry{\textbf {QED}@{\glosslabel{glo:\textbf {QED}}{\textbf {QED}}}Quantum Electrodynamics\relax|glsnumformat}{xvi}
+\glossaryentry{\textbf {QFT}@{\glosslabel{glo:\textbf {QFT}}{\textbf {QFT}}}Quantum Field Theory\relax|glsnumformat}{xvi}
+\glossaryentry{\textbf {TileCal}@{\glosslabel{glo:\textbf {TileCal}}{\textbf {TileCal}}}Tile Calorimeter\relax|glsnumformat}{xvi}
+\glossaryentry{\textbf {SUSY}@{\glosslabel{glo:\textbf {SUSY}}{\textbf {SUSY}}}Super Symmetry\relax|glsnumformat}{xvi}
+\glossaryentry{\textbf {VEV}@{\glosslabel{glo:\textbf {VEV}}{\textbf {VEV}}}Vacuum Expectation Value\relax|glsnumformat}{xvi}

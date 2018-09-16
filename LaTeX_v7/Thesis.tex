@@ -152,14 +152,14 @@
 % Nomenclature
 %
 % entries of nomenclature list
-\input{Thesis_Nomenclature} % file "Thesis_Nomenclature.tex"
+%\input{Thesis_Nomenclature} % file "Thesis_Nomenclature.tex"
 %
 % Add entry in the table of contents as section
-\phantomsection
-\addcontentsline{toc}{section}{\nomname}
-% Insert glossary/nomenclature section produced by MakeIndex
-\printnomenclature
-\clearpage
+%\phantomsection
+%\addcontentsline{toc}{section}{\nomname}
+%% Insert glossary/nomenclature section produced by MakeIndex
+%\printnomenclature
+%\clearpage
 
 % entries of glossary list
 \input{Thesis_Glossary} % file "Thesis_Glossary.tex"
@@ -167,6 +167,7 @@
 % Add entry in the table of contents as section
 \phantomsection
 \addcontentsline{toc}{section}{\glossaryname}
+%\makeglossary
 % Insert glossary section produced by MakeIndex
 \printglossary
 \clearpage
@@ -291,6 +292,9 @@
 \clearpage
 
 \input{Thesis_Appendix_E} % file "Thesis_Appendix_D.tex"
+\clearpage
+
+\input{Thesis_Appendix_F} % file "Thesis_Appendix_D.tex"
 \clearpage
 
 
