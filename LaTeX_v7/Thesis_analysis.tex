@@ -446,7 +446,7 @@ From figure \ref{fig:sub_stack}(b) we then apply a cut on the $\tau_{21}$ of the
 \begin{equation}
 	\tau_{21}(h_1)<0.55.
 \end{equation}
-The cut on this variable works as a Higgs tagging method. Therefore we apply the same cut on the $\tau_{21}$ of the sub leading Higgs candidate although that does not necessarily follow from the distribution of $\tau_{21}$ for the sub leading Higgs candidate (which can be found in figure \ref{fig:tau21_h2_stack} in appendic \ref{chapter:extra_plots}).
+The cut on this variable works as a Higgs tagging method. Therefore we apply the same cut on the $\tau_{21}$ of the sub leading Higgs candidate although that does not necessarily follow from the distribution of $\tau_{21}$ for the sub leading Higgs candidate (which can be found in figure \ref{fig:tau21_h2_stack} in appendix \ref{chapter:extra_plots}).
 Then, from the distribution in figure \ref{fig:M_stack}(a), we place a cut on the second Fox-Wolfram momentum (defined in section \ref{section_jet_sub}) of the leading Higgs candidate, $H_2 (h_1)$:
 \begin{equation}
 	H_2 (h_1)>0.2
@@ -458,7 +458,7 @@ Finally, based on the distribution shown in figure \ref{fig:M_stack}(b), we appl
 	(100\leq M_{SD}(h_1,h_2)\leq 135) ~\text{GeV}.
 \end{equation}
 
-Using this analysis, we achieve a significance, $S/\sqrt{B}$, of $5.1\pm0.5~\text{(stat.)}~(1.62\pm 0.16~\text{(stat.)})$ for an integrated luminosity of $30~(3)~\text{ab}^{-1}$.
+Using this analysis, we achieve a significance, $S/\sqrt{B}$, of $5.1\pm0.5~\text{(stat.)}~ ^{+2.6}_{-1.8}~(\text{sys.})~(1.62\pm 0.16~\text{(stat.)}~^{+0.8}_{-0.6}~\text{(sys.)})$ for an integrated luminosity of $30~(3)~\text{ab}^{-1}$.
 
 \begin{figure}
 	\centering
@@ -575,7 +575,7 @@ These cut follow from the plots on figures \ref{fig:SSB_hh_deltaEta}(a) and \ref
 
 Finally we apply the mass cuts on the leading and sub leading Higgs candidates. These are the same that were applied in the baseline analysis.
 
-Using the optimized analysis we obtain a significance, $S/\sqrt{B}$, of $8.8\pm 1.6~\text{(stat.)}\quad (2.36\pm 0.32~\text{(stat.)})$ for an integrated luminosity of $30~(3)~\text{ab}^{-1}$. This corresponds to an improvement of approximately $70\%$ with respect to the baseline analysis. This percentage is calculated as $(((S/\sqrt{B})_{\text{opt.}}-(S/\sqrt{B})_{\text{base.}})/(S/\sqrt{B})_{\text{base.}})\times 100$.
+Using the optimized analysis we obtain a significance, $S/\sqrt{B}$, of $8.8\pm 1.6~\text{(stat.)}~^{+4.4}_{-3.4}~\text{(sys.)}\quad (2.36\pm 0.32~\text{(stat.)}~^{+1.4}_{-1.1}~\text{(sys.)})$ for an integrated luminosity of $30~(3)~\text{ab}^{-1}$. This corresponds to an improvement of approximately $70\%$ with respect to the baseline analysis. This percentage is calculated as $(((S/\sqrt{B})_{\text{opt.}}-(S/\sqrt{B})_{\text{base.}})/(S/\sqrt{B})_{\text{base.}})\times 100$.
 
 \begin{figure}
 	\centering
@@ -676,7 +676,7 @@ If we assume that the number of events follows a Poisson distribution then the s
 \end{equation}
 $\Delta N_{\text{norm}}$ can then be used in standard error propagation to compute the statistical uncertainty associated with any expression, in particular, with $S/\sqrt{B}$. The error associated with $S/\sqrt{B}$ is given by:
 \begin{equation}
-	\left(\Delta\frac{S}{\sqrt{B}}\right)^2=\left|\frac{1}{\sqrt{B}}\right|^2 (\Delta S)^2+\left|-\frac{S}{B^{3/2}}\right|^2 (\Delta B)^2
+	\left(\Delta\frac{S}{\sqrt{B}}\right)_{\text{stat.}}^2=\left|\frac{1}{\sqrt{B}}\right|^2 (\Delta S)^2+\left|-\frac{S}{B^{3/2}}\right|^2 (\Delta B)^2
 \end{equation}
 where $\Delta S$ and $\Delta B$ are the uncertainties associated with the number of signal and background events. $\Delta B$ is given by:
 \begin{equation}
@@ -686,14 +686,22 @@ where the index $i$ runs over all independent backgrounds.
 
 \subsubsection{Systematic uncertainties}
 
-Systematic uncertainties are usually related to the detector specificities and object reconstruction techniques, which makes it difficult to list and quantify for a detector that is not yet built. Nonetheless, we can use the numbers for the systematic uncertainties that are reported for existing searches for $pp\rightarrow hh\rightarrow b\overline{b}b\overline{b}$ using the ATLAS detector.
+Systematic uncertainties are usually related to the detector specificities and object reconstruction techniques, which makes them difficult to list and quantify for a detector that is not yet built. Nonetheless, we can use the numbers for the systematic uncertainties that are reported for existing searches for $pp\rightarrow hh\rightarrow b\overline{b}b\overline{b}$ using the ATLAS detector.
 
 When requiring four b-tags, the largest uncertainty affecting the signal is the the b-tagging uncertainty (table 6 of Ref. \cite{hh2bbbbATLAS1}). It is of the order of $30\%$. We use this number to estimate the impact of the b-tagging uncertainty on the analysis.
 For the background, the largest uncertainty comes from the estimation of its yield and shape, according to the same reference. The reported value is $16\%$. However, a study performed by the FCC study group \cite{FCCphysClement} considers more conservative values for the uncertainties on the $t\overline{t}$ and  QCD di-jet backgrounds normalizations. The reported values are $20\%$ for $t\overline{t}$ and $50\%$ for di-jet production. In this study, we use these numbers to estimate the impact of the systematic uncertainty on the normalization of the backgrounds.
 
-The b-tagging uncertainty can only be used to estimate a lower bound for the significance. This is done by simply considering that $30\%$ less signal events go through all the analysis cuts. This leads to a decrease in the significance from X to Y.
+To estimated the b-tagging systematic uncertainty, the number of signal events after all the analysis cuts is varied by $30\%$ up and down. This leads to an upper (lower) bound in the significance of $6.6~(3.6)$.
 
-The background normalization uncertainties are implemented by increasing and decreasing the k-factor by the corresponding percentage, with respect to what is given in table \ref{table:samples_summary}. We vary the k-factors of each background ($4b+j$, $jj+0/1/2~ j$ and $t\overline{t}$) individually. For the $4b+j$ and $jj+0/1/2 ~j$ we consider the same uncertainty of $50\%$. This leads to ...
+The background normalization uncertainties are implemented by increasing and decreasing the k-factor of each background by the corresponding percentage, with respect to what is given in table \ref{table:samples_summary}. We vary the k-factors of the QCD multijet ($4b+j$ and $jj+0/1/2 ~j$) and of the $t\overline{t}$ backgrounds individually. For the $4b+j$ and $jj+0/1/2 ~j$ backgrounds we consider the same uncertainty of $50\%$ and the variations are done simultaneously for both. This leads to an upper (lower) bound in the significance of $7.1~(4.2)$. For the $t\overline{t}$ background we consider an uncertainty of $20\%$ which leads to an upper (lower) bound in the significance of $5.13~(5.09)$.
+
+We assume that the three sources of systematic uncertainty are uncorrelated and therefore the respective variations can be added in quadrature. The statistical error is also added in quadrature. Therefore, the total uncertainty that is given by:
+\begin{equation}
+	\left(\Delta\frac{S}{\sqrt{B}}\right)_{\text{sys.+stat.}}^2=\left(\delta_{\text{b-tag}}\right)^2+\left(\delta_{\text{QCD bkg.}}\right)^2+\left(\delta_{t\overline{t}~\text{bkg.}}\right)^2+\left(\delta_{\text{stat.}}\right)^2
+\end{equation}
+where $\delta_{\text{b-tag}},\delta_{\text{QCD bkg.}}$ and $\delta_{t\overline{t}~\text{bkg.}}$ are the variations with respect to the nominal value of the significance caused by the b-tagging uncertainty and by the uncertainties on the normalization of the  QCD multijet and $t\overline{t}$ backgrounds, respectively. $\delta_{\text{stat.}}$ is the statistical uncertainty. 
+
+\subsection{Trigger discussion}
 
 %% ----------------------------------------------------------------------
 %\subsection{Intermediate}20
