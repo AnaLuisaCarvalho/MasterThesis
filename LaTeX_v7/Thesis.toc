@@ -50,20 +50,20 @@
 \contentsline {subsubsection}{Statistical uncertainties}{59}{section*.49}
 \contentsline {subsubsection}{Systematic uncertainties}{59}{section*.50}
 \contentsline {subsection}{\numberline {6.2.5}Trigger discussion}{60}{subsection.6.2.5}
-\contentsline {chapter}{\numberline {7}Results}{61}{chapter.7}
-\contentsline {section}{\numberline {7.1}Di-Higgs discovery potential at the FCC-hh}{61}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Statistical analysis}{62}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Comparing with the ATLAS detector}{62}{subsection.7.1.2}
-\contentsline {section}{\numberline {7.2}Hadronic calorimeter granularity studies for future colliders}{65}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Resolution of jet mass and N-subjetiness}{65}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Signal efficiency and significance}{66}{subsection.7.2.2}
-\contentsline {chapter}{\numberline {8}Conclusions}{71}{chapter.8}
-\contentsline {chapter}{Bibliography}{73}{section*.64}
-\contentsline {chapter}{\numberline {A}Jet radius discussion}{81}{appendix.A}
-\contentsline {chapter}{\numberline {B}Additional background processes}{82}{appendix.B}
-\contentsline {chapter}{\numberline {C}Softdrop mass}{83}{appendix.C}
-\contentsline {chapter}{\numberline {D}Samples generation: parameters}{84}{appendix.D}
-\contentsline {section}{\numberline {D.1}MadGraph}{84}{section.D.1}
-\contentsline {section}{\numberline {D.2}Pythia}{84}{section.D.2}
-\contentsline {chapter}{\numberline {E}Cutflow tables}{86}{appendix.E}
-\contentsline {chapter}{\numberline {F}Extra plots}{88}{appendix.F}
+\contentsline {chapter}{\numberline {7}Results}{62}{chapter.7}
+\contentsline {section}{\numberline {7.1}Di-Higgs discovery potential at the FCC-hh}{62}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Statistical analysis}{63}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Comparing with the ATLAS detector}{63}{subsection.7.1.2}
+\contentsline {section}{\numberline {7.2}Hadronic calorimeter granularity studies for future colliders}{66}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Resolution of jet mass and N-subjetiness}{66}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Signal efficiency and significance}{67}{subsection.7.2.2}
+\contentsline {chapter}{\numberline {8}Conclusions}{72}{chapter.8}
+\contentsline {chapter}{Bibliography}{74}{section*.64}
+\contentsline {chapter}{\numberline {A}Jet radius discussion}{82}{appendix.A}
+\contentsline {chapter}{\numberline {B}Additional background processes}{83}{appendix.B}
+\contentsline {chapter}{\numberline {C}Softdrop mass}{84}{appendix.C}
+\contentsline {chapter}{\numberline {D}Samples generation: parameters}{85}{appendix.D}
+\contentsline {section}{\numberline {D.1}MadGraph}{85}{section.D.1}
+\contentsline {section}{\numberline {D.2}Pythia}{85}{section.D.2}
+\contentsline {chapter}{\numberline {E}Cutflow tables}{87}{appendix.E}
+\contentsline {chapter}{\numberline {F}Extra plots}{89}{appendix.F}
