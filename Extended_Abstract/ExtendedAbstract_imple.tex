@@ -78,7 +78,7 @@ This targets the boosted kinematic regime in which both Higgs bosons are reconst
 	\centering
 	\includegraphics[trim={4.5cm .5cm 1cm .5cm},clip,width=1.2\linewidth]{./images/boosted1.png}
 	\label{fig:boosted}
-	\caption{oi}
+	\caption{Event topology targeted by the boosted analysis region.}
 \end{figure}
 
 The events are reconstructed using particle flow (or calorimeter) jets with $R=0.8$ clustered with the anti-$k_T$ algorithm. The events are required to have at least two jets. Each jet is required to have two subjets, both b-tagged. In addition, both jets are required to have $p_T>200$ GeV. These cuts consist of the event pre-selection.
@@ -91,62 +91,101 @@ We require
 \begin{equation}
 	p_T(h_1)>300~\text{GeV}, \quad p_T(hh)>100 ~\text{GeV}
 \end{equation}
-where $p_T(h_1)$, $p_T(hh)$ are the transverse momentums of the leading Higgs candidate and of the pair of Higgs candidates.
+where $p_T(h_1)$, $p_T(hh)$ are the transverse momentums of the leading Higgs candidate and of the pair of Higgs candidates, whose distributions can be found in figures \ref{fig:pt_stack}(a) and \ref{fig:pt_stack}(b), respectively.
 These cuts help suppress multijet background whose $p_T$ distributions fall more steeply than for the signal. A requirement on the maximum value of the N-subjetiness variable of the leading and subleading Higgs candidates, $\tau_{21}(h_1,h_2)$ to further reject jets that are not consistent with a two-prong substructure:
 \begin{equation}
 	\tau_{21}(h_1,h_2)<0.4.
 \end{equation}
-These cuts work as a Higgs tagging criteria.
+These cuts work as a Higgs tagging criteria. The distribution of this variable for the leading Higgs is shown in figure \ref{fig:sub_stack}(a). For the signal, the distribution is shifted to lower values.
 Since high-mass resonances tend to produce more central jets than multijet background processes we require
 \begin{equation}
 	|\eta(hh)|<1.5.
 \end{equation}
+where $\Delta\eta(hh)$ is the difference between the pseudorapidities of the two Higgs candidates. The distribution is shown in figure \ref{fig:sub_stack}(b).
 We place an additional requirement on the second Fox Wolfram momentum of the leading Higgs candidate, $H_2(h_1)$, to further suppress $t\overline{t}$ contamination
 \begin{equation}
 	H_2(h_1)<0.2.
 \end{equation}
+This distribution is shown in figure \ref{fig:M_stack}(a) where it is visible the large contribution of the $t\overline{t}$ events for values close to zero. 
 Events are selected if the soft drop masses, $M_{SD}$, of the large-$R$ jets are consistent with the SM Higgs boson mass
 \begin{equation}
 	(100<M_{SD}(h_1,h_2)<135) ~\text{GeV}.
 \end{equation}
+This distribution is shown in figure \ref{fig:M_stack}(b).
+
+\subsection{Systematic uncertainties}
+
+The sources of systematic uncertainty considered are those affecting the signal b-tagging efficiency and the normalization of the backgrounds. These are the dominant uncertainties in the search for boosted $hh\rightarrow b\overline{b}b\overline{b}$ \cite{hh2bbbbATLAS1}. In the four b-tags signal region, the uncertainty on the b-tagging is of the order of $30\%$. For the normalization of the QCD multijet and $t\overline{t}$ backgrounds we consider uncertainties of $50\%$ and $20\%$, respectively \cite{FCCphysClement}.
+
+The b-tagging uncertainty is implemented by varying the number of signal events up and down by $30\%$. The normalization of the QCD multijet ($4b+j$ and $jj+0/1/2~j$) and $t\overline{t}$ is varied independently by the corresponding factors. The systematic uncertainties are considered to be uncorrelated and therefore their effects are added in quadrature.
 
 \begin{figure*}
 	\centering
 	\begin{minipage}{.5\textwidth}
 		\centering
-		\includegraphics[width=\linewidth]{./images/hist_h1_pt.pdf}
+		\includegraphics[width=\linewidth]{./images/hist_h1_pt_stack.pdf}
 	\end{minipage}%
 	\begin{minipage}{.5\textwidth}
 		\centering
-		\includegraphics[width=\linewidth]{./images/hist_hh_pt.pdf}
+		\includegraphics[width=\linewidth]{./images/hist_hh_pt_stack.pdf}
 	\end{minipage}
-	\caption{oi}
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(a)}
+		%\label{fig1}
+	\end{minipage}%%%
+	\hfill
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(b)}
+		%\label{fig2}
+	\end{minipage}
+	\caption{(a) $p_T$ distributions of the leading Higgs candidate, $p_T(h_1)$, after the pre-selection cuts, (b) $p_T$ distribution of the Higgs pair, $p_T(hh)$, after the cut on $p_T(h_1)>300$ GeV.}
+	\label{fig:pt_stack}
 \end{figure*}
 
 \begin{figure*}
 	\centering
 	\begin{minipage}{.5\textwidth}
 		\centering
-		\includegraphics[width=\linewidth]{./images/hist_h1_tau21.pdf}
+		\includegraphics[width=\linewidth]{./images/hist_h1_tau21_stack.pdf}
 	\end{minipage}%
 	\begin{minipage}{.5\textwidth}
 		\centering
-		\includegraphics[width=\linewidth]{./images/hist_hh_deltaEta.pdf}
+		\includegraphics[width=\linewidth]{./images/hist_hh_deltaEta_stack.pdf}
 	\end{minipage}
-	\caption{oi}
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(a)}
+		%\label{fig1}
+	\end{minipage}%%%
+	\hfill
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(b)}
+		%\label{fig2}
+	\end{minipage}
+	\caption{(a) $\tau_{21}$ distribution for the leading Higgs candidate, $\tau_{21}(h_1)$, after the cut on $p_T(hh)>100$ GeV, (b) Distribution of the $\Delta\eta$ between the two Higgs candidates, $\Delta\eta(hh)$, after the cuts on $\tau_{21}(h_1,h_2)<0.4$.}
+	\label{fig:sub_stack}
 \end{figure*}
 
 \begin{figure*}
 	\centering
 	\begin{minipage}{.5\textwidth}
 		\centering
-		\includegraphics[width=\linewidth]{./images/hist_h1_FW2.pdf}
+		\includegraphics[width=\linewidth]{./images/hist_h1_FW2_stack.pdf}
 	\end{minipage}%
 	\begin{minipage}{.5\textwidth}
 		\centering
-		\includegraphics[width=\linewidth]{./images/hist_h1_SD_M.pdf}
+		\includegraphics[width=\linewidth]{./images/hist_h1_softdrop_M_stack.pdf}
 	\end{minipage}
-	\caption{oi}
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(a)}
+		%\label{fig1}
+	\end{minipage}%%%
+	\hfill
+	\begin{minipage}[t]{0.5\textwidth}
+		\caption*{(b)}
+		%\label{fig2}
+	\end{minipage}
+	\caption{(a) Distribution of the second Fox-Wolfram momentum of the leading Higgs candidate, $H_2(h_1)$, after the cut $|\Delta\eta(hh)|<1.5$, (b) Softdrop mass distribution for the leading Higgs candidate, $M_{SD}(h_1)$, after the cut $H_2(h_1)>0.2$.}
+	\label{fig:M_stack}
 \end{figure*}
 
 %

@@ -27,44 +27,45 @@ The analyses described in section \ref{sec:imple} was developed and optimized us
 
 Considering the SM signal production the achieved significance is
 \begin{equation}
-	(S/\sqrt{B})_{SM}=6.8\pm0.7 ~(2.15\pm0.27) ~\text{[UPDATE]}
+	(S/\sqrt{B})_{SM}=8.8\pm 1.6~\text{(stat.)}~^{+4.4}_{-3.4}~\text{(sys.)}
 \end{equation}
-for an integrated luminosity of $30~(3)~\text{ab}^{-1}$. For the $1$ TeV DM mediator signal, the significance is $1.48 \pm 0.15~(0.47 \pm 0.05)$ for an integrated luminosity of $\mathcal{L}=30~(3)~\text{ab}^{-1}$ which make a not so interesting model from the point of view of enhancing Higgs pair production. For the 2HDM signal the achieved significance is 
-\begin{equation}
-(S/\sqrt{B})_{2HDM}=8.7 \pm 0.9~(2.76 \pm 0.28) ~\text{[UPDATE]}
-\end{equation}
-for $\mathcal{L}=30~(3)~\text{ab}^{-1}$.
+for an integrated luminosity of $30~\text{ab}^{-1}$. The value of the significance is above the observation threshold ($5\sigma$) which indicates that the full dataset that is expected to be accumulated in the FCC-hh should be enough to declare the observation (or to exclude) the production of Higgs pairs as predicted by the SM.
 
-The signal efficiency is higher for both BSM models than for the SM because the masses of the new heavy resonances were chosen to be large ($O(1 ~\text{TeV})$) to produce highly boosted Higgs pairs. For the SM the efficiency is $0.422\%$. It increases to $0.487\%$ for the DM mediator model and to $1.342$ for the 2HDM. 
+For the $1$ TeV DM mediator signal, the significance is $2.3\pm0.4~\text{(stat.)}~^{+1.2}_{-0.9}~\text{(sys.)}$ for $\mathcal{L}=30~\text{ab}^{-1}$ which make a challenging and probably inaccessible benchmark. For the 2HDM signal the achieved significance is 
+\begin{equation}
+	(S/\sqrt{B})_{2HDM}=16.9\pm 3.0~\text{(stat.)}~^{+8.5}_{-6.6}~\text{(sys.)}
+\end{equation}
+for $\mathcal{L}=30~\text{ab}^{-1}$, making it a very interesting benchmark model from the point of view of enhancing Higgs pair production with respect to the SM. 
+
+The signal efficiency is higher for both BSM models than for the SM because the masses of the new heavy resonances were chosen to be large ($O(1 ~\text{TeV})$) to produce highly boosted Higgs pairs. For the SM the efficiency is $0.446\%$. It increases to $0.487\%$ for the DM mediator model and to $1.666\%$ for the 2HDM. 
 
 \subsection{Granularity studies for future colliders}
 \label{sec:gran_studies}
 
-Figure \ref{fig:eff_gran} shows the signal efficiency (in percentage) as a function of the detector configuration. The left most point corresponds to the ATLAS detector and the right most point to the FCC-hh detector with a granularity twice as good in $\eta$ and $\phi$ (configuration 5 in table \ref{table:Gran}). The points in between are ordered by increasing granularity of the HCAL. All other plots that show some quantity as a function of detector configuration follow the same convention. For all signal models, the efficiency increases as the granularity of the HCAL increases. [QUANTIFY INCREASE IN PERCENTAGE].
+Figure \ref{fig:eff_gran} shows the signal efficiency (in percentage) as a function of the detector configuration. The left most point corresponds to the ATLAS detector and the right most point to the FCC-hh detector with a granularity twice as good in $\eta$ and $\phi$ (configuration 5 in table \ref{table:Gran}). The points in between are ordered by increasing granularity of the HCAL. All other plots that show some quantity as a function of detector configuration follow the same convention. For all signal models, the efficiency increases as the granularity of the HCAL increases. It increases by approximately $30\%$ from the first to the last points.
 
-Figures \ref{fig:SSB_gran} and \ref{fig:SSB_gran_2HDM} show the significance ($S/\sqrt{B}$) as a function of the detector configuration for the SM signal model and for the 2HDM, respectively. Triangular markers represent analysis that were performed using pure HCAL jets while square markers represent analysis performed using energy flow jets. The expected significance is shown for $\mathcal{L}=30~\text{ab}^{-1}$ (filled markers)
-and for $\mathcal{L}=30~\text{ab}^{-1}$ (empty markers). 
+Figures \ref{fig:SSB_gran} and \ref{fig:SSB_gran_2HDM} show the significance ($S/\sqrt{B}$) as a function of the detector configuration for the SM signal model and for the 2HDM, respectively. Triangular markers represent analysis that were performed using pure HCAL jets while square markers represent analysis performed using energy flow jets. 
 
-With the exception of some fluctuations, the significance increases as the granularity increases. For energy flow jets the change in significance is very mild. [QUNATIFY] It becomes more pronounced when using pure calorimeter jets. [QUANTIFY] However, when using calorimeter jets, the achieved significance is always smaller because we are not using information from the tracking system. This is verified for both the SM and 2HDM signals. These results indicate that when using energy flow jets the tracking system is dominating the reconstruction in terms of energy resolution.
+Although the uncertainties . For energy flow jets the change in significance is very mild. It varies by approximately $30\%$ between the first and last points, for both signal models. It becomes more pronounced when using pure calorimeter jets. It varies by approximately $70\%~(55\%)$ between the first and last points for the SM (2HDM) signal. However, when using calorimeter jets, the achieved significance is always smaller (for the same detector configuration) because we are not using information from the tracking system. This is verified for both the SM and 2HDM signals. These results indicate that when using energy flow jets the tracking system is dominating the jet reconstruction.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\linewidth]{./images/EffvsGran_PFjets.pdf}
+	\includegraphics[width=\linewidth]{./images/EffvsGran_PFjets_Opt.pdf}
+	\caption{Signal efficiency in percentage as a function of the detector configuration. The statistical error bars are drawn but are smaller than the markers.}
 	\label{fig:eff_gran}
-	\caption{oi}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\linewidth]{./images/SSBvsGran_SM.pdf}
+	\includegraphics[width=\linewidth]{./images/SSBvsGran_SM_Opt.pdf}
+	\caption{$S/\sqrt{B}$ as a function of the detector configuration for the SM signal model. The square (triangular) markers refer to values obtained using particle flow (calorimeter) jets.}
 	\label{fig:SSB_gran}
-	\caption{oi}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\linewidth]{./images/SSBvsGran_2HDM.pdf}
+	\includegraphics[width=\linewidth]{./images/SSBvsGran_2HDM_Opt.pdf}
+	\caption{$S/\sqrt{B}$ as a function of the detector configuration for the 2HDM signal model. The square (triangular) markers refer to values obtained using particle flow (calorimeter) jets.}
 	\label{fig:SSB_gran_2HDM}
-	\caption{oi}
 \end{figure}
 

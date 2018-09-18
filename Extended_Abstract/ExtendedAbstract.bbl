@@ -15,10 +15,10 @@ G.~A. et~al, \href{https://doi.org/10.1007/JHEP09(2013)076}{Performance of jet
 \newline\urlprefix\url{https://doi.org/10.1007/JHEP09(2013)076}
 
 \bibitem{ATLAShhComb}
-A.~Collaboration, \href{https://cds.cern.ch/record/2634999}{{Combination of
-  searches for Higgs boson pairs in $pp$ collisions at 13 TeV with the ATLAS
-  experiment.}}, Tech. Rep. ATLAS-COM-CONF-2018-048, CERN, Geneva (Aug 2018).
-\newline\urlprefix\url{https://cds.cern.ch/record/2634999}
+M.~Aaboud, et~al., {Combination of searches for heavy resonances decaying into
+  bosonic and leptonic final states using 36 fb$^{-1}$ of proton-proton
+  collision data at $\sqrt{s} = 13$ TeV with the ATLAS detector}\href
+  {http://arxiv.org/abs/1808.02380} {\path{arXiv:1808.02380}}.
 
 \bibitem{hhFeasibility}
 J.~K. Behr, D.~Bortoletto, J.~A. Frost, N.~P. Hartland, C.~Issever, J.~Rojo,
@@ -98,5 +98,17 @@ C.~Degrande, {Automatic evaluation of UV and R2 terms for beyond the Standard
 \newblock \href {http://arxiv.org/abs/1406.3030} {\path{arXiv:1406.3030}},
   \href {http://dx.doi.org/10.1016/j.cpc.2015.08.015}
   {\path{doi:10.1016/j.cpc.2015.08.015}}.
+
+\bibitem{hh2bbbbATLAS1}
+M.~Aaboud, et~al., {Search for pair production of Higgs bosons in the
+  $b\bar{b}b\bar{b}$ final state using proton-proton collisions at $\sqrt{s} =
+  13$ TeV with the ATLAS detector}\href {http://arxiv.org/abs/1804.06174}
+  {\path{arXiv:1804.06174}}.
+
+\bibitem{FCCphysClement}
+C.~Helsens,
+  \href{https://indico.cern.ch/event/704428/contributions/2957537/attachments/1627728/2594323/Resonances_FCC_hh_helsens.pdf}{Heavy
+  resonances at 100tev} (2018).
+\newline\urlprefix\url{https://indico.cern.ch/event/704428/contributions/2957537/attachments/1627728/2594323/Resonances_FCC_hh_helsens.pdf}
 
 \end{thebibliography}
