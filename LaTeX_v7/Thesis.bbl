@@ -1,4 +1,4 @@
-\begin{thebibliography}{101}
+\begin{thebibliography}{102}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -245,11 +245,12 @@ M.~Aaboud et~al.
   quark pair at the LHC with the ATLAS detector}.
 \newblock 2018{\natexlab{a}}.
 
-\bibitem[ATL(2017)]{ATLAShMass}
+\bibitem[ATL(2017{\natexlab{a}})]{ATLAShMass}
 {Measurement of the Higgs boson mass in the $H\rightarrow ZZ^*\rightarrow
   4\ell$ and $H\rightarrow\gamma\gamma$ channels with $\sqrt{s}$=13TeV $pp$
   collisions using the ATLAS detector}.
-\newblock Technical Report ATLAS-CONF-2017-046, CERN, Geneva, Jul 2017.
+\newblock Technical Report ATLAS-CONF-2017-046, CERN, Geneva, Jul
+  2017{\natexlab{a}}.
 \newblock URL \url{http://cds.cern.ch/record/2273853}.
 
 \bibitem[Aad et~al.(2015{\natexlab{a}})]{hMass}
@@ -400,6 +401,13 @@ N.~Arkani-Hamed, T.~Han, M.~Mangano, and L.-T. Wang.
 \newblock \emph{Phys. Rept.}, 652:\penalty0 1--49, 2016.
 \newblock \doi{10.1016/j.physrep.2016.07.004}.
 
+\bibitem[Banerjee et~al.(2018)Banerjee, Englert, Mangano, Selvaggi, and
+  Spannowsky]{hh+jet_100TeV}
+S.~Banerjee, C.~Englert, M.~L. Mangano, M.~Selvaggi, and M.~Spannowsky.
+\newblock {$hh+\text{jet}$ production at 100 TeV}.
+\newblock \emph{Eur. Phys. J.}, C78\penalty0 (4):\penalty0 322, 2018.
+\newblock \doi{10.1140/epjc/s10052-018-5788-y}.
+
 \bibitem[{C. Helsens}(2017)]{FCCgen}
 {C. Helsens}.
 \newblock Fcc/he-lhc physics/performance studies towards the cdr.
@@ -435,15 +443,6 @@ T.~an~FCC-hh Detector Magnet~System.
 \newblock
   \textsc{url:}~\url{https://indico.ihep.ac.cn/event/6387/session/14/contribution/117/material/slides/0.pdf},
   2017.
-
-\bibitem[Baglio et~al.(2013)Baglio, Djouadi, Gröber, Mühlleitner, Quevillon,
-  and Spira]{higgsCrossSection}
-J.~Baglio, A.~Djouadi, R.~Gröber, M.~M. Mühlleitner, J.~Quevillon, and
-  M.~Spira.
-\newblock {The measurement of the Higgs self-coupling at the LHC: theoretical
-  status}.
-\newblock \emph{JHEP}, 04:\penalty0 151, 2013.
-\newblock \doi{10.1007/JHEP04(2013)151}.
 
 \bibitem[Aaboud et~al.(2016)]{hh2bbbbATLAS}
 M.~Aaboud et~al.
@@ -525,12 +524,18 @@ J.~K. Behr, D.~Bortoletto, J.~A. Frost, N.~P. Hartland, C.~Issever, and
 \newblock \emph{Eur. Phys. J.}, C76\penalty0 (7):\penalty0 386, 2016.
 \newblock \doi{10.1140/epjc/s10052-016-4215-5}.
 
-\bibitem[Banerjee et~al.(2018)Banerjee, Englert, Mangano, Selvaggi, and
-  Spannowsky]{hh+jet_100TeV}
-S.~Banerjee, C.~Englert, M.~L. Mangano, M.~Selvaggi, and M.~Spannowsky.
-\newblock {$hh+\text{jet}$ production at 100 TeV}.
-\newblock \emph{Eur. Phys. J.}, C78\penalty0 (4):\penalty0 322, 2018.
-\newblock \doi{10.1140/epjc/s10052-018-5788-y}.
+\bibitem[ATL(2017{\natexlab{b}})]{ATLAShh2bbAA_HL}
+{Study of the double Higgs production channel $H(\rightarrow
+  b\bar{b})H(\rightarrow \gamma\gamma)$ with the ATLAS experiment at the
+  HL-LHC}.
+\newblock Technical Report ATL-PHYS-PUB-2017-001, CERN, Geneva, Jan
+  2017{\natexlab{b}}.
+\newblock URL \url{https://cds.cern.ch/record/2243387}.
+
+\bibitem[CMS(2015)]{CMShh2bbAA_HL}
+{Higgs pair production at the High Luminosity LHC}.
+\newblock Technical Report CMS-PAS-FTR-15-002, CERN, Geneva, 2015.
+\newblock URL \url{https://cds.cern.ch/record/2063038}.
 
 \bibitem[Hartland(2016)]{hhFeasibility1_100TeV}
 N.~P. Hartland.
@@ -681,12 +686,11 @@ C.~Patrignani et~al.
 \newblock \emph{Chin. Phys.}, C40\penalty0 (10):\penalty0 100001, 2016.
 \newblock \doi{10.1088/1674-1137/40/10/100001}.
 
-\bibitem[Aaboud et~al.(2018{\natexlab{e}})]{hh2bbbbATLAS1}
-M.~Aaboud et~al.
-\newblock {Search for pair production of Higgs bosons in the $b\bar{b}b\bar{b}$
-  final state using proton-proton collisions at $\sqrt{s} = 13$ TeV with the
-  ATLAS detector}.
-\newblock 2018{\natexlab{e}}.
+\bibitem[Sjostrand et~al.(2006)Sjostrand, Mrenna, and Skands]{Pythia6manual}
+T.~Sjostrand, S.~Mrenna, and P.~Z. Skands.
+\newblock {PYTHIA 6.4 Physics and Manual}.
+\newblock \emph{JHEP}, 05:\penalty0 026, 2006.
+\newblock \doi{10.1088/1126-6708/2006/05/026}.
 
 \bibitem[Helsens(2018)]{FCCphysClement}
 C.~Helsens.

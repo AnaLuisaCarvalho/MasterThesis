@@ -8,35 +8,36 @@ Unbalanced braces---line 743 of file Thesis_bib_DB.bib
  :                                                  }",
 I'm skipping whatever remains of this entry
 Warning--entry type for "rute" isn't style-file defined
---line 1617 of file Thesis_bib_DB.bib
-"{" immediately follows a field part---line 1702 of file Thesis_bib_DB.bib
+--line 1633 of file Thesis_bib_DB.bib
+"{" immediately follows a field part---line 1718 of file Thesis_bib_DB.bib
  : url= \url
  :          {https://indico.cern.ch/event/438866/contributions/1085149/attachments/1256884/1855819/FCCweek_2016_Rome_April.pdf},
 I'm skipping whatever remains of this entry
-"{" immediately follows a field part---line 1710 of file Thesis_bib_DB.bib
+"{" immediately follows a field part---line 1726 of file Thesis_bib_DB.bib
  : url= \url
  :          {https://indico.cern.ch/event/579660/contributions/2575089/attachments/1495811/2327298/BOOST2017_hcal.pdf},
 I'm skipping whatever remains of this entry
-"{" immediately follows a field part---line 1718 of file Thesis_bib_DB.bib
+"{" immediately follows a field part---line 1734 of file Thesis_bib_DB.bib
  : url= \url
  :          {https://indico.cern.ch/event/340703/contributions/802259/attachments/668834/919361/PhysicsRequirementsFCC_2015DC.pdf},
 I'm skipping whatever remains of this entry
 Warning--entry type for "running_coupling" isn't style-file defined
---line 1863 of file Thesis_bib_DB.bib
+--line 1879 of file Thesis_bib_DB.bib
 Warning--entry type for "FCCmag" isn't style-file defined
---line 1951 of file Thesis_bib_DB.bib
-I was expecting a `,' or a `}'---line 1976 of file Thesis_bib_DB.bib
+--line 1967 of file Thesis_bib_DB.bib
+I was expecting a `,' or a `}'---line 1992 of file Thesis_bib_DB.bib
  :       title         = "
  :                        {Searches for Higgs boson pair production in the $hh\to
 I'm skipping whatever remains of this entry
-Repeated entry---line 2010 of file Thesis_bib_DB.bib
+Repeated entry---line 2026 of file Thesis_bib_DB.bib
  : @online{DM
  :           ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "2HDM" isn't style-file defined
---line 2018 of file Thesis_bib_DB.bib
+--line 2034 of file Thesis_bib_DB.bib
 Warning--entry type for "FCCphysClement" isn't style-file defined
---line 2103 of file Thesis_bib_DB.bib
+--line 2119 of file Thesis_bib_DB.bib
+Warning--I didn't find a database entry for "hh2bbbbATLAS1"
 Warning--empty journal in DM
 Warning--empty journal in BSM_motivation
 Warning--empty journal in 2HDMpedro
@@ -58,52 +59,53 @@ Warning--empty title in ATLAShhBSMcomb
 Warning--empty journal in ATLAShhBSMcomb
 Warning--empty year in ATLAShhBSMcomb
 Warning--empty year in ATLAShhBSMcomb
+Warning--empty author in ATLAShh2bbAA_HL
+Warning--empty author in CMShh2bbAA_HL
 Warning--empty title in MG5
 Warning--empty journal in MG5
 Warning--empty year in MG5
 Warning--empty year in MG5
 Warning--empty author in PF2
 Warning--empty journal in HiggsHandbook
-Warning--empty journal in hh2bbbbATLAS1
-You've used 101 entries,
+You've used 102 entries,
             2481 wiz_defined-function locations,
-            1197 strings with 22454 characters,
-and the built_in function-call counts, 34962 in all, are:
-= -- 3050
-> -- 1613
-< -- 77
-+ -- 676
-- -- 462
-* -- 2574
-:= -- 5673
-add.period$ -- 379
-call.type$ -- 101
-change.case$ -- 199
-chr.to.int$ -- 89
-cite$ -- 137
-duplicate$ -- 1794
-empty$ -- 3250
-format.name$ -- 606
-if$ -- 7460
+            1207 strings with 22509 characters,
+and the built_in function-call counts, 35040 in all, are:
+= -- 3076
+> -- 1580
+< -- 78
++ -- 668
+- -- 452
+* -- 2590
+:= -- 5668
+add.period$ -- 382
+call.type$ -- 102
+change.case$ -- 201
+chr.to.int$ -- 90
+cite$ -- 141
+duplicate$ -- 1806
+empty$ -- 3268
+format.name$ -- 594
+if$ -- 7483
 int.to.chr$ -- 13
-int.to.str$ -- 102
-missing$ -- 76
-newline$ -- 588
-num.names$ -- 279
-pop$ -- 741
+int.to.str$ -- 103
+missing$ -- 75
+newline$ -- 593
+num.names$ -- 276
+pop$ -- 740
 preamble$ -- 1
-purify$ -- 101
+purify$ -- 102
 quote$ -- 0
-skip$ -- 1070
+skip$ -- 1073
 stack$ -- 0
-substring$ -- 1194
-swap$ -- 229
-text.length$ -- 11
+substring$ -- 1198
+swap$ -- 234
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 704
-warning$ -- 28
-while$ -- 248
+type$ -- 711
+warning$ -- 29
+while$ -- 246
 width$ -- 0
-write$ -- 1437
+write$ -- 1454
 (There were 6 error messages)

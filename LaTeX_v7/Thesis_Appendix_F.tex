@@ -11,17 +11,27 @@
 \chapter{Extra plots}
 \label{chapter:extra_plots}
 
-\begin{figure}
+\begin{figure}[h]
+	\centering
+		\centering
+		\includegraphics[trim={.65cm 0 0 0},clip,width=0.5\linewidth]{./Figures/hist_h2_tau21_stack.pdf}
+		%\caption{oi}
+		%\label{fig:h1_pt}
+	\caption{$\tau_{21}$ distribution for the sub leading Higgs candidate for the baseline analysis. The histogram is normalized to $\mathcal{L}=30~\text{ab}^{-1}$.}
+	\label{fig:tau21_h2_stack}
+\end{figure} 
+
+\begin{figure}[h]
 	\centering
 	\begin{minipage}{.5\textwidth}
 		\centering
-		\includegraphics[trim={.65cm 0 0 0},clip,width=\linewidth]{./Figures/hist_h2_tau21_stack.pdf}
+		\includegraphics[trim={.65cm 0 0 0},clip,width=\linewidth]{./Figures/tau21_jj.pdf}
 		%\caption{oi}
 		%\label{fig:h1_pt}
 	\end{minipage}%
 	\begin{minipage}{.5\textwidth}
 		\centering
-		%\includegraphics[trim={0 0 .65cm 0},clip,width=\linewidth]{./Figures/hist_h2_tau21_stack.pdf}
+		\includegraphics[trim={0 0 .65cm 0},clip,width=\linewidth]{./Figures/tau21CALO_jj.pdf}
 		%\caption{oi}
 		%\label{fig:h2_pt}
 	\end{minipage}
@@ -34,8 +44,8 @@
 		\caption*{(b)}
 		%\label{fig2}
 	\end{minipage}
-	\caption{. The histograms are normalized to $\mathcal{L}=30~\text{ab}^{-1}$.}
-	\label{fig:tau21_h2_stack}
+	\caption{(a) Leading Higgs candidate $\tau_{21}$ distribution for eflow jets and for HCAL jets (b). The colors indicate the different detector configurations. The distributions are shown for the signal (filled lines) and for the $jj+0/1/2~j$ background (dashed lines).}
+	\label{fig:tau_sep_jj}
 \end{figure} 
 	
 

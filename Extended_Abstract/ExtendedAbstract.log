@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2017.11.27)  18 SEP 2018 15:53
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2017.11.27)  19 SEP 2018 18:35
  restricted \write18 enabled.
 **ExtendedAbstract.tex
 (./ExtendedAbstract.tex
@@ -855,27 +855,22 @@ Underfull \hbox (badness 1308) in paragraph at lines 28--29
  []
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 28--29
+Underfull \hbox (badness 2229) in paragraph at lines 28--29
 \OT1/cmr/m/n/10 HCAL(ECAL) $0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 05(0\OML/cmm/m/i
 t/10 :\OT1/cmr/m/n/10 012)\OML/cmm/m/it/10  \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10
- 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 8(0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 7)\OML
-/cmm/m/it/10 deg$ \OT1/cmr/m/n/10 and
+ 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 05(0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 012)\
+OML/cmm/m/it/10 $ \OT1/cmr/m/n/10 and
  []
 
-) (./ExtendedAbstract_imple.tex
-Underfull \vbox (badness 5787) has occurred while \output is active []
+) (./ExtendedAbstract_imple.tex [3]
+Underfull \hbox (badness 1824) in paragraph at lines 35--37
+[][]\OT1/cmr/m/n/10 The BSM sig-nal sam-ples are sim-u-lated us-
+ []
 
- [3]
+
 Underfull \hbox (badness 1748) in paragraph at lines 40--41
 [][]\OT1/cmr/m/n/10 Dif-fer-ent de-tec-tor con-fig-u-ra-tions were im-ple-
  []
-
-
-Package caption Warning: \label without proper reference on input line 80.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:boosted' on page 4 undefined on input line 75.
 
 <./images/boosted1.png, id=83, 778.8297pt x 385.44pt>
 File: ./images/boosted1.png Graphic file (type png)
@@ -884,7 +879,7 @@ File: ./images/boosted1.png Graphic file (type png)
 Package pdftex.def Info: ./images/boosted1.png used on input line 79.
 (pdftex.def)             Requested size: 267.14577pt x 153.24551pt.
 
-Overfull \hbox (44.52373pt too wide) in paragraph at lines 79--81
+Overfull \hbox (44.52373pt too wide) in paragraph at lines 79--80
  [][][] 
  []
 
@@ -892,7 +887,6 @@ Overfull \hbox (44.52373pt too wide) in paragraph at lines 79--81
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4
-Missing character: There is no φ (U+03C6) in font cmr10!
 Missing character: There is no ’ (U+2019) in font cmr10!
 ] <./images/hist_h1_pt_stack.pdf, id=90, 569.12625pt x 385.44pt>
 File: ./images/hist_h1_pt_stack.pdf Graphic file (type pdf)
@@ -1121,11 +1115,7 @@ butions/2957537/attachments/1627728/2594323/Resonances$[][]\OML/cmm/m/it/10 CC[
 
 ) [9
 
-] (./ExtendedAbstract.aux)
-
-LaTeX Warning: There were undefined references.
-
-)
+] (./ExtendedAbstract.aux))
 
 Here is how much of LuaTeX's memory you used:
  19905 strings out of 495004
@@ -1133,10 +1123,10 @@ Here is how much of LuaTeX's memory you used:
  504 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 8 kern, 1 glyph, 50 glue_spec, 1 write node
 s
-   avail lists: 1:8,2:41,3:824,4:2641,5:344,6:5723,7:478,8:2,9:438,10:542
+   avail lists: 1:8,2:41,3:824,4:2642,5:357,6:5662,7:480,8:2,9:438,10:531
  22479 multiletter control sequences out of 65536+600000
  66 fonts using 2603987 bytes
- 58i,13n,98p,1995b,1585s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 58i,13n,98p,2001b,1585s stack positions out of 5000i,500n,10000p,200000b,100000s
 <</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><</usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><</usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><</usr/share/texliv
@@ -1158,7 +1148,7 @@ ublic/amsfonts/cm/cmsy7.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy9.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmti10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 tt10.pfb>
-Output written on ExtendedAbstract.pdf (9 pages, 712371 bytes).
+Output written on ExtendedAbstract.pdf (9 pages, 712986 bytes).
 
 PDF statistics: 602 PDF objects out of 1000 (max. 8388607)
  301 compressed objects within 4 object streams

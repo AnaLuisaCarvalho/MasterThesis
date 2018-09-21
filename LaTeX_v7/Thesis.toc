@@ -3,8 +3,8 @@
 \contentsline {section}{Resumo}{iv}{section*.2}
 \contentsline {section}{Abstract}{v}{section*.3}
 \contentsline {section}{List of Tables}{xi}{section*.5}
-\contentsline {section}{List of Figures}{xiii}{section*.7}
-\contentsline {section}{Glossary}{xvi}{section*.9}
+\contentsline {section}{List of Figures}{xiv}{section*.7}
+\contentsline {section}{Glossary}{xvii}{section*.9}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}The standard model and beyond}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Standard Model of Particle Physics}{4}{section.2.1}
@@ -19,50 +19,50 @@
 \contentsline {section}{\numberline {3.3}Jet reconstruction}{23}{section.3.3}
 \contentsline {subsubsection}{Boosted kinematic regime}{24}{section*.21}
 \contentsline {subsection}{\numberline {3.3.1}Jet properties and substructure observables}{25}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Jet grooming algorithms}{27}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}Jet grooming algorithms}{26}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}Future Colliders}{27}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}The hadronic Future Circular Collider}{28}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}FCC-hh baseline detector}{29}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}FCC-hh physics program}{29}{subsection.3.4.3}
-\contentsline {chapter}{\numberline {4}State of the art}{32}{chapter.4}
-\contentsline {section}{\numberline {4.1}Searches for Higgs pair production at the LHC}{32}{section.4.1}
-\contentsline {section}{\numberline {4.2}Feasibility studies for high-luminosity and future colliders}{34}{section.4.2}
-\contentsline {section}{\numberline {4.3}Hadronic calorimeter granularity studies}{35}{section.4.3}
-\contentsline {chapter}{\numberline {5}Sample generation and analysis tools}{39}{chapter.5}
-\contentsline {section}{\numberline {5.1}Fast simulation workflow}{39}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Particle flow and calorimeter reconstruction in Delphes}{40}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}FCC-hh software}{41}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}Signal and background samples}{42}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}MadGraph}{42}{subsection.5.2.1}
-\contentsline {subsubsection}{Signal samples - BSM}{43}{section*.30}
-\contentsline {subsection}{\numberline {5.2.2}Pythia}{44}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Delphes}{45}{subsection.5.2.3}
-\contentsline {chapter}{\numberline {6}Analysis}{48}{chapter.6}
-\contentsline {section}{\numberline {6.1}Overview of the $hh\rightarrow b\overline {b}b\overline {b}$ channel}{48}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Event pre-selection}{48}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Signal characterization}{49}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Backgrounds}{50}{subsection.6.1.3}
-\contentsline {section}{\numberline {6.2}Analysis strategy}{54}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Implementation of b-tagging}{54}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Baseline analysis}{55}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Optimization}{56}{subsection.6.2.3}
-\contentsline {subsection}{\numberline {6.2.4}Handling of uncertainties}{60}{subsection.6.2.4}
-\contentsline {subsubsection}{Statistical uncertainties}{60}{section*.49}
-\contentsline {subsubsection}{Systematic uncertainties}{60}{section*.50}
-\contentsline {subsection}{\numberline {6.2.5}Trigger discussion}{61}{subsection.6.2.5}
-\contentsline {chapter}{\numberline {7}Results}{63}{chapter.7}
-\contentsline {section}{\numberline {7.1}Di-Higgs discovery potential at the FCC-hh}{63}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Comparing with the ATLAS detector}{64}{subsection.7.1.1}
-\contentsline {section}{\numberline {7.2}Hadronic calorimeter granularity studies for future colliders}{65}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Resolution of jet mass and N-subjetiness}{65}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Signal efficiency and significance}{68}{subsection.7.2.2}
-\contentsline {chapter}{\numberline {8}Conclusions}{73}{chapter.8}
-\contentsline {chapter}{Bibliography}{75}{section*.64}
-\contentsline {chapter}{\numberline {A}Jet radius discussion}{83}{appendix.A}
-\contentsline {chapter}{\numberline {B}Additional background processes}{84}{appendix.B}
-\contentsline {chapter}{\numberline {C}Softdrop mass}{85}{appendix.C}
-\contentsline {chapter}{\numberline {D}Samples generation: parameters}{86}{appendix.D}
-\contentsline {section}{\numberline {D.1}MadGraph}{86}{section.D.1}
-\contentsline {section}{\numberline {D.2}Pythia}{86}{section.D.2}
-\contentsline {chapter}{\numberline {E}Cutflow tables}{88}{appendix.E}
-\contentsline {chapter}{\numberline {F}Extra plots}{91}{appendix.F}
+\contentsline {subsection}{\numberline {3.4.1}The hadronic Future Circular Collider}{27}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}FCC-hh baseline detector}{28}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}FCC-hh physics program}{30}{subsection.3.4.3}
+\contentsline {chapter}{\numberline {4}State of the art}{31}{chapter.4}
+\contentsline {section}{\numberline {4.1}Searches for Higgs pair production at the LHC}{31}{section.4.1}
+\contentsline {section}{\numberline {4.2}Feasibility studies for high-luminosity and future colliders}{32}{section.4.2}
+\contentsline {section}{\numberline {4.3}Hadronic calorimeter granularity studies}{34}{section.4.3}
+\contentsline {chapter}{\numberline {5}Sample generation and analysis tools}{37}{chapter.5}
+\contentsline {section}{\numberline {5.1}Fast simulation workflow}{37}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Particle flow and calorimeter reconstruction in Delphes}{38}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}FCC-hh software}{39}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Signal and background samples}{40}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}MadGraph}{40}{subsection.5.2.1}
+\contentsline {subsubsection}{Signal samples - BSM}{41}{section*.30}
+\contentsline {subsection}{\numberline {5.2.2}Pythia}{42}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Delphes}{43}{subsection.5.2.3}
+\contentsline {chapter}{\numberline {6}Analysis}{46}{chapter.6}
+\contentsline {section}{\numberline {6.1}Overview of the $hh\rightarrow b\overline {b}b\overline {b}$ channel}{46}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Event pre-selection}{46}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Signal characterization}{47}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Backgrounds}{48}{subsection.6.1.3}
+\contentsline {section}{\numberline {6.2}Analysis strategy}{52}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Implementation of b-tagging}{52}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Baseline analysis}{53}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Optimization}{54}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Handling of uncertainties}{58}{subsection.6.2.4}
+\contentsline {subsubsection}{Statistical uncertainties}{58}{section*.49}
+\contentsline {subsubsection}{Systematic uncertainties}{58}{section*.50}
+\contentsline {subsection}{\numberline {6.2.5}Trigger discussion}{59}{subsection.6.2.5}
+\contentsline {chapter}{\numberline {7}Results}{61}{chapter.7}
+\contentsline {section}{\numberline {7.1}Di-Higgs discovery potential at the FCC-hh}{61}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Comparing with the ATLAS detector}{62}{subsection.7.1.1}
+\contentsline {section}{\numberline {7.2}Hadronic calorimeter granularity studies for future colliders}{63}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Resolution of jet mass and N-subjetiness}{63}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Signal efficiency and significance}{66}{subsection.7.2.2}
+\contentsline {chapter}{\numberline {8}Conclusions}{71}{chapter.8}
+\contentsline {chapter}{Bibliography}{73}{section*.64}
+\contentsline {chapter}{\numberline {A}Jet radius discussion}{81}{appendix.A}
+\contentsline {chapter}{\numberline {B}Additional background processes}{82}{appendix.B}
+\contentsline {chapter}{\numberline {C}Softdrop mass}{83}{appendix.C}
+\contentsline {chapter}{\numberline {D}Samples generation: parameters}{84}{appendix.D}
+\contentsline {section}{\numberline {D.1}MadGraph}{84}{section.D.1}
+\contentsline {section}{\numberline {D.2}Pythia}{84}{section.D.2}
+\contentsline {chapter}{\numberline {E}Cutflow tables}{86}{appendix.E}
+\contentsline {chapter}{\numberline {F}Extra plots}{100}{appendix.F}
