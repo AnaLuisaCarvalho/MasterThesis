@@ -62,6 +62,12 @@ S.~Chekanov, {Physics requirements for a Hadron Calorimeter for a 100 TeV
 S.~Chekanov, {Simulation of a high-granular hadronic calorimeter for multi-TeV
   physics}, fCC week 2016 (2016).
 
+\bibitem{hh2bbbbATLAS1}
+M.~Aaboud, et~al., {Search for pair production of Higgs bosons in the
+  $b\bar{b}b\bar{b}$ final state using proton-proton collisions at $\sqrt{s} =
+  13$ TeV with the ATLAS detector}\href {http://arxiv.org/abs/1804.06174}
+  {\path{arXiv:1804.06174}}.
+
 \bibitem{MG5}
 J.~Alwall, M.~Herquet, F.~Maltoni, O.~Mattelaer, T.~Stelzer.
 
@@ -98,12 +104,6 @@ C.~Degrande, {Automatic evaluation of UV and R2 terms for beyond the Standard
 \newblock \href {http://arxiv.org/abs/1406.3030} {\path{arXiv:1406.3030}},
   \href {http://dx.doi.org/10.1016/j.cpc.2015.08.015}
   {\path{doi:10.1016/j.cpc.2015.08.015}}.
-
-\bibitem{hh2bbbbATLAS1}
-M.~Aaboud, et~al., {Search for pair production of Higgs bosons in the
-  $b\bar{b}b\bar{b}$ final state using proton-proton collisions at $\sqrt{s} =
-  13$ TeV with the ATLAS detector}\href {http://arxiv.org/abs/1804.06174}
-  {\path{arXiv:1804.06174}}.
 
 \bibitem{FCCphysClement}
 C.~Helsens,

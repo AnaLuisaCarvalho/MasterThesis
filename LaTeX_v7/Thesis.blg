@@ -37,7 +37,6 @@ Warning--entry type for "2HDM" isn't style-file defined
 --line 2034 of file Thesis_bib_DB.bib
 Warning--entry type for "FCCphysClement" isn't style-file defined
 --line 2119 of file Thesis_bib_DB.bib
-Warning--I didn't find a database entry for "hh2bbbbATLAS1"
 Warning--empty journal in DM
 Warning--empty journal in BSM_motivation
 Warning--empty journal in 2HDMpedro
@@ -67,45 +66,46 @@ Warning--empty year in MG5
 Warning--empty year in MG5
 Warning--empty author in PF2
 Warning--empty journal in HiggsHandbook
-You've used 102 entries,
+Warning--empty journal in hh2bbbbATLAS1
+You've used 103 entries,
             2481 wiz_defined-function locations,
-            1207 strings with 22509 characters,
-and the built_in function-call counts, 35040 in all, are:
-= -- 3076
-> -- 1580
-< -- 78
-+ -- 668
-- -- 452
-* -- 2590
-:= -- 5668
-add.period$ -- 382
-call.type$ -- 102
-change.case$ -- 201
+            1208 strings with 22669 characters,
+and the built_in function-call counts, 35336 in all, are:
+= -- 3100
+> -- 1595
+< -- 79
++ -- 675
+- -- 456
+* -- 2606
+:= -- 5715
+add.period$ -- 385
+call.type$ -- 103
+change.case$ -- 203
 chr.to.int$ -- 90
-cite$ -- 141
-duplicate$ -- 1806
-empty$ -- 3268
-format.name$ -- 594
-if$ -- 7483
-int.to.chr$ -- 13
-int.to.str$ -- 103
-missing$ -- 75
-newline$ -- 593
-num.names$ -- 276
-pop$ -- 740
+cite$ -- 143
+duplicate$ -- 1824
+empty$ -- 3296
+format.name$ -- 600
+if$ -- 7546
+int.to.chr$ -- 14
+int.to.str$ -- 104
+missing$ -- 76
+newline$ -- 598
+num.names$ -- 279
+pop$ -- 751
 preamble$ -- 1
-purify$ -- 102
+purify$ -- 103
 quote$ -- 0
-skip$ -- 1073
+skip$ -- 1084
 stack$ -- 0
-substring$ -- 1198
-swap$ -- 234
+substring$ -- 1200
+swap$ -- 236
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 711
-warning$ -- 29
-while$ -- 246
+type$ -- 718
+warning$ -- 30
+while$ -- 248
 width$ -- 0
-write$ -- 1454
+write$ -- 1465
 (There were 6 error messages)

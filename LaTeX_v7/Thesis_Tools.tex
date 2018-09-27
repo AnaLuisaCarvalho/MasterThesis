@@ -31,7 +31,7 @@ Pythia8 is frequently used for event generation in high energy physics. In this 
 
 Delphes3 allows for a quick and simple simulation of the detector's response \cite{Delphes}. Its goal is to allow the fast simulation of a multipurpose detector for phenomenological studies. The simulation includes a track propagation system, electromagnetic and hadronic calorimeters and a muon identification system. Low level physics objects, such as tracks and energy deposits, and high level physics objects, such as leptons and jets, are reconstructed from the detector's response and can be used to perform physics analysis. In the following paragraphs we briefly describe how the detector response is simulated and how jet reconstruction is performed.  
 
-The magnetic field is uniform, axial and parallel to the beam direction. Charged particles follow a helicoidal trajectory from the interaction point to the calorimeter while neutral particles have a straight line trajectory. The probability of a charged particle being reconstructed as a track is defined by the user. Only a smearing in the modulus of the transverse momentum is applied (not to the direction). The tracking efficiency as well as energy and momentum resolutions are specified by the user and may include a dependency on the particle type, momentum and pseudorapidity. The calorimeters have a finite segmentation in the $(\eta,\phi)$ plane and the cell size can be defined in the configuration file. The amount of energy deposited in the calorimeters by each particle type can be defined by the user. By default, stable hadrons deposit all their energy in the HCAL although in a real detector a significant fraction of their energy is deposited in the ECAL. The energy resolution of the ECAL and HCAL are parameterized as a function of $\eta$ and include stochastic, noise and constant terms: $\sigma (E)/E=a/\sqrt{E}\bigoplus b$ . The electromagnetic and hadronic energy deposits are independently smeared by log-normal distributions. 
+The magnetic field is uniform, axial and parallel to the beam direction. Charged particles follow a helicoidal trajectory from the interaction point to the calorimeters while neutral particles have a straight line trajectory. The probability of a charged particle being reconstructed as a track is defined by the user. Only a smearing in the modulus of the transverse momentum is applied (not to the direction). The tracking efficiency as well as energy and momentum resolutions are specified by the user and may include a dependency on the particle type, momentum and pseudorapidity. The calorimeters have a finite segmentation in the $(\eta,\phi)$ plane and the cell size can be defined in the configuration file. The amount of energy deposited in the calorimeters by each particle type can be defined by the user. By default, stable hadrons deposit all their energy in the HCAL although in a real detector a significant fraction of their energy is deposited in the ECAL. The energy resolution of the ECAL and HCAL are parameterized as a function of $\eta$ and include stochastic, noise and constant terms: $\sigma (E)/E=a/\sqrt{E}\bigoplus b$ . The electromagnetic and hadronic energy deposits are independently smeared by log-normal distributions. 
 
 Jets can be produced using generator level long-lived particles after showering and hadronization, tracks, calorimeter towers or particle-flow tracks and towers. These are referred to as generator, track, calorimeter or particle-flow jets, respectively. For generator level jets no detector simulation nor reconstruction are taken into account. In spite of the type of jet, the user can choose the jet clustering algorithm and the values of its parameters as well as the minimum transverse momentum of the jets that are stored in the final collection. Delphes integrates the FastJet package \cite{fastjet} and therefore allows jet reconstruction with the most popular jet reconstruction algorithms, namely, anti-$k_T$, $k_T$ and Cambridge-Aachen (C/A). 
 Jets resulting from the hadronization of a b quark (known as b jets), are identified if a b quark is found within a $\Delta R$ distance from the jet's axis. The tagging efficiency and mis-tagging probabilities can be defined by the user. 
@@ -53,7 +53,7 @@ Then it defines $\Delta_{\text{ECAL}}=E_{\text{ECAL}}-E_{\text{ECAL,trk}}$, $\De
 \begin{equation}
 	E^{eflow}_{Tower}=\max(0,\Delta_{\text{ECAL}})+\max(0,\Delta_{\text{HCAL}}).
 \end{equation}
-All reconstructed tracks result in a particle flow track. If $E^{eflow}_{Tower}>0$ a particle flow tower is created with energy $E^{eflow}_{Tower}$. The particle flow tracks and jets are then used as input for the jet clustering algorithms.
+All reconstructed tracks result in a particle flow track. If $E^{eflow}_{Tower}>0$ a particle flow tower is created with energy $E^{eflow}_{Tower}$. The particle flow tracks and towers are then used as input for the jet clustering algorithms.
 
 \subsection{FCC-hh software}
 \label{subsec:FCC_software}
@@ -109,7 +109,7 @@ Both models are readily available in Feynrules \cite{Feynrules} model database a
 
 For the DM model \cite{DM}, the spin 0 mediator's mass is set at $1$ TeV. The cross section for the signal generated with this model is smaller than the cross section of the SM signal (approximately $0.2$ pb \textit{versus} $0.7$ pb) and therefore this model is not excluded by experimental data.
 
-For the 2HDM \cite{2HDM,2HDM1}, a finer tuning of the parameters is required because the model is very general and has a lot external free parameters. In addition, it is written in the Higgs basis such that we need to convert the parameters from the physical basis (introduced in section \ref{section:BSM}) to this basis. The free parameters of the model that we are interested in are the masses of the neutral, $m_{h_1}, m_{h_2}, m_{h_3}$, and charged scalars, $m_{hc}$, the neutral scalars mixing angles, $mix_h, mix_{h_2}, mix_{h_3}$, the real and imaginary parts of the up, down and charged lepton $3\times 3$ Yukawa matrices, $GUR, GUI, GDR, GDI, GLR, GLI$ and the values (real and imaginary parts) of the second, third and seventh quartic couplings, $l_{2,3,7}$,. In the CP-conserving model $h_{1,2,3}$ can be identified with the physical states $h$, $H$ and $A$, respectively.
+For the 2HDM \cite{2HDM,2HDM1}, a finer tuning of the parameters is required because the model is very general and has many free parameters. In addition, it is written in the Higgs basis such that we need to convert the parameters from the physical basis (introduced in section \ref{section:BSM}) to this basis. The free parameters of the model that we are interested in are the masses of the neutral, $m_{h_1}, m_{h_2}, m_{h_3}$, and charged scalars, $m_{hc}$, the neutral scalars mixing angles, $mix_h, mix_{h_2}, mix_{h_3}$, the real and imaginary parts of the up, down and charged lepton $3\times 3$ Yukawa matrices, $GUR, GUI, GDR, GDI, GLR, GLI$ and the values (real and imaginary parts) of the second, third and seventh quartic couplings, $l_{2,3,7}$,. In the CP-conserving model $h_{1,2,3}$ can be identified with the physical states $h$, $H$ and $A$, respectively.
 
 We start from the following parameters (in the physical basis):
 \begin{align}
@@ -127,7 +127,7 @@ In the Higgs basis, the input parameters for the model are
 \label{eq:2HDMhiggs_par}
 \end{align}
 The masses of the scalars cannot change when going from one basis to the other. Therefore we set them to the exact same values. $mix_{h_2},mix_{h_3}=0$ because we are considering the CP-conserving model.
-To obtain the values of $l_{2,3,7}$ we use Eq. 11 from Ref. \cite{2HDMpedro} we write the $\lambda$ parameters of the scalar potential in terms of the parameters defined in Eq. \ref{eq:2HDMphys_par}. Then we use Eq. 47,48 and 50 from Ref. \cite{2HDMhaber} to obtain the values of the quartic coupling in the Higgs basis.
+To obtain the values of $l_{2,3,7}$ we use Eq. 11 from Ref. \cite{2HDMpedro} and write the $\lambda$ parameters of the scalar potential in terms of the parameters defined in Eq. \ref{eq:2HDMphys_par}. Then we use Eq. 47,48 and 50 from Ref. \cite{2HDMhaber} to obtain the values of the quartic coupling in the Higgs basis.
 
 Regarding the Yukawa interactions, we work in the type II model. Following the type II restriction file found in \cite{2HDM} we set
 \begin{align}
@@ -150,9 +150,9 @@ The cross section times branching ratio (when applicable) and the k-factors for 
 
 For the SM signal, $\sigma\times BR$ is given by $\sigma(hh,h\rightarrow b\overline{b})\times BR(h\rightarrow b\overline{b})$, with $BR(h\rightarrow b\overline{b})=0.5824$ for $m_h=125$ GeV \cite{HiggsHandbook}. $\sigma(hh,h\rightarrow b\overline{b})$ is given by:
 \begin{equation}
-	\sigma(hh,h\rightarrow b\overline{b})=\sigma(hh)\times 2\times BR(h\rightarrow b\overline{b})=1.22~\text{pb}\times 2 \times 0.5824 = 1.42 ~\text{pb}
+	\sigma(hh,h\rightarrow b\overline{b})=\sigma_{NNLO}(hh)\times 2\times BR(h\rightarrow b\overline{b})=1.22~\text{pb}\times 2 \times 0.5824 = 1.42 ~\text{pb}
 \end{equation}
-where $\sigma(hh)=1.22$ pb follows from Ref. \cite{HxsNNLO} and the factor of $2$ is a combinatorial factor that indicates that both Higgs bosons can decay to a pair of b quarks. The k-factor is given by $\sigma_{\text{NNLL}}/\sigma_{\text{NNLO}}$, where $\sigma_{\text{NNLL}}$ is calculated according to the prescription given in equation I.7.8 of Ref. \cite{HiggsHandbook}, with $\delta_t=-0.315$, which yields $\sigma_{\text{NNLL}}=1.33$ pb.
+where $\sigma_{NNLO}(hh)=1.22$ pb follows from Ref. \cite{HxsNNLO} and the factor of $2$ is a combinatorial factor that indicates that both Higgs bosons can decay to a pair of b quarks. The k-factor is given by $\sigma_{\text{NNLL}}/\sigma_{\text{NNLO}}$, where $\sigma_{\text{NNLL}}$ is calculated according to the prescription given in equation I.7.8 of Ref. \cite{HiggsHandbook}, with $\delta_t=-0.315$, which yields $\sigma_{\text{NNLL}}=1.33$ pb. Therefore, the k-factor has the value $1.09$.
 
 For the BSM signal samples, $\sigma\times BR$ is given by:
 \begin{equation}
@@ -173,7 +173,7 @@ The parameters used in Pyhtia 8 can be found in table \ref{table:Pythia8settings
 		\midrule
 		$hh\rightarrow b\overline{b}b\overline{b}$ - \textbf{SM} & $0.827$ & $1.09$ \\
 		\rowcolor{black!7} $hh\rightarrow b\overline{b}b\overline{b}$ - \textbf{DM mediator} & $0.218$ & $1.0$ \\
-		$hh\rightarrow b\overline{b}b\overline{b}$ - \textbf{2HDM type II} & $1.85$ & $1.0$ \\
+		$hh\rightarrow b\overline{b}b\overline{b}$ - \textbf{2HDM type II} & $0.466$ & $1.0$ \\
 		\rowcolor{black!7} $4b+j$ (QCD, $200<p_T^j<500$)& $756.4$ & $2.0$ \\
 		$4b+j$ (QCD, $p_T^j>500$)& $57.71$ & $2.0$ \\
 		\rowcolor{black!7}$4b+j$ (QCD+EWK) & $6.204$ & $1.0$ \\
