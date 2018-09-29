@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2017.11.27)  26 SEP 2018 13:59
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2017.11.27)  27 SEP 2018 17:52
  restricted \write18 enabled.
 **Thesis.tex
 (./Thesis.tex
@@ -1570,28 +1570,28 @@ Underfull \vbox (badness 4378) has occurred while \output is active []
 File: ./Figures/hist_h1_pt.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_h1_pt.pdf>
-Package pdftex.def Info: ./Figures/hist_h1_pt.pdf used on input line 286.
+Package pdftex.def Info: ./Figures/hist_h1_pt.pdf used on input line 304.
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
 
 <./Figures/hist_h2_pt.pdf, id=1679, 569.12625pt x 385.44pt>
 File: ./Figures/hist_h2_pt.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_h2_pt.pdf>
-Package pdftex.def Info: ./Figures/hist_h2_pt.pdf used on input line 292.
+Package pdftex.def Info: ./Figures/hist_h2_pt.pdf used on input line 310.
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
 
 <./Figures/hist_h1_eta.pdf, id=1681, 569.12625pt x 385.44pt>
 File: ./Figures/hist_h1_eta.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_h1_eta.pdf>
-Package pdftex.def Info: ./Figures/hist_h1_eta.pdf used on input line 313.
+Package pdftex.def Info: ./Figures/hist_h1_eta.pdf used on input line 331.
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
 
 <./Figures/hist_h1_softdrop_M.pdf, id=1683, 569.12625pt x 385.44pt>
 File: ./Figures/hist_h1_softdrop_M.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_h1_softdrop_M.pdf>
-Package pdftex.def Info: ./Figures/hist_h1_softdrop_M.pdf used on input line 319
+Package pdftex.def Info: ./Figures/hist_h1_softdrop_M.pdf used on input line 337
 .
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
 
@@ -1599,30 +1599,26 @@ Package pdftex.def Info: ./Figures/hist_h1_softdrop_M.pdf used on input line 319
 File: ./Figures/hist_hh_deltaEta.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_hh_deltaEta.pdf>
-Package pdftex.def Info: ./Figures/hist_hh_deltaEta.pdf used on input line 340.
+Package pdftex.def Info: ./Figures/hist_hh_deltaEta.pdf used on input line 358.
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
 
 <./Figures/hist_h1_tau21.pdf, id=1687, 569.12625pt x 385.44pt>
 File: ./Figures/hist_h1_tau21.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_h1_tau21.pdf>
-Package pdftex.def Info: ./Figures/hist_h1_tau21.pdf used on input line 346.
+Package pdftex.def Info: ./Figures/hist_h1_tau21.pdf used on input line 364.
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
-
-Underfull \vbox (badness 3838) has occurred while \output is active []
-
- [50]
-[51<./Figures/hist_h1_pt.pdf><./Figures/hist_h2_pt.pdf><./Figures/hist_h1_eta.pd
-f><./Figures/hist_h1_softdrop_M.pdf><./Figures/hist_hh_deltaEta.pdf><./Figures/h
-ist_h1_tau21.pdf>]
+ [50] [51<./Figures/hist_h1_pt.pdf><./Figures/hist_h2_pt.pdf><./Figures/hist_h1_
+eta.pdf><./Figures/hist_h1_softdrop_M.pdf><./Figures/hist_hh_deltaEta.pdf><./Fig
+ures/hist_h1_tau21.pdf>]
 <./Figures/deltaR_bsubjet.pdf, id=1983, 569.12625pt x 385.44pt>
 File: ./Figures/deltaR_bsubjet.pdf Graphic file (type pdf)
 
 <use ./Figures/deltaR_bsubjet.pdf>
-Package pdftex.def Info: ./Figures/deltaR_bsubjet.pdf used on input line 401.
+Package pdftex.def Info: ./Figures/deltaR_bsubjet.pdf used on input line 419.
 (pdftex.def)             Requested size: 227.62206pt x 154.15562pt.
  [52<./Figures/deltaR_bsubjet.pdf>] [53]
-Overfull \hbox (39.10878pt too wide) in paragraph at lines 461--462
+Overfull \hbox (39.10878pt too wide) in paragraph at lines 479--480
 [][]\OT1/phv/m/n/10 Us-ing this anal-y-sis, we achieve a sig-nif-i-cance, $\OML
 /cmm/m/it/10 S=[]$\OT1/phv/m/n/10 , of $\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 :\OT1
 /cmr/m/n/10 1 \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/
@@ -1634,36 +1630,36 @@ OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 16 [] [][] [])$
 File: ./Figures/hist_h1_pt_stack.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_h1_pt_stack.pdf>
-Package pdftex.def Info: ./Figures/hist_h1_pt_stack.pdf used on input line 467.
+Package pdftex.def Info: ./Figures/hist_h1_pt_stack.pdf used on input line 485.
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
 
 <./Figures/hist_h2_pt_stack.pdf, id=2061, 569.12625pt x 385.44pt>
 File: ./Figures/hist_h2_pt_stack.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_h2_pt_stack.pdf>
-Package pdftex.def Info: ./Figures/hist_h2_pt_stack.pdf used on input line 473.
+Package pdftex.def Info: ./Figures/hist_h2_pt_stack.pdf used on input line 491.
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
 
 <./Figures/hist_hh_pt_stack.pdf, id=2063, 569.12625pt x 385.44pt>
 File: ./Figures/hist_hh_pt_stack.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_hh_pt_stack.pdf>
-Package pdftex.def Info: ./Figures/hist_hh_pt_stack.pdf used on input line 494.
+Package pdftex.def Info: ./Figures/hist_hh_pt_stack.pdf used on input line 512.
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
 
 <./Figures/hist_h1_tau21_stack.pdf, id=2065, 569.12625pt x 385.44pt>
 File: ./Figures/hist_h1_tau21_stack.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_h1_tau21_stack.pdf>
-Package pdftex.def Info: ./Figures/hist_h1_tau21_stack.pdf used on input line 50
-0.
+Package pdftex.def Info: ./Figures/hist_h1_tau21_stack.pdf used on input line 51
+8.
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
 
 <./Figures/hist_h1_FW2_stack.pdf, id=2067, 569.12625pt x 385.44pt>
 File: ./Figures/hist_h1_FW2_stack.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_h1_FW2_stack.pdf>
-Package pdftex.def Info: ./Figures/hist_h1_FW2_stack.pdf used on input line 521.
+Package pdftex.def Info: ./Figures/hist_h1_FW2_stack.pdf used on input line 539.
 
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
 
@@ -1672,7 +1668,7 @@ File: ./Figures/hist_h1_softdrop_M_stack.pdf Graphic file (type pdf)
 
 <use ./Figures/hist_h1_softdrop_M_stack.pdf>
 Package pdftex.def Info: ./Figures/hist_h1_softdrop_M_stack.pdf used on input li
-ne 527.
+ne 545.
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
  [54<./Figures/hist_h1_pt_stack.pdf><./Figures/hist_h2_pt_stack.pdf>] [55<./Figu
 res/hist_hh_pt_stack.pdf><./Figures/hist_h1_tau21_stack.pdf><./Figures/hist_h1_F
@@ -1681,42 +1677,42 @@ W2_stack.pdf><./Figures/hist_h1_softdrop_M_stack.pdf>] <./Figures/SSB_h1_pt.pdf
 File: ./Figures/SSB_h1_pt.pdf Graphic file (type pdf)
 
 <use ./Figures/SSB_h1_pt.pdf>
-Package pdftex.def Info: ./Figures/SSB_h1_pt.pdf used on input line 584.
+Package pdftex.def Info: ./Figures/SSB_h1_pt.pdf used on input line 602.
 (pdftex.def)             Requested size: 227.62206pt x 158.92538pt.
 
 <./Figures/SSB_h2_pt.pdf, id=2376, 569.12625pt x 385.44pt>
 File: ./Figures/SSB_h2_pt.pdf Graphic file (type pdf)
 
 <use ./Figures/SSB_h2_pt.pdf>
-Package pdftex.def Info: ./Figures/SSB_h2_pt.pdf used on input line 590.
+Package pdftex.def Info: ./Figures/SSB_h2_pt.pdf used on input line 608.
 (pdftex.def)             Requested size: 227.62206pt x 158.92538pt.
 
 <./Figures/SSB_hh_pt.pdf, id=2378, 569.12625pt x 385.44pt>
 File: ./Figures/SSB_hh_pt.pdf Graphic file (type pdf)
 
 <use ./Figures/SSB_hh_pt.pdf>
-Package pdftex.def Info: ./Figures/SSB_hh_pt.pdf used on input line 611.
+Package pdftex.def Info: ./Figures/SSB_hh_pt.pdf used on input line 629.
 (pdftex.def)             Requested size: 227.62206pt x 158.92538pt.
 
 <./Figures/SSB_h1_tau21.pdf, id=2380, 569.12625pt x 385.44pt>
 File: ./Figures/SSB_h1_tau21.pdf Graphic file (type pdf)
 
 <use ./Figures/SSB_h1_tau21.pdf>
-Package pdftex.def Info: ./Figures/SSB_h1_tau21.pdf used on input line 617.
+Package pdftex.def Info: ./Figures/SSB_h1_tau21.pdf used on input line 635.
 (pdftex.def)             Requested size: 227.62206pt x 159.33119pt.
 
 <./Figures/SSB_hh_deltaEta.pdf, id=2382, 569.12625pt x 385.44pt>
 File: ./Figures/SSB_hh_deltaEta.pdf Graphic file (type pdf)
 
 <use ./Figures/SSB_hh_deltaEta.pdf>
-Package pdftex.def Info: ./Figures/SSB_hh_deltaEta.pdf used on input line 638.
+Package pdftex.def Info: ./Figures/SSB_hh_deltaEta.pdf used on input line 656.
 (pdftex.def)             Requested size: 227.62206pt x 158.92538pt.
 
 <./Figures/SSB_h1_FW2.pdf, id=2384, 569.12625pt x 385.44pt>
 File: ./Figures/SSB_h1_FW2.pdf Graphic file (type pdf)
 
 <use ./Figures/SSB_h1_FW2.pdf>
-Package pdftex.def Info: ./Figures/SSB_h1_FW2.pdf used on input line 644.
+Package pdftex.def Info: ./Figures/SSB_h1_FW2.pdf used on input line 662.
 (pdftex.def)             Requested size: 227.62206pt x 158.92538pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2052,15 +2048,15 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 302.
 
 Here is how much of LuaTeX's memory you used:
  28389 strings out of 495004
- 244182,794899 words of node,token memory allocated
+ 244166,794899 words of node,token memory allocated
  1728 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 49 kern, 53 glue_spec, 74 action, 2 write n
 odes
-   avail lists: 1:17,2:46,3:2626,4:18923,5:2488,6:15275,7:1778,8:65,9:2487,10:42
+   avail lists: 1:13,2:47,3:2629,4:18923,5:2488,6:15275,7:1778,8:65,9:2487,10:42
 5
  29721 multiletter control sequences out of 65536+600000
  109 fonts using 4290923 bytes
- 60i,18n,98p,1789b,1651s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 60i,18n,98p,1830b,1651s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}<</usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><</usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><</usr/share/texlive/texmf-dist/f
@@ -2081,7 +2077,7 @@ amsfonts/symbols/msam7.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/symbols/msbm10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/urw/helvet
 ic/uhvb8a.pfb><</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pf
 b><</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Thesis.pdf (118 pages, 14037334 bytes).
+Output written on Thesis.pdf (118 pages, 14037504 bytes).
 
 PDF statistics: 4176 PDF objects out of 4296 (max. 8388607)
  2785 compressed objects within 28 object streams
