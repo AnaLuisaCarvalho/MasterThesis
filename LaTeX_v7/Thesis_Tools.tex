@@ -55,6 +55,15 @@ Then it defines $\Delta_{\text{ECAL}}=E_{\text{ECAL}}-E_{\text{ECAL,trk}}$, $\De
 \end{equation}
 All reconstructed tracks result in a particle flow track. If $E^{eflow}_{Tower}>0$ a particle flow tower is created with energy $E^{eflow}_{Tower}$. The particle flow tracks and towers are then used as input for the jet clustering algorithms.
 
+For example \cite{Delphes}, a single charged pion is reconstructed as a track with energy $E_{\text{HCAL,trk}}$
+and deposits some energy $E_{HCAL}$ in the hadronic calorimeter. If $E_{\text{HCAL}}\leq E_{\text{HCAL,trk}}$, only a particle flow track with energy $E_{\text{HCAL,trk}}$ is produced. If $E_{\text{HCAL}}>E_{\text{HCAL,trk}}$, a particle flow track with energy $E_{\text{HCAL,trk}}$ and a particle flow tower with energy $E_{\text{HCAL}}$ are produced.
+
+With this algorithm \cite{Delphes}, particle-flow tracks contain charged particles estimated with a
+good resolution, while the particle-flow towers contain in general a combination of neutral
+particles, charged particles with no corresponding reconstructed track and additional excess
+deposits induced by the positive smearing of the calorimeters, and are characterized by a
+lower resolution. The particle flow approach produces high resolution inputs for jet clustering algorithms and can also be useful to reduce pileup contributions.
+
 \subsection{FCC-hh software}
 \label{subsec:FCC_software}
 

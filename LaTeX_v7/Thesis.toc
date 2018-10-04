@@ -42,13 +42,13 @@
 \contentsline {subsection}{\numberline {6.1.1}Event pre-selection}{46}{subsection.6.1.1}
 \contentsline {subsection}{\numberline {6.1.2}Signal characterization}{47}{subsection.6.1.2}
 \contentsline {subsection}{\numberline {6.1.3}Backgrounds}{48}{subsection.6.1.3}
-\contentsline {section}{\numberline {6.2}Analysis strategy}{50}{section.6.2}
+\contentsline {section}{\numberline {6.2}Analysis strategy}{52}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Implementation of b-tagging}{52}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Baseline analysis}{53}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Optimization}{56}{subsection.6.2.3}
-\contentsline {subsection}{\numberline {6.2.4}Handling of uncertainties}{57}{subsection.6.2.4}
-\contentsline {subsubsection}{Statistical uncertainties}{57}{section*.49}
-\contentsline {subsubsection}{Systematic uncertainties}{59}{section*.50}
+\contentsline {subsection}{\numberline {6.2.3}Optimization}{54}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Handling of uncertainties}{58}{subsection.6.2.4}
+\contentsline {subsubsection}{Statistical uncertainties}{58}{section*.49}
+\contentsline {subsubsection}{Systematic uncertainties}{58}{section*.50}
 \contentsline {subsection}{\numberline {6.2.5}Trigger discussion}{59}{subsection.6.2.5}
 \contentsline {chapter}{\numberline {7}Results}{61}{chapter.7}
 \contentsline {section}{\numberline {7.1}Di-Higgs discovery potential at the FCC-hh}{61}{section.7.1}

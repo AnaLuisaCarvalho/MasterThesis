@@ -48,6 +48,10 @@ Figures \ref{fig:SSB_gran} and \ref{fig:SSB_gran_2HDM} show the significance as 
 
 For energy flow jets the change in significance is very mild. It varies by approximately $30\%$ between the first and last points, for both signal models. It becomes more pronounced when using pure calorimeter jets. In this case, it varies by approximately $70\%~(55\%)$ between the first and last points for the SM (2HDM) signal. However, when using calorimeter jets, the achieved significance is always smaller (for the same detector configuration) because we are not using information from the tracking system. This is verified for both the SM and 2HDM signals. These results indicate that when using energy flow jets the tracking system is dominating the jet reconstruction.
 
+The discussion of some caveats is now in order. In Delphes, it is assumed that it is always convenient to estimate the momentum of charged particles via the tracker, while in a real experiment the energy resolution of the tracking system is only better than that of the calorimeter up to a given energy threshold \cite{Delphes}. In addition, in Delphes, the transverse segmentation of the tracking system is considered to be infinitely small, which is a good approximation but does not exactly reproduce what happens in a real experiment. This might indicate that the results obtained in this work using particle flow jets are overly optimistic. Conversely, the jet reconstruction algorithm for calorimeter jets, as implemented in Delphes, is overly simplistic because no longitudinal segmentation of the calorimeter is considered and no topological algorithm is used. This might indicate that the results obtained in this work using calorimeter jets are overly pessimistic.
+
+All in all, performing this or similar studies using full detector simulation is of the utmost importance in order to obtain more realistic results that can be used as input for detector optimization studies for future colliders.
+
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{./images/EffvsGran_PFjets_Opt.pdf}

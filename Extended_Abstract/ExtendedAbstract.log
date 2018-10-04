@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2017.11.27)  4 OCT 2018 09:59
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2017.11.27)  4 OCT 2018 15:30
  restricted \write18 enabled.
 **ExtendedAbstract.tex
 (./ExtendedAbstract.tex
@@ -832,7 +832,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--23
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \vbox (badness 1062) has occurred while \output is active []
+Underfull \vbox (badness 2351) has occurred while \output is active []
 
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -863,14 +863,17 @@ OML/cmm/m/it/10 $ \OT1/cmr/m/n/10 and
  []
 
 ) (./ExtendedAbstract_imple.tex
-Underfull \vbox (badness 1242) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 1748) in paragraph at lines 55--56
 [][]\OT1/cmr/m/n/10 Dif-fer-ent de-tec-tor con-fig-u-ra-tions were im-ple-
  []
 
-<./images/boosted1.png, id=83, 778.8297pt x 385.44pt>
+[4] <./images/boosted1.png, id=88, 778.8297pt x 385.44pt>
 File: ./images/boosted1.png Graphic file (type png)
 
 <use ./images/boosted1.png>
@@ -881,26 +884,24 @@ Overfull \hbox (44.52373pt too wide) in paragraph at lines 94--95
  [][][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4
+[5
 Missing character: There is no ’ (U+2019) in font cmr10!
-] <./images/hist_h1_pt_stack.pdf, id=90, 569.12625pt x 385.44pt>
+<./images/boosted1.png>]
+<./images/hist_h1_pt_stack.pdf, id=95, 569.12625pt x 385.44pt>
 File: ./images/hist_h1_pt_stack.pdf Graphic file (type pdf)
 
 <use ./images/hist_h1_pt_stack.pdf>
 Package pdftex.def Info: ./images/hist_h1_pt_stack.pdf used on input line 141.
 (pdftex.def)             Requested size: 227.62204pt x 154.15562pt.
 
-<./images/hist_hh_pt_stack.pdf, id=91, 569.12625pt x 385.44pt>
+<./images/hist_hh_pt_stack.pdf, id=96, 569.12625pt x 385.44pt>
 File: ./images/hist_hh_pt_stack.pdf Graphic file (type pdf)
 
 <use ./images/hist_hh_pt_stack.pdf>
 Package pdftex.def Info: ./images/hist_hh_pt_stack.pdf used on input line 145.
 (pdftex.def)             Requested size: 227.62204pt x 154.15562pt.
 
-<./images/hist_h1_tau21_stack.pdf, id=92, 569.12625pt x 385.44pt>
+<./images/hist_h1_tau21_stack.pdf, id=97, 569.12625pt x 385.44pt>
 File: ./images/hist_h1_tau21_stack.pdf Graphic file (type pdf)
 
 <use ./images/hist_h1_tau21_stack.pdf>
@@ -908,7 +909,7 @@ Package pdftex.def Info: ./images/hist_h1_tau21_stack.pdf used on input line 164
 .
 (pdftex.def)             Requested size: 227.62204pt x 154.15562pt.
 
-<./images/hist_hh_deltaEta_stack.pdf, id=93, 569.12625pt x 385.44pt>
+<./images/hist_hh_deltaEta_stack.pdf, id=98, 569.12625pt x 385.44pt>
 File: ./images/hist_hh_deltaEta_stack.pdf Graphic file (type pdf)
 
 <use ./images/hist_hh_deltaEta_stack.pdf>
@@ -916,14 +917,14 @@ Package pdftex.def Info: ./images/hist_hh_deltaEta_stack.pdf used on input line
 168.
 (pdftex.def)             Requested size: 227.62204pt x 154.15562pt.
 
-<./images/hist_h1_FW2_stack.pdf, id=94, 569.12625pt x 385.44pt>
+<./images/hist_h1_FW2_stack.pdf, id=99, 569.12625pt x 385.44pt>
 File: ./images/hist_h1_FW2_stack.pdf Graphic file (type pdf)
 
 <use ./images/hist_h1_FW2_stack.pdf>
 Package pdftex.def Info: ./images/hist_h1_FW2_stack.pdf used on input line 187.
 (pdftex.def)             Requested size: 227.62204pt x 154.15562pt.
 
-<./images/hist_h1_softdrop_M_stack.pdf, id=95, 569.12625pt x 385.44pt>
+<./images/hist_h1_softdrop_M_stack.pdf, id=100, 569.12625pt x 385.44pt>
 File: ./images/hist_h1_softdrop_M_stack.pdf Graphic file (type pdf)
 
 <use ./images/hist_h1_softdrop_M_stack.pdf>
@@ -931,39 +932,36 @@ Package pdftex.def Info: ./images/hist_h1_softdrop_M_stack.pdf used on input lin
 e 191.
 (pdftex.def)             Requested size: 227.62204pt x 154.15562pt.
 ) (./ExtendedAbstract_resul.tex
-[5<./images/boosted1.png>] [6<./images/hist_h1_pt_stack.pdf><./images/hist_hh_pt
-_stack.pdf><./images/hist_h1_tau21_stack.pdf><./images/hist_hh_deltaEta_stack.pd
-f><./images/hist_h1_FW2_stack.pdf><./images/hist_h1_softdrop_M_stack.pdf>]
-<./images/EffvsGran_PFjets_Opt.pdf, id=381, 569.12625pt x 385.44pt>
+[6] [7<./images/hist_h1_pt_stack.pdf><./images/hist_hh_pt_stack.pdf><./images/hi
+st_h1_tau21_stack.pdf><./images/hist_hh_deltaEta_stack.pdf><./images/hist_h1_FW2
+_stack.pdf><./images/hist_h1_softdrop_M_stack.pdf>]
+<./images/EffvsGran_PFjets_Opt.pdf, id=384, 569.12625pt x 385.44pt>
 File: ./images/EffvsGran_PFjets_Opt.pdf Graphic file (type pdf)
 
 <use ./images/EffvsGran_PFjets_Opt.pdf>
-Package pdftex.def Info: ./images/EffvsGran_PFjets_Opt.pdf used on input line 53
+Package pdftex.def Info: ./images/EffvsGran_PFjets_Opt.pdf used on input line 57
 .
 (pdftex.def)             Requested size: 222.62204pt x 150.77385pt.
 
-<./images/SSBvsGran_SM_Opt.pdf, id=382, 569.12625pt x 385.44pt>
+<./images/SSBvsGran_SM_Opt.pdf, id=385, 569.12625pt x 385.44pt>
 File: ./images/SSBvsGran_SM_Opt.pdf Graphic file (type pdf)
 
 <use ./images/SSBvsGran_SM_Opt.pdf>
-Package pdftex.def Info: ./images/SSBvsGran_SM_Opt.pdf used on input line 60.
+Package pdftex.def Info: ./images/SSBvsGran_SM_Opt.pdf used on input line 64.
 (pdftex.def)             Requested size: 222.62204pt x 150.77385pt.
 
-<./images/SSBvsGran_2HDM_Opt.pdf, id=383, 569.12625pt x 385.44pt>
+<./images/SSBvsGran_2HDM_Opt.pdf, id=386, 569.12625pt x 385.44pt>
 File: ./images/SSBvsGran_2HDM_Opt.pdf Graphic file (type pdf)
 
 <use ./images/SSBvsGran_2HDM_Opt.pdf>
-Package pdftex.def Info: ./images/SSBvsGran_2HDM_Opt.pdf used on input line 67.
+Package pdftex.def Info: ./images/SSBvsGran_2HDM_Opt.pdf used on input line 71.
 (pdftex.def)             Requested size: 222.62204pt x 150.77385pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./ExtendedAbstract_concl.tex
-Underfull \vbox (badness 1755) has occurred while \output is active []
-
- [7<./images/EffvsGran_PFjets_Opt.pdf><./images/SSBvsGran_SM_Opt.pdf>])
-(./ExtendedAbstract_ackno.tex) (./ExtendedAbstract.bbl
+) (./ExtendedAbstract_concl.tex) (./ExtendedAbstract_ackno.tex)
+(./ExtendedAbstract.bbl
 Underfull \hbox (badness 1527) in paragraph at lines 9--16
 \OT1/cmr/m/n/10 de-tec-tor, Jour-nal of High En-ergy Physics
  []
@@ -974,6 +972,10 @@ Overfull \hbox (26.01404pt too wide) in paragraph at lines 9--16
  []
 
 
+Underfull \vbox (badness 1394) has occurred while \output is active []
+
+ [8<./images/EffvsGran_PFjets_Opt.pdf><./images/SSBvsGran_SM_Opt.pdf><./images/S
+SBvsGran_2HDM_Opt.pdf>]
 Underfull \hbox (badness 2189) in paragraph at lines 24--30
 [][]\OT1/cmr/m/n/10 J. K. Behr, D. Bor-to-letto, J. A. Frost,
  []
@@ -1004,9 +1006,9 @@ Underfull \hbox (badness 2653) in paragraph at lines 58--60
 [][]\OT1/cmr/m/n/10 S. Chekanov, Physics re-quire-ments for a
  []
 
-[8<./images/SSBvsGran_2HDM_Opt.pdf>]
-Underfull \hbox (badness 3271) in paragraph at lines 77--81
-[][]\OT1/cmr/m/n/10 T. gen-eral Two-Higgs-Doublet Model, C.
+
+Underfull \hbox (badness 1038) in paragraph at lines 77--81
+[][]\OT1/cmr/m/n/10 The gen-eral Two-Higgs-Doublet Model, C.
  []
 
 
@@ -1082,16 +1084,15 @@ Underfull \hbox (badness 2142) in paragraph at lines 124--125
 
 ) [9
 Missing character: There is no î (U+00EE) in font cmr10!
-
 ] (./ExtendedAbstract.aux))
 
 Here is how much of LuaTeX's memory you used:
  19908 strings out of 495004
  100000,552014 words of node,token memory allocated
- 522 words of node memory still in use:
+ 523 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 8 kern, 1 glyph, 50 glue_spec, 1 write node
 s
-   avail lists: 1:8,2:41,3:834,4:2645,5:339,6:5151,7:461,8:2,9:452,10:461
+   avail lists: 1:9,2:41,3:837,4:2655,5:347,6:5704,7:461,8:2,9:439,10:551
  22482 multiletter control sequences out of 65536+600000
  66 fonts using 2603987 bytes
  58i,13n,98p,1986b,1585s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -1116,7 +1117,7 @@ ublic/amsfonts/cm/cmsy7.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy9.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmti10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 tt10.pfb>
-Output written on ExtendedAbstract.pdf (9 pages, 712635 bytes).
+Output written on ExtendedAbstract.pdf (9 pages, 713644 bytes).
 
 PDF statistics: 602 PDF objects out of 1000 (max. 8388607)
  301 compressed objects within 4 object streams
