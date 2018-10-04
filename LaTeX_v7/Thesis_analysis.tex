@@ -35,7 +35,7 @@
 		\caption*{(b)}
 		%\label{fig2}
 	\end{minipage}
-	\caption{Higgs pairs branching ratios (a) and event topology targeted by this analysis (b).}
+	\caption{(a) Higgs pairs branching ratios, (b) event topology targeted by a boosted analysis.}
 	\label{fig:boosted}
 \end{figure}
 
@@ -119,7 +119,7 @@ In addition to the basic kinematic distributions that we have just described, th
 		\caption*{(b)}
 		%\label{fig2}
 	\end{minipage}
-	\caption{$\Delta\phi$ between the Higgs candidates, $\Delta\phi(hh)$, (a) and $\Delta R$ between the b quarks coming from the decay of the leading Higgs candidate, $h_1$ (b). To obtain this plot the cut $|M-125|<40$ GeV was applied in addition to the pre-selection cuts.}
+	\caption{(a) $\Delta\phi$ between the Higgs candidates, $\Delta\phi(hh)$, (b) $\Delta R$ between the b quarks coming from the decay of the leading Higgs candidate, $h_1$. To obtain this plot the cut $|M-125|<40$ GeV was applied in addition to the pre-selection cuts.}
 	\label{fig:deltaPhi_deltaR}
 \end{figure}
 
@@ -166,25 +166,74 @@ It is interesting to note that in the softdrop mass plot for the leading Higgs c
 %		b -- [fermion] k [particle=\(\overline{b}\)],
 %		b -- [anti fermion] j [particle=\(b\)],
 %	};
+
 \begin{figure}
 	\centering
-	\feynmandiagram[small,layered layout,horizontal=i1 to a] {% Draw the top and bottom lines
-		i1 [particle=\(\overline{q}\)]-- [anti fermion] a-- [boson, edge label'=\(g/h/Z/\gamma\)]  b,
-		i2 [particle=\(q\)]-- [fermion] c-- [gluon, edge label=\(g\)] d,
-		% Draw the two internal fermion lines
-		{ [  same layer] a -- [anti fermion] c},
-		%f1  -- [fermion] b -- [fermion] f2 ,
-		%f3  -- [fermion] f2 -- [gluon] g1 ,
-		%f4  -- [fermion] g1 -- [fermion] f5 ,
-		%	a -- [opacity=0.2] c,
-		%g1 -- [anti fermion] b,
-		b -- [anti fermion] f2 [particle=\(\overline{b}\)],
-		b -- [fermion] f3 ,
-		f3 -- [fermion] f4 [particle=\(b\)],
-		f3 -- [boson, edge label'=\(g/h/Z/\gamma\)] g1,
-		g1 -- [anti fermion] f5 [particle=\(\overline{b}\)],
-		g1 -- [fermion] f6 [particle=\(b\)],
-	};\qquad
+%	\feynmandiagram[small,layered layout,horizontal=i1 to a] {% Draw the top and bottom lines
+%		i1 [particle=\(\overline{q}\)]-- [anti fermion] a-- [boson, edge label'=\(g/h/Z/\gamma\)]  b,
+%		i2 [particle=\(q\)]-- [fermion] c-- [gluon, edge label=\(g\)] d,
+%		% Draw the two internal fermion lines
+%		{ [  same layer] a -- [anti fermion] c},
+%		%f1  -- [fermion] b -- [fermion] f2 ,
+%		%f3  -- [fermion] f2 -- [gluon] g1 ,
+%		%f4  -- [fermion] g1 -- [fermion] f5 ,
+%		%	a -- [opacity=0.2] c,
+%		%g1 -- [anti fermion] b,
+%		b -- [anti fermion] f2 [particle=\(\overline{b}\)],
+%		b -- [fermion] f3 ,
+%		f3 -- [fermion] f4 [particle=\(b\)],
+%		f3 -- [boson, edge label'=\(g/h/Z/\gamma\)] g1,
+%		g1 -- [anti fermion] f5 [particle=\(\overline{b}\)],
+%		g1 -- [fermion] f6 [particle=\(b\)],
+%	};\qquad
+%	\feynmandiagram[small,layered layout,horizontal=a to b] {
+%		%{[edges=fermion] a -- b -- c,}
+%		{ [same layer, edges=anti fermion] a -- a1 -- c},
+%		i1 [particle=\(\overline{q}\)]-- [anti fermion] a-- [boson]  b,
+%		a1-- [gluon] d [particle=\(g\)] ,
+%		i3 [particle=\(q\)]-- [fermion] c -- [boson] e ,
+%		% Draw the two internal fermion lines		
+%		%{ [  same layer] c -- [anti fermion] e},
+%		%f1  -- [fermion] b -- [fermion] f2 ,
+%		%f3  -- [fermion] f2 -- [gluon] g1 ,
+%		%f4  -- [fermion] g1 -- [fermion] f5 ,
+%		%	a -- [opacity=0.2] c,
+%		%g1 -- [anti fermion] b,
+%		e -- [anti fermion] f2 [particle=\(\overline{b}\)],
+%		e -- [fermion] f3 [particle=\(b\)],
+%		b -- [fermion] k [particle=\(\overline{b}\)],
+%		b -- [anti fermion] j [particle=\(b\)],
+%	};\quad
+	\begin{tikzpicture}
+	\begin{feynman}
+	\vertex (b);
+	\vertex [below=of b] (c);
+	\vertex [above=of b] (a);
+	\vertex [left=of a] (i1) {\(q\)};
+	\vertex [left=of c] (i2) {\(\overline{q}\)};
+	\vertex [right=of a] (f1);
+	\vertex [right=of b] (f2) {\(g\)};
+	\vertex [right=of c] (f3);
+	\vertex [above right=1cm and 1.4cm of f1] (i3) {\(b\)};
+	\vertex [below right=1cm and 1.4cm of f1] (i4) {\(\overline{b}\)};
+	\vertex [above right=1cm and 1.4cm of f3] (i5) {\(b\)};
+	\vertex [below right=1cm and 1.4cm of f3] (i6) {\(\overline{b}\)};
+	
+	\diagram* {
+		(a) -- [fermion] (b) -- [fermion] (c),
+		(i1) -- [fermion] (a),
+		(i2) -- [anti fermion] (c),
+		(a) -- [boson, edge label'=\(g/h/Z/\gamma\)] (f1),
+		(b) -- [boson, edge label'=\(g/h/Z/\gamma\)] (f2),
+		(c) -- [boson, edge label'=\(g/h/Z/\gamma\)] (f3),
+		(f1) -- [fermion] (i3)
+		(f1) -- [anti fermion] (i4),
+		(f3) -- [fermion] (i5),
+		(f3) -- [anti fermion] (i6),
+	};
+	
+	\end{feynman}
+	\end{tikzpicture}\qquad
 	\feynmandiagram[small,layered layout,horizontal=a to b] {% Draw the top and bottom lines
 		i1 [particle=\(\overline{q}\)]-- [anti fermion] a-- [anti fermion]  b,
 		i2 [particle=\(q\)]-- [fermion] c-- [fermion] d [particle=\(q\)],
@@ -207,23 +256,23 @@ It is interesting to note that in the softdrop mass plot for the leading Higgs c
 		g1 -- [opacity=0] g2,
 		f2 -- [opacity=0] f4,
 	};
-	%		\feynmandiagram[small,layered layout,horizontal=i1 to a] {% Draw the top and bottom lines
-	%			i1 [particle=\(\overline{q}\)]-- [anti fermion] a-- [boson, edge label'=\(h/Z/\gamma\)]  b,
-	%			i2 [particle=\(q\)]-- [fermion] c-- [gluon, edge label=\(g\)] d,
-	%			% Draw the two internal fermion lines
-	%			{ [  same layer] a -- [anti fermion] c},
-	%			%f1  -- [fermion] b -- [fermion] f2 ,
-	%			%f3  -- [fermion] f2 -- [gluon] g1 ,
-	%			%f4  -- [fermion] g1 -- [fermion] f5 ,
-	%			%	a -- [opacity=0.2] c,
-	%			%g1 -- [anti fermion] b,
-	%			b -- [anti fermion] f2 [particle=\(\overline{b}\)],
-	%			b -- [fermion] f3 ,
-	%			f3 -- [fermion] f4 [particle=\(b\)],
-	%			f3 -- [boson, edge label'=\(h/Z/\gamma\)] g1,
-	%			g1 -- [anti fermion] f5 [particle=\(\overline{b}\)],
-	%			g1 -- [fermion] f6 [particle=\(b\)],
-	%		};
+%			\feynmandiagram[small,layered layout,horizontal=i1 to a] {% Draw the top and bottom lines
+%				i1 [particle=\(\overline{q}\)]-- [anti fermion] a-- [boson, edge label'=\(h/Z/\gamma\)]  b,
+%				i2 [particle=\(q\)]-- [fermion] c-- [gluon, edge label=\(g\)] d,
+%				% Draw the two internal fermion lines
+%				{ [  same layer] a -- [anti fermion] c},
+%				%f1  -- [fermion] b -- [fermion] f2 ,
+%				%f3  -- [fermion] f2 -- [gluon] g1 ,
+%				%f4  -- [fermion] g1 -- [fermion] f5 ,
+%				%	a -- [opacity=0.2] c,
+%				%g1 -- [anti fermion] b,
+%				b -- [anti fermion] f2 [particle=\(\overline{b}\)],
+%				b -- [fermion] f3 ,
+%				f3 -- [fermion] f4 [particle=\(b\)],
+%				f3 -- [boson, edge label'=\(h/Z/\gamma\)] g1,
+%				g1 -- [anti fermion] f5 [particle=\(\overline{b}\)],
+%				g1 -- [fermion] f6 [particle=\(b\)],
+%			};
 	\caption{Example of diagrams that contribute to the QCD multijet background: five final state jets, four of which are b-jets (left), three final state jets (middle) and four final state jets (right). Here, $q$ stands for a light quark/jet.}
 	\label{fig:QCD}
 \end{figure}
@@ -347,7 +396,7 @@ It is interesting to note that in the softdrop mass plot for the leading Higgs c
 		\caption*{(b)}
 		%\label{fig2}
 	\end{minipage}
-	\caption{$\eta$ distribution for the leading Higgs candidate (a) and softdrop mass distribution for the leading Higgs candidate (b). The signal is the SM $hh\rightarrow b\overline{b}$ process. The histograms are normalized to unit area.}
+	\caption{$\eta$ (a) and softdrop mass (b) distributions for the leading Higgs candidate. The signal is the SM $hh\rightarrow b\overline{b}$ process. The histograms are normalized to unit area.}
 	\label{fig:h1_eta_M}
 \end{figure}	
 
@@ -409,7 +458,7 @@ As already discussed, this analysis targets events in which at least two large-$
 
 The events are reconstructed using particle flow or pure calorimeter jets with $R=0.8$, clustered with the anti-$k_T$ algorithm. We perform the b-tagging of jets using truth level information. Jets with a large-$R$ parameter cannot be b-tagged using Delphes default algorithm. The tagging of large R jets is an ambiguous task that can be performed in several different ways. Therefore, we implemented our own b-tagging algorithm that is described in section \ref{sec:btagging}. 
 
-In this section, we present the baseline analysis based on cuts on kinematic and substructure variables. An optimized version of the analysis is also presented and compared to the baseline. The optimization is based on plots of the significance ($S/\sqrt{B}$) as a function of the cut on a given variable. We also describe how statistical and systematic uncertainties estimated. 
+In this section, we present the baseline analysis based on cuts on kinematic and substructure variables. An optimized version of the analysis is also presented and compared to the baseline. The optimization is based on plots of the significance ($S/\sqrt{B}$) as a function of the cut on a given variable. We also describe how statistical and systematic uncertainties are estimated. 
 
 \subsection{Implementation of b-tagging}
 \label{sec:btagging}
@@ -589,7 +638,7 @@ Next we apply cuts on the $\Delta\eta$ between the Higgs candidates and on the s
 \begin{equation}
 	|\Delta\eta(hh)|<1.5 \qquad H_2(h_1)>0.2.
 \end{equation} 
-These cut follow from the plots on figures \ref{fig:SSB_hh_deltaEta}(a) and \ref{fig:SSB_hh_deltaEta}(b). The optimization plot for $\Delta\eta(hh)$ is obtained placing a cut in a window around zero which follows directly from the shape of the distributions in figure \ref{fig:hh_deltaEta_h1_tau21}(a). For the $H_2(h_1)$ variable the cut is placed on the lower value.
+These cuts follow from the plots on figures \ref{fig:SSB_hh_deltaEta}(a) and \ref{fig:SSB_hh_deltaEta}(b). The optimization plot for $\Delta\eta(hh)$ is obtained placing a cut in a window around zero which follows directly from the shape of the distributions in figure \ref{fig:hh_deltaEta_h1_tau21}(a). For the $H_2(h_1)$ variable the cut is placed on the lower value.
 
 Finally we apply the mass cuts on the leading and sub leading Higgs candidates. These are the same that were applied in the baseline analysis.
 
@@ -682,7 +731,7 @@ Using the optimized analysis we obtain a significance, $S/\sqrt{B}$, of $8.8\pm 
 
 %In this work, only statistical uncertainties are considered. This is due to the exploratory nature of this analysis but also because systematic uncertainties are usually related to the detector and object reconstruction specificities making them difficult to list and quantify for a detector that is not yet built.
 
-For challenging analyses such as this one, the backgrounds usually have a much larger cross section than the signal meaning that we need a lot of Monte Carlo events to properly simulate them. Most of the times it is not feasible to generate as much events as we would need for a given luminosity. This is the case with this work, in particular because we are targeting very high luminosities (of the order of tens of $\text{ab}^{-1}$). Take for example the multijet sample with $500<H_T<1000$, where $H_T$ is the scalar sum of the $p_T$of all partons at generator level. The cross section is approximately $10^7$ pb which means that we expect a total of $3\times 10^{14}$ events for an integrated luminosity of $30~\text{ab}^{-1}$. It is not feasible, within the time frame of this work and with the available computational resources, to generate this number of events. Therefore, we apply a weight, $w$, to each event given by:	
+For challenging analyses such as this one, the backgrounds usually have a much larger cross section than the signal meaning that we need a lot of Monte Carlo events to properly simulate them. Most of the times it is not feasible to generate as much events as we would need for a given luminosity. This is the case with this work, in particular because we are targeting very high luminosities (of the order of tens of $\text{ab}^{-1}$). Take for example the multijet sample with $500<H_T<1000$, where $H_T$ is the scalar sum of the $p_T$ of all partons at generator level. The cross section is approximately $10^7$ pb which means that we expect a total of $3\times 10^{14}$ events for an integrated luminosity of $30~\text{ab}^{-1}$. It is not feasible, within the time frame of this work and with the available computational resources, to generate this number of events. Therefore, we apply a weight, $w$, to each event given by:	
 \begin{equation}
 	w=\frac{\mathcal{L}\times \sigma}{N}
 \end{equation}
@@ -708,7 +757,7 @@ where the index $i$ runs over all independent backgrounds.
 Systematic uncertainties are usually related to the detector specificities and object reconstruction techniques, which makes them difficult to list and quantify for a detector that is not yet built. Nonetheless, we can use the numbers for the systematic uncertainties that are reported in existing searches for $pp\rightarrow hh\rightarrow b\overline{b}b\overline{b}$ using the ATLAS detector.
 
 When requiring four b-tags, the largest uncertainty affecting the signal is the the b-tagging uncertainty (table 6 of Ref. \cite{hh2bbbbATLAS1}). It is of the order of $30\%$.
-For the background, the largest uncertainty comes from the estimation of its yield and shape, according to the same reference. The reported value is $16\%$. However, a study performed by the FCC study group \cite{FCCphysClement} considers more conservative values for the uncertainties on the $t\overline{t}$ and  QCD di-jet backgrounds normalizations. The reported values are $20\%$ for $t\overline{t}$ and $50\%$ for di-jet production. In this study.
+For the background, the largest uncertainty comes from the estimation of its yield and shape, according to the same reference. The reported value is $16\%$. However, a study performed by the FCC study group \cite{FCCphysClement} considers more conservative values for the uncertainties on the $t\overline{t}$ and  QCD di-jet backgrounds normalizations. The reported values are $20\%$ for $t\overline{t}$ and $50\%$ for di-jet production. In this study we use these values.
 
 To estimated the b-tagging systematic uncertainty, the number of signal events after all the analysis cuts is varied by $30\%$ up and down. This leads to an upper (lower) bound in the significance of $6.6~(3.6)$, considering the baseline analysis.
 

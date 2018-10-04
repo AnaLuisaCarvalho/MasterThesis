@@ -31,51 +31,55 @@ Warning--entry type for "2HDM" isn't style-file defined
 --line 2018 of file ExtendedAbstract_ref_db.bib
 Warning--entry type for "FCCphysClement" isn't style-file defined
 --line 2103 of file ExtendedAbstract_ref_db.bib
+"{" immediately follows a field part---line 2107 of file ExtendedAbstract_ref_db.bib
+ :   url = \url
+ :             {https://indico.cern.ch/event/704428/contributions/2957537/attachments/1627728/2594323/Resonances_FCC_hh_helsens.pdf},
+I'm skipping whatever remains of this entry
 Warning--empty journal in ATLAShhComb
 Warning--empty author in ATLAShh2bbAA_HL
 Warning--empty journal in hh2bbbbATLAS1
+Warning--empty journal in DM
 Warning--empty title in MG5
 Warning--empty journal in MG5
-Warning--empty journal in DM
-You've used 17 entries,
+You've used 19 entries,
             2937 wiz_defined-function locations,
-            785 strings with 8428 characters,
-and the built_in function-call counts, 4385 in all, are:
-= -- 416
-> -- 161
+            803 strings with 8659 characters,
+and the built_in function-call counts, 4946 in all, are:
+= -- 477
+> -- 172
 < -- 1
-+ -- 65
-- -- 48
-* -- 352
-:= -- 644
-add.period$ -- 24
-call.type$ -- 17
-change.case$ -- 19
++ -- 70
+- -- 51
+* -- 402
+:= -- 717
+add.period$ -- 28
+call.type$ -- 19
+change.case$ -- 21
 chr.to.int$ -- 0
-cite$ -- 23
-duplicate$ -- 124
-empty$ -- 462
-format.name$ -- 57
-if$ -- 1124
+cite$ -- 25
+duplicate$ -- 137
+empty$ -- 523
+format.name$ -- 61
+if$ -- 1270
 int.to.chr$ -- 0
-int.to.str$ -- 17
-missing$ -- 11
-newline$ -- 70
-num.names$ -- 16
-pop$ -- 83
+int.to.str$ -- 19
+missing$ -- 13
+newline$ -- 77
+num.names$ -- 18
+pop$ -- 87
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 297
+skip$ -- 341
 stack$ -- 0
-substring$ -- 96
-swap$ -- 48
+substring$ -- 123
+swap$ -- 57
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 23
-width$ -- 19
-write$ -- 160
-(There were 6 error messages)
+while$ -- 27
+width$ -- 21
+write$ -- 181
+(There were 7 error messages)

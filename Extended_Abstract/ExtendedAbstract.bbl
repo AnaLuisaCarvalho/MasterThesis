@@ -68,6 +68,17 @@ M.~Aaboud, et~al., {Search for pair production of Higgs bosons in the
   13$ TeV with the ATLAS detector}\href {http://arxiv.org/abs/1804.06174}
   {\path{arXiv:1804.06174}}.
 
+\bibitem{DM}
+H.~C. {van de Hulst}, E.~{Raimond}, H.~{van Woerden}, {Rotation and density
+  distribution of the Andromeda nebula derived from observations of the 21-cm
+  line} 14 (1957) 1.
+
+\bibitem{2HDM}
+T.~general Two-Higgs-Doublet~Model,
+  \href{http://feynrules.irmp.ucl.ac.be/wiki/2HDM}{C. degrande, c. duhr, m.
+  herquet} (2018).
+\newline\urlprefix\url{http://feynrules.irmp.ucl.ac.be/wiki/2HDM}
+
 \bibitem{MG5}
 J.~Alwall, M.~Herquet, F.~Maltoni, O.~Mattelaer, T.~Stelzer.
 
@@ -86,17 +97,6 @@ J.~de~Favereau, C.~Delaere, P.~Demin, A.~Giammanco, V.~Lemaître, A.~Mertens,
   \href {http://dx.doi.org/10.1007/JHEP02(2014)057}
   {\path{doi:10.1007/JHEP02(2014)057}}.
 
-\bibitem{DM}
-H.~C. {van de Hulst}, E.~{Raimond}, H.~{van Woerden}, {Rotation and density
-  distribution of the Andromeda nebula derived from observations of the 21-cm
-  line} 14 (1957) 1.
-
-\bibitem{2HDM}
-T.~general Two-Higgs-Doublet~Model,
-  \href{http://feynrules.irmp.ucl.ac.be/wiki/2HDM}{C. degrande, c. duhr, m.
-  herquet} (2018).
-\newline\urlprefix\url{http://feynrules.irmp.ucl.ac.be/wiki/2HDM}
-
 \bibitem{2HDM1}
 C.~Degrande, {Automatic evaluation of UV and R2 terms for beyond the Standard
   Model Lagrangians: a proof-of-principle}, Comput. Phys. Commun. 197 (2015)
@@ -105,10 +105,22 @@ C.~Degrande, {Automatic evaluation of UV and R2 terms for beyond the Standard
   \href {http://dx.doi.org/10.1016/j.cpc.2015.08.015}
   {\path{doi:10.1016/j.cpc.2015.08.015}}.
 
+\bibitem{Nsubjetiness}
+J.~Thaler, K.~Van~Tilburg, {Identifying Boosted Objects with N-subjettiness},
+  JHEP 03 (2011) 015.
+\newblock \href {http://arxiv.org/abs/1011.2268} {\path{arXiv:1011.2268}},
+  \href {http://dx.doi.org/10.1007/JHEP03(2011)015}
+  {\path{doi:10.1007/JHEP03(2011)015}}.
+
+\bibitem{FW2}
+C.~Chen, {New approach to identifying boosted hadronically-decaying particle
+  using jet substructure in its center-of-mass frame}, Phys. Rev. D85 (2012)
+  034007.
+\newblock \href {http://arxiv.org/abs/1112.2567} {\path{arXiv:1112.2567}},
+  \href {http://dx.doi.org/10.1103/PhysRevD.85.034007}
+  {\path{doi:10.1103/PhysRevD.85.034007}}.
+
 \bibitem{FCCphysClement}
-C.~Helsens,
-  \href{https://indico.cern.ch/event/704428/contributions/2957537/attachments/1627728/2594323/Resonances_FCC_hh_helsens.pdf}{Heavy
-  resonances at 100tev} (2018).
-\newline\urlprefix\url{https://indico.cern.ch/event/704428/contributions/2957537/attachments/1627728/2594323/Resonances_FCC_hh_helsens.pdf}
+C.~Helsens, {Heavy resonances at 100TeV} (2018).
 
 \end{thebibliography}

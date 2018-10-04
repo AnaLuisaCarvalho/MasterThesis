@@ -11,12 +11,12 @@
 \chapter{Samples generation: parameters}
 \label{chapter:samples_gen}
 
-In this appendix we provide we list the values of parameters used in MadGraph (section \ref{sec:MG_par}) and Pythia (section \ref{sec:Pythia_par}) to generate the samples used in this work. 
+In this appendix we list the values of parameters used in MadGraph (section \ref{sec:MG_par}) and Pythia (section \ref{sec:Pythia_par}) to generate the samples used in this work. 
 
 \section{MadGraph}
 \label{sec:MG_par}
 
-The MadGraph5 level cuts are summarized in table \ref{table:MG5cuts}. We show only the most relevant cuts for this analysis: the minimum $p_T$ of light and b quarks, $p_{T,j}^{\min}$ and $p_{T,b}^{\min}$, the maximum pseudorapidity range for light and b quarks, $\eta_j^{\max}$ and $\eta_b^{\max}$ and the $\Delta R$ separation between two light quarks, $\Delta R(jj)$, two b quarks, $\Delta R(bb)$, and between a light and b quarks, $\Delta R(jb)$. The \textit{xqcut} parameter is a measure of the required parton separation at Madgraph level. Whenever MadGraph produces two partons, $i$ and $j$, we define the distance between them as $\sqrt{2*\min{p_{T,i},p_{T,j}}[\cosh{(\eta_i-\eta_j)}-\cos{(\phi_i-\phi_j)}]}$. If the value of this expression is smaller than the specified value of \textit{xqcut} then we do not generate the event. The \textit{bwcutoff} parameter defines what is considered to be on-shell s-channel resonances. The $H_T$ variable is the scalar sum of the $p_T$ of all truth level partons, including b quarks.
+The MadGraph5 level cuts are summarized in table \ref{table:MG5cuts}. We show only the most relevant cuts for this analysis: the minimum $p_T$ of light and b quarks, $p_{T,j}^{\min}$ and $p_{T,b}^{\min}$, the maximum pseudorapidity range for light and b quarks, $\eta_j^{\max}$ and $\eta_b^{\max}$ and the $\Delta R$ separation between two light quarks, $\Delta R(jj)$, two b quarks, $\Delta R(bb)$, and between a light and b quarks, $\Delta R(jb)$. The \textit{xqcut} parameter is a measure of the required parton separation at Madgraph level. Whenever MadGraph produces two partons, $i$ and $j$, it defines the distance between them as $\sqrt{2*\min{p_{T,i},p_{T,j}}[\cosh{(\eta_i-\eta_j)}-\cos{(\phi_i-\phi_j)}]}$. If the value of this expression is smaller than the specified value of \textit{xqcut} then we do not generate the event. The \textit{bwcutoff} parameter defines what is considered to be on-shell s-channel resonances. The $H_T$ variable is the scalar sum of the $p_T$ of all truth level partons, including b quarks.
 
 \begin{table}[h]
 	\centering
@@ -39,7 +39,7 @@ The MadGraph5 level cuts are summarized in table \ref{table:MG5cuts}. We show on
 \section{Pythia}
 \label{sec:Pythia_par}
 
-The settings for jet matching can be found in table \ref{table:Pythia8settings} under the corresponding samples' columns. We perform the jet matching procedure (merge=on) using the MLM matching scheme and the appropriate algorithm for a parton level process generated in MadGraph (scheme=1). We do not read the matching parameters from the MadGraph file (setMad=off) because this option is not available for these files. The size of the cone drawn around the jet's center, the maximum pseudorapidity and the maximum number of jets to be matched are given by coneRadius, etaJetMax and nJetMax, respectively. The cone radius is set to one. The maximum allowed pseudorapidity of jets is ten which is a much loser cut than the acceptance of any current detector. The maximum number of jets is set to four for the $jj+0/1/2 ~j$ and to two for the $t\overline{t}+0/1/2 ~j$. The \textit{qCut} parameter defines the $k_T$ scale for merging shower products into jets.
+The settings for jet matching can be found in table \ref{table:Pythia8settings} under the corresponding samples' columns. We perform the jet matching procedure (merge=on) using the MLM matching scheme and the appropriate algorithm for a parton level process generated in MadGraph (scheme=1). We do not read the matching parameters from the MadGraph file (setMad=off) because this option is not available for these files. The size of the cone drawn around the jet's center, the maximum pseudorapidity and the maximum number of jets to be matched are given by coneRadius, etaJetMax and nJetMax, respectively. The cone radius is set to one. The maximum allowed pseudorapidity of jets is ten which is a much loser cut than the acceptance of any current or future detector. The maximum number of jets is set to four for the $jj+0/1/2 ~j$ and to two for the $t\overline{t}+0/1/2 ~j$. The \textit{qCut} parameter defines the $k_T$ scale for merging shower products into jets.
 
 \begin{table}[h]
 	\centering
