@@ -103,6 +103,31 @@ for an integrated luminosity of $30~(3)~\text{ab}^{-1}$. These results indicate 
 	\end{tabular}
 \end{table}
 
+\subsection{Signal strength extraction}
+
+To extract the value of the expected signal strength we perform a negative log-likelihood fit to the invariant mass spectrum of the di-Higgs pair after the full event selection of the baseline analysis. We minimize the function:
+\begin{equation}
+	2\sum_{i=1}^{N_{\text{bins}}}\left[(\mu\times s_i+b_i)-n_i+n_i\ln\left(\frac{n_i}{\mu\times s_i+b_i}\right)\right]
+\end{equation}
+where the index $i$ runs over all bins in the distribution, $\mu$ is the fit parameter and corresponds to the signal strength, $s_i$ and $b_i$ are the expected number of signal and background events extracted from the MC distributions and $n_i$ is the number of 'observed' events. Since we are not working with real data, the values of $n_i$ are extracted from a distribution of pseudo data, generated from the signal and background MC distributions. For each bin, a random number is generated following a Poisson distribution with mean equal to the number of events in that bin. This number is taken to be the number of events in the same bin of the pseudo data distribution. This is done for all bins in the distribution and it corresponds to one toy experiment. The results presented are obtained from $10k$ toy experiments.
+
+\begin{wrapfigure}{R}{0.5\textwidth}
+	\centering
+	\includegraphics[width=0.5\textwidth]{/home/user/Transferências/FitStudyModified/neglogLikelihood_plot_var_bkg.pdf}
+	\caption{\label{fig:lumi}Negative log-likelihood on $\mu$.}
+\end{wrapfigure}
+
+The negative log-likelihood on the $\mu$ parameter is shown in figure \ref{fig:lumi} assuming nominal background yield (blue line) and varying the background normalization up (red line) and down (green) according to the systematic uncertainties described in section \ref{sec:sys_unc}. These plots were obtained considering an integrated luminosity of $30~\text{ab}^{-1}$. For the nominal background yield, the expected signal strength is $\mu=1.0\pm 0.4$ which corresponds to a precision of $40\%$. The impact of the systematic uncertainties on the precision of the signal strength is $\sim 10\%$. 
+
+%The negative log-likelihood on the $\mu$ parameter is shown in figure \ref{fig:lumi}(a) for $\mathcal{L}=30~\text{ab}^{-1}$ (blue line) and for $\mathcal{L}=3~\text{ab}^{-1}$ (red line). The dashed line is the $1\sigma$ line that corresponds to a $68\%$ confidence level. The value found for the signal strength is $\mu = 1.0\pm 0.4 ~(1.0\pm 1.2)$ for $\mathcal{L}=30 ~(3)~\text{ab}^{-1}$. This result indicates that a precision of $\sim 40\%$ in the di-Higgs signal strength can be achieved at the FCC-hh in the $b\overline{b}b\overline{b}$ channel with an integrated luminosity of $30~\text{ab}^{-1}$. With $3~\text{ab}^{-1}$ of data, this channel does not have enough sensitivity to the di-Higgs signal strength.
+
+%\begin{figure}
+%	\centering
+%	\includegraphics[trim={0 0 .55cm 0},clip,width=0.5\linewidth]{/home/user/Transferências/FitStudyModified/neglogLikelihood_plot_var_bkg.pdf}
+%	\caption{oi}
+%	\label{fig:lumi}
+%\end{figure}
+
 \subsection{Comparing with the ATLAS detector}
 
 The event selection of the search for $hh\rightarrow b\overline{b}b\overline{b}$ with an ATLAS-like detector operating in a collider at a CM energy of $\sqrt{s}=100$ TeV is summarized in tables \ref{table:cutflow_sig_ATLAS} and \ref{table:cutflow_bkg_ATLAS} for the signal and background samples, respectively.
