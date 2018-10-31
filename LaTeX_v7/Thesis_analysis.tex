@@ -778,7 +778,23 @@ In Ref. \cite{hh2bbbbATLAS1}, the event selection requires the existence of at l
 
 We require at least two anti-$k_T$ $R=0.8$ jets with $p_T>200$ GeV. In the baseline analysis, we require that the leading jet has $p_T>400$ GeV. These $p_T$ thresholds are compatible to the ones used in the ATLAS analysis mainly when we consider that the radius of the jets is slightly smaller and therefore the $p_T$ threshold can also be lower. We do not consider any cuts on the pseudorapidity or mass of the jets. However, we do require that the sub leading jet has $p_T>300$ GeV and that the Higgs pair has $p_T>100$ GeV which would help lower the rate. 
 
-In the optimized analysis, however, the $p_T$ cuts are significantly looser: the leading jet must have $p_T>300$ GeV and the Higgs pair must have $p_T>100$ GeV. This could indicate that although the optimized analysis gives a better significance, tighter cuts might have to be applied in order to fulfill the trigger requirements, therefore reducing the significancee.
+In the optimized analysis, however, the $p_T$ cuts are significantly looser: the leading jet must have $p_T>300$ GeV and the Higgs pair must have $p_T>100$ GeV. This could indicate that although the optimized analysis gives a better significance, tighter cuts might have to be applied in order to fulfill the trigger requirements, therefore reducing the significance.
+
+\subsection{Signal strength extraction}
+
+To extract the value of the expected signal strength we perform a negative log-likelihood fit to the invariant mass spectrum of the di-Higgs pair after the full event selection of the baseline analysis. We minimize the function:
+\begin{equation}
+2\sum_{i=1}^{N_{\text{bins}}}\left[(\mu\times s_i+b_i)-n_i+n_i\ln\left(\frac{n_i}{\mu\times s_i+b_i}\right)\right]
+\end{equation}
+where the index $i$ runs over all bins in the distribution, $\mu$ is the fit parameter and corresponds to the signal strength, $s_i$ and $b_i$ are the expected number of signal and background events extracted from the MC distributions and $n_i$ is the number of 'observed' events. Since we are not working with real data, the values of $n_i$ are extracted from a distribution of pseudo data, generated from the signal and background MC distributions. For each bin, a random number is generated following a Poisson distribution with mean equal to the number of events in that bin. This number is taken to be the number of events in the same bin of the pseudo data distribution. This is done for all bins in the distribution and it corresponds to one toy experiment. The results presented are obtained from $10k$ toy experiments.
+
+\begin{wrapfigure}{R}{0.45\textwidth}
+	\centering
+	\includegraphics[width=0.45\textwidth]{/home/user/Transferências/FitStudyModified/neglogLikelihood_plot_var_bkg.pdf}
+	\caption{\label{fig:lumi}Negative log-likelihood on $\mu$.}
+\end{wrapfigure}
+
+The negative log-likelihood on the $\mu$ parameter is shown in figure \ref{fig:lumi} assuming nominal background yield (blue line) and varying the background normalization up (red line) and down (green) according to the systematic uncertainties described in section \ref{sec:sys_unc}. These plots were obtained considering an integrated luminosity of $30~\text{ab}^{-1}$. For the nominal background yield, the expected signal strength is $\mu=1.0\pm 0.4$ which corresponds to a precision of $40\%$. The impact of the systematic uncertainties on the precision of the signal strength is $\sim 10\%$. 
 
 %% ----------------------------------------------------------------------
 %\subsection{Intermediate}20
