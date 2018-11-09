@@ -224,7 +224,7 @@ It is interesting to note that in the softdrop mass distribution for the leading
 		(i1) -- [fermion] (a),
 		(i2) -- [anti fermion] (c),
 		(a) -- [boson, edge label'=\(g/h/Z/\gamma\)] (f1),
-		(b) -- [boson, edge label'=\(g/h/Z/\gamma\)] (f2),
+		(b) -- [gluon] (f2),
 		(c) -- [boson, edge label'=\(g/h/Z/\gamma\)] (f3),
 		(f1) -- [fermion] (i3)
 		(f1) -- [anti fermion] (i4),
@@ -616,15 +616,15 @@ Using this analysis, we achieve a significance, $S/\sqrt{B}$, of $5.1\pm0.5~\tex
 
 \subsubsection{Signal strength extraction}
 
-To extract the value of the expected signal strength we perform a negative log-likelihood fit to the invariant mass spectrum of the di-Higgs pair after the full event selection of the baseline analysis. We minimize the function:
+To extract the value of the expected signal strength we perform a negative log-likelihood fit to the invariant mass spectrum of the di-Higgs pair after the full event selection of the baseline analysis. Following Eq. 39.16 from Ref. \cite{PDG2016} we minimize the function:
 \begin{equation}
-2\sum_{i=1}^{N_{\text{bins}}}\left[(\mu\times s_i+b_i)-n_i+n_i\ln\left(\frac{n_i}{\mu\times s_i+b_i}\right)\right]
+-2\ln\lambda(\mu)=-2\ln\frac{\mathcal{L}(\mu)}{\mathcal{L}(\hat{\mu})}=2\sum_{i=1}^{N_{\text{bins}}}\left[(\mu_i)-n_i+n_i\ln\left(\frac{n_i}{\mu_i}\right)\right]
 \end{equation}
-where the index $i$ runs over all bins in the distribution, $\mu$ is the fit parameter and corresponds to the signal strength, $s_i$ and $b_i$ are the expected number of signal and background events extracted from the MC distributions and $n_i$ is the number of 'observed' events. Since we are not working with real data, the values of $n_i$ are extracted from a distribution of pseudo data, generated from the signal and background MC distributions. For each bin, a random number is generated following a Poisson distribution with mean equal to the number of events in that bin. This number is taken to be the number of events in the same bin of the pseudo data distribution. This is done for all bins in the distribution and it corresponds to one toy experiment. The results presented are obtained from $10k$ toy experiments.
+where $\mathcal{L}(\mu)=\prod_{i=1}^{N_{\text{bins}}}\frac{\mu_i^{n_i}e^{-\mu_i}}{n_i!}$ is the likelihood function, calculated as product over all bins of Poisson probabilities with mean $\mu_i$. $\mathcal{L}(\hat{\mu})$ is the likelihood function calculated for the values of $\mu_i$ that maximize it, which corresponds to setting $\mu_i=n_i$ in its definition. In addition, we take $\mu_i=\mu\times s_i+b_i$, where $\mu$ is the fit parameter and corresponds to the signal strength, $s_i$ and $b_i$ are the expected number of signal and background events extracted from the MC distributions; $n_i$ is the number of 'observed' events. Since we are not working with real data, the values of $n_i$ are extracted from a distribution of pseudo data, generated from the signal and background MC distributions. For each bin, a random number is generated following a Poisson distribution with mean equal to the number of events in that bin. This number is taken to be the number of events in the same bin of the pseudo data distribution. This is done for all bins in the distribution and it corresponds to one toy experiment. The results presented are obtained from $10k$ toy experiments.
 
-\begin{wrapfigure}{R}{0.45\textwidth}
+\begin{wrapfigure}{R}{0.5\textwidth}
 	\centering
-	\includegraphics[width=0.45\textwidth]{/home/user/Transferências/FitStudyModified/neglogLikelihood_plot_var_bkg.pdf}
+	\includegraphics[width=0.5\textwidth]{/home/user/Transferências/FitStudyModified/neglogLikelihood_plot_var_bkg_baseline.pdf}
 	\caption{\label{fig:lumi}Negative log-likelihood on $\mu$.}
 \end{wrapfigure}
 

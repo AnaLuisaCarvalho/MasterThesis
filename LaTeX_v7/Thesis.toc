@@ -47,8 +47,8 @@
 \contentsline {subsection}{\numberline {6.2.2}Baseline analysis}{53}{subsection.6.2.2}
 \contentsline {subsubsection}{Signal strength extraction}{56}{section*.45}
 \contentsline {subsection}{\numberline {6.2.3}Optimization}{56}{subsection.6.2.3}
-\contentsline {subsection}{\numberline {6.2.4}Handling of uncertainties}{57}{subsection.6.2.4}
-\contentsline {subsubsection}{Statistical uncertainties}{57}{section*.49}
+\contentsline {subsection}{\numberline {6.2.4}Handling of uncertainties}{59}{subsection.6.2.4}
+\contentsline {subsubsection}{Statistical uncertainties}{59}{section*.49}
 \contentsline {subsubsection}{Systematic uncertainties}{59}{section*.50}
 \contentsline {subsection}{\numberline {6.2.5}Trigger discussion}{60}{subsection.6.2.5}
 \contentsline {chapter}{\numberline {7}Results}{62}{chapter.7}
